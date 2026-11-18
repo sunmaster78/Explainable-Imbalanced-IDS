@@ -1,0 +1,23 @@
+{
+  "Random Forest": {
+    "n_estimators": 200,
+    "min_samples_leaf": 2,
+    "max_features": 0.3,
+    "max_depth": 30
+  },
+  "XGBoost": {
+    "subsample": 0.7,
+    "n_estimators": 300,
+    "max_depth": 6,
+    "learning_rate": 0.05,
+    "colsample_bytree": 0.6
+  },
+  "LightGBM": {
+    "subsample": 0.9,
+    "num_leaves": 63,
+    "n_estimators": 200,
+    "min_child_samples": 100,
+    "learning_rate": 0.1,
+    "colsample_bytree": 0.6
+  }
+}

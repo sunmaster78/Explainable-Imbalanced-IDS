@@ -1,0 +1,11 @@
+rank,Stage1_Feature,Stage1_SHAP,DoS_Feature,DoS_SHAP,Probe_Feature,Probe_SHAP,R2L_Feature,R2L_SHAP,U2R_Feature,U2R_SHAP
+1,src_bytes,0.1977,duration,0.2705,src_bytes,0.1778,dst_bytes,0.1782,dst_bytes,0.1257
+2,dst_bytes,0.0962,dst_host_srv_diff_host_rate,0.1592,dst_host_diff_srv_rate,0.1022,logged_in,0.1351,num_file_creations,0.1181
+3,dst_host_srv_count,0.0894,serror_rate,0.069,dst_host_same_src_port_rate,0.0807,is_guest_login,0.0751,root_shell,0.0909
+4,count,0.0704,srv_serror_rate,0.0421,count,0.0761,num_root,0.05,wrong_fragment,0.0431
+5,logged_in,0.0366,dst_host_diff_srv_rate,0.0412,dst_host_serror_rate,0.0702,rerror_rate,0.0492,dst_host_count,0.0348
+6,service_private,0.0352,is_guest_login,0.0388,serror_rate,0.0465,count,0.0424,logged_in,0.0339
+7,same_srv_rate,0.0321,count,0.0349,dst_host_rerror_rate,0.0416,src_bytes,0.0319,duration,0.0321
+8,dst_host_diff_srv_rate,0.0284,flag_S0,0.0262,hot,0.03,service_ftp_data,0.0277,num_shells,0.0309
+9,dst_host_same_srv_rate,0.0276,src_bytes,0.0219,diff_srv_rate,0.0206,land,0.0235,dst_host_same_src_port_rate,0.0275
+10,flag_S0,0.027,dst_host_serror_rate,0.0206,service_eco_i,0.0198,dst_host_srv_count,0.0233,srv_count,0.0253

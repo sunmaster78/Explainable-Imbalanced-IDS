@@ -1,0 +1,197 @@
+2026-10-04 12:45:14 [INFO] run_experiments - Loaded 3 already completed run(s) from C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-20\test_load_completed_runs0\raw_results.csv
+2026-10-04 12:45:37 [INFO] run_experiments - ============================================================
+2026-10-04 12:45:37 [INFO] run_experiments - Starting Benchmark Experiment Sweep
+2026-10-04 12:45:37 [INFO] run_experiments - Config: configs\nslkdd.yaml
+2026-10-04 12:45:37 [INFO] run_experiments - Methods: ['B1']
+2026-10-04 12:45:37 [INFO] run_experiments - Seeds: [0]
+2026-10-04 12:45:37 [INFO] run_experiments - Output File: results\tables\raw_results.csv
+2026-10-04 12:45:37 [INFO] run_experiments - ============================================================
+2026-10-04 12:45:37 [INFO] run_experiments - Loading raw datasets from dataset folder\archive\KDDTrain+.txt and dataset folder\archive\KDDTest+.txt...
+2026-10-04 12:45:38 [INFO] run_experiments - 
+>>>>>>>>>>>>>>> Processing Seed: 0 <<<<<<<<<<<<<<<
+2026-10-04 12:45:39 [INFO] run_experiments - [1/1] Executing Seed=0, Method=B1...
+2026-10-04 12:45:52 [INFO] run_experiments -   Finished: Seed=0, Method=B1 | Macro-F1=0.5277 | Train=12.2s | Infer/sample=0.0088ms
+2026-10-04 12:45:52 [INFO] run_experiments - ============================================================
+2026-10-04 12:45:52 [INFO] run_experiments - Experiment sweep completed! All results recorded in: results\tables\raw_results.csv
+2026-10-04 12:45:52 [INFO] run_experiments - ============================================================
+2026-10-04 12:47:20 [INFO] run_experiments - Loaded 3 already completed run(s) from C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-22\test_load_completed_runs0\raw_results.csv
+2026-10-04 12:52:28 [INFO] run_experiments - ============================================================
+2026-10-04 12:52:28 [INFO] run_experiments - Starting Benchmark Experiment Sweep
+2026-10-04 12:52:28 [INFO] run_experiments - Config: configs\unsw.yaml
+2026-10-04 12:52:28 [INFO] run_experiments - Methods: ['B1']
+2026-10-04 12:52:28 [INFO] run_experiments - Seeds: [0]
+2026-10-04 12:52:28 [INFO] run_experiments - Output File: results\tables\raw_results.csv
+2026-10-04 12:52:28 [INFO] run_experiments - ============================================================
+2026-10-04 12:52:28 [INFO] run_experiments - Loaded 1 already completed run(s) from results\tables\raw_results.csv
+2026-10-04 12:52:28 [INFO] run_experiments - Loading raw dataset for benchmark: UNSW-NB15
+2026-10-04 12:52:29 [INFO] run_experiments - 
+>>>>>>>>>>>>>>> Processing Seed: 0 <<<<<<<<<<<<<<<
+2026-10-04 12:52:30 [INFO] run_experiments - [1/1] Skipping (Seed=0, Method=B1) - already in raw_results.csv
+2026-10-04 12:52:30 [INFO] run_experiments - ============================================================
+2026-10-04 12:52:30 [INFO] run_experiments - Experiment sweep completed! All results recorded in: results\tables\raw_results.csv
+2026-10-04 12:52:30 [INFO] run_experiments - ============================================================
+2026-10-04 12:53:06 [INFO] run_experiments - ============================================================
+2026-10-04 12:53:06 [INFO] run_experiments - Starting Benchmark Experiment Sweep
+2026-10-04 12:53:06 [INFO] run_experiments - Config: configs\unsw.yaml
+2026-10-04 12:53:06 [INFO] run_experiments - Methods: ['B1']
+2026-10-04 12:53:06 [INFO] run_experiments - Seeds: [0]
+2026-10-04 12:53:06 [INFO] run_experiments - Output File: results\tables\raw_results.csv
+2026-10-04 12:53:06 [INFO] run_experiments - ============================================================
+2026-10-04 12:53:06 [WARNING] run_experiments - Could not parse existing results table: 'list' object has no attribute 'astype'
+2026-10-04 12:53:06 [INFO] run_experiments - Loading raw dataset for benchmark: UNSW-NB15
+2026-10-04 12:53:06 [INFO] run_experiments - 
+>>>>>>>>>>>>>>> Processing Seed: 0 <<<<<<<<<<<<<<<
+2026-10-04 12:53:08 [INFO] run_experiments - [1/1] Executing UNSW-NB15: Seed=0, Method=B1...
+2026-10-04 12:53:36 [INFO] run_experiments -   Finished: Seed=0, Method=B1 | Macro-F1=0.4866 | Train=26.7s | Infer/sample=0.0143ms
+2026-10-04 12:53:36 [INFO] run_experiments - ============================================================
+2026-10-04 12:53:36 [INFO] run_experiments - Experiment sweep completed! All results recorded in: results\tables\raw_results.csv
+2026-10-04 12:53:36 [INFO] run_experiments - ============================================================
+2026-10-04 12:54:01 [INFO] run_experiments - ============================================================
+2026-10-04 12:54:01 [INFO] run_experiments - Starting Benchmark Experiment Sweep
+2026-10-04 12:54:01 [INFO] run_experiments - Config: configs\cicids.yaml
+2026-10-04 12:54:01 [INFO] run_experiments - Methods: ['B1']
+2026-10-04 12:54:01 [INFO] run_experiments - Seeds: [0]
+2026-10-04 12:54:01 [INFO] run_experiments - Output File: results\tables\raw_results.csv
+2026-10-04 12:54:01 [INFO] run_experiments - ============================================================
+2026-10-04 12:54:01 [WARNING] run_experiments - Could not parse existing results table: Error tokenizing data. C error: Expected 28 fields in line 3, saw 44
+
+2026-10-04 12:54:01 [INFO] run_experiments - Loading raw dataset for benchmark: CIC-IDS2017
+2026-10-04 12:55:07 [INFO] run_experiments - 
+>>>>>>>>>>>>>>> Processing Seed: 0 <<<<<<<<<<<<<<<
+2026-10-04 12:55:10 [INFO] run_experiments - [1/1] Executing CIC-IDS2017: Seed=0, Method=B1...
+2026-10-04 12:56:00 [INFO] run_experiments -   Finished: Seed=0, Method=B1 | Macro-F1=0.0000 | Train=48.3s | Infer/sample=0.0120ms
+2026-10-04 12:56:00 [INFO] run_experiments - ============================================================
+2026-10-04 12:56:00 [INFO] run_experiments - Experiment sweep completed! All results recorded in: results\tables\raw_results.csv
+2026-10-04 12:56:00 [INFO] run_experiments - ============================================================
+2026-10-04 12:59:12 [INFO] run_experiments - ============================================================
+2026-10-04 12:59:12 [INFO] run_experiments - Starting Benchmark Experiment Sweep
+2026-10-04 12:59:12 [INFO] run_experiments - Dataset: CIC-IDS2017
+2026-10-04 12:59:12 [INFO] run_experiments - Config: configs\cicids.yaml
+2026-10-04 12:59:12 [INFO] run_experiments - Methods: ['B1']
+2026-10-04 12:59:12 [INFO] run_experiments - Seeds: [0]
+2026-10-04 12:59:12 [INFO] run_experiments - Output File: results\tables\raw_results_cic_ids2017.csv
+2026-10-04 12:59:12 [INFO] run_experiments - ============================================================
+2026-10-04 12:59:12 [INFO] run_experiments - Loading raw dataset for benchmark: CIC-IDS2017
+2026-10-04 12:59:54 [INFO] run_experiments - Evaluating 12 classes: ['BENIGN', 'DoS Hulk', 'DDoS', 'PortScan', 'DoS GoldenEye', 'FTP-Patator', 'DoS slowloris', 'DoS Slowhttptest', 'SSH-Patator', 'Bot', 'Web Attack - Brute Force', 'Other_Rare']
+2026-10-04 12:59:54 [INFO] run_experiments - 
+>>>>>>>>>>>>>>> Processing Seed: 0 <<<<<<<<<<<<<<<
+2026-10-04 12:59:55 [INFO] run_experiments - [1/1] Executing CIC-IDS2017: Seed=0, Method=B1...
+2026-10-04 13:00:32 [INFO] run_experiments -   Finished: Seed=0, Method=B1 | Macro-F1=0.8787 | Train=35.0s | Infer/sample=0.0092ms
+2026-10-04 13:00:32 [INFO] run_experiments - ============================================================
+2026-10-04 13:00:32 [INFO] run_experiments - Experiment sweep completed! All results recorded in: results\tables\raw_results_cic_ids2017.csv
+2026-10-04 13:00:32 [INFO] run_experiments - ============================================================
+2026-10-04 13:01:22 [INFO] run_experiments - Loaded 3 already completed run(s) from C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-25\test_load_completed_runs0\raw_results.csv
+2026-10-04 13:02:47 [INFO] run_experiments - Loaded 3 already completed run(s) from C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-26\test_load_completed_runs0\raw_results.csv
+2026-10-04 13:04:49 [INFO] run_experiments - Loaded 3 already completed run(s) from C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-27\test_load_completed_runs0\raw_results.csv
+2026-10-04 13:07:13 [INFO] run_experiments - Loaded 3 already completed run(s) from C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-29\test_load_completed_runs0\raw_results.csv
+2026-10-04 13:23:40 [INFO] run_experiments - Loaded 3 already completed run(s) from C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-36\test_load_completed_runs0\raw_results.csv
+2026-10-04 13:27:14 [INFO] run_experiments - Loaded 3 already completed run(s) from C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-38\test_load_completed_runs0\raw_results.csv
+2026-10-04 13:28:45 [INFO] run_experiments - ============================================================
+2026-10-04 13:28:45 [INFO] run_experiments - Starting Benchmark Experiment Sweep
+2026-10-04 13:28:45 [INFO] run_experiments - Dataset: NSL-KDD
+2026-10-04 13:28:45 [INFO] run_experiments - Config: configs\nslkdd.yaml
+2026-10-04 13:28:45 [INFO] run_experiments - Methods: ['B2', 'B3', 'B5', 'B6']
+2026-10-04 13:28:45 [INFO] run_experiments - Seeds: [0]
+2026-10-04 13:28:45 [INFO] run_experiments - Output File: results\tables\raw_results_nsl_kdd.csv
+2026-10-04 13:28:45 [INFO] run_experiments - ============================================================
+2026-10-04 13:28:45 [INFO] run_experiments - Loading raw dataset for benchmark: NSL-KDD
+2026-10-04 13:28:45 [INFO] run_experiments - Loading NSL-KDD from dataset folder\archive\KDDTrain+.txt and dataset folder\archive\KDDTest+.txt...
+2026-10-04 13:28:45 [INFO] run_experiments - Evaluating 5 classes: ['Normal', 'DoS', 'Probe', 'R2L', 'U2R']
+2026-10-04 13:28:45 [INFO] run_experiments - 
+>>>>>>>>>>>>>>> Processing Seed: 0 <<<<<<<<<<<<<<<
+2026-10-04 13:28:46 [INFO] run_experiments - [1/4] Executing NSL-KDD: Seed=0, Method=B2...
+2026-10-04 13:29:05 [INFO] run_experiments -   Finished: Seed=0, Method=B2 | Macro-F1=0.5779 | Train=18.6s | Infer/sample=0.0082ms
+2026-10-04 13:29:05 [INFO] run_experiments - [2/4] Executing NSL-KDD: Seed=0, Method=B3...
+2026-10-04 13:29:29 [INFO] run_experiments -   Finished: Seed=0, Method=B3 | Macro-F1=0.6145 | Train=22.8s | Infer/sample=0.0090ms
+2026-10-04 13:29:29 [INFO] run_experiments - [3/4] Executing NSL-KDD: Seed=0, Method=B5...
+2026-10-04 13:29:43 [INFO] run_experiments -   Finished: Seed=0, Method=B5 | Macro-F1=0.4549 | Train=13.6s | Infer/sample=0.0071ms
+2026-10-04 13:29:43 [INFO] run_experiments - [4/4] Executing NSL-KDD: Seed=0, Method=B6...
+2026-10-04 13:29:57 [INFO] run_experiments -   Finished: Seed=0, Method=B6 | Macro-F1=0.4550 | Train=13.6s | Infer/sample=0.0075ms
+2026-10-04 13:29:57 [INFO] run_experiments - ============================================================
+2026-10-04 13:29:57 [INFO] run_experiments - Experiment sweep completed! All results recorded in: results\tables\raw_results_nsl_kdd.csv
+2026-10-04 13:29:57 [INFO] run_experiments - ============================================================
+2026-10-04 13:31:36 [INFO] run_experiments - ============================================================
+2026-10-04 13:31:36 [INFO] run_experiments - Starting Benchmark Experiment Sweep
+2026-10-04 13:31:36 [INFO] run_experiments - Dataset: NSL-KDD
+2026-10-04 13:31:36 [INFO] run_experiments - Config: configs\nslkdd.yaml
+2026-10-04 13:31:36 [INFO] run_experiments - Methods: ['Proposed']
+2026-10-04 13:31:36 [INFO] run_experiments - Seeds: [0]
+2026-10-04 13:31:36 [INFO] run_experiments - Output File: results\tables\raw_results_nsl_kdd.csv
+2026-10-04 13:31:36 [INFO] run_experiments - ============================================================
+2026-10-04 13:31:36 [INFO] run_experiments - Loaded 4 already completed run(s) from results\tables\raw_results_nsl_kdd.csv
+2026-10-04 13:31:36 [INFO] run_experiments - Loading raw dataset for benchmark: NSL-KDD
+2026-10-04 13:31:36 [INFO] run_experiments - Loading NSL-KDD from dataset folder\archive\KDDTrain+.txt and dataset folder\archive\KDDTest+.txt...
+2026-10-04 13:31:36 [INFO] run_experiments - Evaluating 5 classes: ['Normal', 'DoS', 'Probe', 'R2L', 'U2R']
+2026-10-04 13:31:36 [INFO] run_experiments - 
+>>>>>>>>>>>>>>> Processing Seed: 0 <<<<<<<<<<<<<<<
+2026-10-04 13:31:37 [INFO] run_experiments - [1/1] Executing NSL-KDD: Seed=0, Method=Proposed...
+2026-10-04 13:31:42 [ERROR] run_experiments - Failed experiment for Seed=0, Method=Proposed: Torch not compiled with CUDA enabled
+Traceback (most recent call last):
+  File "E:\BRM003-ML-Project\src\run_experiments.py", line 260, in main
+    y_pred, y_proba, train_time, infer_time = run_experiment_for_method(
+                                              ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        method_name=method,
+        ^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        seed=seed,
+        ^^^^^^^^^^
+    )
+    ^
+  File "E:\BRM003-ML-Project\src\run_experiments.py", line 154, in run_experiment_for_method
+    res = run_two_stage("wgan", dataset, config, seed=seed)
+  File "E:\BRM003-ML-Project\src\baselines.py", line 265, in run_two_stage
+    gan_train_res = train_wgan_gp(
+        X_attack=X_train_att,
+    ...<2 lines>...
+        device="cuda" if config.get("use_gpu", True) else "cpu",
+    )
+  File "E:\BRM003-ML-Project\src\wgan_gp.py", line 509, in train_wgan_gp
+    generator = build_generator(config, n_classes=n_classes, output_dim=n_features).to(device)
+  File "E:\BRM003-ML-Project\brmenv\Lib\site-packages\torch\nn\modules\module.py", line 1388, in to
+    return self._apply(convert)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "E:\BRM003-ML-Project\brmenv\Lib\site-packages\torch\nn\modules\module.py", line 933, in _apply
+    module._apply(fn)
+    ~~~~~~~~~~~~~^^^^
+  File "E:\BRM003-ML-Project\brmenv\Lib\site-packages\torch\nn\modules\module.py", line 933, in _apply
+    module._apply(fn)
+    ~~~~~~~~~~~~~^^^^
+  File "E:\BRM003-ML-Project\brmenv\Lib\site-packages\torch\nn\modules\module.py", line 966, in _apply
+    param_applied = fn(param)
+  File "E:\BRM003-ML-Project\brmenv\Lib\site-packages\torch\nn\modules\module.py", line 1374, in convert
+    return t.to(
+           ~~~~^
+        device,
+        ^^^^^^^
+        dtype if t.is_floating_point() or t.is_complex() else None,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        non_blocking,
+        ^^^^^^^^^^^^^
+    )
+    ^
+  File "E:\BRM003-ML-Project\brmenv\Lib\site-packages\torch\cuda\__init__.py", line 584, in _lazy_init
+    raise AssertionError("Torch not compiled with CUDA enabled")
+AssertionError: Torch not compiled with CUDA enabled
+2026-10-04 13:31:42 [INFO] run_experiments - ============================================================
+2026-10-04 13:31:42 [INFO] run_experiments - Experiment sweep completed! All results recorded in: results\tables\raw_results_nsl_kdd.csv
+2026-10-04 13:31:42 [INFO] run_experiments - ============================================================
+2026-10-04 13:33:21 [INFO] run_experiments - ============================================================
+2026-10-04 13:33:21 [INFO] run_experiments - Starting Benchmark Experiment Sweep
+2026-10-04 13:33:21 [INFO] run_experiments - Dataset: NSL-KDD
+2026-10-04 13:33:21 [INFO] run_experiments - Config: configs\nslkdd.yaml
+2026-10-04 13:33:21 [INFO] run_experiments - Methods: ['Proposed']
+2026-10-04 13:33:21 [INFO] run_experiments - Seeds: [0]
+2026-10-04 13:33:21 [INFO] run_experiments - Output File: results\tables\raw_results_nsl_kdd.csv
+2026-10-04 13:33:21 [INFO] run_experiments - ============================================================
+2026-10-04 13:33:21 [INFO] run_experiments - Loaded 4 already completed run(s) from results\tables\raw_results_nsl_kdd.csv
+2026-10-04 13:33:21 [INFO] run_experiments - Loading raw dataset for benchmark: NSL-KDD
+2026-10-04 13:33:21 [INFO] run_experiments - Loading NSL-KDD from dataset folder\archive\KDDTrain+.txt and dataset folder\archive\KDDTest+.txt...
+2026-10-04 13:33:22 [INFO] run_experiments - Evaluating 5 classes: ['Normal', 'DoS', 'Probe', 'R2L', 'U2R']
+2026-10-04 13:33:22 [INFO] run_experiments - 
+>>>>>>>>>>>>>>> Processing Seed: 0 <<<<<<<<<<<<<<<
+2026-10-04 13:33:23 [INFO] run_experiments - [1/1] Executing NSL-KDD: Seed=0, Method=Proposed...
+2026-10-04 13:46:50 [INFO] run_experiments -   Finished: Seed=0, Method=Proposed | Macro-F1=0.4550 | Train=806.4s | Infer/sample=0.0071ms
+2026-10-04 13:46:50 [INFO] run_experiments - ============================================================
+2026-10-04 13:46:50 [INFO] run_experiments - Experiment sweep completed! All results recorded in: results\tables\raw_results_nsl_kdd.csv
+2026-10-04 13:46:50 [INFO] run_experiments - ============================================================
+2026-10-29 22:04:20 [INFO] run_experiments - Loaded 3 already completed run(s) from C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-39\test_load_completed_runs0\raw_results.csv

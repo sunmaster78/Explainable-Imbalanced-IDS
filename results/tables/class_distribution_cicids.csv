@@ -1,0 +1,13 @@
+category,train_count,test_count
+BENIGN,146653,62852
+DoS Hulk,12100,5185
+DDoS,8961,3840
+PortScan,6348,2721
+DoS GoldenEye,720,309
+FTP-Patator,415,178
+DoS slowloris,377,161
+DoS Slowhttptest,366,157
+SSH-Patator,225,97
+Bot,137,58
+Web Attack - Brute Force,103,44
+Other_Rare,50,22

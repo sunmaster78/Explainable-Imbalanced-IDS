@@ -1,0 +1,6 @@
+category,train_count,train_pct,test_count,test_pct
+Normal,67343,53.46,9711,43.08
+DoS,45927,36.46,7460,33.09
+Probe,11656,9.25,2421,10.74
+R2L,995,0.79,2885,12.8
+U2R,52,0.04,67,0.3

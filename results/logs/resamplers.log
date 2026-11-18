@@ -1,0 +1,349 @@
+2026-10-04 12:35:13 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('DoS'): 100, np.str_('Probe'): 40, np.str_('R2L'): 10, np.str_('U2R'): 2}
+2026-10-04 12:35:13 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('DoS'): 0, np.str_('Probe'): 1, np.str_('R2L'): 2, np.str_('U2R'): 3}
+2026-10-04 12:35:13 [INFO] resamplers - Generating 10 synthetic samples for class 'Probe' (class_id=1)...
+2026-10-04 12:35:13 [INFO] resamplers - Generating 40 synthetic samples for class 'R2L' (class_id=2)...
+2026-10-04 12:35:13 [INFO] resamplers - Generating 48 synthetic samples for class 'U2R' (class_id=3)...
+2026-10-04 12:35:13 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-10\test_gan_oversample_string_lab0\tables\test_gan_oversample_counts.csv
+2026-10-04 12:35:13 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.int64(0): 30, np.int64(1): 15, np.int64(2): 5}
+2026-10-04 12:35:13 [INFO] resamplers - Class mapping to generator condition ID: {np.int64(0): 0, np.int64(1): 1, np.int64(2): 2}
+2026-10-04 12:35:13 [INFO] resamplers - Generating 10 synthetic samples for class '2' (class_id=2)...
+2026-10-04 12:35:13 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-10\test_gan_oversample_integer_la0\tables\gan_oversample_class_counts.csv
+2026-10-04 12:35:13 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('A'): 20, np.str_('B'): 20}
+2026-10-04 12:35:13 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('A'): 0, np.str_('B'): 1}
+2026-10-04 12:35:13 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-10\test_gan_oversample_no_synthet0\tables\gan_oversample_class_counts.csv
+2026-10-04 12:35:13 [WARNING] resamplers - Tiny class detected with 3 samples. Reducing SMOTE k_neighbors from 5 to 2.
+2026-10-04 12:35:13 [WARNING] resamplers - Tiny class detected with 1 samples. Reducing SMOTE k_neighbors from 5 to 1.
+2026-10-04 12:35:13 [WARNING] resamplers - Found minority class with exactly 1 sample. Performing initial single-sample duplication before SMOTE interpolation.
+2026-10-04 12:35:29 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('DoS'): 100, np.str_('Probe'): 40, np.str_('R2L'): 10, np.str_('U2R'): 2}
+2026-10-04 12:35:29 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('DoS'): 0, np.str_('Probe'): 1, np.str_('R2L'): 2, np.str_('U2R'): 3}
+2026-10-04 12:35:29 [INFO] resamplers - Generating 10 synthetic samples for class 'Probe' (class_id=1)...
+2026-10-04 12:35:29 [INFO] resamplers - Generating 40 synthetic samples for class 'R2L' (class_id=2)...
+2026-10-04 12:35:29 [INFO] resamplers - Generating 48 synthetic samples for class 'U2R' (class_id=3)...
+2026-10-04 12:35:29 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-11\test_gan_oversample_string_lab0\tables\test_gan_oversample_counts.csv
+2026-10-04 12:35:29 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.int64(0): 30, np.int64(1): 15, np.int64(2): 5}
+2026-10-04 12:35:29 [INFO] resamplers - Class mapping to generator condition ID: {np.int64(0): 0, np.int64(1): 1, np.int64(2): 2}
+2026-10-04 12:35:29 [INFO] resamplers - Generating 10 synthetic samples for class '2' (class_id=2)...
+2026-10-04 12:35:29 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-11\test_gan_oversample_integer_la0\tables\gan_oversample_class_counts.csv
+2026-10-04 12:35:29 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('A'): 20, np.str_('B'): 20}
+2026-10-04 12:35:29 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('A'): 0, np.str_('B'): 1}
+2026-10-04 12:35:29 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-11\test_gan_oversample_no_synthet0\tables\gan_oversample_class_counts.csv
+2026-10-04 12:35:29 [WARNING] resamplers - Tiny class detected with 3 samples. Reducing SMOTE k_neighbors from 5 to 2.
+2026-10-04 12:35:29 [WARNING] resamplers - Tiny class detected with 1 samples. Reducing SMOTE k_neighbors from 5 to 1.
+2026-10-04 12:35:29 [WARNING] resamplers - Found minority class with exactly 1 sample. Performing initial single-sample duplication before SMOTE interpolation.
+2026-10-04 12:37:09 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('DoS'): 100, np.str_('Probe'): 40, np.str_('R2L'): 10, np.str_('U2R'): 2}
+2026-10-04 12:37:09 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('DoS'): 0, np.str_('Probe'): 1, np.str_('R2L'): 2, np.str_('U2R'): 3}
+2026-10-04 12:37:09 [INFO] resamplers - Generating 10 synthetic samples for class 'Probe' (class_id=1)...
+2026-10-04 12:37:09 [INFO] resamplers - Generating 40 synthetic samples for class 'R2L' (class_id=2)...
+2026-10-04 12:37:09 [INFO] resamplers - Generating 48 synthetic samples for class 'U2R' (class_id=3)...
+2026-10-04 12:37:09 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-13\test_gan_oversample_string_lab0\tables\test_gan_oversample_counts.csv
+2026-10-04 12:37:09 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.int64(0): 30, np.int64(1): 15, np.int64(2): 5}
+2026-10-04 12:37:09 [INFO] resamplers - Class mapping to generator condition ID: {np.int64(0): 0, np.int64(1): 1, np.int64(2): 2}
+2026-10-04 12:37:09 [INFO] resamplers - Generating 10 synthetic samples for class '2' (class_id=2)...
+2026-10-04 12:37:09 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-13\test_gan_oversample_integer_la0\tables\gan_oversample_class_counts.csv
+2026-10-04 12:37:09 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('A'): 20, np.str_('B'): 20}
+2026-10-04 12:37:09 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('A'): 0, np.str_('B'): 1}
+2026-10-04 12:37:09 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-13\test_gan_oversample_no_synthet0\tables\gan_oversample_class_counts.csv
+2026-10-04 12:37:09 [WARNING] resamplers - Tiny class detected with 3 samples. Reducing SMOTE k_neighbors from 5 to 2.
+2026-10-04 12:37:09 [WARNING] resamplers - Tiny class detected with 1 samples. Reducing SMOTE k_neighbors from 5 to 1.
+2026-10-04 12:37:09 [WARNING] resamplers - Found minority class with exactly 1 sample. Performing initial single-sample duplication before SMOTE interpolation.
+2026-10-04 12:39:29 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('DoS'): 100, np.str_('Probe'): 40, np.str_('R2L'): 10, np.str_('U2R'): 2}
+2026-10-04 12:39:29 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('DoS'): 0, np.str_('Probe'): 1, np.str_('R2L'): 2, np.str_('U2R'): 3}
+2026-10-04 12:39:29 [INFO] resamplers - Generating 10 synthetic samples for class 'Probe' (class_id=1)...
+2026-10-04 12:39:29 [INFO] resamplers - Generating 40 synthetic samples for class 'R2L' (class_id=2)...
+2026-10-04 12:39:29 [INFO] resamplers - Generating 48 synthetic samples for class 'U2R' (class_id=3)...
+2026-10-04 12:39:29 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-15\test_gan_oversample_string_lab0\tables\test_gan_oversample_counts.csv
+2026-10-04 12:39:29 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.int64(0): 30, np.int64(1): 15, np.int64(2): 5}
+2026-10-04 12:39:29 [INFO] resamplers - Class mapping to generator condition ID: {np.int64(0): 0, np.int64(1): 1, np.int64(2): 2}
+2026-10-04 12:39:29 [INFO] resamplers - Generating 10 synthetic samples for class '2' (class_id=2)...
+2026-10-04 12:39:29 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-15\test_gan_oversample_integer_la0\tables\gan_oversample_class_counts.csv
+2026-10-04 12:39:29 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('A'): 20, np.str_('B'): 20}
+2026-10-04 12:39:29 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('A'): 0, np.str_('B'): 1}
+2026-10-04 12:39:29 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-15\test_gan_oversample_no_synthet0\tables\gan_oversample_class_counts.csv
+2026-10-04 12:39:29 [WARNING] resamplers - Tiny class detected with 3 samples. Reducing SMOTE k_neighbors from 5 to 2.
+2026-10-04 12:39:29 [WARNING] resamplers - Tiny class detected with 1 samples. Reducing SMOTE k_neighbors from 5 to 1.
+2026-10-04 12:39:29 [WARNING] resamplers - Found minority class with exactly 1 sample. Performing initial single-sample duplication before SMOTE interpolation.
+2026-10-04 12:40:42 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('DoS'): 30, np.str_('Probe'): 15, np.str_('U2R'): 5}
+2026-10-04 12:40:42 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('DoS'): 0, np.str_('Probe'): 1, np.str_('U2R'): 2}
+2026-10-04 12:40:42 [INFO] resamplers - Generating 10 synthetic samples for class 'U2R' (class_id=2)...
+2026-10-04 12:40:42 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-16\test_fit_stage2_with_gan0\tables\gan_oversample_class_counts.csv
+2026-10-04 12:40:45 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('DoS'): 30, np.str_('Probe'): 15, np.str_('U2R'): 5}
+2026-10-04 12:40:45 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('DoS'): 0, np.str_('Probe'): 1, np.str_('U2R'): 2}
+2026-10-04 12:40:45 [INFO] resamplers - Generating 10 synthetic samples for class 'U2R' (class_id=2)...
+2026-10-04 12:40:45 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-16\test_end_to_end_predict_and_ev0\tables\gan_oversample_class_counts.csv
+2026-10-04 12:41:10 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('DoS'): 30, np.str_('Probe'): 15, np.str_('U2R'): 5}
+2026-10-04 12:41:10 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('DoS'): 0, np.str_('Probe'): 1, np.str_('U2R'): 2}
+2026-10-04 12:41:10 [INFO] resamplers - Generating 10 synthetic samples for class 'U2R' (class_id=2)...
+2026-10-04 12:41:10 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-17\test_fit_stage2_with_gan0\tables\gan_oversample_class_counts.csv
+2026-10-04 12:41:11 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('DoS'): 30, np.str_('Probe'): 15, np.str_('U2R'): 5}
+2026-10-04 12:41:11 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('DoS'): 0, np.str_('Probe'): 1, np.str_('U2R'): 2}
+2026-10-04 12:41:11 [INFO] resamplers - Generating 10 synthetic samples for class 'U2R' (class_id=2)...
+2026-10-04 12:41:11 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-17\test_end_to_end_predict_and_ev0\tables\gan_oversample_class_counts.csv
+2026-10-04 12:41:12 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('DoS'): 100, np.str_('Probe'): 40, np.str_('R2L'): 10, np.str_('U2R'): 2}
+2026-10-04 12:41:12 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('DoS'): 0, np.str_('Probe'): 1, np.str_('R2L'): 2, np.str_('U2R'): 3}
+2026-10-04 12:41:12 [INFO] resamplers - Generating 10 synthetic samples for class 'Probe' (class_id=1)...
+2026-10-04 12:41:12 [INFO] resamplers - Generating 40 synthetic samples for class 'R2L' (class_id=2)...
+2026-10-04 12:41:12 [INFO] resamplers - Generating 48 synthetic samples for class 'U2R' (class_id=3)...
+2026-10-04 12:41:12 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-17\test_gan_oversample_string_lab0\tables\test_gan_oversample_counts.csv
+2026-10-04 12:41:12 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.int64(0): 30, np.int64(1): 15, np.int64(2): 5}
+2026-10-04 12:41:12 [INFO] resamplers - Class mapping to generator condition ID: {np.int64(0): 0, np.int64(1): 1, np.int64(2): 2}
+2026-10-04 12:41:12 [INFO] resamplers - Generating 10 synthetic samples for class '2' (class_id=2)...
+2026-10-04 12:41:12 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-17\test_gan_oversample_integer_la0\tables\gan_oversample_class_counts.csv
+2026-10-04 12:41:12 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('A'): 20, np.str_('B'): 20}
+2026-10-04 12:41:12 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('A'): 0, np.str_('B'): 1}
+2026-10-04 12:41:12 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-17\test_gan_oversample_no_synthet0\tables\gan_oversample_class_counts.csv
+2026-10-04 12:41:12 [WARNING] resamplers - Tiny class detected with 3 samples. Reducing SMOTE k_neighbors from 5 to 2.
+2026-10-04 12:41:12 [WARNING] resamplers - Tiny class detected with 1 samples. Reducing SMOTE k_neighbors from 5 to 1.
+2026-10-04 12:41:12 [WARNING] resamplers - Found minority class with exactly 1 sample. Performing initial single-sample duplication before SMOTE interpolation.
+2026-10-04 12:47:18 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('DoS'): 30, np.str_('Probe'): 15, np.str_('U2R'): 5}
+2026-10-04 12:47:18 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('DoS'): 0, np.str_('Probe'): 1, np.str_('U2R'): 2}
+2026-10-04 12:47:18 [INFO] resamplers - Generating 10 synthetic samples for class 'U2R' (class_id=2)...
+2026-10-04 12:47:18 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-22\test_fit_stage2_with_gan0\tables\gan_oversample_class_counts.csv
+2026-10-04 12:47:19 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('DoS'): 30, np.str_('Probe'): 15, np.str_('U2R'): 5}
+2026-10-04 12:47:19 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('DoS'): 0, np.str_('Probe'): 1, np.str_('U2R'): 2}
+2026-10-04 12:47:19 [INFO] resamplers - Generating 10 synthetic samples for class 'U2R' (class_id=2)...
+2026-10-04 12:47:19 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-22\test_end_to_end_predict_and_ev0\tables\gan_oversample_class_counts.csv
+2026-10-04 12:47:20 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('DoS'): 100, np.str_('Probe'): 40, np.str_('R2L'): 10, np.str_('U2R'): 2}
+2026-10-04 12:47:20 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('DoS'): 0, np.str_('Probe'): 1, np.str_('R2L'): 2, np.str_('U2R'): 3}
+2026-10-04 12:47:20 [INFO] resamplers - Generating 10 synthetic samples for class 'Probe' (class_id=1)...
+2026-10-04 12:47:20 [INFO] resamplers - Generating 40 synthetic samples for class 'R2L' (class_id=2)...
+2026-10-04 12:47:20 [INFO] resamplers - Generating 48 synthetic samples for class 'U2R' (class_id=3)...
+2026-10-04 12:47:20 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-22\test_gan_oversample_string_lab0\tables\test_gan_oversample_counts.csv
+2026-10-04 12:47:20 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.int64(0): 30, np.int64(1): 15, np.int64(2): 5}
+2026-10-04 12:47:20 [INFO] resamplers - Class mapping to generator condition ID: {np.int64(0): 0, np.int64(1): 1, np.int64(2): 2}
+2026-10-04 12:47:20 [INFO] resamplers - Generating 10 synthetic samples for class '2' (class_id=2)...
+2026-10-04 12:47:20 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-22\test_gan_oversample_integer_la0\tables\gan_oversample_class_counts.csv
+2026-10-04 12:47:20 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('A'): 20, np.str_('B'): 20}
+2026-10-04 12:47:20 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('A'): 0, np.str_('B'): 1}
+2026-10-04 12:47:20 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-22\test_gan_oversample_no_synthet0\tables\gan_oversample_class_counts.csv
+2026-10-04 12:47:20 [WARNING] resamplers - Tiny class detected with 3 samples. Reducing SMOTE k_neighbors from 5 to 2.
+2026-10-04 12:47:20 [WARNING] resamplers - Tiny class detected with 1 samples. Reducing SMOTE k_neighbors from 5 to 1.
+2026-10-04 12:47:20 [WARNING] resamplers - Found minority class with exactly 1 sample. Performing initial single-sample duplication before SMOTE interpolation.
+2026-10-04 13:01:19 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('DoS'): 30, np.str_('Probe'): 15, np.str_('U2R'): 5}
+2026-10-04 13:01:19 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('DoS'): 0, np.str_('Probe'): 1, np.str_('U2R'): 2}
+2026-10-04 13:01:19 [INFO] resamplers - Generating 10 synthetic samples for class 'U2R' (class_id=2)...
+2026-10-04 13:01:19 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-25\test_fit_stage2_with_gan0\tables\gan_oversample_class_counts.csv
+2026-10-04 13:01:20 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('DoS'): 30, np.str_('Probe'): 15, np.str_('U2R'): 5}
+2026-10-04 13:01:20 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('DoS'): 0, np.str_('Probe'): 1, np.str_('U2R'): 2}
+2026-10-04 13:01:20 [INFO] resamplers - Generating 10 synthetic samples for class 'U2R' (class_id=2)...
+2026-10-04 13:01:20 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-25\test_end_to_end_predict_and_ev0\tables\gan_oversample_class_counts.csv
+2026-10-04 13:01:22 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('DoS'): 100, np.str_('Probe'): 40, np.str_('R2L'): 10, np.str_('U2R'): 2}
+2026-10-04 13:01:22 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('DoS'): 0, np.str_('Probe'): 1, np.str_('R2L'): 2, np.str_('U2R'): 3}
+2026-10-04 13:01:22 [INFO] resamplers - Generating 10 synthetic samples for class 'Probe' (class_id=1)...
+2026-10-04 13:01:22 [INFO] resamplers - Generating 40 synthetic samples for class 'R2L' (class_id=2)...
+2026-10-04 13:01:22 [INFO] resamplers - Generating 48 synthetic samples for class 'U2R' (class_id=3)...
+2026-10-04 13:01:22 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-25\test_gan_oversample_string_lab0\tables\test_gan_oversample_counts.csv
+2026-10-04 13:01:22 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.int64(0): 30, np.int64(1): 15, np.int64(2): 5}
+2026-10-04 13:01:22 [INFO] resamplers - Class mapping to generator condition ID: {np.int64(0): 0, np.int64(1): 1, np.int64(2): 2}
+2026-10-04 13:01:22 [INFO] resamplers - Generating 10 synthetic samples for class '2' (class_id=2)...
+2026-10-04 13:01:22 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-25\test_gan_oversample_integer_la0\tables\gan_oversample_class_counts.csv
+2026-10-04 13:01:22 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('A'): 20, np.str_('B'): 20}
+2026-10-04 13:01:22 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('A'): 0, np.str_('B'): 1}
+2026-10-04 13:01:22 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-25\test_gan_oversample_no_synthet0\tables\gan_oversample_class_counts.csv
+2026-10-04 13:01:22 [WARNING] resamplers - Tiny class detected with 3 samples. Reducing SMOTE k_neighbors from 5 to 2.
+2026-10-04 13:01:22 [WARNING] resamplers - Tiny class detected with 1 samples. Reducing SMOTE k_neighbors from 5 to 1.
+2026-10-04 13:01:22 [WARNING] resamplers - Found minority class with exactly 1 sample. Performing initial single-sample duplication before SMOTE interpolation.
+2026-10-04 13:02:45 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('DoS'): 30, np.str_('Probe'): 15, np.str_('U2R'): 5}
+2026-10-04 13:02:45 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('DoS'): 0, np.str_('Probe'): 1, np.str_('U2R'): 2}
+2026-10-04 13:02:45 [INFO] resamplers - Generating 10 synthetic samples for class 'U2R' (class_id=2)...
+2026-10-04 13:02:45 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-26\test_fit_stage2_with_gan0\tables\gan_oversample_class_counts.csv
+2026-10-04 13:02:45 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('DoS'): 30, np.str_('Probe'): 15, np.str_('U2R'): 5}
+2026-10-04 13:02:45 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('DoS'): 0, np.str_('Probe'): 1, np.str_('U2R'): 2}
+2026-10-04 13:02:45 [INFO] resamplers - Generating 10 synthetic samples for class 'U2R' (class_id=2)...
+2026-10-04 13:02:45 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-26\test_end_to_end_predict_and_ev0\tables\gan_oversample_class_counts.csv
+2026-10-04 13:02:47 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('DoS'): 100, np.str_('Probe'): 40, np.str_('R2L'): 10, np.str_('U2R'): 2}
+2026-10-04 13:02:47 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('DoS'): 0, np.str_('Probe'): 1, np.str_('R2L'): 2, np.str_('U2R'): 3}
+2026-10-04 13:02:47 [INFO] resamplers - Generating 10 synthetic samples for class 'Probe' (class_id=1)...
+2026-10-04 13:02:47 [INFO] resamplers - Generating 40 synthetic samples for class 'R2L' (class_id=2)...
+2026-10-04 13:02:47 [INFO] resamplers - Generating 48 synthetic samples for class 'U2R' (class_id=3)...
+2026-10-04 13:02:47 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-26\test_gan_oversample_string_lab0\tables\test_gan_oversample_counts.csv
+2026-10-04 13:02:47 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.int64(0): 30, np.int64(1): 15, np.int64(2): 5}
+2026-10-04 13:02:47 [INFO] resamplers - Class mapping to generator condition ID: {np.int64(0): 0, np.int64(1): 1, np.int64(2): 2}
+2026-10-04 13:02:47 [INFO] resamplers - Generating 10 synthetic samples for class '2' (class_id=2)...
+2026-10-04 13:02:47 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-26\test_gan_oversample_integer_la0\tables\gan_oversample_class_counts.csv
+2026-10-04 13:02:47 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('A'): 20, np.str_('B'): 20}
+2026-10-04 13:02:47 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('A'): 0, np.str_('B'): 1}
+2026-10-04 13:02:47 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-26\test_gan_oversample_no_synthet0\tables\gan_oversample_class_counts.csv
+2026-10-04 13:02:47 [WARNING] resamplers - Tiny class detected with 3 samples. Reducing SMOTE k_neighbors from 5 to 2.
+2026-10-04 13:02:47 [WARNING] resamplers - Tiny class detected with 1 samples. Reducing SMOTE k_neighbors from 5 to 1.
+2026-10-04 13:02:47 [WARNING] resamplers - Found minority class with exactly 1 sample. Performing initial single-sample duplication before SMOTE interpolation.
+2026-10-04 13:06:40 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('DoS'): 30, np.str_('Probe'): 15, np.str_('U2R'): 5}
+2026-10-04 13:06:40 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('DoS'): 0, np.str_('Probe'): 1, np.str_('U2R'): 2}
+2026-10-04 13:06:40 [INFO] resamplers - Generating 10 synthetic samples for class 'U2R' (class_id=2)...
+2026-10-04 13:06:40 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-28\test_fit_stage2_with_gan0\tables\gan_oversample_class_counts.csv
+2026-10-04 13:06:42 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('DoS'): 30, np.str_('Probe'): 15, np.str_('U2R'): 5}
+2026-10-04 13:06:42 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('DoS'): 0, np.str_('Probe'): 1, np.str_('U2R'): 2}
+2026-10-04 13:06:42 [INFO] resamplers - Generating 10 synthetic samples for class 'U2R' (class_id=2)...
+2026-10-04 13:06:42 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-28\test_end_to_end_predict_and_ev0\tables\gan_oversample_class_counts.csv
+2026-10-04 13:07:11 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('DoS'): 30, np.str_('Probe'): 15, np.str_('U2R'): 5}
+2026-10-04 13:07:11 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('DoS'): 0, np.str_('Probe'): 1, np.str_('U2R'): 2}
+2026-10-04 13:07:11 [INFO] resamplers - Generating 10 synthetic samples for class 'U2R' (class_id=2)...
+2026-10-04 13:07:11 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-29\test_fit_stage2_with_gan0\tables\gan_oversample_class_counts.csv
+2026-10-04 13:07:11 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('DoS'): 30, np.str_('Probe'): 15, np.str_('U2R'): 5}
+2026-10-04 13:07:11 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('DoS'): 0, np.str_('Probe'): 1, np.str_('U2R'): 2}
+2026-10-04 13:07:11 [INFO] resamplers - Generating 10 synthetic samples for class 'U2R' (class_id=2)...
+2026-10-04 13:07:11 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-29\test_end_to_end_predict_and_ev0\tables\gan_oversample_class_counts.csv
+2026-10-04 13:07:13 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('DoS'): 100, np.str_('Probe'): 40, np.str_('R2L'): 10, np.str_('U2R'): 2}
+2026-10-04 13:07:13 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('DoS'): 0, np.str_('Probe'): 1, np.str_('R2L'): 2, np.str_('U2R'): 3}
+2026-10-04 13:07:13 [INFO] resamplers - Generating 10 synthetic samples for class 'Probe' (class_id=1)...
+2026-10-04 13:07:13 [INFO] resamplers - Generating 40 synthetic samples for class 'R2L' (class_id=2)...
+2026-10-04 13:07:13 [INFO] resamplers - Generating 48 synthetic samples for class 'U2R' (class_id=3)...
+2026-10-04 13:07:13 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-29\test_gan_oversample_string_lab0\tables\test_gan_oversample_counts.csv
+2026-10-04 13:07:13 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.int64(0): 30, np.int64(1): 15, np.int64(2): 5}
+2026-10-04 13:07:13 [INFO] resamplers - Class mapping to generator condition ID: {np.int64(0): 0, np.int64(1): 1, np.int64(2): 2}
+2026-10-04 13:07:13 [INFO] resamplers - Generating 10 synthetic samples for class '2' (class_id=2)...
+2026-10-04 13:07:13 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-29\test_gan_oversample_integer_la0\tables\gan_oversample_class_counts.csv
+2026-10-04 13:07:13 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('A'): 20, np.str_('B'): 20}
+2026-10-04 13:07:13 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('A'): 0, np.str_('B'): 1}
+2026-10-04 13:07:13 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-29\test_gan_oversample_no_synthet0\tables\gan_oversample_class_counts.csv
+2026-10-04 13:07:13 [WARNING] resamplers - Tiny class detected with 3 samples. Reducing SMOTE k_neighbors from 5 to 2.
+2026-10-04 13:07:13 [WARNING] resamplers - Tiny class detected with 1 samples. Reducing SMOTE k_neighbors from 5 to 1.
+2026-10-04 13:07:13 [WARNING] resamplers - Found minority class with exactly 1 sample. Performing initial single-sample duplication before SMOTE interpolation.
+2026-10-04 13:16:34 [WARNING] resamplers - Tiny class detected with 5 samples. Reducing SMOTE k_neighbors from 5 to 4.
+2026-10-04 13:17:43 [WARNING] resamplers - Tiny class detected with 5 samples. Reducing SMOTE k_neighbors from 5 to 4.
+2026-10-04 13:20:40 [WARNING] resamplers - Tiny class detected with 5 samples. Reducing SMOTE k_neighbors from 5 to 4.
+2026-10-04 13:20:46 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('R2L'): 5, np.str_('Probe'): 9, np.str_('DoS'): 15}
+2026-10-04 13:20:46 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('DoS'): 0, np.str_('Normal'): 1, np.str_('Probe'): 2, np.str_('R2L'): 3}
+2026-10-04 13:20:46 [INFO] resamplers - Generating 3 synthetic samples for class 'R2L' (class_id=3)...
+2026-10-04 13:20:46 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-34\test_compare_flat_vs_attack_on0\tables\gan_oversample_class_counts.csv
+2026-10-04 13:20:49 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('R2L'): 5, np.str_('Probe'): 9, np.str_('DoS'): 15}
+2026-10-04 13:20:49 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('R2L'): 2, np.str_('Probe'): 1, np.str_('DoS'): 0}
+2026-10-04 13:20:49 [INFO] resamplers - Generating 3 synthetic samples for class 'R2L' (class_id=2)...
+2026-10-04 13:20:49 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-34\test_compare_flat_vs_attack_on0\tables\gan_oversample_class_counts.csv
+2026-10-04 13:22:39 [WARNING] resamplers - Tiny class detected with 5 samples. Reducing SMOTE k_neighbors from 5 to 4.
+2026-10-04 13:22:46 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('R2L'): 5, np.str_('Probe'): 9, np.str_('DoS'): 15}
+2026-10-04 13:22:46 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('DoS'): 0, np.str_('Normal'): 1, np.str_('Probe'): 2, np.str_('R2L'): 3}
+2026-10-04 13:22:46 [INFO] resamplers - Generating 3 synthetic samples for class 'R2L' (class_id=3)...
+2026-10-04 13:22:46 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-35\test_compare_flat_vs_attack_on0\tables\gan_oversample_class_counts.csv
+2026-10-04 13:22:48 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('R2L'): 5, np.str_('Probe'): 9, np.str_('DoS'): 15}
+2026-10-04 13:22:48 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('R2L'): 2, np.str_('Probe'): 1, np.str_('DoS'): 0}
+2026-10-04 13:22:48 [INFO] resamplers - Generating 3 synthetic samples for class 'R2L' (class_id=2)...
+2026-10-04 13:22:48 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-35\test_compare_flat_vs_attack_on0\tables\gan_oversample_class_counts.csv
+2026-10-04 13:23:38 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('DoS'): 30, np.str_('Probe'): 15, np.str_('U2R'): 5}
+2026-10-04 13:23:38 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('DoS'): 0, np.str_('Probe'): 1, np.str_('U2R'): 2}
+2026-10-04 13:23:38 [INFO] resamplers - Generating 10 synthetic samples for class 'U2R' (class_id=2)...
+2026-10-04 13:23:38 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-36\test_fit_stage2_with_gan0\tables\gan_oversample_class_counts.csv
+2026-10-04 13:23:38 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('DoS'): 30, np.str_('Probe'): 15, np.str_('U2R'): 5}
+2026-10-04 13:23:38 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('DoS'): 0, np.str_('Probe'): 1, np.str_('U2R'): 2}
+2026-10-04 13:23:38 [INFO] resamplers - Generating 10 synthetic samples for class 'U2R' (class_id=2)...
+2026-10-04 13:23:38 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-36\test_end_to_end_predict_and_ev0\tables\gan_oversample_class_counts.csv
+2026-10-04 13:23:39 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('DoS'): 100, np.str_('Probe'): 40, np.str_('R2L'): 10, np.str_('U2R'): 2}
+2026-10-04 13:23:39 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('DoS'): 0, np.str_('Probe'): 1, np.str_('R2L'): 2, np.str_('U2R'): 3}
+2026-10-04 13:23:39 [INFO] resamplers - Generating 10 synthetic samples for class 'Probe' (class_id=1)...
+2026-10-04 13:23:39 [INFO] resamplers - Generating 40 synthetic samples for class 'R2L' (class_id=2)...
+2026-10-04 13:23:39 [INFO] resamplers - Generating 48 synthetic samples for class 'U2R' (class_id=3)...
+2026-10-04 13:23:39 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-36\test_gan_oversample_string_lab0\tables\test_gan_oversample_counts.csv
+2026-10-04 13:23:39 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.int64(0): 30, np.int64(1): 15, np.int64(2): 5}
+2026-10-04 13:23:39 [INFO] resamplers - Class mapping to generator condition ID: {np.int64(0): 0, np.int64(1): 1, np.int64(2): 2}
+2026-10-04 13:23:39 [INFO] resamplers - Generating 10 synthetic samples for class '2' (class_id=2)...
+2026-10-04 13:23:39 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-36\test_gan_oversample_integer_la0\tables\gan_oversample_class_counts.csv
+2026-10-04 13:23:39 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('A'): 20, np.str_('B'): 20}
+2026-10-04 13:23:39 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('A'): 0, np.str_('B'): 1}
+2026-10-04 13:23:39 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-36\test_gan_oversample_no_synthet0\tables\gan_oversample_class_counts.csv
+2026-10-04 13:23:40 [WARNING] resamplers - Tiny class detected with 3 samples. Reducing SMOTE k_neighbors from 5 to 2.
+2026-10-04 13:23:40 [WARNING] resamplers - Tiny class detected with 1 samples. Reducing SMOTE k_neighbors from 5 to 1.
+2026-10-04 13:23:40 [WARNING] resamplers - Found minority class with exactly 1 sample. Performing initial single-sample duplication before SMOTE interpolation.
+2026-10-04 13:23:40 [WARNING] resamplers - Tiny class detected with 5 samples. Reducing SMOTE k_neighbors from 5 to 4.
+2026-10-04 13:23:45 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('R2L'): 5, np.str_('Probe'): 9, np.str_('DoS'): 15}
+2026-10-04 13:23:45 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('DoS'): 0, np.str_('Normal'): 1, np.str_('Probe'): 2, np.str_('R2L'): 3}
+2026-10-04 13:23:45 [INFO] resamplers - Generating 3 synthetic samples for class 'R2L' (class_id=3)...
+2026-10-04 13:23:45 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-36\test_compare_flat_vs_attack_on0\tables\gan_oversample_class_counts.csv
+2026-10-04 13:23:45 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('R2L'): 5, np.str_('Probe'): 9, np.str_('DoS'): 15}
+2026-10-04 13:23:45 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('R2L'): 2, np.str_('Probe'): 1, np.str_('DoS'): 0}
+2026-10-04 13:23:45 [INFO] resamplers - Generating 3 synthetic samples for class 'R2L' (class_id=2)...
+2026-10-04 13:23:45 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-36\test_compare_flat_vs_attack_on0\tables\gan_oversample_class_counts.csv
+2026-10-04 13:27:12 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('DoS'): 30, np.str_('Probe'): 15, np.str_('U2R'): 5}
+2026-10-04 13:27:12 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('DoS'): 0, np.str_('Probe'): 1, np.str_('U2R'): 2}
+2026-10-04 13:27:12 [INFO] resamplers - Generating 10 synthetic samples for class 'U2R' (class_id=2)...
+2026-10-04 13:27:12 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-38\test_fit_stage2_with_gan0\tables\gan_oversample_class_counts.csv
+2026-10-04 13:27:12 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('DoS'): 30, np.str_('Probe'): 15, np.str_('U2R'): 5}
+2026-10-04 13:27:12 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('DoS'): 0, np.str_('Probe'): 1, np.str_('U2R'): 2}
+2026-10-04 13:27:12 [INFO] resamplers - Generating 10 synthetic samples for class 'U2R' (class_id=2)...
+2026-10-04 13:27:12 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-38\test_end_to_end_predict_and_ev0\tables\gan_oversample_class_counts.csv
+2026-10-04 13:27:14 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('DoS'): 100, np.str_('Probe'): 40, np.str_('R2L'): 10, np.str_('U2R'): 2}
+2026-10-04 13:27:14 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('DoS'): 0, np.str_('Probe'): 1, np.str_('R2L'): 2, np.str_('U2R'): 3}
+2026-10-04 13:27:14 [INFO] resamplers - Generating 10 synthetic samples for class 'Probe' (class_id=1)...
+2026-10-04 13:27:14 [INFO] resamplers - Generating 40 synthetic samples for class 'R2L' (class_id=2)...
+2026-10-04 13:27:14 [INFO] resamplers - Generating 48 synthetic samples for class 'U2R' (class_id=3)...
+2026-10-04 13:27:14 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-38\test_gan_oversample_string_lab0\tables\test_gan_oversample_counts.csv
+2026-10-04 13:27:14 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.int64(0): 30, np.int64(1): 15, np.int64(2): 5}
+2026-10-04 13:27:14 [INFO] resamplers - Class mapping to generator condition ID: {np.int64(0): 0, np.int64(1): 1, np.int64(2): 2}
+2026-10-04 13:27:14 [INFO] resamplers - Generating 10 synthetic samples for class '2' (class_id=2)...
+2026-10-04 13:27:14 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-38\test_gan_oversample_integer_la0\tables\gan_oversample_class_counts.csv
+2026-10-04 13:27:14 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('A'): 20, np.str_('B'): 20}
+2026-10-04 13:27:14 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('A'): 0, np.str_('B'): 1}
+2026-10-04 13:27:14 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-38\test_gan_oversample_no_synthet0\tables\gan_oversample_class_counts.csv
+2026-10-04 13:27:14 [WARNING] resamplers - Tiny class detected with 3 samples. Reducing SMOTE k_neighbors from 5 to 2.
+2026-10-04 13:27:14 [WARNING] resamplers - Tiny class detected with 1 samples. Reducing SMOTE k_neighbors from 5 to 1.
+2026-10-04 13:27:14 [WARNING] resamplers - Found minority class with exactly 1 sample. Performing initial single-sample duplication before SMOTE interpolation.
+2026-10-04 13:27:14 [WARNING] resamplers - Tiny class detected with 5 samples. Reducing SMOTE k_neighbors from 5 to 4.
+2026-10-04 13:27:18 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('R2L'): 5, np.str_('Probe'): 9, np.str_('DoS'): 15}
+2026-10-04 13:27:18 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('DoS'): 0, np.str_('Normal'): 1, np.str_('Probe'): 2, np.str_('R2L'): 3}
+2026-10-04 13:27:18 [INFO] resamplers - Generating 3 synthetic samples for class 'R2L' (class_id=3)...
+2026-10-04 13:27:18 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-38\test_compare_flat_vs_attack_on0\tables\gan_oversample_class_counts.csv
+2026-10-04 13:27:19 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('R2L'): 5, np.str_('Probe'): 9, np.str_('DoS'): 15}
+2026-10-04 13:27:19 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('R2L'): 2, np.str_('Probe'): 1, np.str_('DoS'): 0}
+2026-10-04 13:27:19 [INFO] resamplers - Generating 3 synthetic samples for class 'R2L' (class_id=2)...
+2026-10-04 13:27:19 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-38\test_compare_flat_vs_attack_on0\tables\gan_oversample_class_counts.csv
+2026-10-04 13:46:37 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {'DoS': 36741, 'Probe': 9325, 'R2L': 796, 'U2R': 42}
+2026-10-04 13:46:37 [INFO] resamplers - Class mapping to generator condition ID: {'DoS': 0, 'Probe': 1, 'R2L': 2, 'U2R': 3}
+2026-10-04 13:46:37 [INFO] resamplers - Generating 9046 synthetic samples for class 'Probe' (class_id=1)...
+2026-10-04 13:46:37 [INFO] resamplers - Generating 17575 synthetic samples for class 'R2L' (class_id=2)...
+2026-10-04 13:46:37 [INFO] resamplers - Generating 18329 synthetic samples for class 'U2R' (class_id=3)...
+2026-10-04 13:46:38 [INFO] resamplers - Saved oversampling class counts table to: results\tables\gan_oversample_class_counts.csv
+2026-10-29 15:06:31 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {'DoS': 36741, 'Probe': 9325, 'R2L': 796, 'U2R': 42}
+2026-10-29 15:06:31 [INFO] resamplers - Class mapping to generator condition ID: {'DoS': 0, 'Probe': 1, 'R2L': 2, 'U2R': 3}
+2026-10-29 15:06:31 [INFO] resamplers - Generating 9046 synthetic samples for class 'Probe' (class_id=1)...
+2026-10-29 15:06:31 [INFO] resamplers - Generating 17575 synthetic samples for class 'R2L' (class_id=2)...
+2026-10-29 15:06:31 [INFO] resamplers - Generating 18329 synthetic samples for class 'U2R' (class_id=3)...
+2026-10-29 15:06:32 [INFO] resamplers - Saved oversampling class counts table to: results\tables\gan_oversample_class_counts.csv
+2026-10-29 15:40:07 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {'DoS': 36741, 'Probe': 9325, 'R2L': 796, 'U2R': 42}
+2026-10-29 15:40:07 [INFO] resamplers - Class mapping to generator condition ID: {'DoS': 0, 'Normal': 1, 'Probe': 2, 'R2L': 3, 'U2R': 4}
+2026-10-29 15:40:07 [INFO] resamplers - Generating 9046 synthetic samples for class 'Probe' (class_id=2)...
+2026-10-29 15:40:07 [INFO] resamplers - Generating 17575 synthetic samples for class 'R2L' (class_id=3)...
+2026-10-29 15:40:07 [INFO] resamplers - Generating 18329 synthetic samples for class 'U2R' (class_id=4)...
+2026-10-29 15:40:08 [INFO] resamplers - Saved oversampling class counts table to: results\tables\gan_oversample_class_counts.csv
+2026-10-29 15:44:50 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {'DoS': 36741, 'Probe': 9325, 'R2L': 796, 'U2R': 42}
+2026-10-29 15:44:50 [INFO] resamplers - Class mapping to generator condition ID: {'DoS': 0, 'Probe': 1, 'R2L': 2, 'U2R': 3}
+2026-10-29 15:44:50 [INFO] resamplers - Generating 9046 synthetic samples for class 'Probe' (class_id=1)...
+2026-10-29 15:44:50 [INFO] resamplers - Generating 17575 synthetic samples for class 'R2L' (class_id=2)...
+2026-10-29 15:44:50 [INFO] resamplers - Generating 18329 synthetic samples for class 'U2R' (class_id=3)...
+2026-10-29 15:44:50 [INFO] resamplers - Saved oversampling class counts table to: results\tables\gan_oversample_class_counts.csv
+2026-10-29 20:45:37 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {'DoS': 36741, 'Probe': 9325, 'R2L': 796, 'U2R': 42}
+2026-10-29 20:45:37 [INFO] resamplers - Class mapping to generator condition ID: {'DoS': 0, 'Probe': 1, 'R2L': 2, 'U2R': 3}
+2026-10-29 20:45:37 [INFO] resamplers - Generating 9046 synthetic samples for class 'Probe' (class_id=1)...
+2026-10-29 20:45:37 [INFO] resamplers - Generating 17575 synthetic samples for class 'R2L' (class_id=2)...
+2026-10-29 20:45:37 [INFO] resamplers - Generating 18329 synthetic samples for class 'U2R' (class_id=3)...
+2026-10-29 20:45:37 [INFO] resamplers - Saved oversampling class counts table to: results\tables\gan_oversample_class_counts.csv
+2026-10-29 22:04:18 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('DoS'): 30, np.str_('Probe'): 15, np.str_('U2R'): 5}
+2026-10-29 22:04:18 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('DoS'): 0, np.str_('Probe'): 1, np.str_('U2R'): 2}
+2026-10-29 22:04:18 [INFO] resamplers - Generating 10 synthetic samples for class 'U2R' (class_id=2)...
+2026-10-29 22:04:18 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-39\test_fit_stage2_with_gan0\tables\gan_oversample_class_counts.csv
+2026-10-29 22:04:19 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('DoS'): 30, np.str_('Probe'): 15, np.str_('U2R'): 5}
+2026-10-29 22:04:19 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('DoS'): 0, np.str_('Probe'): 1, np.str_('U2R'): 2}
+2026-10-29 22:04:19 [INFO] resamplers - Generating 10 synthetic samples for class 'U2R' (class_id=2)...
+2026-10-29 22:04:19 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-39\test_end_to_end_predict_and_ev0\tables\gan_oversample_class_counts.csv
+2026-10-29 22:04:20 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('DoS'): 100, np.str_('Probe'): 40, np.str_('R2L'): 10, np.str_('U2R'): 2}
+2026-10-29 22:04:20 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('DoS'): 0, np.str_('Probe'): 1, np.str_('R2L'): 2, np.str_('U2R'): 3}
+2026-10-29 22:04:20 [INFO] resamplers - Generating 10 synthetic samples for class 'Probe' (class_id=1)...
+2026-10-29 22:04:20 [INFO] resamplers - Generating 40 synthetic samples for class 'R2L' (class_id=2)...
+2026-10-29 22:04:20 [INFO] resamplers - Generating 48 synthetic samples for class 'U2R' (class_id=3)...
+2026-10-29 22:04:20 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-39\test_gan_oversample_string_lab0\tables\test_gan_oversample_counts.csv
+2026-10-29 22:04:20 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.int64(0): 30, np.int64(1): 15, np.int64(2): 5}
+2026-10-29 22:04:20 [INFO] resamplers - Class mapping to generator condition ID: {np.int64(0): 0, np.int64(1): 1, np.int64(2): 2}
+2026-10-29 22:04:20 [INFO] resamplers - Generating 10 synthetic samples for class '2' (class_id=2)...
+2026-10-29 22:04:20 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-39\test_gan_oversample_integer_la0\tables\gan_oversample_class_counts.csv
+2026-10-29 22:04:20 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('A'): 20, np.str_('B'): 20}
+2026-10-29 22:04:20 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('A'): 0, np.str_('B'): 1}
+2026-10-29 22:04:20 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-39\test_gan_oversample_no_synthet0\tables\gan_oversample_class_counts.csv
+2026-10-29 22:04:20 [WARNING] resamplers - Tiny class detected with 3 samples. Reducing SMOTE k_neighbors from 5 to 2.
+2026-10-29 22:04:20 [WARNING] resamplers - Tiny class detected with 1 samples. Reducing SMOTE k_neighbors from 5 to 1.
+2026-10-29 22:04:20 [WARNING] resamplers - Found minority class with exactly 1 sample. Performing initial single-sample duplication before SMOTE interpolation.
+2026-10-29 22:04:21 [WARNING] resamplers - Tiny class detected with 5 samples. Reducing SMOTE k_neighbors from 5 to 4.
+2026-10-29 22:04:25 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('R2L'): 5, np.str_('Probe'): 9, np.str_('DoS'): 15}
+2026-10-29 22:04:25 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('DoS'): 0, np.str_('Normal'): 1, np.str_('Probe'): 2, np.str_('R2L'): 3}
+2026-10-29 22:04:25 [INFO] resamplers - Generating 3 synthetic samples for class 'R2L' (class_id=3)...
+2026-10-29 22:04:25 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-39\test_compare_flat_vs_attack_on0\tables\gan_oversample_class_counts.csv
+2026-10-29 22:04:25 [INFO] resamplers - GAN Oversampling: Target ratio = 0.50. Class counts before: {np.str_('R2L'): 5, np.str_('Probe'): 9, np.str_('DoS'): 15}
+2026-10-29 22:04:25 [INFO] resamplers - Class mapping to generator condition ID: {np.str_('R2L'): 2, np.str_('Probe'): 1, np.str_('DoS'): 0}
+2026-10-29 22:04:25 [INFO] resamplers - Generating 3 synthetic samples for class 'R2L' (class_id=2)...
+2026-10-29 22:04:25 [INFO] resamplers - Saved oversampling class counts table to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-39\test_compare_flat_vs_attack_on0\tables\gan_oversample_class_counts.csv

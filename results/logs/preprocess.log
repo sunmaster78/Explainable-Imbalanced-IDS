@@ -1,0 +1,891 @@
+2026-10-04 00:37:24 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 00:37:24 [INFO] preprocess - Raw KDDTrain+ shape: (3, 43)
+2026-10-04 00:37:24 [INFO] preprocess - Raw KDDTest+ shape: (3, 43)
+2026-10-04 00:37:24 [INFO] preprocess - Dropped 1 duplicate row(s) from train. Shape: (2, 42)
+2026-10-04 00:37:24 [INFO] preprocess - Dropped 1 duplicate row(s) from test. Shape: (2, 42)
+2026-10-04 00:37:24 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 00:37:24 [INFO] preprocess - Raw KDDTrain+ shape: (125973, 43)
+2026-10-04 00:37:24 [INFO] preprocess - Raw KDDTest+ shape: (22544, 43)
+2026-10-04 00:37:24 [INFO] preprocess - Dropped 0 duplicate row(s) from train. Shape: (125973, 42)
+2026-10-04 00:37:24 [INFO] preprocess - Dropped 0 duplicate row(s) from test. Shape: (22544, 42)
+2026-10-04 00:37:34 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 00:37:35 [INFO] preprocess - Raw KDDTrain+ shape: (125973, 43)
+2026-10-04 00:37:35 [INFO] preprocess - Raw KDDTest+ shape: (22544, 43)
+2026-10-04 00:37:35 [INFO] preprocess - Dropped 0 duplicate row(s) from train. Shape: (125973, 42)
+2026-10-04 00:37:35 [INFO] preprocess - Dropped 0 duplicate row(s) from test. Shape: (22544, 42)
+2026-10-04 00:39:43 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 00:39:43 [INFO] preprocess - Raw KDDTrain+ shape: (125973, 43)
+2026-10-04 00:39:43 [INFO] preprocess - Raw KDDTest+ shape: (22544, 43)
+2026-10-04 00:39:44 [INFO] preprocess - Dropped 0 duplicate row(s) from train. Shape: (125973, 42)
+2026-10-04 00:39:44 [INFO] preprocess - Dropped 0 duplicate row(s) from test. Shape: (22544, 42)
+2026-10-04 00:40:17 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 00:40:17 [INFO] preprocess - Raw KDDTrain+ shape: (3, 43)
+2026-10-04 00:40:17 [INFO] preprocess - Raw KDDTest+ shape: (3, 43)
+2026-10-04 00:40:17 [INFO] preprocess - Dropped 1 duplicate row(s) from train. Shape: (2, 42)
+2026-10-04 00:40:17 [INFO] preprocess - Dropped 1 duplicate row(s) from test. Shape: (2, 42)
+2026-10-04 00:40:17 [INFO] preprocess - === NSL-KDD Class Distribution Summary ===
+2026-10-04 00:40:17 [INFO] preprocess - Category: Normal   | Train:      2 (33.33%) | Test:     1 (20.00%)
+2026-10-04 00:40:17 [INFO] preprocess - Category: DoS      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 00:40:17 [INFO] preprocess - Category: Probe    | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 00:40:17 [INFO] preprocess - Category: R2L      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 00:40:17 [INFO] preprocess - Category: U2R      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 00:40:17 [INFO] preprocess - Total Samples | Train: 6 | Test: 5
+2026-10-04 00:40:17 [INFO] preprocess - Class distribution saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-2\test_log_and_save_class_distri0\tables\class_distribution_nslkdd.csv
+2026-10-04 00:40:17 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 00:40:18 [INFO] preprocess - Raw KDDTrain+ shape: (125973, 43)
+2026-10-04 00:40:18 [INFO] preprocess - Raw KDDTest+ shape: (22544, 43)
+2026-10-04 00:40:18 [INFO] preprocess - Dropped 0 duplicate row(s) from train. Shape: (125973, 42)
+2026-10-04 00:40:18 [INFO] preprocess - Dropped 0 duplicate row(s) from test. Shape: (22544, 42)
+2026-10-04 00:40:18 [INFO] preprocess - === NSL-KDD Class Distribution Summary ===
+2026-10-04 00:40:18 [INFO] preprocess - Category: Normal   | Train:  67343 (53.46%) | Test:  9711 (43.08%)
+2026-10-04 00:40:18 [INFO] preprocess - Category: DoS      | Train:  45927 (36.46%) | Test:  7460 (33.09%)
+2026-10-04 00:40:18 [INFO] preprocess - Category: Probe    | Train:  11656 ( 9.25%) | Test:  2421 (10.74%)
+2026-10-04 00:40:18 [INFO] preprocess - Category: R2L      | Train:    995 ( 0.79%) | Test:  2885 (12.80%)
+2026-10-04 00:40:18 [INFO] preprocess - Category: U2R      | Train:     52 ( 0.04%) | Test:    67 ( 0.30%)
+2026-10-04 00:40:18 [INFO] preprocess - Total Samples | Train: 125973 | Test: 22544
+2026-10-04 00:40:18 [INFO] preprocess - Class distribution saved to: results\tables\class_distribution_nslkdd.csv
+2026-10-04 00:42:22 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 00:42:23 [INFO] preprocess - Raw KDDTrain+ shape: (125973, 43)
+2026-10-04 00:42:23 [INFO] preprocess - Raw KDDTest+ shape: (22544, 43)
+2026-10-04 00:42:23 [INFO] preprocess - Dropped 0 duplicate row(s) from train. Shape: (125973, 42)
+2026-10-04 00:42:23 [INFO] preprocess - Dropped 0 duplicate row(s) from test. Shape: (22544, 42)
+2026-10-04 00:48:05 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 00:48:05 [INFO] preprocess - Raw KDDTrain+ shape: (3, 43)
+2026-10-04 00:48:05 [INFO] preprocess - Raw KDDTest+ shape: (3, 43)
+2026-10-04 00:48:05 [INFO] preprocess - Dropped 1 duplicate row(s) from train. Shape: (2, 42)
+2026-10-04 00:48:05 [INFO] preprocess - Dropped 1 duplicate row(s) from test. Shape: (2, 42)
+2026-10-04 00:48:05 [INFO] preprocess - === NSL-KDD Class Distribution Summary ===
+2026-10-04 00:48:05 [INFO] preprocess - Category: Normal   | Train:      2 (33.33%) | Test:     1 (20.00%)
+2026-10-04 00:48:05 [INFO] preprocess - Category: DoS      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 00:48:05 [INFO] preprocess - Category: Probe    | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 00:48:05 [INFO] preprocess - Category: R2L      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 00:48:05 [INFO] preprocess - Category: U2R      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 00:48:05 [INFO] preprocess - Total Samples | Train: 6 | Test: 5
+2026-10-04 00:48:05 [INFO] preprocess - Class distribution saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-3\test_log_and_save_class_distri0\tables\class_distribution_nslkdd.csv
+2026-10-04 00:48:05 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 00:48:05 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 00:48:05 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 00:48:05 [INFO] preprocess - Fitted preprocessing artifacts saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-3\test_build_dataset_no_leakage0\models
+2026-10-04 00:48:05 [INFO] preprocess - build_dataset complete. Shapes: X_train=(16, 41), X_val=(4, 41), X_test=(10, 41), Total Features=41
+2026-10-04 00:48:05 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 00:48:05 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 00:48:05 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 00:48:05 [INFO] preprocess - Fitted preprocessing artifacts saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-3\test_build_dataset_shapes_and_0\models
+2026-10-04 00:48:05 [INFO] preprocess - build_dataset complete. Shapes: X_train=(40, 44), X_val=(10, 44), X_test=(50, 44), Total Features=44
+2026-10-04 00:48:05 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 00:48:06 [INFO] preprocess - Raw KDDTrain+ shape: (125973, 43)
+2026-10-04 00:48:06 [INFO] preprocess - Raw KDDTest+ shape: (22544, 43)
+2026-10-04 00:48:06 [INFO] preprocess - Dropped 0 duplicate row(s) from train. Shape: (125973, 42)
+2026-10-04 00:48:06 [INFO] preprocess - Dropped 0 duplicate row(s) from test. Shape: (22544, 42)
+2026-10-04 00:48:06 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 00:48:06 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 00:48:06 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 00:48:06 [INFO] preprocess - Fitted preprocessing artifacts saved to: results\models
+2026-10-04 00:48:06 [INFO] preprocess - build_dataset complete. Shapes: X_train=(100778, 122), X_val=(25195, 122), X_test=(22544, 122), Total Features=122
+2026-10-04 00:48:17 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 00:48:17 [INFO] preprocess - Raw KDDTrain+ shape: (3, 43)
+2026-10-04 00:48:17 [INFO] preprocess - Raw KDDTest+ shape: (3, 43)
+2026-10-04 00:48:17 [INFO] preprocess - Dropped 1 duplicate row(s) from train. Shape: (2, 42)
+2026-10-04 00:48:17 [INFO] preprocess - Dropped 1 duplicate row(s) from test. Shape: (2, 42)
+2026-10-04 00:48:17 [INFO] preprocess - === NSL-KDD Class Distribution Summary ===
+2026-10-04 00:48:17 [INFO] preprocess - Category: Normal   | Train:      2 (33.33%) | Test:     1 (20.00%)
+2026-10-04 00:48:17 [INFO] preprocess - Category: DoS      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 00:48:17 [INFO] preprocess - Category: Probe    | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 00:48:17 [INFO] preprocess - Category: R2L      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 00:48:17 [INFO] preprocess - Category: U2R      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 00:48:17 [INFO] preprocess - Total Samples | Train: 6 | Test: 5
+2026-10-04 00:48:17 [INFO] preprocess - Class distribution saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-4\test_log_and_save_class_distri0\tables\class_distribution_nslkdd.csv
+2026-10-04 00:48:17 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 00:48:17 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 00:48:17 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 00:48:17 [INFO] preprocess - Fitted preprocessing artifacts saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-4\test_build_dataset_no_leakage0\models
+2026-10-04 00:48:17 [INFO] preprocess - build_dataset complete. Shapes: X_train=(16, 41), X_val=(4, 41), X_test=(10, 41), Total Features=41
+2026-10-04 00:48:17 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 00:48:17 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 00:48:17 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 00:48:17 [INFO] preprocess - Fitted preprocessing artifacts saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-4\test_build_dataset_shapes_and_0\models
+2026-10-04 00:48:17 [INFO] preprocess - build_dataset complete. Shapes: X_train=(40, 44), X_val=(10, 44), X_test=(50, 44), Total Features=44
+2026-10-04 00:48:17 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 00:48:17 [INFO] preprocess - Raw KDDTrain+ shape: (125973, 43)
+2026-10-04 00:48:17 [INFO] preprocess - Raw KDDTest+ shape: (22544, 43)
+2026-10-04 00:48:18 [INFO] preprocess - Dropped 0 duplicate row(s) from train. Shape: (125973, 42)
+2026-10-04 00:48:18 [INFO] preprocess - Dropped 0 duplicate row(s) from test. Shape: (22544, 42)
+2026-10-04 00:48:18 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 00:48:18 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 00:48:18 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 00:48:18 [INFO] preprocess - Fitted preprocessing artifacts saved to: results\models
+2026-10-04 00:48:18 [INFO] preprocess - build_dataset complete. Shapes: X_train=(100778, 122), X_val=(25195, 122), X_test=(22544, 122), Total Features=122
+2026-10-04 00:50:21 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 00:50:21 [INFO] preprocess - Raw KDDTrain+ shape: (125973, 43)
+2026-10-04 00:50:21 [INFO] preprocess - Raw KDDTest+ shape: (22544, 43)
+2026-10-04 00:50:21 [INFO] preprocess - Dropped 0 duplicate row(s) from train. Shape: (125973, 42)
+2026-10-04 00:50:21 [INFO] preprocess - Dropped 0 duplicate row(s) from test. Shape: (22544, 42)
+2026-10-04 00:51:05 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 00:51:05 [INFO] preprocess - Raw KDDTrain+ shape: (3, 43)
+2026-10-04 00:51:05 [INFO] preprocess - Raw KDDTest+ shape: (3, 43)
+2026-10-04 00:51:05 [INFO] preprocess - Dropped 1 duplicate row(s) from train. Shape: (2, 42)
+2026-10-04 00:51:05 [INFO] preprocess - Dropped 1 duplicate row(s) from test. Shape: (2, 42)
+2026-10-04 00:51:05 [INFO] preprocess - === NSL-KDD Class Distribution Summary ===
+2026-10-04 00:51:05 [INFO] preprocess - Category: Normal   | Train:      2 (33.33%) | Test:     1 (20.00%)
+2026-10-04 00:51:05 [INFO] preprocess - Category: DoS      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 00:51:05 [INFO] preprocess - Category: Probe    | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 00:51:05 [INFO] preprocess - Category: R2L      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 00:51:05 [INFO] preprocess - Category: U2R      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 00:51:05 [INFO] preprocess - Total Samples | Train: 6 | Test: 5
+2026-10-04 00:51:05 [INFO] preprocess - Class distribution saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-5\test_log_and_save_class_distri0\tables\class_distribution_nslkdd.csv
+2026-10-04 00:51:05 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 00:51:05 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 00:51:05 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 00:51:05 [INFO] preprocess - Fitted preprocessing artifacts saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-5\test_build_dataset_no_leakage0\models
+2026-10-04 00:51:05 [INFO] preprocess - build_dataset complete. Shapes: X_train=(16, 41), X_val=(4, 41), X_test=(10, 41), Total Features=41
+2026-10-04 00:51:05 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 00:51:05 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 00:51:05 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 00:51:05 [INFO] preprocess - Fitted preprocessing artifacts saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-5\test_build_dataset_shapes_and_0\models
+2026-10-04 00:51:05 [INFO] preprocess - build_dataset complete. Shapes: X_train=(40, 44), X_val=(10, 44), X_test=(50, 44), Total Features=44
+2026-10-04 00:51:05 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 00:51:05 [INFO] preprocess - Raw KDDTrain+ shape: (125973, 43)
+2026-10-04 00:51:05 [INFO] preprocess - Raw KDDTest+ shape: (22544, 43)
+2026-10-04 00:51:06 [INFO] preprocess - Dropped 0 duplicate row(s) from train. Shape: (125973, 42)
+2026-10-04 00:51:06 [INFO] preprocess - Dropped 0 duplicate row(s) from test. Shape: (22544, 42)
+2026-10-04 00:51:06 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 00:51:06 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 00:51:06 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 00:51:06 [INFO] preprocess - Fitted preprocessing artifacts saved to: results\models
+2026-10-04 00:51:06 [INFO] preprocess - build_dataset complete. Shapes: X_train=(100778, 122), X_val=(25195, 122), X_test=(22544, 122), Total Features=122
+2026-10-04 11:21:24 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 11:21:24 [INFO] preprocess - Raw KDDTrain+ shape: (3, 43)
+2026-10-04 11:21:24 [INFO] preprocess - Raw KDDTest+ shape: (3, 43)
+2026-10-04 11:21:24 [INFO] preprocess - Dropped 1 duplicate row(s) from train. Shape: (2, 42)
+2026-10-04 11:21:24 [INFO] preprocess - Dropped 1 duplicate row(s) from test. Shape: (2, 42)
+2026-10-04 11:21:24 [INFO] preprocess - === NSL-KDD Class Distribution Summary ===
+2026-10-04 11:21:24 [INFO] preprocess - Category: Normal   | Train:      2 (33.33%) | Test:     1 (20.00%)
+2026-10-04 11:21:24 [INFO] preprocess - Category: DoS      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 11:21:24 [INFO] preprocess - Category: Probe    | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 11:21:24 [INFO] preprocess - Category: R2L      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 11:21:24 [INFO] preprocess - Category: U2R      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 11:21:24 [INFO] preprocess - Total Samples | Train: 6 | Test: 5
+2026-10-04 11:21:24 [INFO] preprocess - Class distribution saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-6\test_log_and_save_class_distri0\tables\class_distribution_nslkdd.csv
+2026-10-04 11:21:24 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 11:21:24 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 11:21:24 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 11:21:24 [INFO] preprocess - Fitted preprocessing artifacts saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-6\test_build_dataset_no_leakage0\models
+2026-10-04 11:21:24 [INFO] preprocess - build_dataset complete. Shapes: X_train=(16, 41), X_val=(4, 41), X_test=(10, 41), Total Features=41
+2026-10-04 11:21:24 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 11:21:24 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 11:21:24 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 11:21:24 [INFO] preprocess - Fitted preprocessing artifacts saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-6\test_build_dataset_shapes_and_0\models
+2026-10-04 11:21:24 [INFO] preprocess - build_dataset complete. Shapes: X_train=(40, 44), X_val=(10, 44), X_test=(50, 44), Total Features=44
+2026-10-04 11:21:24 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 11:21:24 [INFO] preprocess - Raw KDDTrain+ shape: (125973, 43)
+2026-10-04 11:21:24 [INFO] preprocess - Raw KDDTest+ shape: (22544, 43)
+2026-10-04 11:21:25 [INFO] preprocess - Dropped 0 duplicate row(s) from train. Shape: (125973, 42)
+2026-10-04 11:21:25 [INFO] preprocess - Dropped 0 duplicate row(s) from test. Shape: (22544, 42)
+2026-10-04 11:21:25 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 11:21:25 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 11:21:25 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 11:21:26 [INFO] preprocess - Fitted preprocessing artifacts saved to: results\models
+2026-10-04 11:21:26 [INFO] preprocess - build_dataset complete. Shapes: X_train=(100778, 122), X_val=(25195, 122), X_test=(22544, 122), Total Features=122
+2026-10-04 11:22:06 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 11:22:06 [INFO] preprocess - Raw KDDTrain+ shape: (3, 43)
+2026-10-04 11:22:06 [INFO] preprocess - Raw KDDTest+ shape: (3, 43)
+2026-10-04 11:22:06 [INFO] preprocess - Dropped 1 duplicate row(s) from train. Shape: (2, 42)
+2026-10-04 11:22:06 [INFO] preprocess - Dropped 1 duplicate row(s) from test. Shape: (2, 42)
+2026-10-04 11:22:06 [INFO] preprocess - === NSL-KDD Class Distribution Summary ===
+2026-10-04 11:22:06 [INFO] preprocess - Category: Normal   | Train:      2 (33.33%) | Test:     1 (20.00%)
+2026-10-04 11:22:06 [INFO] preprocess - Category: DoS      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 11:22:06 [INFO] preprocess - Category: Probe    | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 11:22:06 [INFO] preprocess - Category: R2L      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 11:22:06 [INFO] preprocess - Category: U2R      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 11:22:06 [INFO] preprocess - Total Samples | Train: 6 | Test: 5
+2026-10-04 11:22:06 [INFO] preprocess - Class distribution saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-7\test_log_and_save_class_distri0\tables\class_distribution_nslkdd.csv
+2026-10-04 11:22:06 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 11:22:06 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 11:22:06 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 11:22:06 [INFO] preprocess - Fitted preprocessing artifacts saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-7\test_build_dataset_no_leakage0\models
+2026-10-04 11:22:06 [INFO] preprocess - build_dataset complete. Shapes: X_train=(16, 41), X_val=(4, 41), X_test=(10, 41), Total Features=41
+2026-10-04 11:22:06 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 11:22:06 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 11:22:06 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 11:22:06 [INFO] preprocess - Fitted preprocessing artifacts saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-7\test_build_dataset_shapes_and_0\models
+2026-10-04 11:22:06 [INFO] preprocess - build_dataset complete. Shapes: X_train=(40, 44), X_val=(10, 44), X_test=(50, 44), Total Features=44
+2026-10-04 11:22:06 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 11:22:07 [INFO] preprocess - Raw KDDTrain+ shape: (125973, 43)
+2026-10-04 11:22:07 [INFO] preprocess - Raw KDDTest+ shape: (22544, 43)
+2026-10-04 11:22:07 [INFO] preprocess - Dropped 0 duplicate row(s) from train. Shape: (125973, 42)
+2026-10-04 11:22:07 [INFO] preprocess - Dropped 0 duplicate row(s) from test. Shape: (22544, 42)
+2026-10-04 11:22:07 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 11:22:08 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 11:22:08 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 11:22:08 [INFO] preprocess - Fitted preprocessing artifacts saved to: results\models
+2026-10-04 11:22:08 [INFO] preprocess - build_dataset complete. Shapes: X_train=(100778, 122), X_val=(25195, 122), X_test=(22544, 122), Total Features=122
+2026-10-04 12:24:17 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 12:24:17 [INFO] preprocess - Raw KDDTrain+ shape: (3, 43)
+2026-10-04 12:24:17 [INFO] preprocess - Raw KDDTest+ shape: (3, 43)
+2026-10-04 12:24:17 [INFO] preprocess - Dropped 1 duplicate row(s) from train. Shape: (2, 42)
+2026-10-04 12:24:17 [INFO] preprocess - Dropped 1 duplicate row(s) from test. Shape: (2, 42)
+2026-10-04 12:24:17 [INFO] preprocess - === NSL-KDD Class Distribution Summary ===
+2026-10-04 12:24:17 [INFO] preprocess - Category: Normal   | Train:      2 (33.33%) | Test:     1 (20.00%)
+2026-10-04 12:24:17 [INFO] preprocess - Category: DoS      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 12:24:17 [INFO] preprocess - Category: Probe    | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 12:24:17 [INFO] preprocess - Category: R2L      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 12:24:17 [INFO] preprocess - Category: U2R      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 12:24:17 [INFO] preprocess - Total Samples | Train: 6 | Test: 5
+2026-10-04 12:24:17 [INFO] preprocess - Class distribution saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-9\test_log_and_save_class_distri0\tables\class_distribution_nslkdd.csv
+2026-10-04 12:24:17 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 12:24:17 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 12:24:17 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 12:24:17 [INFO] preprocess - Fitted preprocessing artifacts saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-9\test_build_dataset_no_leakage0\models
+2026-10-04 12:24:17 [INFO] preprocess - build_dataset complete. Shapes: X_train=(16, 41), X_val=(4, 41), X_test=(10, 41), Total Features=41
+2026-10-04 12:24:17 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 12:24:17 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 12:24:17 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 12:24:17 [INFO] preprocess - Fitted preprocessing artifacts saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-9\test_build_dataset_shapes_and_0\models
+2026-10-04 12:24:17 [INFO] preprocess - build_dataset complete. Shapes: X_train=(40, 44), X_val=(10, 44), X_test=(50, 44), Total Features=44
+2026-10-04 12:24:17 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 12:24:17 [INFO] preprocess - Raw KDDTrain+ shape: (125973, 43)
+2026-10-04 12:24:17 [INFO] preprocess - Raw KDDTest+ shape: (22544, 43)
+2026-10-04 12:24:17 [INFO] preprocess - Dropped 0 duplicate row(s) from train. Shape: (125973, 42)
+2026-10-04 12:24:17 [INFO] preprocess - Dropped 0 duplicate row(s) from test. Shape: (22544, 42)
+2026-10-04 12:24:17 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 12:24:18 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 12:24:18 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 12:24:18 [INFO] preprocess - Fitted preprocessing artifacts saved to: results\models
+2026-10-04 12:24:18 [INFO] preprocess - build_dataset complete. Shapes: X_train=(100778, 122), X_val=(25195, 122), X_test=(22544, 122), Total Features=122
+2026-10-04 12:35:27 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 12:35:27 [INFO] preprocess - Raw KDDTrain+ shape: (3, 43)
+2026-10-04 12:35:27 [INFO] preprocess - Raw KDDTest+ shape: (3, 43)
+2026-10-04 12:35:27 [INFO] preprocess - Dropped 1 duplicate row(s) from train. Shape: (2, 42)
+2026-10-04 12:35:27 [INFO] preprocess - Dropped 1 duplicate row(s) from test. Shape: (2, 42)
+2026-10-04 12:35:27 [INFO] preprocess - === NSL-KDD Class Distribution Summary ===
+2026-10-04 12:35:27 [INFO] preprocess - Category: Normal   | Train:      2 (33.33%) | Test:     1 (20.00%)
+2026-10-04 12:35:27 [INFO] preprocess - Category: DoS      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 12:35:27 [INFO] preprocess - Category: Probe    | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 12:35:27 [INFO] preprocess - Category: R2L      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 12:35:27 [INFO] preprocess - Category: U2R      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 12:35:27 [INFO] preprocess - Total Samples | Train: 6 | Test: 5
+2026-10-04 12:35:27 [INFO] preprocess - Class distribution saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-11\test_log_and_save_class_distri0\tables\class_distribution_nslkdd.csv
+2026-10-04 12:35:27 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 12:35:27 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 12:35:27 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 12:35:27 [INFO] preprocess - Fitted preprocessing artifacts saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-11\test_build_dataset_no_leakage0\models
+2026-10-04 12:35:27 [INFO] preprocess - build_dataset complete. Shapes: X_train=(16, 41), X_val=(4, 41), X_test=(10, 41), Total Features=41
+2026-10-04 12:35:27 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 12:35:27 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 12:35:27 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 12:35:27 [INFO] preprocess - Fitted preprocessing artifacts saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-11\test_build_dataset_shapes_and_0\models
+2026-10-04 12:35:27 [INFO] preprocess - build_dataset complete. Shapes: X_train=(40, 44), X_val=(10, 44), X_test=(50, 44), Total Features=44
+2026-10-04 12:35:27 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 12:35:27 [INFO] preprocess - Raw KDDTrain+ shape: (125973, 43)
+2026-10-04 12:35:27 [INFO] preprocess - Raw KDDTest+ shape: (22544, 43)
+2026-10-04 12:35:27 [INFO] preprocess - Dropped 0 duplicate row(s) from train. Shape: (125973, 42)
+2026-10-04 12:35:27 [INFO] preprocess - Dropped 0 duplicate row(s) from test. Shape: (22544, 42)
+2026-10-04 12:35:28 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 12:35:28 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 12:35:28 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 12:35:28 [INFO] preprocess - Fitted preprocessing artifacts saved to: results\models
+2026-10-04 12:35:28 [INFO] preprocess - build_dataset complete. Shapes: X_train=(100778, 122), X_val=(25195, 122), X_test=(22544, 122), Total Features=122
+2026-10-04 12:37:08 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 12:37:08 [INFO] preprocess - Raw KDDTrain+ shape: (3, 43)
+2026-10-04 12:37:08 [INFO] preprocess - Raw KDDTest+ shape: (3, 43)
+2026-10-04 12:37:08 [INFO] preprocess - Dropped 1 duplicate row(s) from train. Shape: (2, 42)
+2026-10-04 12:37:08 [INFO] preprocess - Dropped 1 duplicate row(s) from test. Shape: (2, 42)
+2026-10-04 12:37:08 [INFO] preprocess - === NSL-KDD Class Distribution Summary ===
+2026-10-04 12:37:08 [INFO] preprocess - Category: Normal   | Train:      2 (33.33%) | Test:     1 (20.00%)
+2026-10-04 12:37:08 [INFO] preprocess - Category: DoS      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 12:37:08 [INFO] preprocess - Category: Probe    | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 12:37:08 [INFO] preprocess - Category: R2L      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 12:37:08 [INFO] preprocess - Category: U2R      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 12:37:08 [INFO] preprocess - Total Samples | Train: 6 | Test: 5
+2026-10-04 12:37:08 [INFO] preprocess - Class distribution saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-13\test_log_and_save_class_distri0\tables\class_distribution_nslkdd.csv
+2026-10-04 12:37:08 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 12:37:08 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 12:37:08 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 12:37:08 [INFO] preprocess - Fitted preprocessing artifacts saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-13\test_build_dataset_no_leakage0\models
+2026-10-04 12:37:08 [INFO] preprocess - build_dataset complete. Shapes: X_train=(16, 41), X_val=(4, 41), X_test=(10, 41), Total Features=41
+2026-10-04 12:37:08 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 12:37:08 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 12:37:08 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 12:37:08 [INFO] preprocess - Fitted preprocessing artifacts saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-13\test_build_dataset_shapes_and_0\models
+2026-10-04 12:37:08 [INFO] preprocess - build_dataset complete. Shapes: X_train=(40, 44), X_val=(10, 44), X_test=(50, 44), Total Features=44
+2026-10-04 12:37:08 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 12:37:08 [INFO] preprocess - Raw KDDTrain+ shape: (125973, 43)
+2026-10-04 12:37:08 [INFO] preprocess - Raw KDDTest+ shape: (22544, 43)
+2026-10-04 12:37:08 [INFO] preprocess - Dropped 0 duplicate row(s) from train. Shape: (125973, 42)
+2026-10-04 12:37:08 [INFO] preprocess - Dropped 0 duplicate row(s) from test. Shape: (22544, 42)
+2026-10-04 12:37:09 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 12:37:09 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 12:37:09 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 12:37:09 [INFO] preprocess - Fitted preprocessing artifacts saved to: results\models
+2026-10-04 12:37:09 [INFO] preprocess - build_dataset complete. Shapes: X_train=(100778, 122), X_val=(25195, 122), X_test=(22544, 122), Total Features=122
+2026-10-04 12:39:28 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 12:39:28 [INFO] preprocess - Raw KDDTrain+ shape: (3, 43)
+2026-10-04 12:39:28 [INFO] preprocess - Raw KDDTest+ shape: (3, 43)
+2026-10-04 12:39:28 [INFO] preprocess - Dropped 1 duplicate row(s) from train. Shape: (2, 42)
+2026-10-04 12:39:28 [INFO] preprocess - Dropped 1 duplicate row(s) from test. Shape: (2, 42)
+2026-10-04 12:39:28 [INFO] preprocess - === NSL-KDD Class Distribution Summary ===
+2026-10-04 12:39:28 [INFO] preprocess - Category: Normal   | Train:      2 (33.33%) | Test:     1 (20.00%)
+2026-10-04 12:39:28 [INFO] preprocess - Category: DoS      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 12:39:28 [INFO] preprocess - Category: Probe    | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 12:39:28 [INFO] preprocess - Category: R2L      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 12:39:28 [INFO] preprocess - Category: U2R      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 12:39:28 [INFO] preprocess - Total Samples | Train: 6 | Test: 5
+2026-10-04 12:39:28 [INFO] preprocess - Class distribution saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-15\test_log_and_save_class_distri0\tables\class_distribution_nslkdd.csv
+2026-10-04 12:39:28 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 12:39:28 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 12:39:28 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 12:39:28 [INFO] preprocess - Fitted preprocessing artifacts saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-15\test_build_dataset_no_leakage0\models
+2026-10-04 12:39:28 [INFO] preprocess - build_dataset complete. Shapes: X_train=(16, 41), X_val=(4, 41), X_test=(10, 41), Total Features=41
+2026-10-04 12:39:28 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 12:39:28 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 12:39:28 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 12:39:28 [INFO] preprocess - Fitted preprocessing artifacts saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-15\test_build_dataset_shapes_and_0\models
+2026-10-04 12:39:28 [INFO] preprocess - build_dataset complete. Shapes: X_train=(40, 44), X_val=(10, 44), X_test=(50, 44), Total Features=44
+2026-10-04 12:39:28 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 12:39:28 [INFO] preprocess - Raw KDDTrain+ shape: (125973, 43)
+2026-10-04 12:39:28 [INFO] preprocess - Raw KDDTest+ shape: (22544, 43)
+2026-10-04 12:39:28 [INFO] preprocess - Dropped 0 duplicate row(s) from train. Shape: (125973, 42)
+2026-10-04 12:39:28 [INFO] preprocess - Dropped 0 duplicate row(s) from test. Shape: (22544, 42)
+2026-10-04 12:39:28 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 12:39:29 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 12:39:29 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 12:39:29 [INFO] preprocess - Fitted preprocessing artifacts saved to: results\models
+2026-10-04 12:39:29 [INFO] preprocess - build_dataset complete. Shapes: X_train=(100778, 122), X_val=(25195, 122), X_test=(22544, 122), Total Features=122
+2026-10-04 12:41:11 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 12:41:11 [INFO] preprocess - Raw KDDTrain+ shape: (3, 43)
+2026-10-04 12:41:11 [INFO] preprocess - Raw KDDTest+ shape: (3, 43)
+2026-10-04 12:41:11 [INFO] preprocess - Dropped 1 duplicate row(s) from train. Shape: (2, 42)
+2026-10-04 12:41:11 [INFO] preprocess - Dropped 1 duplicate row(s) from test. Shape: (2, 42)
+2026-10-04 12:41:11 [INFO] preprocess - === NSL-KDD Class Distribution Summary ===
+2026-10-04 12:41:11 [INFO] preprocess - Category: Normal   | Train:      2 (33.33%) | Test:     1 (20.00%)
+2026-10-04 12:41:11 [INFO] preprocess - Category: DoS      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 12:41:11 [INFO] preprocess - Category: Probe    | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 12:41:11 [INFO] preprocess - Category: R2L      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 12:41:11 [INFO] preprocess - Category: U2R      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 12:41:11 [INFO] preprocess - Total Samples | Train: 6 | Test: 5
+2026-10-04 12:41:11 [INFO] preprocess - Class distribution saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-17\test_log_and_save_class_distri0\tables\class_distribution_nslkdd.csv
+2026-10-04 12:41:11 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 12:41:11 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 12:41:11 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 12:41:11 [INFO] preprocess - Fitted preprocessing artifacts saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-17\test_build_dataset_no_leakage0\models
+2026-10-04 12:41:11 [INFO] preprocess - build_dataset complete. Shapes: X_train=(16, 41), X_val=(4, 41), X_test=(10, 41), Total Features=41
+2026-10-04 12:41:11 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 12:41:11 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 12:41:11 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 12:41:11 [INFO] preprocess - Fitted preprocessing artifacts saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-17\test_build_dataset_shapes_and_0\models
+2026-10-04 12:41:11 [INFO] preprocess - build_dataset complete. Shapes: X_train=(40, 44), X_val=(10, 44), X_test=(50, 44), Total Features=44
+2026-10-04 12:41:11 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 12:41:12 [INFO] preprocess - Raw KDDTrain+ shape: (125973, 43)
+2026-10-04 12:41:12 [INFO] preprocess - Raw KDDTest+ shape: (22544, 43)
+2026-10-04 12:41:12 [INFO] preprocess - Dropped 0 duplicate row(s) from train. Shape: (125973, 42)
+2026-10-04 12:41:12 [INFO] preprocess - Dropped 0 duplicate row(s) from test. Shape: (22544, 42)
+2026-10-04 12:41:12 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 12:41:12 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 12:41:12 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 12:41:12 [INFO] preprocess - Fitted preprocessing artifacts saved to: results\models
+2026-10-04 12:41:12 [INFO] preprocess - build_dataset complete. Shapes: X_train=(100778, 122), X_val=(25195, 122), X_test=(22544, 122), Total Features=122
+2026-10-04 12:45:37 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 12:45:38 [INFO] preprocess - Raw KDDTrain+ shape: (125973, 43)
+2026-10-04 12:45:38 [INFO] preprocess - Raw KDDTest+ shape: (22544, 43)
+2026-10-04 12:45:38 [INFO] preprocess - Dropped 0 duplicate row(s) from train. Shape: (125973, 42)
+2026-10-04 12:45:38 [INFO] preprocess - Dropped 0 duplicate row(s) from test. Shape: (22544, 42)
+2026-10-04 12:45:39 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=0, stratified on 'category'...
+2026-10-04 12:45:39 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 12:45:39 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 12:45:39 [INFO] preprocess - Fitted preprocessing artifacts saved to: results\models
+2026-10-04 12:45:39 [INFO] preprocess - build_dataset complete. Shapes: X_train=(100778, 122), X_val=(25195, 122), X_test=(22544, 122), Total Features=122
+2026-10-04 12:47:19 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 12:47:19 [INFO] preprocess - Raw KDDTrain+ shape: (3, 43)
+2026-10-04 12:47:19 [INFO] preprocess - Raw KDDTest+ shape: (3, 43)
+2026-10-04 12:47:19 [INFO] preprocess - Dropped 1 duplicate row(s) from train. Shape: (2, 42)
+2026-10-04 12:47:19 [INFO] preprocess - Dropped 1 duplicate row(s) from test. Shape: (2, 42)
+2026-10-04 12:47:19 [INFO] preprocess - === NSL-KDD Class Distribution Summary ===
+2026-10-04 12:47:19 [INFO] preprocess - Category: Normal   | Train:      2 (33.33%) | Test:     1 (20.00%)
+2026-10-04 12:47:19 [INFO] preprocess - Category: DoS      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 12:47:19 [INFO] preprocess - Category: Probe    | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 12:47:19 [INFO] preprocess - Category: R2L      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 12:47:19 [INFO] preprocess - Category: U2R      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 12:47:19 [INFO] preprocess - Total Samples | Train: 6 | Test: 5
+2026-10-04 12:47:19 [INFO] preprocess - Class distribution saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-22\test_log_and_save_class_distri0\tables\class_distribution_nslkdd.csv
+2026-10-04 12:47:19 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 12:47:19 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 12:47:19 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 12:47:19 [INFO] preprocess - Fitted preprocessing artifacts saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-22\test_build_dataset_no_leakage0\models
+2026-10-04 12:47:19 [INFO] preprocess - build_dataset complete. Shapes: X_train=(16, 41), X_val=(4, 41), X_test=(10, 41), Total Features=41
+2026-10-04 12:47:19 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 12:47:19 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 12:47:19 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 12:47:19 [INFO] preprocess - Fitted preprocessing artifacts saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-22\test_build_dataset_shapes_and_0\models
+2026-10-04 12:47:19 [INFO] preprocess - build_dataset complete. Shapes: X_train=(40, 44), X_val=(10, 44), X_test=(50, 44), Total Features=44
+2026-10-04 12:47:19 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 12:47:19 [INFO] preprocess - Raw KDDTrain+ shape: (125973, 43)
+2026-10-04 12:47:19 [INFO] preprocess - Raw KDDTest+ shape: (22544, 43)
+2026-10-04 12:47:19 [INFO] preprocess - Dropped 0 duplicate row(s) from train. Shape: (125973, 42)
+2026-10-04 12:47:19 [INFO] preprocess - Dropped 0 duplicate row(s) from test. Shape: (22544, 42)
+2026-10-04 12:47:20 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 12:47:20 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 12:47:20 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 12:47:20 [INFO] preprocess - Fitted preprocessing artifacts saved to: results\models
+2026-10-04 12:47:20 [INFO] preprocess - build_dataset complete. Shapes: X_train=(100778, 122), X_val=(25195, 122), X_test=(22544, 122), Total Features=122
+2026-10-04 12:51:10 [INFO] preprocess - Loading UNSW-NB15: train=C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-23\test_load_unsw_mock0\train.csv, test=C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-23\test_load_unsw_mock0\test.csv
+2026-10-04 12:51:10 [INFO] preprocess - Raw UNSW-NB15 shapes: Train=(4, 8), Test=(2, 8)
+2026-10-04 12:51:10 [INFO] preprocess - UNSW-NB15 after deduplication: Train=(4, 9) (0 dropped), Test=(2, 9) (0 dropped)
+2026-10-04 12:51:10 [INFO] preprocess - Minority attack classes (< 100 training samples): ['Normal', 'Generic', 'Worms']
+2026-10-04 12:51:10 [INFO] preprocess - Loading 2 CIC-IDS2017 CSV files from: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-23\test_load_cicids_mock0\cicids_csvs
+2026-10-04 12:51:10 [INFO] preprocess - Raw merged CIC-IDS2017 shape: (7, 4)
+2026-10-04 12:51:10 [INFO] preprocess - Cleaned CIC-IDS2017: 1 NaN rows dropped, 0 duplicates dropped. Remaining: 6
+2026-10-04 12:51:10 [INFO] preprocess - Grouping 1 rare class(es) (< 2 samples) into 'Other_Rare': ['Heartbleed']
+2026-10-04 12:51:10 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 12:51:10 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 2 numeric features
+2026-10-04 12:51:10 [INFO] preprocess - Fitted preprocessing artifacts saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-23\test_all_numeric_dataset0\models
+2026-10-04 12:51:10 [INFO] preprocess - build_dataset complete. Shapes: X_train=(40, 2), X_val=(10, 2), X_test=(20, 2), Total Features=2
+2026-10-04 12:51:37 [INFO] preprocess - Loading UNSW-NB15: train=C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-24\test_load_unsw_mock0\train.csv, test=C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-24\test_load_unsw_mock0\test.csv
+2026-10-04 12:51:37 [INFO] preprocess - Raw UNSW-NB15 shapes: Train=(4, 8), Test=(2, 8)
+2026-10-04 12:51:37 [INFO] preprocess - UNSW-NB15 after deduplication: Train=(4, 9) (0 dropped), Test=(2, 9) (0 dropped)
+2026-10-04 12:51:37 [INFO] preprocess - Minority attack classes (< 100 training samples): ['Normal', 'Generic', 'Worms']
+2026-10-04 12:51:37 [INFO] preprocess - Loading 2 CIC-IDS2017 CSV files from: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-24\test_load_cicids_mock0\cicids_csvs
+2026-10-04 12:51:37 [INFO] preprocess - Raw merged CIC-IDS2017 shape: (7, 4)
+2026-10-04 12:51:37 [INFO] preprocess - Cleaned CIC-IDS2017: 1 NaN rows dropped, 0 duplicates dropped. Remaining: 6
+2026-10-04 12:51:37 [INFO] preprocess - Grouping 1 rare class(es) (< 2 samples) into 'Other_Rare': ['Heartbleed']
+2026-10-04 12:51:37 [INFO] preprocess - CIC-IDS2017 splits: Train=(3, 6), Test=(3, 6) across 3 classes
+2026-10-04 12:51:37 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 12:51:37 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 2 numeric features
+2026-10-04 12:51:37 [INFO] preprocess - Fitted preprocessing artifacts saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-24\test_all_numeric_dataset0\models
+2026-10-04 12:51:37 [INFO] preprocess - build_dataset complete. Shapes: X_train=(40, 2), X_val=(10, 2), X_test=(20, 2), Total Features=2
+2026-10-04 12:52:28 [INFO] preprocess - Loading UNSW-NB15: train=dataset folder\archive (1)\UNSW_NB15_training-set.parquet, test=dataset folder\archive (1)\UNSW_NB15_testing-set.parquet
+2026-10-04 12:52:28 [INFO] preprocess - Raw UNSW-NB15 shapes: Train=(175341, 36), Test=(82332, 36)
+2026-10-04 12:52:29 [INFO] preprocess - UNSW-NB15 after deduplication: Train=(96822, 38) (78519 dropped), Test=(49971, 38) (32361 dropped)
+2026-10-04 12:52:29 [INFO] preprocess - All UNSW-NB15 classes in train set have >= 100 samples.
+2026-10-04 12:52:29 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=0, stratified on 'category'...
+2026-10-04 12:52:29 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['proto', 'service', 'state']
+2026-10-04 12:52:30 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 31 numeric features
+2026-10-04 12:52:30 [INFO] preprocess - Fitted preprocessing artifacts saved to: results\models
+2026-10-04 12:52:30 [INFO] preprocess - build_dataset complete. Shapes: X_train=(77457, 186), X_val=(19365, 186), X_test=(49971, 186), Total Features=186
+2026-10-04 12:53:06 [INFO] preprocess - Loading UNSW-NB15: train=dataset folder\archive (1)\UNSW_NB15_training-set.parquet, test=dataset folder\archive (1)\UNSW_NB15_testing-set.parquet
+2026-10-04 12:53:06 [INFO] preprocess - Raw UNSW-NB15 shapes: Train=(175341, 36), Test=(82332, 36)
+2026-10-04 12:53:06 [INFO] preprocess - UNSW-NB15 after deduplication: Train=(96822, 38) (78519 dropped), Test=(49971, 38) (32361 dropped)
+2026-10-04 12:53:06 [INFO] preprocess - All UNSW-NB15 classes in train set have >= 100 samples.
+2026-10-04 12:53:07 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=0, stratified on 'category'...
+2026-10-04 12:53:07 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['proto', 'service', 'state']
+2026-10-04 12:53:07 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 31 numeric features
+2026-10-04 12:53:08 [INFO] preprocess - Fitted preprocessing artifacts saved to: results\models
+2026-10-04 12:53:08 [INFO] preprocess - build_dataset complete. Shapes: X_train=(77457, 186), X_val=(19365, 186), X_test=(49971, 186), Total Features=186
+2026-10-04 12:54:01 [INFO] preprocess - Loading 8 CIC-IDS2017 CSV files from: dataset folder\archive (2)\MachineLearningCVE
+2026-10-04 12:54:34 [INFO] preprocess - Raw merged CIC-IDS2017 shape: (2830743, 79)
+2026-10-04 12:55:00 [INFO] preprocess - Cleaned CIC-IDS2017: 2867 NaN rows dropped, 307078 duplicates dropped. Remaining: 2520798
+2026-10-04 12:55:00 [INFO] preprocess - Subsampling 10.0% stratified by 'Label' (seed=0)...
+2026-10-04 12:55:06 [INFO] preprocess - Grouping 4 rare class(es) (< 100 samples) into 'Other_Rare': ['Web Attack � XSS', 'Infiltration', 'Web Attack � Sql Injection', 'Heartbleed']
+2026-10-04 12:55:07 [INFO] preprocess - CIC-IDS2017 splits: Train=(176455, 81), Test=(75624, 81) across 12 classes
+2026-10-04 12:55:09 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=0, stratified on 'category'...
+2026-10-04 12:55:09 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 78 numeric features
+2026-10-04 12:55:10 [INFO] preprocess - Fitted preprocessing artifacts saved to: results\models
+2026-10-04 12:55:10 [INFO] preprocess - build_dataset complete. Shapes: X_train=(141164, 78), X_val=(35291, 78), X_test=(75624, 78), Total Features=78
+2026-10-04 12:59:12 [INFO] preprocess - Loading 8 CIC-IDS2017 CSV files from: dataset folder\archive (2)\MachineLearningCVE
+2026-10-04 12:59:32 [INFO] preprocess - Raw merged CIC-IDS2017 shape: (2830743, 79)
+2026-10-04 12:59:49 [INFO] preprocess - Cleaned CIC-IDS2017: 2867 NaN rows dropped, 307078 duplicates dropped. Remaining: 2520798
+2026-10-04 12:59:49 [INFO] preprocess - Subsampling 10.0% stratified by 'Label' (seed=0)...
+2026-10-04 12:59:53 [INFO] preprocess - Grouping 4 rare class(es) (< 100 samples) into 'Other_Rare': ['Web Attack - XSS', 'Infiltration', 'Web Attack - Sql Injection', 'Heartbleed']
+2026-10-04 12:59:53 [INFO] preprocess - CIC-IDS2017 splits: Train=(176455, 81), Test=(75624, 81) across 12 classes
+2026-10-04 12:59:55 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=0, stratified on 'category'...
+2026-10-04 12:59:55 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 78 numeric features
+2026-10-04 12:59:55 [INFO] preprocess - Fitted preprocessing artifacts saved to: results\models
+2026-10-04 12:59:55 [INFO] preprocess - build_dataset complete. Shapes: X_train=(141164, 78), X_val=(35291, 78), X_test=(75624, 78), Total Features=78
+2026-10-04 13:01:07 [INFO] preprocess - Loading UNSW-NB15: train=C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-25\test_load_unsw_mock0\train.csv, test=C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-25\test_load_unsw_mock0\test.csv
+2026-10-04 13:01:07 [INFO] preprocess - Raw UNSW-NB15 shapes: Train=(4, 8), Test=(2, 8)
+2026-10-04 13:01:07 [INFO] preprocess - UNSW-NB15 after deduplication: Train=(4, 9) (0 dropped), Test=(2, 9) (0 dropped)
+2026-10-04 13:01:07 [INFO] preprocess - Minority attack classes (< 100 training samples): ['Normal', 'Generic', 'Worms']
+2026-10-04 13:01:07 [INFO] preprocess - Loading 2 CIC-IDS2017 CSV files from: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-25\test_load_cicids_mock0\cicids_csvs
+2026-10-04 13:01:07 [INFO] preprocess - Raw merged CIC-IDS2017 shape: (7, 4)
+2026-10-04 13:01:07 [INFO] preprocess - Cleaned CIC-IDS2017: 1 NaN rows dropped, 0 duplicates dropped. Remaining: 6
+2026-10-04 13:01:07 [INFO] preprocess - Grouping 1 rare class(es) (< 2 samples) into 'Other_Rare': ['Heartbleed']
+2026-10-04 13:01:07 [INFO] preprocess - CIC-IDS2017 splits: Train=(3, 6), Test=(3, 6) across 3 classes
+2026-10-04 13:01:07 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 13:01:07 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 2 numeric features
+2026-10-04 13:01:07 [INFO] preprocess - Fitted preprocessing artifacts saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-25\test_all_numeric_dataset0\models
+2026-10-04 13:01:07 [INFO] preprocess - build_dataset complete. Shapes: X_train=(40, 2), X_val=(10, 2), X_test=(20, 2), Total Features=2
+2026-10-04 13:01:20 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 13:01:20 [INFO] preprocess - Raw KDDTrain+ shape: (3, 43)
+2026-10-04 13:01:20 [INFO] preprocess - Raw KDDTest+ shape: (3, 43)
+2026-10-04 13:01:20 [INFO] preprocess - Dropped 1 duplicate row(s) from train. Shape: (2, 42)
+2026-10-04 13:01:20 [INFO] preprocess - Dropped 1 duplicate row(s) from test. Shape: (2, 42)
+2026-10-04 13:01:20 [INFO] preprocess - === NSL-KDD Class Distribution Summary ===
+2026-10-04 13:01:20 [INFO] preprocess - Category: Normal   | Train:      2 (33.33%) | Test:     1 (20.00%)
+2026-10-04 13:01:20 [INFO] preprocess - Category: DoS      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 13:01:20 [INFO] preprocess - Category: Probe    | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 13:01:20 [INFO] preprocess - Category: R2L      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 13:01:20 [INFO] preprocess - Category: U2R      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 13:01:20 [INFO] preprocess - Total Samples | Train: 6 | Test: 5
+2026-10-04 13:01:20 [INFO] preprocess - Class distribution saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-25\test_log_and_save_class_distri0\tables\class_distribution_nslkdd.csv
+2026-10-04 13:01:20 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 13:01:21 [INFO] preprocess - Raw KDDTrain+ shape: (125973, 43)
+2026-10-04 13:01:21 [INFO] preprocess - Raw KDDTest+ shape: (22544, 43)
+2026-10-04 13:01:21 [INFO] preprocess - Dropped 0 duplicate row(s) from train. Shape: (125973, 42)
+2026-10-04 13:01:21 [INFO] preprocess - Dropped 0 duplicate row(s) from test. Shape: (22544, 42)
+2026-10-04 13:01:21 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 13:01:21 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 13:01:21 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 13:01:22 [INFO] preprocess - Fitted preprocessing artifacts saved to: results\models
+2026-10-04 13:01:22 [INFO] preprocess - build_dataset complete. Shapes: X_train=(100778, 122), X_val=(25195, 122), X_test=(22544, 122), Total Features=122
+2026-10-04 13:02:33 [INFO] preprocess - Loading UNSW-NB15: train=C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-26\test_load_unsw_mock0\train.csv, test=C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-26\test_load_unsw_mock0\test.csv
+2026-10-04 13:02:33 [INFO] preprocess - Raw UNSW-NB15 shapes: Train=(4, 8), Test=(2, 8)
+2026-10-04 13:02:33 [INFO] preprocess - UNSW-NB15 after deduplication: Train=(4, 9) (0 dropped), Test=(2, 9) (0 dropped)
+2026-10-04 13:02:33 [INFO] preprocess - Minority attack classes (< 100 training samples): ['Normal', 'Generic', 'Worms']
+2026-10-04 13:02:33 [INFO] preprocess - Loading 2 CIC-IDS2017 CSV files from: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-26\test_load_cicids_mock0\cicids_csvs
+2026-10-04 13:02:33 [INFO] preprocess - Raw merged CIC-IDS2017 shape: (7, 4)
+2026-10-04 13:02:33 [INFO] preprocess - Cleaned CIC-IDS2017: 1 NaN rows dropped, 0 duplicates dropped. Remaining: 6
+2026-10-04 13:02:33 [INFO] preprocess - Grouping 1 rare class(es) (< 2 samples) into 'Other_Rare': ['Heartbleed']
+2026-10-04 13:02:33 [INFO] preprocess - CIC-IDS2017 splits: Train=(3, 6), Test=(3, 6) across 3 classes
+2026-10-04 13:02:33 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 13:02:33 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 2 numeric features
+2026-10-04 13:02:33 [INFO] preprocess - Fitted preprocessing artifacts saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-26\test_all_numeric_dataset0\models
+2026-10-04 13:02:33 [INFO] preprocess - build_dataset complete. Shapes: X_train=(40, 2), X_val=(10, 2), X_test=(20, 2), Total Features=2
+2026-10-04 13:02:45 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 13:02:45 [INFO] preprocess - Raw KDDTrain+ shape: (3, 43)
+2026-10-04 13:02:45 [INFO] preprocess - Raw KDDTest+ shape: (3, 43)
+2026-10-04 13:02:45 [INFO] preprocess - Dropped 1 duplicate row(s) from train. Shape: (2, 42)
+2026-10-04 13:02:45 [INFO] preprocess - Dropped 1 duplicate row(s) from test. Shape: (2, 42)
+2026-10-04 13:02:45 [INFO] preprocess - === NSL-KDD Class Distribution Summary ===
+2026-10-04 13:02:45 [INFO] preprocess - Category: Normal   | Train:      2 (33.33%) | Test:     1 (20.00%)
+2026-10-04 13:02:45 [INFO] preprocess - Category: DoS      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 13:02:45 [INFO] preprocess - Category: Probe    | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 13:02:45 [INFO] preprocess - Category: R2L      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 13:02:45 [INFO] preprocess - Category: U2R      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 13:02:45 [INFO] preprocess - Total Samples | Train: 6 | Test: 5
+2026-10-04 13:02:45 [INFO] preprocess - Class distribution saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-26\test_log_and_save_class_distri0\tables\class_distribution_nslkdd.csv
+2026-10-04 13:02:45 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'label'...
+2026-10-04 13:02:45 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 13:02:45 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 13:02:45 [INFO] preprocess - Fitted preprocessing artifacts saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-26\test_build_dataset_no_leakage0\models
+2026-10-04 13:02:45 [INFO] preprocess - build_dataset complete. Shapes: X_train=(16, 41), X_val=(4, 41), X_test=(10, 41), Total Features=41
+2026-10-04 13:02:45 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'label'...
+2026-10-04 13:02:45 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 13:02:45 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 13:02:45 [INFO] preprocess - Fitted preprocessing artifacts saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-26\test_build_dataset_shapes_and_0\models
+2026-10-04 13:02:45 [INFO] preprocess - build_dataset complete. Shapes: X_train=(40, 44), X_val=(10, 44), X_test=(50, 44), Total Features=44
+2026-10-04 13:02:45 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 13:02:46 [INFO] preprocess - Raw KDDTrain+ shape: (125973, 43)
+2026-10-04 13:02:46 [INFO] preprocess - Raw KDDTest+ shape: (22544, 43)
+2026-10-04 13:02:46 [INFO] preprocess - Dropped 0 duplicate row(s) from train. Shape: (125973, 42)
+2026-10-04 13:02:46 [INFO] preprocess - Dropped 0 duplicate row(s) from test. Shape: (22544, 42)
+2026-10-04 13:02:46 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 13:02:46 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 13:02:46 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 13:02:46 [INFO] preprocess - Fitted preprocessing artifacts saved to: results\models
+2026-10-04 13:02:46 [INFO] preprocess - build_dataset complete. Shapes: X_train=(100778, 122), X_val=(25195, 122), X_test=(22544, 122), Total Features=122
+2026-10-04 13:06:43 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 13:06:43 [INFO] preprocess - Raw KDDTrain+ shape: (3, 43)
+2026-10-04 13:06:43 [INFO] preprocess - Raw KDDTest+ shape: (3, 43)
+2026-10-04 13:06:43 [INFO] preprocess - Dropped 1 duplicate row(s) from train. Shape: (2, 42)
+2026-10-04 13:06:43 [INFO] preprocess - Dropped 1 duplicate row(s) from test. Shape: (2, 42)
+2026-10-04 13:06:43 [INFO] preprocess - === NSL-KDD Class Distribution Summary ===
+2026-10-04 13:06:43 [INFO] preprocess - Category: Normal   | Train:      2 (33.33%) | Test:     1 (20.00%)
+2026-10-04 13:06:43 [INFO] preprocess - Category: DoS      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 13:06:43 [INFO] preprocess - Category: Probe    | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 13:06:43 [INFO] preprocess - Category: R2L      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 13:06:43 [INFO] preprocess - Category: U2R      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 13:06:43 [INFO] preprocess - Total Samples | Train: 6 | Test: 5
+2026-10-04 13:06:43 [INFO] preprocess - Class distribution saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-28\test_log_and_save_class_distri0\tables\class_distribution_nslkdd.csv
+2026-10-04 13:06:43 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'label'...
+2026-10-04 13:06:43 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 13:06:43 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 13:06:43 [INFO] preprocess - Fitted preprocessing artifacts saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-28\test_build_dataset_no_leakage0\models
+2026-10-04 13:06:43 [INFO] preprocess - build_dataset complete. Shapes: X_train=(16, 41), X_val=(4, 41), X_test=(10, 41), Total Features=41
+2026-10-04 13:06:43 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'label'...
+2026-10-04 13:06:43 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 13:06:43 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 13:06:43 [INFO] preprocess - Fitted preprocessing artifacts saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-28\test_build_dataset_shapes_and_0\models
+2026-10-04 13:06:43 [INFO] preprocess - build_dataset complete. Shapes: X_train=(40, 44), X_val=(10, 44), X_test=(50, 44), Total Features=44
+2026-10-04 13:06:43 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 13:06:44 [INFO] preprocess - Raw KDDTrain+ shape: (125973, 43)
+2026-10-04 13:06:44 [INFO] preprocess - Raw KDDTest+ shape: (22544, 43)
+2026-10-04 13:06:44 [INFO] preprocess - Dropped 0 duplicate row(s) from train. Shape: (125973, 42)
+2026-10-04 13:06:44 [INFO] preprocess - Dropped 0 duplicate row(s) from test. Shape: (22544, 42)
+2026-10-04 13:06:44 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 13:06:44 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 13:06:44 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 13:06:45 [INFO] preprocess - Fitted preprocessing artifacts saved to: results\models
+2026-10-04 13:06:45 [INFO] preprocess - build_dataset complete. Shapes: X_train=(100778, 122), X_val=(25195, 122), X_test=(22544, 122), Total Features=122
+2026-10-04 13:06:59 [INFO] preprocess - Loading UNSW-NB15: train=C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-29\test_load_unsw_mock0\train.csv, test=C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-29\test_load_unsw_mock0\test.csv
+2026-10-04 13:06:59 [INFO] preprocess - Raw UNSW-NB15 shapes: Train=(4, 8), Test=(2, 8)
+2026-10-04 13:06:59 [INFO] preprocess - UNSW-NB15 after deduplication: Train=(4, 9) (0 dropped), Test=(2, 9) (0 dropped)
+2026-10-04 13:06:59 [INFO] preprocess - Minority attack classes (< 100 training samples): ['Normal', 'Generic', 'Worms']
+2026-10-04 13:06:59 [INFO] preprocess - Loading 2 CIC-IDS2017 CSV files from: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-29\test_load_cicids_mock0\cicids_csvs
+2026-10-04 13:06:59 [INFO] preprocess - Raw merged CIC-IDS2017 shape: (7, 4)
+2026-10-04 13:06:59 [INFO] preprocess - Cleaned CIC-IDS2017: 1 NaN rows dropped, 0 duplicates dropped. Remaining: 6
+2026-10-04 13:06:59 [INFO] preprocess - Grouping 1 rare class(es) (< 2 samples) into 'Other_Rare': ['Heartbleed']
+2026-10-04 13:06:59 [INFO] preprocess - CIC-IDS2017 splits: Train=(3, 6), Test=(3, 6) across 3 classes
+2026-10-04 13:06:59 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 13:06:59 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 2 numeric features
+2026-10-04 13:06:59 [INFO] preprocess - Fitted preprocessing artifacts saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-29\test_all_numeric_dataset0\models
+2026-10-04 13:06:59 [INFO] preprocess - build_dataset complete. Shapes: X_train=(40, 2), X_val=(10, 2), X_test=(20, 2), Total Features=2
+2026-10-04 13:07:12 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 13:07:12 [INFO] preprocess - Raw KDDTrain+ shape: (3, 43)
+2026-10-04 13:07:12 [INFO] preprocess - Raw KDDTest+ shape: (3, 43)
+2026-10-04 13:07:12 [INFO] preprocess - Dropped 1 duplicate row(s) from train. Shape: (2, 42)
+2026-10-04 13:07:12 [INFO] preprocess - Dropped 1 duplicate row(s) from test. Shape: (2, 42)
+2026-10-04 13:07:12 [INFO] preprocess - === NSL-KDD Class Distribution Summary ===
+2026-10-04 13:07:12 [INFO] preprocess - Category: Normal   | Train:      2 (33.33%) | Test:     1 (20.00%)
+2026-10-04 13:07:12 [INFO] preprocess - Category: DoS      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 13:07:12 [INFO] preprocess - Category: Probe    | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 13:07:12 [INFO] preprocess - Category: R2L      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 13:07:12 [INFO] preprocess - Category: U2R      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 13:07:12 [INFO] preprocess - Total Samples | Train: 6 | Test: 5
+2026-10-04 13:07:12 [INFO] preprocess - Class distribution saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-29\test_log_and_save_class_distri0\tables\class_distribution_nslkdd.csv
+2026-10-04 13:07:12 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'label'...
+2026-10-04 13:07:12 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 13:07:12 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 13:07:12 [INFO] preprocess - Fitted preprocessing artifacts saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-29\test_build_dataset_no_leakage0\models
+2026-10-04 13:07:12 [INFO] preprocess - build_dataset complete. Shapes: X_train=(16, 41), X_val=(4, 41), X_test=(10, 41), Total Features=41
+2026-10-04 13:07:12 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'label'...
+2026-10-04 13:07:12 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 13:07:12 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 13:07:12 [INFO] preprocess - Fitted preprocessing artifacts saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-29\test_build_dataset_shapes_and_0\models
+2026-10-04 13:07:12 [INFO] preprocess - build_dataset complete. Shapes: X_train=(40, 44), X_val=(10, 44), X_test=(50, 44), Total Features=44
+2026-10-04 13:07:12 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 13:07:12 [INFO] preprocess - Raw KDDTrain+ shape: (125973, 43)
+2026-10-04 13:07:12 [INFO] preprocess - Raw KDDTest+ shape: (22544, 43)
+2026-10-04 13:07:12 [INFO] preprocess - Dropped 0 duplicate row(s) from train. Shape: (125973, 42)
+2026-10-04 13:07:12 [INFO] preprocess - Dropped 0 duplicate row(s) from test. Shape: (22544, 42)
+2026-10-04 13:07:12 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 13:07:13 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 13:07:13 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 13:07:13 [INFO] preprocess - Fitted preprocessing artifacts saved to: results\models
+2026-10-04 13:07:13 [INFO] preprocess - build_dataset complete. Shapes: X_train=(100778, 122), X_val=(25195, 122), X_test=(22544, 122), Total Features=122
+2026-10-04 13:23:26 [INFO] preprocess - Loading UNSW-NB15: train=C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-36\test_load_unsw_mock0\train.csv, test=C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-36\test_load_unsw_mock0\test.csv
+2026-10-04 13:23:26 [INFO] preprocess - Raw UNSW-NB15 shapes: Train=(4, 8), Test=(2, 8)
+2026-10-04 13:23:26 [INFO] preprocess - UNSW-NB15 after deduplication: Train=(4, 9) (0 dropped), Test=(2, 9) (0 dropped)
+2026-10-04 13:23:26 [INFO] preprocess - Minority attack classes (< 100 training samples): ['Normal', 'Generic', 'Worms']
+2026-10-04 13:23:26 [INFO] preprocess - Loading 2 CIC-IDS2017 CSV files from: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-36\test_load_cicids_mock0\cicids_csvs
+2026-10-04 13:23:26 [INFO] preprocess - Raw merged CIC-IDS2017 shape: (7, 4)
+2026-10-04 13:23:26 [INFO] preprocess - Cleaned CIC-IDS2017: 1 NaN rows dropped, 0 duplicates dropped. Remaining: 6
+2026-10-04 13:23:26 [INFO] preprocess - Grouping 1 rare class(es) (< 2 samples) into 'Other_Rare': ['Heartbleed']
+2026-10-04 13:23:26 [INFO] preprocess - CIC-IDS2017 splits: Train=(3, 6), Test=(3, 6) across 3 classes
+2026-10-04 13:23:26 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 13:23:26 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 2 numeric features
+2026-10-04 13:23:26 [INFO] preprocess - Fitted preprocessing artifacts saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-36\test_all_numeric_dataset0\models
+2026-10-04 13:23:26 [INFO] preprocess - build_dataset complete. Shapes: X_train=(40, 2), X_val=(10, 2), X_test=(20, 2), Total Features=2
+2026-10-04 13:23:38 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 13:23:38 [INFO] preprocess - Raw KDDTrain+ shape: (3, 43)
+2026-10-04 13:23:38 [INFO] preprocess - Raw KDDTest+ shape: (3, 43)
+2026-10-04 13:23:38 [INFO] preprocess - Dropped 1 duplicate row(s) from train. Shape: (2, 42)
+2026-10-04 13:23:38 [INFO] preprocess - Dropped 1 duplicate row(s) from test. Shape: (2, 42)
+2026-10-04 13:23:38 [INFO] preprocess - === NSL-KDD Class Distribution Summary ===
+2026-10-04 13:23:38 [INFO] preprocess - Category: Normal   | Train:      2 (33.33%) | Test:     1 (20.00%)
+2026-10-04 13:23:38 [INFO] preprocess - Category: DoS      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 13:23:38 [INFO] preprocess - Category: Probe    | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 13:23:38 [INFO] preprocess - Category: R2L      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 13:23:38 [INFO] preprocess - Category: U2R      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 13:23:38 [INFO] preprocess - Total Samples | Train: 6 | Test: 5
+2026-10-04 13:23:38 [INFO] preprocess - Class distribution saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-36\test_log_and_save_class_distri0\tables\class_distribution_nslkdd.csv
+2026-10-04 13:23:38 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'label'...
+2026-10-04 13:23:38 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 13:23:38 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 13:23:38 [INFO] preprocess - Fitted preprocessing artifacts saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-36\test_build_dataset_no_leakage0\models
+2026-10-04 13:23:38 [INFO] preprocess - build_dataset complete. Shapes: X_train=(16, 41), X_val=(4, 41), X_test=(10, 41), Total Features=41
+2026-10-04 13:23:38 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'label'...
+2026-10-04 13:23:38 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 13:23:38 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 13:23:38 [INFO] preprocess - Fitted preprocessing artifacts saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-36\test_build_dataset_shapes_and_0\models
+2026-10-04 13:23:38 [INFO] preprocess - build_dataset complete. Shapes: X_train=(40, 44), X_val=(10, 44), X_test=(50, 44), Total Features=44
+2026-10-04 13:23:38 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 13:23:39 [INFO] preprocess - Raw KDDTrain+ shape: (125973, 43)
+2026-10-04 13:23:39 [INFO] preprocess - Raw KDDTest+ shape: (22544, 43)
+2026-10-04 13:23:39 [INFO] preprocess - Dropped 0 duplicate row(s) from train. Shape: (125973, 42)
+2026-10-04 13:23:39 [INFO] preprocess - Dropped 0 duplicate row(s) from test. Shape: (22544, 42)
+2026-10-04 13:23:39 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 13:23:39 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 13:23:39 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 13:23:39 [INFO] preprocess - Fitted preprocessing artifacts saved to: results\models
+2026-10-04 13:23:39 [INFO] preprocess - build_dataset complete. Shapes: X_train=(100778, 122), X_val=(25195, 122), X_test=(22544, 122), Total Features=122
+2026-10-04 13:26:56 [INFO] preprocess - Loading UNSW-NB15: train=C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-38\test_load_unsw_mock0\train.csv, test=C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-38\test_load_unsw_mock0\test.csv
+2026-10-04 13:26:56 [INFO] preprocess - Raw UNSW-NB15 shapes: Train=(4, 8), Test=(2, 8)
+2026-10-04 13:26:57 [INFO] preprocess - UNSW-NB15 after deduplication: Train=(4, 9) (0 dropped), Test=(2, 9) (0 dropped)
+2026-10-04 13:26:57 [INFO] preprocess - Minority attack classes (< 100 training samples): ['Normal', 'Generic', 'Worms']
+2026-10-04 13:26:57 [INFO] preprocess - Loading 2 CIC-IDS2017 CSV files from: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-38\test_load_cicids_mock0\cicids_csvs
+2026-10-04 13:26:57 [INFO] preprocess - Raw merged CIC-IDS2017 shape: (7, 4)
+2026-10-04 13:26:57 [INFO] preprocess - Cleaned CIC-IDS2017: 1 NaN rows dropped, 0 duplicates dropped. Remaining: 6
+2026-10-04 13:26:57 [INFO] preprocess - Grouping 1 rare class(es) (< 2 samples) into 'Other_Rare': ['Heartbleed']
+2026-10-04 13:26:57 [INFO] preprocess - CIC-IDS2017 splits: Train=(3, 6), Test=(3, 6) across 3 classes
+2026-10-04 13:26:57 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 13:26:57 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 2 numeric features
+2026-10-04 13:26:57 [INFO] preprocess - Fitted preprocessing artifacts saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-38\test_all_numeric_dataset0\models
+2026-10-04 13:26:57 [INFO] preprocess - build_dataset complete. Shapes: X_train=(40, 2), X_val=(10, 2), X_test=(20, 2), Total Features=2
+2026-10-04 13:27:12 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 13:27:12 [INFO] preprocess - Raw KDDTrain+ shape: (3, 43)
+2026-10-04 13:27:12 [INFO] preprocess - Raw KDDTest+ shape: (3, 43)
+2026-10-04 13:27:12 [INFO] preprocess - Dropped 1 duplicate row(s) from train. Shape: (2, 42)
+2026-10-04 13:27:12 [INFO] preprocess - Dropped 1 duplicate row(s) from test. Shape: (2, 42)
+2026-10-04 13:27:12 [INFO] preprocess - === NSL-KDD Class Distribution Summary ===
+2026-10-04 13:27:12 [INFO] preprocess - Category: Normal   | Train:      2 (33.33%) | Test:     1 (20.00%)
+2026-10-04 13:27:12 [INFO] preprocess - Category: DoS      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 13:27:12 [INFO] preprocess - Category: Probe    | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 13:27:12 [INFO] preprocess - Category: R2L      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 13:27:12 [INFO] preprocess - Category: U2R      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-04 13:27:12 [INFO] preprocess - Total Samples | Train: 6 | Test: 5
+2026-10-04 13:27:12 [INFO] preprocess - Class distribution saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-38\test_log_and_save_class_distri0\tables\class_distribution_nslkdd.csv
+2026-10-04 13:27:12 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'label'...
+2026-10-04 13:27:12 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 13:27:12 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 13:27:12 [INFO] preprocess - Fitted preprocessing artifacts saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-38\test_build_dataset_no_leakage0\models
+2026-10-04 13:27:12 [INFO] preprocess - build_dataset complete. Shapes: X_train=(16, 41), X_val=(4, 41), X_test=(10, 41), Total Features=41
+2026-10-04 13:27:12 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'label'...
+2026-10-04 13:27:12 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 13:27:12 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 13:27:12 [INFO] preprocess - Fitted preprocessing artifacts saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-38\test_build_dataset_shapes_and_0\models
+2026-10-04 13:27:12 [INFO] preprocess - build_dataset complete. Shapes: X_train=(40, 44), X_val=(10, 44), X_test=(50, 44), Total Features=44
+2026-10-04 13:27:12 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 13:27:13 [INFO] preprocess - Raw KDDTrain+ shape: (125973, 43)
+2026-10-04 13:27:13 [INFO] preprocess - Raw KDDTest+ shape: (22544, 43)
+2026-10-04 13:27:13 [INFO] preprocess - Dropped 0 duplicate row(s) from train. Shape: (125973, 42)
+2026-10-04 13:27:13 [INFO] preprocess - Dropped 0 duplicate row(s) from test. Shape: (22544, 42)
+2026-10-04 13:27:13 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-04 13:27:13 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 13:27:13 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 13:27:13 [INFO] preprocess - Fitted preprocessing artifacts saved to: results\models
+2026-10-04 13:27:13 [INFO] preprocess - build_dataset complete. Shapes: X_train=(100778, 122), X_val=(25195, 122), X_test=(22544, 122), Total Features=122
+2026-10-04 13:28:45 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 13:28:45 [INFO] preprocess - Raw KDDTrain+ shape: (125973, 43)
+2026-10-04 13:28:45 [INFO] preprocess - Raw KDDTest+ shape: (22544, 43)
+2026-10-04 13:28:45 [INFO] preprocess - Dropped 0 duplicate row(s) from train. Shape: (125973, 42)
+2026-10-04 13:28:45 [INFO] preprocess - Dropped 0 duplicate row(s) from test. Shape: (22544, 42)
+2026-10-04 13:28:46 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=0, stratified on 'category'...
+2026-10-04 13:28:46 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 13:28:46 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 13:28:46 [INFO] preprocess - Fitted preprocessing artifacts saved to: results\models
+2026-10-04 13:28:46 [INFO] preprocess - build_dataset complete. Shapes: X_train=(100778, 122), X_val=(25195, 122), X_test=(22544, 122), Total Features=122
+2026-10-04 13:31:36 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 13:31:36 [INFO] preprocess - Raw KDDTrain+ shape: (125973, 43)
+2026-10-04 13:31:36 [INFO] preprocess - Raw KDDTest+ shape: (22544, 43)
+2026-10-04 13:31:36 [INFO] preprocess - Dropped 0 duplicate row(s) from train. Shape: (125973, 42)
+2026-10-04 13:31:36 [INFO] preprocess - Dropped 0 duplicate row(s) from test. Shape: (22544, 42)
+2026-10-04 13:31:37 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=0, stratified on 'category'...
+2026-10-04 13:31:37 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 13:31:37 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 13:31:37 [INFO] preprocess - Fitted preprocessing artifacts saved to: results\models
+2026-10-04 13:31:37 [INFO] preprocess - build_dataset complete. Shapes: X_train=(100778, 122), X_val=(25195, 122), X_test=(22544, 122), Total Features=122
+2026-10-04 13:33:21 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-04 13:33:21 [INFO] preprocess - Raw KDDTrain+ shape: (125973, 43)
+2026-10-04 13:33:21 [INFO] preprocess - Raw KDDTest+ shape: (22544, 43)
+2026-10-04 13:33:22 [INFO] preprocess - Dropped 0 duplicate row(s) from train. Shape: (125973, 42)
+2026-10-04 13:33:22 [INFO] preprocess - Dropped 0 duplicate row(s) from test. Shape: (22544, 42)
+2026-10-04 13:33:23 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=0, stratified on 'category'...
+2026-10-04 13:33:23 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-04 13:33:23 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-04 13:33:23 [INFO] preprocess - Fitted preprocessing artifacts saved to: results\models
+2026-10-04 13:33:23 [INFO] preprocess - build_dataset complete. Shapes: X_train=(100778, 122), X_val=(25195, 122), X_test=(22544, 122), Total Features=122
+2026-10-29 15:06:20 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-29 15:06:21 [INFO] preprocess - Raw KDDTrain+ shape: (125973, 43)
+2026-10-29 15:06:21 [INFO] preprocess - Raw KDDTest+ shape: (22544, 43)
+2026-10-29 15:06:21 [INFO] preprocess - Dropped 0 duplicate row(s) from train. Shape: (125973, 42)
+2026-10-29 15:06:21 [INFO] preprocess - Dropped 0 duplicate row(s) from test. Shape: (22544, 42)
+2026-10-29 15:06:21 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-29 15:06:22 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-29 15:06:22 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-29 15:06:22 [INFO] preprocess - Fitted preprocessing artifacts saved to: results\models
+2026-10-29 15:06:22 [INFO] preprocess - build_dataset complete. Shapes: X_train=(100778, 122), X_val=(25195, 122), X_test=(22544, 122), Total Features=122
+2026-10-29 15:18:21 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-29 15:18:22 [INFO] preprocess - Raw KDDTrain+ shape: (125973, 43)
+2026-10-29 15:18:22 [INFO] preprocess - Raw KDDTest+ shape: (22544, 43)
+2026-10-29 15:18:22 [INFO] preprocess - Dropped 0 duplicate row(s) from train. Shape: (125973, 42)
+2026-10-29 15:18:22 [INFO] preprocess - Dropped 0 duplicate row(s) from test. Shape: (22544, 42)
+2026-10-29 15:18:22 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-29 15:18:23 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-29 15:18:23 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-29 15:18:23 [INFO] preprocess - Fitted preprocessing artifacts saved to: results\models
+2026-10-29 15:18:23 [INFO] preprocess - build_dataset complete. Shapes: X_train=(100778, 122), X_val=(25195, 122), X_test=(22544, 122), Total Features=122
+2026-10-29 15:19:17 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-29 15:19:17 [INFO] preprocess - Raw KDDTrain+ shape: (125973, 43)
+2026-10-29 15:19:17 [INFO] preprocess - Raw KDDTest+ shape: (22544, 43)
+2026-10-29 15:19:18 [INFO] preprocess - Dropped 0 duplicate row(s) from train. Shape: (125973, 42)
+2026-10-29 15:19:18 [INFO] preprocess - Dropped 0 duplicate row(s) from test. Shape: (22544, 42)
+2026-10-29 15:19:18 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-29 15:19:18 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-29 15:19:18 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-29 15:19:18 [INFO] preprocess - Fitted preprocessing artifacts saved to: results\models
+2026-10-29 15:19:18 [INFO] preprocess - build_dataset complete. Shapes: X_train=(100778, 122), X_val=(25195, 122), X_test=(22544, 122), Total Features=122
+2026-10-29 15:20:15 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-29 15:20:16 [INFO] preprocess - Raw KDDTrain+ shape: (125973, 43)
+2026-10-29 15:20:16 [INFO] preprocess - Raw KDDTest+ shape: (22544, 43)
+2026-10-29 15:20:17 [INFO] preprocess - Dropped 0 duplicate row(s) from train. Shape: (125973, 42)
+2026-10-29 15:20:17 [INFO] preprocess - Dropped 0 duplicate row(s) from test. Shape: (22544, 42)
+2026-10-29 15:20:18 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-29 15:20:18 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-29 15:20:19 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-29 15:20:19 [INFO] preprocess - Fitted preprocessing artifacts saved to: results\models
+2026-10-29 15:20:19 [INFO] preprocess - build_dataset complete. Shapes: X_train=(100778, 122), X_val=(25195, 122), X_test=(22544, 122), Total Features=122
+2026-10-29 20:45:06 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-29 20:45:06 [INFO] preprocess - Raw KDDTrain+ shape: (125973, 43)
+2026-10-29 20:45:06 [INFO] preprocess - Raw KDDTest+ shape: (22544, 43)
+2026-10-29 20:45:06 [INFO] preprocess - Dropped 0 duplicate row(s) from train. Shape: (125973, 42)
+2026-10-29 20:45:06 [INFO] preprocess - Dropped 0 duplicate row(s) from test. Shape: (22544, 42)
+2026-10-29 20:45:07 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-29 20:45:07 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-29 20:45:07 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-29 20:45:07 [INFO] preprocess - Fitted preprocessing artifacts saved to: results\models
+2026-10-29 20:45:07 [INFO] preprocess - build_dataset complete. Shapes: X_train=(100778, 122), X_val=(25195, 122), X_test=(22544, 122), Total Features=122
+2026-10-29 20:46:36 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-29 20:46:37 [INFO] preprocess - Raw KDDTrain+ shape: (125973, 43)
+2026-10-29 20:46:37 [INFO] preprocess - Raw KDDTest+ shape: (22544, 43)
+2026-10-29 20:46:37 [INFO] preprocess - Dropped 0 duplicate row(s) from train. Shape: (125973, 42)
+2026-10-29 20:46:37 [INFO] preprocess - Dropped 0 duplicate row(s) from test. Shape: (22544, 42)
+2026-10-29 20:46:37 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-29 20:46:37 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-29 20:46:37 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-29 20:46:38 [INFO] preprocess - Fitted preprocessing artifacts saved to: results\models
+2026-10-29 20:46:38 [INFO] preprocess - build_dataset complete. Shapes: X_train=(100778, 122), X_val=(25195, 122), X_test=(22544, 122), Total Features=122
+2026-10-29 20:47:32 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-29 20:47:33 [INFO] preprocess - Raw KDDTrain+ shape: (125973, 43)
+2026-10-29 20:47:33 [INFO] preprocess - Raw KDDTest+ shape: (22544, 43)
+2026-10-29 20:47:33 [INFO] preprocess - Dropped 0 duplicate row(s) from train. Shape: (125973, 42)
+2026-10-29 20:47:33 [INFO] preprocess - Dropped 0 duplicate row(s) from test. Shape: (22544, 42)
+2026-10-29 20:47:33 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-29 20:47:33 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-29 20:47:33 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-29 20:47:33 [INFO] preprocess - Fitted preprocessing artifacts saved to: results\models
+2026-10-29 20:47:33 [INFO] preprocess - build_dataset complete. Shapes: X_train=(100778, 122), X_val=(25195, 122), X_test=(22544, 122), Total Features=122
+2026-10-29 22:04:03 [INFO] preprocess - Loading UNSW-NB15: train=C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-39\test_load_unsw_mock0\train.csv, test=C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-39\test_load_unsw_mock0\test.csv
+2026-10-29 22:04:03 [INFO] preprocess - Raw UNSW-NB15 shapes: Train=(4, 8), Test=(2, 8)
+2026-10-29 22:04:03 [INFO] preprocess - UNSW-NB15 after deduplication: Train=(4, 9) (0 dropped), Test=(2, 9) (0 dropped)
+2026-10-29 22:04:03 [INFO] preprocess - Minority attack classes (< 100 training samples): ['Normal', 'Generic', 'Worms']
+2026-10-29 22:04:03 [INFO] preprocess - Loading 2 CIC-IDS2017 CSV files from: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-39\test_load_cicids_mock0\cicids_csvs
+2026-10-29 22:04:03 [INFO] preprocess - Raw merged CIC-IDS2017 shape: (7, 4)
+2026-10-29 22:04:03 [INFO] preprocess - Cleaned CIC-IDS2017: 1 NaN rows dropped, 0 duplicates dropped. Remaining: 6
+2026-10-29 22:04:03 [INFO] preprocess - Grouping 1 rare class(es) (< 2 samples) into 'Other_Rare': ['Heartbleed']
+2026-10-29 22:04:03 [INFO] preprocess - CIC-IDS2017 splits: Train=(3, 6), Test=(3, 6) across 3 classes
+2026-10-29 22:04:03 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-29 22:04:03 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 2 numeric features
+2026-10-29 22:04:03 [INFO] preprocess - Fitted preprocessing artifacts saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-39\test_all_numeric_dataset0\models
+2026-10-29 22:04:03 [INFO] preprocess - build_dataset complete. Shapes: X_train=(40, 2), X_val=(10, 2), X_test=(20, 2), Total Features=2
+2026-10-29 22:04:19 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-29 22:04:19 [INFO] preprocess - Raw KDDTrain+ shape: (3, 43)
+2026-10-29 22:04:19 [INFO] preprocess - Raw KDDTest+ shape: (3, 43)
+2026-10-29 22:04:19 [INFO] preprocess - Dropped 1 duplicate row(s) from train. Shape: (2, 42)
+2026-10-29 22:04:19 [INFO] preprocess - Dropped 1 duplicate row(s) from test. Shape: (2, 42)
+2026-10-29 22:04:19 [INFO] preprocess - === NSL-KDD Class Distribution Summary ===
+2026-10-29 22:04:19 [INFO] preprocess - Category: Normal   | Train:      2 (33.33%) | Test:     1 (20.00%)
+2026-10-29 22:04:19 [INFO] preprocess - Category: DoS      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-29 22:04:19 [INFO] preprocess - Category: Probe    | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-29 22:04:19 [INFO] preprocess - Category: R2L      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-29 22:04:19 [INFO] preprocess - Category: U2R      | Train:      1 (16.67%) | Test:     1 (20.00%)
+2026-10-29 22:04:19 [INFO] preprocess - Total Samples | Train: 6 | Test: 5
+2026-10-29 22:04:19 [INFO] preprocess - Class distribution saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-39\test_log_and_save_class_distri0\tables\class_distribution_nslkdd.csv
+2026-10-29 22:04:19 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'label'...
+2026-10-29 22:04:19 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-29 22:04:19 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-29 22:04:19 [INFO] preprocess - Fitted preprocessing artifacts saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-39\test_build_dataset_no_leakage0\models
+2026-10-29 22:04:19 [INFO] preprocess - build_dataset complete. Shapes: X_train=(16, 41), X_val=(4, 41), X_test=(10, 41), Total Features=41
+2026-10-29 22:04:19 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'label'...
+2026-10-29 22:04:19 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-29 22:04:19 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-29 22:04:19 [INFO] preprocess - Fitted preprocessing artifacts saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-39\test_build_dataset_shapes_and_0\models
+2026-10-29 22:04:19 [INFO] preprocess - build_dataset complete. Shapes: X_train=(40, 44), X_val=(10, 44), X_test=(50, 44), Total Features=44
+2026-10-29 22:04:19 [INFO] preprocess - Loading raw NSL-KDD datasets...
+2026-10-29 22:04:19 [INFO] preprocess - Raw KDDTrain+ shape: (125973, 43)
+2026-10-29 22:04:19 [INFO] preprocess - Raw KDDTest+ shape: (22544, 43)
+2026-10-29 22:04:19 [INFO] preprocess - Dropped 0 duplicate row(s) from train. Shape: (125973, 42)
+2026-10-29 22:04:19 [INFO] preprocess - Dropped 0 duplicate row(s) from test. Shape: (22544, 42)
+2026-10-29 22:04:20 [INFO] preprocess - Splitting training data: validation_size=0.2, seed=42, stratified on 'category'...
+2026-10-29 22:04:20 [INFO] preprocess - Fitting OneHotEncoder on train split for categorical features: ['protocol_type', 'service', 'flag']
+2026-10-29 22:04:20 [INFO] preprocess - Fitting MinMaxScaler[-1, 1] on train split for 38 numeric features
+2026-10-29 22:04:20 [INFO] preprocess - Fitted preprocessing artifacts saved to: results\models
+2026-10-29 22:04:20 [INFO] preprocess - build_dataset complete. Shapes: X_train=(100778, 122), X_val=(25195, 122), X_test=(22544, 122), Total Features=122

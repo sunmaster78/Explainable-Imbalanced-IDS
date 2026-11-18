@@ -1,0 +1,88 @@
+2026-10-04 12:46:53 [INFO] stats_tests - Saved summary (mean ± std) table to test_summary.csv
+2026-10-04 12:46:53 [INFO] stats_tests - Saved significance table to test_significance.csv
+2026-10-04 12:46:53 [WARNING] stats_tests - Wilcoxon signed-rank test for 'B1' has only 3 paired seed(s). Statistical warning: At least 6 paired observations are required to reach significance at p < 0.05.
+2026-10-04 12:46:53 [WARNING] stats_tests - Wilcoxon signed-rank test for 'B6' has only 3 paired seed(s). Statistical warning: At least 6 paired observations are required to reach significance at p < 0.05.
+2026-10-04 12:46:53 [INFO] stats_tests - Saved efficiency table to test_efficiency.csv
+2026-10-04 12:46:53 [INFO] stats_tests - Saved summary (mean ± std) table to summary_mean_std.csv
+2026-10-04 12:46:53 [INFO] stats_tests - Saved significance table to significance.csv
+2026-10-04 12:46:53 [INFO] stats_tests - Saved efficiency table to efficiency.csv
+2026-10-04 12:46:53 [INFO] stats_tests - Generated LaTeX performance table at: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-21\test_to_latex_tables0\tables\latex\table_performance_summary.tex
+2026-10-04 12:46:53 [INFO] stats_tests - Generated LaTeX significance table at: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-21\test_to_latex_tables0\tables\latex\table_statistical_significance.tex
+2026-10-04 12:46:53 [INFO] stats_tests - Generated LaTeX efficiency table at: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-21\test_to_latex_tables0\tables\latex\table_computational_efficiency.tex
+2026-10-04 12:47:21 [INFO] stats_tests - Saved summary (mean ± std) table to test_summary.csv
+2026-10-04 12:47:21 [INFO] stats_tests - Saved significance table to test_significance.csv
+2026-10-04 12:47:21 [WARNING] stats_tests - Wilcoxon signed-rank test for 'B1' has only 3 paired seed(s). Statistical warning: At least 6 paired observations are required to reach significance at p < 0.05.
+2026-10-04 12:47:21 [WARNING] stats_tests - Wilcoxon signed-rank test for 'B6' has only 3 paired seed(s). Statistical warning: At least 6 paired observations are required to reach significance at p < 0.05.
+2026-10-04 12:47:21 [INFO] stats_tests - Saved efficiency table to test_efficiency.csv
+2026-10-04 12:47:21 [INFO] stats_tests - Saved summary (mean ± std) table to summary_mean_std.csv
+2026-10-04 12:47:21 [INFO] stats_tests - Saved significance table to significance.csv
+2026-10-04 12:47:21 [INFO] stats_tests - Saved efficiency table to efficiency.csv
+2026-10-04 12:47:21 [INFO] stats_tests - Generated LaTeX performance table at: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-22\test_to_latex_tables0\tables\latex\table_performance_summary.tex
+2026-10-04 12:47:21 [INFO] stats_tests - Generated LaTeX significance table at: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-22\test_to_latex_tables0\tables\latex\table_statistical_significance.tex
+2026-10-04 12:47:21 [INFO] stats_tests - Generated LaTeX efficiency table at: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-22\test_to_latex_tables0\tables\latex\table_computational_efficiency.tex
+2026-10-04 13:01:22 [INFO] stats_tests - Saved summary (mean ± std) table to test_summary.csv
+2026-10-04 13:01:22 [INFO] stats_tests - Saved significance table to test_significance.csv
+2026-10-04 13:01:22 [WARNING] stats_tests - Wilcoxon signed-rank test for 'B1' has only 3 paired seed(s). Statistical warning: At least 6 paired observations are required to reach significance at p < 0.05.
+2026-10-04 13:01:22 [WARNING] stats_tests - Wilcoxon signed-rank test for 'B6' has only 3 paired seed(s). Statistical warning: At least 6 paired observations are required to reach significance at p < 0.05.
+2026-10-04 13:01:22 [INFO] stats_tests - Saved efficiency table to test_efficiency.csv
+2026-10-04 13:01:22 [INFO] stats_tests - Saved summary (mean ± std) table to summary_mean_std.csv
+2026-10-04 13:01:22 [INFO] stats_tests - Saved significance table to significance.csv
+2026-10-04 13:01:22 [INFO] stats_tests - Saved efficiency table to efficiency.csv
+2026-10-04 13:01:22 [INFO] stats_tests - Generated LaTeX performance table at: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-25\test_to_latex_tables0\tables\latex\table_performance_summary.tex
+2026-10-04 13:01:22 [INFO] stats_tests - Generated LaTeX significance table at: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-25\test_to_latex_tables0\tables\latex\table_statistical_significance.tex
+2026-10-04 13:01:22 [INFO] stats_tests - Generated LaTeX efficiency table at: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-25\test_to_latex_tables0\tables\latex\table_computational_efficiency.tex
+2026-10-04 13:02:47 [INFO] stats_tests - Saved summary (mean ± std) table to test_summary.csv
+2026-10-04 13:02:47 [INFO] stats_tests - Saved significance table to test_significance.csv
+2026-10-04 13:02:47 [WARNING] stats_tests - Wilcoxon signed-rank test for 'B1' has only 3 paired seed(s). Statistical warning: At least 6 paired observations are required to reach significance at p < 0.05.
+2026-10-04 13:02:47 [WARNING] stats_tests - Wilcoxon signed-rank test for 'B6' has only 3 paired seed(s). Statistical warning: At least 6 paired observations are required to reach significance at p < 0.05.
+2026-10-04 13:02:47 [INFO] stats_tests - Saved efficiency table to test_efficiency.csv
+2026-10-04 13:02:47 [INFO] stats_tests - Saved summary (mean ± std) table to summary_mean_std.csv
+2026-10-04 13:02:47 [INFO] stats_tests - Saved significance table to significance.csv
+2026-10-04 13:02:47 [INFO] stats_tests - Saved efficiency table to efficiency.csv
+2026-10-04 13:02:47 [INFO] stats_tests - Generated LaTeX performance table at: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-26\test_to_latex_tables0\tables\latex\table_performance_summary.tex
+2026-10-04 13:02:47 [INFO] stats_tests - Generated LaTeX significance table at: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-26\test_to_latex_tables0\tables\latex\table_statistical_significance.tex
+2026-10-04 13:02:47 [INFO] stats_tests - Generated LaTeX efficiency table at: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-26\test_to_latex_tables0\tables\latex\table_computational_efficiency.tex
+2026-10-04 13:07:13 [INFO] stats_tests - Saved summary (mean ± std) table to test_summary.csv
+2026-10-04 13:07:13 [INFO] stats_tests - Saved significance table to test_significance.csv
+2026-10-04 13:07:13 [WARNING] stats_tests - Wilcoxon signed-rank test for 'B1' has only 3 paired seed(s). Statistical warning: At least 6 paired observations are required to reach significance at p < 0.05.
+2026-10-04 13:07:13 [WARNING] stats_tests - Wilcoxon signed-rank test for 'B6' has only 3 paired seed(s). Statistical warning: At least 6 paired observations are required to reach significance at p < 0.05.
+2026-10-04 13:07:13 [INFO] stats_tests - Saved efficiency table to test_efficiency.csv
+2026-10-04 13:07:13 [INFO] stats_tests - Saved summary (mean ± std) table to summary_mean_std.csv
+2026-10-04 13:07:13 [INFO] stats_tests - Saved significance table to significance.csv
+2026-10-04 13:07:13 [INFO] stats_tests - Saved efficiency table to efficiency.csv
+2026-10-04 13:07:13 [INFO] stats_tests - Generated LaTeX performance table at: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-29\test_to_latex_tables0\tables\latex\table_performance_summary.tex
+2026-10-04 13:07:13 [INFO] stats_tests - Generated LaTeX significance table at: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-29\test_to_latex_tables0\tables\latex\table_statistical_significance.tex
+2026-10-04 13:07:13 [INFO] stats_tests - Generated LaTeX efficiency table at: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-29\test_to_latex_tables0\tables\latex\table_computational_efficiency.tex
+2026-10-04 13:23:45 [INFO] stats_tests - Saved summary (mean ± std) table to test_summary.csv
+2026-10-04 13:23:45 [INFO] stats_tests - Saved significance table to test_significance.csv
+2026-10-04 13:23:45 [WARNING] stats_tests - Wilcoxon signed-rank test for 'B1' has only 3 paired seed(s). Statistical warning: At least 6 paired observations are required to reach significance at p < 0.05.
+2026-10-04 13:23:45 [WARNING] stats_tests - Wilcoxon signed-rank test for 'B6' has only 3 paired seed(s). Statistical warning: At least 6 paired observations are required to reach significance at p < 0.05.
+2026-10-04 13:23:45 [INFO] stats_tests - Saved efficiency table to test_efficiency.csv
+2026-10-04 13:23:45 [INFO] stats_tests - Saved summary (mean ± std) table to summary_mean_std.csv
+2026-10-04 13:23:45 [INFO] stats_tests - Saved significance table to significance.csv
+2026-10-04 13:23:45 [INFO] stats_tests - Saved efficiency table to efficiency.csv
+2026-10-04 13:23:45 [INFO] stats_tests - Generated LaTeX performance table at: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-36\test_to_latex_tables0\tables\latex\table_performance_summary.tex
+2026-10-04 13:23:45 [INFO] stats_tests - Generated LaTeX significance table at: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-36\test_to_latex_tables0\tables\latex\table_statistical_significance.tex
+2026-10-04 13:23:45 [INFO] stats_tests - Generated LaTeX efficiency table at: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-36\test_to_latex_tables0\tables\latex\table_computational_efficiency.tex
+2026-10-04 13:27:19 [INFO] stats_tests - Saved summary (mean ± std) table to test_summary.csv
+2026-10-04 13:27:19 [INFO] stats_tests - Saved significance table to test_significance.csv
+2026-10-04 13:27:19 [WARNING] stats_tests - Wilcoxon signed-rank test for 'B1' has only 3 paired seed(s). Statistical warning: At least 6 paired observations are required to reach significance at p < 0.05.
+2026-10-04 13:27:19 [WARNING] stats_tests - Wilcoxon signed-rank test for 'B6' has only 3 paired seed(s). Statistical warning: At least 6 paired observations are required to reach significance at p < 0.05.
+2026-10-04 13:27:19 [INFO] stats_tests - Saved efficiency table to test_efficiency.csv
+2026-10-04 13:27:19 [INFO] stats_tests - Saved summary (mean ± std) table to summary_mean_std.csv
+2026-10-04 13:27:19 [INFO] stats_tests - Saved significance table to significance.csv
+2026-10-04 13:27:19 [INFO] stats_tests - Saved efficiency table to efficiency.csv
+2026-10-04 13:27:19 [INFO] stats_tests - Generated LaTeX performance table at: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-38\test_to_latex_tables0\tables\latex\table_performance_summary.tex
+2026-10-04 13:27:19 [INFO] stats_tests - Generated LaTeX significance table at: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-38\test_to_latex_tables0\tables\latex\table_statistical_significance.tex
+2026-10-04 13:27:19 [INFO] stats_tests - Generated LaTeX efficiency table at: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-38\test_to_latex_tables0\tables\latex\table_computational_efficiency.tex
+2026-10-29 22:04:26 [INFO] stats_tests - Saved summary (mean ± std) table to test_summary.csv
+2026-10-29 22:04:26 [INFO] stats_tests - Saved significance table to test_significance.csv
+2026-10-29 22:04:26 [WARNING] stats_tests - Wilcoxon signed-rank test for 'B1' has only 3 paired seed(s). Statistical warning: At least 6 paired observations are required to reach significance at p < 0.05.
+2026-10-29 22:04:26 [WARNING] stats_tests - Wilcoxon signed-rank test for 'B6' has only 3 paired seed(s). Statistical warning: At least 6 paired observations are required to reach significance at p < 0.05.
+2026-10-29 22:04:26 [INFO] stats_tests - Saved efficiency table to test_efficiency.csv
+2026-10-29 22:04:26 [INFO] stats_tests - Saved summary (mean ± std) table to summary_mean_std.csv
+2026-10-29 22:04:26 [INFO] stats_tests - Saved significance table to significance.csv
+2026-10-29 22:04:26 [INFO] stats_tests - Saved efficiency table to efficiency.csv
+2026-10-29 22:04:26 [INFO] stats_tests - Generated LaTeX performance table at: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-39\test_to_latex_tables0\tables\latex\table_performance_summary.tex
+2026-10-29 22:04:26 [INFO] stats_tests - Generated LaTeX significance table at: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-39\test_to_latex_tables0\tables\latex\table_statistical_significance.tex
+2026-10-29 22:04:26 [INFO] stats_tests - Generated LaTeX efficiency table at: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-39\test_to_latex_tables0\tables\latex\table_computational_efficiency.tex

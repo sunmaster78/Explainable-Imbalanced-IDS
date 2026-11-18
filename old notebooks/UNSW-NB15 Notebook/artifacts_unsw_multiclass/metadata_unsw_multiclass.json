@@ -1,0 +1,44 @@
+{
+  "final_model": "XGBoost (tuned)",
+  "classes": [
+    "Analysis",
+    "Backdoor",
+    "DoS",
+    "Exploits",
+    "Fuzzers",
+    "Generic",
+    "Normal",
+    "Reconnaissance",
+    "Shellcode",
+    "Worms"
+  ],
+  "n_features_raw": 34,
+  "n_features_encoded": 186,
+  "n_features_selected": 176,
+  "validation_metrics": {
+    "accuracy": 0.8087270849470695,
+    "precision_macro": 0.5644243700528322,
+    "recall_macro": 0.6155515791462799,
+    "f1_macro": 0.5553543174242497,
+    "f1_weighted": 0.8168362724631744,
+    "roc_auc_ovr": 0.9708441092645004,
+    "pr_auc_macro": 0.5939803529018906,
+    "minority_f1": 0.38310727382925,
+    "macro_fpr": 0.024190768069015448,
+    "normal_false_alarm_rate": 0.09326106963902236,
+    "attack_miss_rate": 0.06718130607135406
+  },
+  "test_metrics": {
+    "accuracy": 0.7303114220473206,
+    "precision_macro": 0.4832189767036815,
+    "recall_macro": 0.6006696297643657,
+    "f1_macro": 0.4657554173850979,
+    "f1_weighted": 0.7641332057002906,
+    "roc_auc_ovr": 0.957974094300196,
+    "pr_auc_macro": 0.5261650671656801,
+    "minority_f1": 0.31846860810142213,
+    "macro_fpr": 0.030079595777979206,
+    "normal_false_alarm_rate": 0.2471891891891892,
+    "attack_miss_rate": 0.03511867996117533
+  }
+}

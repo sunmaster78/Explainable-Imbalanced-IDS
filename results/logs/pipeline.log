@@ -1,0 +1,520 @@
+2026-10-04 12:40:38 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 100 samples (Attacks=50, Normal=50)...
+2026-10-04 12:40:40 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 12:40:40 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 100 samples (Attacks=50, Normal=50)...
+2026-10-04 12:40:41 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 12:40:41 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4200 (target recall=0.8500)
+2026-10-04 12:40:41 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 50 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 12:40:42 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 12:40:42 [INFO] pipeline - Applying Conditional WGAN-GP oversampling to Stage 2 training data...
+2026-10-04 12:40:42 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 60 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 12:40:43 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 12:40:43 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 100 samples (Attacks=50, Normal=50)...
+2026-10-04 12:40:45 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 12:40:45 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4200 (target recall=0.8500)
+2026-10-04 12:40:45 [INFO] pipeline - Applying Conditional WGAN-GP oversampling to Stage 2 training data...
+2026-10-04 12:40:45 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 60 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 12:40:46 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 12:40:46 [INFO] pipeline - === Stage 1 Attack Leak-Through / Loss Audit ===
+2026-10-04 12:40:46 [INFO] pipeline -   Class 'DoS': Total=24, Routed to S2=20, Lost in S1 (FN)=4 (16.67%)
+2026-10-04 12:40:46 [INFO] pipeline -   Class 'Probe': Total=12, Routed to S2=11, Lost in S1 (FN)=1 (8.33%)
+2026-10-04 12:40:46 [INFO] pipeline -   Class 'U2R': Total=4, Routed to S2=4, Lost in S1 (FN)=0 (0.00%)
+2026-10-04 12:40:46 [INFO] pipeline - AUDIT U2R: 0 of 4 samples lost in Stage 1 (0.0%).
+2026-10-04 12:41:10 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 100 samples (Attacks=50, Normal=50)...
+2026-10-04 12:41:10 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 12:41:10 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 100 samples (Attacks=50, Normal=50)...
+2026-10-04 12:41:10 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 12:41:10 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4200 (target recall=0.8500)
+2026-10-04 12:41:10 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 50 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 12:41:10 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 12:41:10 [INFO] pipeline - Applying Conditional WGAN-GP oversampling to Stage 2 training data...
+2026-10-04 12:41:10 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 60 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 12:41:11 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 12:41:11 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 100 samples (Attacks=50, Normal=50)...
+2026-10-04 12:41:11 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 12:41:11 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4200 (target recall=0.8500)
+2026-10-04 12:41:11 [INFO] pipeline - Applying Conditional WGAN-GP oversampling to Stage 2 training data...
+2026-10-04 12:41:11 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 60 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 12:41:11 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 12:41:11 [INFO] pipeline - === Stage 1 Attack Leak-Through / Loss Audit ===
+2026-10-04 12:41:11 [INFO] pipeline -   Class 'DoS': Total=24, Routed to S2=20, Lost in S1 (FN)=4 (16.67%)
+2026-10-04 12:41:11 [INFO] pipeline -   Class 'Probe': Total=12, Routed to S2=11, Lost in S1 (FN)=1 (8.33%)
+2026-10-04 12:41:11 [INFO] pipeline -   Class 'U2R': Total=4, Routed to S2=4, Lost in S1 (FN)=0 (0.00%)
+2026-10-04 12:41:11 [INFO] pipeline - AUDIT U2R: 0 of 4 samples lost in Stage 1 (0.0%).
+2026-10-04 12:42:12 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 80 samples (Attacks=40, Normal=40)...
+2026-10-04 12:42:13 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 12:42:13 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4400 (target recall=0.8500)
+2026-10-04 12:42:13 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 40 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 12:42:14 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 12:42:14 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 80 samples (Attacks=40, Normal=40)...
+2026-10-04 12:42:15 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 12:42:15 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4400 (target recall=0.8500)
+2026-10-04 12:42:15 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 48 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 12:42:16 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 12:42:16 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 80 samples (Attacks=40, Normal=40)...
+2026-10-04 12:42:16 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 12:42:16 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4400 (target recall=0.8500)
+2026-10-04 12:42:16 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 48 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 12:42:16 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 12:45:16 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 40 samples (Attacks=20, Normal=20)...
+2026-10-04 12:45:17 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 12:45:17 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4900 (target recall=0.8000)
+2026-10-04 12:45:18 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 20 samples across 2 attack classes: [np.str_('DoS'), np.str_('Probe')]
+2026-10-04 12:45:19 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 12:47:11 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 80 samples (Attacks=40, Normal=40)...
+2026-10-04 12:47:12 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 12:47:12 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4400 (target recall=0.8500)
+2026-10-04 12:47:12 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 40 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 12:47:13 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 12:47:13 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 80 samples (Attacks=40, Normal=40)...
+2026-10-04 12:47:14 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 12:47:14 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4400 (target recall=0.8500)
+2026-10-04 12:47:14 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 48 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 12:47:14 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 12:47:15 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 80 samples (Attacks=40, Normal=40)...
+2026-10-04 12:47:15 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 12:47:15 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4400 (target recall=0.8500)
+2026-10-04 12:47:15 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 48 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 12:47:15 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 12:47:18 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 100 samples (Attacks=50, Normal=50)...
+2026-10-04 12:47:18 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 12:47:18 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 100 samples (Attacks=50, Normal=50)...
+2026-10-04 12:47:18 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 12:47:18 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4200 (target recall=0.8500)
+2026-10-04 12:47:18 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 50 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 12:47:18 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 12:47:18 [INFO] pipeline - Applying Conditional WGAN-GP oversampling to Stage 2 training data...
+2026-10-04 12:47:18 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 60 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 12:47:18 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 12:47:18 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 100 samples (Attacks=50, Normal=50)...
+2026-10-04 12:47:18 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 12:47:18 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4200 (target recall=0.8500)
+2026-10-04 12:47:19 [INFO] pipeline - Applying Conditional WGAN-GP oversampling to Stage 2 training data...
+2026-10-04 12:47:19 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 60 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 12:47:19 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 12:47:19 [INFO] pipeline - === Stage 1 Attack Leak-Through / Loss Audit ===
+2026-10-04 12:47:19 [INFO] pipeline -   Class 'DoS': Total=24, Routed to S2=20, Lost in S1 (FN)=4 (16.67%)
+2026-10-04 12:47:19 [INFO] pipeline -   Class 'Probe': Total=12, Routed to S2=11, Lost in S1 (FN)=1 (8.33%)
+2026-10-04 12:47:19 [INFO] pipeline -   Class 'U2R': Total=4, Routed to S2=4, Lost in S1 (FN)=0 (0.00%)
+2026-10-04 12:47:19 [INFO] pipeline - AUDIT U2R: 0 of 4 samples lost in Stage 1 (0.0%).
+2026-10-04 12:47:20 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 40 samples (Attacks=20, Normal=20)...
+2026-10-04 12:47:20 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 12:47:20 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4900 (target recall=0.8000)
+2026-10-04 12:47:21 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 20 samples across 2 attack classes: [np.str_('DoS'), np.str_('Probe')]
+2026-10-04 12:47:21 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:01:12 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 80 samples (Attacks=40, Normal=40)...
+2026-10-04 13:01:13 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:01:13 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4400 (target recall=0.8500)
+2026-10-04 13:01:13 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 40 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 13:01:14 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:01:14 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 80 samples (Attacks=40, Normal=40)...
+2026-10-04 13:01:15 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:01:15 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4400 (target recall=0.8500)
+2026-10-04 13:01:16 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 48 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 13:01:16 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:01:16 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 80 samples (Attacks=40, Normal=40)...
+2026-10-04 13:01:16 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:01:16 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4400 (target recall=0.8500)
+2026-10-04 13:01:16 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 48 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 13:01:16 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:01:19 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 100 samples (Attacks=50, Normal=50)...
+2026-10-04 13:01:19 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:01:19 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 100 samples (Attacks=50, Normal=50)...
+2026-10-04 13:01:19 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:01:19 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4200 (target recall=0.8500)
+2026-10-04 13:01:19 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 50 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 13:01:19 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:01:19 [INFO] pipeline - Applying Conditional WGAN-GP oversampling to Stage 2 training data...
+2026-10-04 13:01:19 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 60 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 13:01:19 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:01:19 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 100 samples (Attacks=50, Normal=50)...
+2026-10-04 13:01:20 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:01:20 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4200 (target recall=0.8500)
+2026-10-04 13:01:20 [INFO] pipeline - Applying Conditional WGAN-GP oversampling to Stage 2 training data...
+2026-10-04 13:01:20 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 60 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 13:01:20 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:01:20 [INFO] pipeline - === Stage 1 Attack Leak-Through / Loss Audit ===
+2026-10-04 13:01:20 [INFO] pipeline -   Class 'DoS': Total=24, Routed to S2=20, Lost in S1 (FN)=4 (16.67%)
+2026-10-04 13:01:20 [INFO] pipeline -   Class 'Probe': Total=12, Routed to S2=11, Lost in S1 (FN)=1 (8.33%)
+2026-10-04 13:01:20 [INFO] pipeline -   Class 'U2R': Total=4, Routed to S2=4, Lost in S1 (FN)=0 (0.00%)
+2026-10-04 13:01:20 [INFO] pipeline - AUDIT U2R: 0 of 4 samples lost in Stage 1 (0.0%).
+2026-10-04 13:01:22 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 40 samples (Attacks=20, Normal=20)...
+2026-10-04 13:01:22 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:01:22 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4900 (target recall=0.8000)
+2026-10-04 13:01:22 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 20 samples across 2 attack classes: [np.str_('DoS'), np.str_('Probe')]
+2026-10-04 13:01:22 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:02:38 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 80 samples (Attacks=40, Normal=40)...
+2026-10-04 13:02:38 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:02:39 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4400 (target recall=0.8500)
+2026-10-04 13:02:39 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 40 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 13:02:40 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:02:40 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 80 samples (Attacks=40, Normal=40)...
+2026-10-04 13:02:41 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:02:41 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4400 (target recall=0.8500)
+2026-10-04 13:02:41 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 48 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 13:02:41 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:02:41 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 80 samples (Attacks=40, Normal=40)...
+2026-10-04 13:02:41 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:02:41 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4400 (target recall=0.8500)
+2026-10-04 13:02:42 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 48 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 13:02:42 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:02:44 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 100 samples (Attacks=50, Normal=50)...
+2026-10-04 13:02:44 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:02:44 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 100 samples (Attacks=50, Normal=50)...
+2026-10-04 13:02:44 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:02:44 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4200 (target recall=0.8500)
+2026-10-04 13:02:45 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 50 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 13:02:45 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:02:45 [INFO] pipeline - Applying Conditional WGAN-GP oversampling to Stage 2 training data...
+2026-10-04 13:02:45 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 60 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 13:02:45 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:02:45 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 100 samples (Attacks=50, Normal=50)...
+2026-10-04 13:02:45 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:02:45 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4200 (target recall=0.8500)
+2026-10-04 13:02:45 [INFO] pipeline - Applying Conditional WGAN-GP oversampling to Stage 2 training data...
+2026-10-04 13:02:45 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 60 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 13:02:45 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:02:45 [INFO] pipeline - === Stage 1 Attack Leak-Through / Loss Audit ===
+2026-10-04 13:02:45 [INFO] pipeline -   Class 'DoS': Total=24, Routed to S2=20, Lost in S1 (FN)=4 (16.67%)
+2026-10-04 13:02:45 [INFO] pipeline -   Class 'Probe': Total=12, Routed to S2=11, Lost in S1 (FN)=1 (8.33%)
+2026-10-04 13:02:45 [INFO] pipeline -   Class 'U2R': Total=4, Routed to S2=4, Lost in S1 (FN)=0 (0.00%)
+2026-10-04 13:02:45 [INFO] pipeline - AUDIT U2R: 0 of 4 samples lost in Stage 1 (0.0%).
+2026-10-04 13:02:47 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 40 samples (Attacks=20, Normal=20)...
+2026-10-04 13:02:47 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:02:47 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4900 (target recall=0.8000)
+2026-10-04 13:02:47 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 20 samples across 2 attack classes: [np.str_('DoS'), np.str_('Probe')]
+2026-10-04 13:02:47 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:04:52 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 40 samples (Attacks=20, Normal=20)...
+2026-10-04 13:04:53 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:04:53 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4900 (target recall=0.8000)
+2026-10-04 13:04:53 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 20 samples across 2 attack classes: [np.str_('DoS'), np.str_('Probe')]
+2026-10-04 13:04:54 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:06:36 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 100 samples (Attacks=50, Normal=50)...
+2026-10-04 13:06:38 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:06:38 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 100 samples (Attacks=50, Normal=50)...
+2026-10-04 13:06:39 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:06:39 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4200 (target recall=0.8500)
+2026-10-04 13:06:39 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 50 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 13:06:40 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:06:40 [INFO] pipeline - Applying Conditional WGAN-GP oversampling to Stage 2 training data...
+2026-10-04 13:06:40 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 60 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 13:06:41 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:06:41 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 100 samples (Attacks=50, Normal=50)...
+2026-10-04 13:06:42 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:06:42 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4200 (target recall=0.8500)
+2026-10-04 13:06:42 [INFO] pipeline - Applying Conditional WGAN-GP oversampling to Stage 2 training data...
+2026-10-04 13:06:42 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 60 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 13:06:43 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:06:43 [INFO] pipeline - === Stage 1 Attack Leak-Through / Loss Audit ===
+2026-10-04 13:06:43 [INFO] pipeline -   Class 'DoS': Total=24, Routed to S2=20, Lost in S1 (FN)=4 (16.67%)
+2026-10-04 13:06:43 [INFO] pipeline -   Class 'Probe': Total=12, Routed to S2=11, Lost in S1 (FN)=1 (8.33%)
+2026-10-04 13:06:43 [INFO] pipeline -   Class 'U2R': Total=4, Routed to S2=4, Lost in S1 (FN)=0 (0.00%)
+2026-10-04 13:06:43 [INFO] pipeline - AUDIT U2R: 0 of 4 samples lost in Stage 1 (0.0%).
+2026-10-04 13:07:03 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 80 samples (Attacks=40, Normal=40)...
+2026-10-04 13:07:04 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:07:05 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4400 (target recall=0.8500)
+2026-10-04 13:07:05 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 40 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 13:07:06 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:07:06 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 80 samples (Attacks=40, Normal=40)...
+2026-10-04 13:07:07 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:07:07 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4400 (target recall=0.8500)
+2026-10-04 13:07:07 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 48 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 13:07:07 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:07:07 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 80 samples (Attacks=40, Normal=40)...
+2026-10-04 13:07:07 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:07:07 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4400 (target recall=0.8500)
+2026-10-04 13:07:08 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 48 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 13:07:08 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:07:10 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 100 samples (Attacks=50, Normal=50)...
+2026-10-04 13:07:10 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:07:10 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 100 samples (Attacks=50, Normal=50)...
+2026-10-04 13:07:10 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:07:11 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4200 (target recall=0.8500)
+2026-10-04 13:07:11 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 50 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 13:07:11 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:07:11 [INFO] pipeline - Applying Conditional WGAN-GP oversampling to Stage 2 training data...
+2026-10-04 13:07:11 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 60 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 13:07:11 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:07:11 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 100 samples (Attacks=50, Normal=50)...
+2026-10-04 13:07:11 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:07:11 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4200 (target recall=0.8500)
+2026-10-04 13:07:11 [INFO] pipeline - Applying Conditional WGAN-GP oversampling to Stage 2 training data...
+2026-10-04 13:07:11 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 60 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 13:07:11 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:07:11 [INFO] pipeline - === Stage 1 Attack Leak-Through / Loss Audit ===
+2026-10-04 13:07:11 [INFO] pipeline -   Class 'DoS': Total=24, Routed to S2=20, Lost in S1 (FN)=4 (16.67%)
+2026-10-04 13:07:11 [INFO] pipeline -   Class 'Probe': Total=12, Routed to S2=11, Lost in S1 (FN)=1 (8.33%)
+2026-10-04 13:07:11 [INFO] pipeline -   Class 'U2R': Total=4, Routed to S2=4, Lost in S1 (FN)=0 (0.00%)
+2026-10-04 13:07:11 [INFO] pipeline - AUDIT U2R: 0 of 4 samples lost in Stage 1 (0.0%).
+2026-10-04 13:07:13 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 40 samples (Attacks=20, Normal=20)...
+2026-10-04 13:07:13 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:07:13 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4900 (target recall=0.8000)
+2026-10-04 13:07:13 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 20 samples across 2 attack classes: [np.str_('DoS'), np.str_('Probe')]
+2026-10-04 13:07:13 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:11:06 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 60 samples (Attacks=29, Normal=31)...
+2026-10-04 13:11:07 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:11:07 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.3200 (target recall=0.8500)
+2026-10-04 13:11:07 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 29 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('R2L')]
+2026-10-04 13:11:08 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:13:50 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 60 samples (Attacks=29, Normal=31)...
+2026-10-04 13:13:51 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:13:51 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.3200 (target recall=0.8500)
+2026-10-04 13:13:51 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 29 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('R2L')]
+2026-10-04 13:13:52 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:16:34 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 60 samples (Attacks=29, Normal=31)...
+2026-10-04 13:16:35 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:16:35 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.3200 (target recall=0.8500)
+2026-10-04 13:16:35 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 29 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('R2L')]
+2026-10-04 13:16:36 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:17:43 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 60 samples (Attacks=29, Normal=31)...
+2026-10-04 13:17:44 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:17:44 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.3200 (target recall=0.8500)
+2026-10-04 13:17:45 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 29 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('R2L')]
+2026-10-04 13:17:46 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:20:40 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 60 samples (Attacks=29, Normal=31)...
+2026-10-04 13:20:41 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:20:41 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.3200 (target recall=0.8500)
+2026-10-04 13:20:41 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 29 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('R2L')]
+2026-10-04 13:20:42 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:20:45 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 60 samples (Attacks=29, Normal=31)...
+2026-10-04 13:20:46 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:20:46 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.3200 (target recall=0.8500)
+2026-10-04 13:20:46 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 32 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('R2L')]
+2026-10-04 13:20:48 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:20:48 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 60 samples (Attacks=29, Normal=31)...
+2026-10-04 13:20:49 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:20:49 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.3200 (target recall=0.8500)
+2026-10-04 13:20:49 [INFO] pipeline - Applying Conditional WGAN-GP oversampling to Stage 2 training data...
+2026-10-04 13:20:49 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 32 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('R2L')]
+2026-10-04 13:20:49 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:22:39 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 60 samples (Attacks=29, Normal=31)...
+2026-10-04 13:22:40 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:22:40 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.3200 (target recall=0.8500)
+2026-10-04 13:22:41 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 29 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('R2L')]
+2026-10-04 13:22:42 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:22:45 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 60 samples (Attacks=29, Normal=31)...
+2026-10-04 13:22:46 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:22:46 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.3200 (target recall=0.8500)
+2026-10-04 13:22:46 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 32 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('R2L')]
+2026-10-04 13:22:47 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:22:47 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 60 samples (Attacks=29, Normal=31)...
+2026-10-04 13:22:48 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:22:48 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.3200 (target recall=0.8500)
+2026-10-04 13:22:48 [INFO] pipeline - Applying Conditional WGAN-GP oversampling to Stage 2 training data...
+2026-10-04 13:22:48 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 32 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('R2L')]
+2026-10-04 13:22:48 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:23:30 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 80 samples (Attacks=40, Normal=40)...
+2026-10-04 13:23:31 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:23:31 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4400 (target recall=0.8500)
+2026-10-04 13:23:32 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 40 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 13:23:33 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:23:33 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 80 samples (Attacks=40, Normal=40)...
+2026-10-04 13:23:34 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:23:34 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4400 (target recall=0.8500)
+2026-10-04 13:23:34 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 48 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 13:23:34 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:23:34 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 80 samples (Attacks=40, Normal=40)...
+2026-10-04 13:23:34 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:23:34 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4400 (target recall=0.8500)
+2026-10-04 13:23:34 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 48 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 13:23:34 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:23:37 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 100 samples (Attacks=50, Normal=50)...
+2026-10-04 13:23:37 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:23:37 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 100 samples (Attacks=50, Normal=50)...
+2026-10-04 13:23:37 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:23:37 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4200 (target recall=0.8500)
+2026-10-04 13:23:38 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 50 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 13:23:38 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:23:38 [INFO] pipeline - Applying Conditional WGAN-GP oversampling to Stage 2 training data...
+2026-10-04 13:23:38 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 60 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 13:23:38 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:23:38 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 100 samples (Attacks=50, Normal=50)...
+2026-10-04 13:23:38 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:23:38 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4200 (target recall=0.8500)
+2026-10-04 13:23:38 [INFO] pipeline - Applying Conditional WGAN-GP oversampling to Stage 2 training data...
+2026-10-04 13:23:38 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 60 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 13:23:38 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:23:38 [INFO] pipeline - === Stage 1 Attack Leak-Through / Loss Audit ===
+2026-10-04 13:23:38 [INFO] pipeline -   Class 'DoS': Total=24, Routed to S2=20, Lost in S1 (FN)=4 (16.67%)
+2026-10-04 13:23:38 [INFO] pipeline -   Class 'Probe': Total=12, Routed to S2=11, Lost in S1 (FN)=1 (8.33%)
+2026-10-04 13:23:38 [INFO] pipeline -   Class 'U2R': Total=4, Routed to S2=4, Lost in S1 (FN)=0 (0.00%)
+2026-10-04 13:23:38 [INFO] pipeline - AUDIT U2R: 0 of 4 samples lost in Stage 1 (0.0%).
+2026-10-04 13:23:40 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 40 samples (Attacks=20, Normal=20)...
+2026-10-04 13:23:40 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:23:40 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4900 (target recall=0.8000)
+2026-10-04 13:23:40 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 20 samples across 2 attack classes: [np.str_('DoS'), np.str_('Probe')]
+2026-10-04 13:23:40 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:23:41 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 60 samples (Attacks=29, Normal=31)...
+2026-10-04 13:23:41 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:23:41 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.3200 (target recall=0.8500)
+2026-10-04 13:23:41 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 29 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('R2L')]
+2026-10-04 13:23:41 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:23:44 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 60 samples (Attacks=29, Normal=31)...
+2026-10-04 13:23:44 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:23:44 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.3200 (target recall=0.8500)
+2026-10-04 13:23:45 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 32 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('R2L')]
+2026-10-04 13:23:45 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:23:45 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 60 samples (Attacks=29, Normal=31)...
+2026-10-04 13:23:45 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:23:45 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.3200 (target recall=0.8500)
+2026-10-04 13:23:45 [INFO] pipeline - Applying Conditional WGAN-GP oversampling to Stage 2 training data...
+2026-10-04 13:23:45 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 32 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('R2L')]
+2026-10-04 13:23:45 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:27:01 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 80 samples (Attacks=40, Normal=40)...
+2026-10-04 13:27:03 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:27:03 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4400 (target recall=0.8500)
+2026-10-04 13:27:03 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 40 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 13:27:04 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:27:04 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 80 samples (Attacks=40, Normal=40)...
+2026-10-04 13:27:05 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:27:05 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4400 (target recall=0.8500)
+2026-10-04 13:27:05 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 48 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 13:27:05 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:27:05 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 80 samples (Attacks=40, Normal=40)...
+2026-10-04 13:27:05 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:27:05 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4400 (target recall=0.8500)
+2026-10-04 13:27:06 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 48 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 13:27:06 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:27:11 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 100 samples (Attacks=50, Normal=50)...
+2026-10-04 13:27:11 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:27:11 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 100 samples (Attacks=50, Normal=50)...
+2026-10-04 13:27:11 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:27:11 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4200 (target recall=0.8500)
+2026-10-04 13:27:12 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 50 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 13:27:12 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:27:12 [INFO] pipeline - Applying Conditional WGAN-GP oversampling to Stage 2 training data...
+2026-10-04 13:27:12 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 60 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 13:27:12 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:27:12 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 100 samples (Attacks=50, Normal=50)...
+2026-10-04 13:27:12 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:27:12 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4200 (target recall=0.8500)
+2026-10-04 13:27:12 [INFO] pipeline - Applying Conditional WGAN-GP oversampling to Stage 2 training data...
+2026-10-04 13:27:12 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 60 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 13:27:12 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:27:12 [INFO] pipeline - === Stage 1 Attack Leak-Through / Loss Audit ===
+2026-10-04 13:27:12 [INFO] pipeline -   Class 'DoS': Total=24, Routed to S2=20, Lost in S1 (FN)=4 (16.67%)
+2026-10-04 13:27:12 [INFO] pipeline -   Class 'Probe': Total=12, Routed to S2=11, Lost in S1 (FN)=1 (8.33%)
+2026-10-04 13:27:12 [INFO] pipeline -   Class 'U2R': Total=4, Routed to S2=4, Lost in S1 (FN)=0 (0.00%)
+2026-10-04 13:27:12 [INFO] pipeline - AUDIT U2R: 0 of 4 samples lost in Stage 1 (0.0%).
+2026-10-04 13:27:14 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 40 samples (Attacks=20, Normal=20)...
+2026-10-04 13:27:14 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:27:14 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4900 (target recall=0.8000)
+2026-10-04 13:27:14 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 20 samples across 2 attack classes: [np.str_('DoS'), np.str_('Probe')]
+2026-10-04 13:27:14 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:27:15 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 60 samples (Attacks=29, Normal=31)...
+2026-10-04 13:27:15 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:27:15 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.3200 (target recall=0.8500)
+2026-10-04 13:27:15 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 29 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('R2L')]
+2026-10-04 13:27:15 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:27:18 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 60 samples (Attacks=29, Normal=31)...
+2026-10-04 13:27:18 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:27:18 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.3200 (target recall=0.8500)
+2026-10-04 13:27:18 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 32 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('R2L')]
+2026-10-04 13:27:18 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:27:19 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 60 samples (Attacks=29, Normal=31)...
+2026-10-04 13:27:19 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:27:19 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.3200 (target recall=0.8500)
+2026-10-04 13:27:19 [INFO] pipeline - Applying Conditional WGAN-GP oversampling to Stage 2 training data...
+2026-10-04 13:27:19 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 32 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('R2L')]
+2026-10-04 13:27:19 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:29:29 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 100778 samples (Attacks=46904, Normal=53874)...
+2026-10-04 13:29:34 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:29:34 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.9500 (target recall=0.9800)
+2026-10-04 13:29:34 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 91854 samples across 4 attack classes: ['DoS', 'Probe', 'R2L', 'U2R']
+2026-10-04 13:29:42 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:29:43 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 100778 samples (Attacks=46904, Normal=53874)...
+2026-10-04 13:29:47 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:29:47 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.9500 (target recall=0.9800)
+2026-10-04 13:29:48 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 91854 samples across 4 attack classes: ['DoS', 'Probe', 'R2L', 'U2R']
+2026-10-04 13:29:57 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-04 13:31:37 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 100778 samples (Attacks=46904, Normal=53874)...
+2026-10-04 13:31:42 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:31:42 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.9500 (target recall=0.9800)
+2026-10-04 13:33:23 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 100778 samples (Attacks=46904, Normal=53874)...
+2026-10-04 13:33:27 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-04 13:33:27 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.9500 (target recall=0.9800)
+2026-10-04 13:46:37 [INFO] pipeline - Applying Conditional WGAN-GP oversampling to Stage 2 training data...
+2026-10-04 13:46:38 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 91854 samples across 4 attack classes: ['DoS', 'Probe', 'R2L', 'U2R']
+2026-10-04 13:46:49 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-29 15:06:22 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 100778 samples (Attacks=46904, Normal=53874)...
+2026-10-29 15:06:30 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-29 15:06:30 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.9500 (target recall=0.9800)
+2026-10-29 15:06:31 [INFO] pipeline - Applying Conditional WGAN-GP oversampling to Stage 2 training data...
+2026-10-29 15:06:32 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 91854 samples across 4 attack classes: ['DoS', 'Probe', 'R2L', 'U2R']
+2026-10-29 15:06:50 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-29 15:39:59 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 100778 samples (Attacks=46904, Normal=53874)...
+2026-10-29 15:40:07 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-29 15:40:07 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.9500 (target recall=0.9800)
+2026-10-29 15:40:08 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 91854 samples across 4 attack classes: ['DoS', 'Probe', 'R2L', 'U2R']
+2026-10-29 15:40:25 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-29 15:44:42 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 100778 samples (Attacks=46904, Normal=53874)...
+2026-10-29 15:44:49 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-29 15:44:49 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.9500 (target recall=0.9800)
+2026-10-29 15:44:50 [INFO] pipeline - Applying Conditional WGAN-GP oversampling to Stage 2 training data...
+2026-10-29 15:44:50 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 91854 samples across 4 attack classes: ['DoS', 'Probe', 'R2L', 'U2R']
+2026-10-29 15:45:08 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-29 20:45:07 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 100778 samples (Attacks=46904, Normal=53874)...
+2026-10-29 20:45:12 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-29 20:45:12 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 46904 samples across 4 attack classes: ['DoS', 'Probe', 'R2L', 'U2R']
+2026-10-29 20:45:17 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-29 20:45:22 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 91854 samples across 4 attack classes: ['DoS', 'Probe', 'R2L', 'U2R']
+2026-10-29 20:45:32 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-29 20:45:37 [INFO] pipeline - Applying Conditional WGAN-GP oversampling to Stage 2 training data...
+2026-10-29 20:45:37 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 91854 samples across 4 attack classes: ['DoS', 'Probe', 'R2L', 'U2R']
+2026-10-29 20:45:53 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-29 22:04:08 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 80 samples (Attacks=40, Normal=40)...
+2026-10-29 22:04:09 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-29 22:04:09 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4400 (target recall=0.8500)
+2026-10-29 22:04:09 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 40 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-29 22:04:10 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-29 22:04:10 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 80 samples (Attacks=40, Normal=40)...
+2026-10-29 22:04:11 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-29 22:04:11 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4400 (target recall=0.8500)
+2026-10-29 22:04:11 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 48 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-29 22:04:11 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-29 22:04:11 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 80 samples (Attacks=40, Normal=40)...
+2026-10-29 22:04:11 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-29 22:04:11 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4400 (target recall=0.8500)
+2026-10-29 22:04:12 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 48 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-29 22:04:12 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-29 22:04:18 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 100 samples (Attacks=50, Normal=50)...
+2026-10-29 22:04:18 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-29 22:04:18 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 100 samples (Attacks=50, Normal=50)...
+2026-10-29 22:04:18 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-29 22:04:18 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4200 (target recall=0.8500)
+2026-10-29 22:04:18 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 50 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-29 22:04:18 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-29 22:04:18 [INFO] pipeline - Applying Conditional WGAN-GP oversampling to Stage 2 training data...
+2026-10-29 22:04:18 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 60 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-29 22:04:18 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-29 22:04:18 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 100 samples (Attacks=50, Normal=50)...
+2026-10-29 22:04:18 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-29 22:04:18 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4200 (target recall=0.8500)
+2026-10-29 22:04:19 [INFO] pipeline - Applying Conditional WGAN-GP oversampling to Stage 2 training data...
+2026-10-29 22:04:19 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 60 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-29 22:04:19 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-29 22:04:19 [INFO] pipeline - === Stage 1 Attack Leak-Through / Loss Audit ===
+2026-10-29 22:04:19 [INFO] pipeline -   Class 'DoS': Total=24, Routed to S2=20, Lost in S1 (FN)=4 (16.67%)
+2026-10-29 22:04:19 [INFO] pipeline -   Class 'Probe': Total=12, Routed to S2=11, Lost in S1 (FN)=1 (8.33%)
+2026-10-29 22:04:19 [INFO] pipeline -   Class 'U2R': Total=4, Routed to S2=4, Lost in S1 (FN)=0 (0.00%)
+2026-10-29 22:04:19 [INFO] pipeline - AUDIT U2R: 0 of 4 samples lost in Stage 1 (0.0%).
+2026-10-29 22:04:20 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 40 samples (Attacks=20, Normal=20)...
+2026-10-29 22:04:20 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-29 22:04:20 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.4900 (target recall=0.8000)
+2026-10-29 22:04:21 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 20 samples across 2 attack classes: [np.str_('DoS'), np.str_('Probe')]
+2026-10-29 22:04:21 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-29 22:04:21 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 60 samples (Attacks=29, Normal=31)...
+2026-10-29 22:04:21 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-29 22:04:21 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.3200 (target recall=0.8500)
+2026-10-29 22:04:22 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 29 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('R2L')]
+2026-10-29 22:04:22 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-29 22:04:25 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 60 samples (Attacks=29, Normal=31)...
+2026-10-29 22:04:25 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-29 22:04:25 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.3200 (target recall=0.8500)
+2026-10-29 22:04:25 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 32 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('R2L')]
+2026-10-29 22:04:25 [INFO] pipeline - Stage 2 multiclass model training completed successfully.
+2026-10-29 22:04:25 [INFO] pipeline - Fitting Stage 1 binary classifier (voting) on 60 samples (Attacks=29, Normal=31)...
+2026-10-29 22:04:25 [INFO] pipeline - Stage 1 binary model training completed successfully.
+2026-10-29 22:04:25 [INFO] pipeline - Stage 1 Threshold Calibrated: threshold=0.3200 (target recall=0.8500)
+2026-10-29 22:04:25 [INFO] pipeline - Applying Conditional WGAN-GP oversampling to Stage 2 training data...
+2026-10-29 22:04:25 [INFO] pipeline - Fitting Stage 2 multiclass ensemble (voting) on 32 samples across 3 attack classes: [np.str_('DoS'), np.str_('Probe'), np.str_('R2L')]
+2026-10-29 22:04:25 [INFO] pipeline - Stage 2 multiclass model training completed successfully.

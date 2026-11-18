@@ -1,0 +1,1376 @@
+2026-10-04 12:03:05 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-04 12:03:05 [INFO] wgan_gp - Config: epochs=3, batch_size=64, lr=1.0e-04, n_critic=2, lambda_gp=10.0, latent_dim=100
+2026-10-04 12:03:05 [INFO] wgan_gp - Data: 256 attack samples, 122 features, 4 classes
+2026-10-04 12:03:05 [INFO] wgan_gp - Starting WGAN-GP training for 3 epochs ...
+2026-10-04 12:03:05 [INFO] wgan_gp - Epoch   1/3  |  C_loss: +6.4044  |  G_loss: -0.1974  |  W_dist: -0.2224
+2026-10-04 12:03:05 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-04 12:03:05 [INFO] wgan_gp - Epoch   2/3  |  C_loss: +5.0985  |  G_loss: -0.1951  |  W_dist: -0.2759
+2026-10-04 12:03:05 [INFO] wgan_gp -   ↳ New best model saved (epoch 2).
+2026-10-04 12:03:05 [INFO] wgan_gp - Epoch   3/3  |  C_loss: +3.7459  |  G_loss: -0.2127  |  W_dist: -0.2556
+2026-10-04 12:03:05 [INFO] wgan_gp -   ↳ New best model saved (epoch 3).
+2026-10-04 12:03:05 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-8\test_train_wgan_gp_smoke0\models
+2026-10-04 12:03:05 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-04 12:03:06 [INFO] wgan_gp - Loss curve plot saved to results/figures/wgan_loss_curves.png
+2026-10-04 12:03:06 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 3  (critic_loss=3.7459)
+2026-10-04 12:03:06 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-04 12:03:06 [INFO] wgan_gp - Config: epochs=20, batch_size=64, lr=1.0e+00, n_critic=5, lambda_gp=10.0, latent_dim=100
+2026-10-04 12:03:06 [INFO] wgan_gp - Data: 128 attack samples, 122 features, 4 classes
+2026-10-04 12:03:06 [INFO] wgan_gp - Starting WGAN-GP training for 20 epochs ...
+2026-10-04 12:03:06 [INFO] wgan_gp - Epoch   1/20  |  C_loss: -1413.7893  |  G_loss: +558.1883  |  W_dist: +1423.7555
+2026-10-04 12:03:06 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-04 12:03:06 [INFO] wgan_gp - Epoch   2/20  |  C_loss: -14667.1450  |  G_loss: +9752.2444  |  W_dist: +14677.0710
+2026-10-04 12:03:06 [INFO] wgan_gp -   ↳ New best model saved (epoch 2).
+2026-10-04 12:03:06 [INFO] wgan_gp - Epoch   3/20  |  C_loss: -47116.2910  |  G_loss: +24348.9766  |  W_dist: +47126.2159
+2026-10-04 12:03:06 [INFO] wgan_gp -   ↳ New best model saved (epoch 3).
+2026-10-04 12:03:06 [INFO] wgan_gp - Epoch   4/20  |  C_loss: -94659.7203  |  G_loss: +45118.6855  |  W_dist: +94669.6525
+2026-10-04 12:03:06 [INFO] wgan_gp -   ↳ New best model saved (epoch 4).
+2026-10-04 12:03:06 [INFO] wgan_gp - Epoch   5/20  |  C_loss: -156084.8398  |  G_loss: +69546.9688  |  W_dist: +156094.7766
+2026-10-04 12:03:06 [INFO] wgan_gp -   ↳ New best model saved (epoch 5).
+2026-10-04 12:03:06 [INFO] wgan_gp - Epoch   6/20  |  C_loss: -230356.6859  |  G_loss: +97653.2383  |  W_dist: +230366.5648
+2026-10-04 12:03:06 [INFO] wgan_gp -   ↳ New best model saved (epoch 6).
+2026-10-04 12:03:06 [INFO] wgan_gp - Epoch   7/20  |  C_loss: -316056.3406  |  G_loss: +130753.9336  |  W_dist: +316066.1992
+2026-10-04 12:03:06 [INFO] wgan_gp -   ↳ New best model saved (epoch 7).
+2026-10-04 12:03:06 [INFO] wgan_gp - Epoch   8/20  |  C_loss: -414611.8844  |  G_loss: +167062.3750  |  W_dist: +414621.7750
+2026-10-04 12:03:06 [INFO] wgan_gp -   ↳ New best model saved (epoch 8).
+2026-10-04 12:03:06 [INFO] wgan_gp - Epoch   9/20  |  C_loss: -524712.7875  |  G_loss: +208191.3984  |  W_dist: +524722.5453
+2026-10-04 12:03:06 [INFO] wgan_gp -   ↳ New best model saved (epoch 9).
+2026-10-04 12:03:06 [INFO] wgan_gp - Epoch  10/20  |  C_loss: -646697.2312  |  G_loss: +254247.7734  |  W_dist: +646706.9891
+2026-10-04 12:03:06 [INFO] wgan_gp -   ↳ New best model saved (epoch 10).
+2026-10-04 12:03:06 [INFO] wgan_gp - Epoch  11/20  |  C_loss: -781089.7937  |  G_loss: +306398.2344  |  W_dist: +781099.5437
+2026-10-04 12:03:06 [INFO] wgan_gp -   ↳ New best model saved (epoch 11).
+2026-10-04 12:03:06 [INFO] wgan_gp - Epoch  12/20  |  C_loss: -927495.3812  |  G_loss: +361751.6875  |  W_dist: +927505.1781
+2026-10-04 12:03:06 [INFO] wgan_gp -   ↳ New best model saved (epoch 12).
+2026-10-04 12:03:06 [INFO] wgan_gp - Epoch  13/20  |  C_loss: -1085620.2375  |  G_loss: +417413.3125  |  W_dist: +1085683.2969
+2026-10-04 12:03:06 [INFO] wgan_gp -   ↳ New best model saved (epoch 13).
+2026-10-04 12:03:06 [INFO] wgan_gp - Epoch  14/20  |  C_loss: -1262800.4500  |  G_loss: +493955.6875  |  W_dist: +1262810.0125
+2026-10-04 12:03:06 [INFO] wgan_gp -   ↳ New best model saved (epoch 14).
+2026-10-04 12:03:06 [INFO] wgan_gp - Epoch  15/20  |  C_loss: -1454006.7500  |  G_loss: +571054.7500  |  W_dist: +1454016.6375
+2026-10-04 12:03:06 [INFO] wgan_gp -   ↳ New best model saved (epoch 15).
+2026-10-04 12:03:06 [INFO] wgan_gp - Epoch  16/20  |  C_loss: -1651183.7125  |  G_loss: +650819.2188  |  W_dist: +1651193.3250
+2026-10-04 12:03:06 [INFO] wgan_gp -   ↳ New best model saved (epoch 16).
+2026-10-04 12:03:06 [INFO] wgan_gp - Epoch  17/20  |  C_loss: -1860202.9875  |  G_loss: +730431.5938  |  W_dist: +1860214.6812
+2026-10-04 12:03:06 [INFO] wgan_gp -   ↳ New best model saved (epoch 17).
+2026-10-04 12:03:06 [INFO] wgan_gp - Epoch  18/20  |  C_loss: -2082222.9750  |  G_loss: +817581.0312  |  W_dist: +2082233.2688
+2026-10-04 12:03:06 [INFO] wgan_gp -   ↳ New best model saved (epoch 18).
+2026-10-04 12:03:06 [INFO] wgan_gp - Epoch  19/20  |  C_loss: -2315150.2000  |  G_loss: +911354.3438  |  W_dist: +2315159.9000
+2026-10-04 12:03:06 [INFO] wgan_gp -   ↳ New best model saved (epoch 19).
+2026-10-04 12:03:06 [INFO] wgan_gp - Epoch  20/20  |  C_loss: -2568082.7000  |  G_loss: +1025546.9688  |  W_dist: +2568092.4500
+2026-10-04 12:03:06 [INFO] wgan_gp -   ↳ New best model saved (epoch 20).
+2026-10-04 12:03:07 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-8\test_train_wgan_gp_nan_early_s0\models
+2026-10-04 12:03:07 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-04 12:03:07 [INFO] wgan_gp - Loss curve plot saved to results/figures/wgan_loss_curves.png
+2026-10-04 12:03:07 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 20  (critic_loss=-2568082.7000)
+2026-10-04 12:24:19 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-04 12:24:19 [INFO] wgan_gp - Config: epochs=3, batch_size=64, lr=1.0e-04, n_critic=2, lambda_gp=10.0, latent_dim=100
+2026-10-04 12:24:19 [INFO] wgan_gp - Data: 256 attack samples, 122 features, 4 classes
+2026-10-04 12:24:19 [INFO] wgan_gp - Starting WGAN-GP training for 3 epochs ...
+2026-10-04 12:24:19 [INFO] wgan_gp - Epoch   1/3  |  C_loss: +6.4044  |  G_loss: -0.1974  |  W_dist: -0.2224
+2026-10-04 12:24:19 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-04 12:24:19 [INFO] wgan_gp - Epoch   2/3  |  C_loss: +5.0985  |  G_loss: -0.1951  |  W_dist: -0.2759
+2026-10-04 12:24:19 [INFO] wgan_gp -   ↳ New best model saved (epoch 2).
+2026-10-04 12:24:19 [INFO] wgan_gp - Epoch   3/3  |  C_loss: +3.7459  |  G_loss: -0.2127  |  W_dist: -0.2556
+2026-10-04 12:24:19 [INFO] wgan_gp -   ↳ New best model saved (epoch 3).
+2026-10-04 12:24:19 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-9\test_train_wgan_gp_smoke0\models
+2026-10-04 12:24:19 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-04 12:24:19 [INFO] wgan_gp - Loss curve plot saved to results/figures/wgan_loss_curves.png
+2026-10-04 12:24:19 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 3  (critic_loss=3.7459)
+2026-10-04 12:24:19 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-04 12:24:19 [INFO] wgan_gp - Config: epochs=20, batch_size=64, lr=1.0e+00, n_critic=5, lambda_gp=10.0, latent_dim=100
+2026-10-04 12:24:19 [INFO] wgan_gp - Data: 128 attack samples, 122 features, 4 classes
+2026-10-04 12:24:19 [INFO] wgan_gp - Starting WGAN-GP training for 20 epochs ...
+2026-10-04 12:24:20 [INFO] wgan_gp - Epoch   1/20  |  C_loss: -1413.7893  |  G_loss: +558.1883  |  W_dist: +1423.7555
+2026-10-04 12:24:20 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-04 12:24:20 [INFO] wgan_gp - Epoch   2/20  |  C_loss: -14667.1450  |  G_loss: +9752.2444  |  W_dist: +14677.0710
+2026-10-04 12:24:20 [INFO] wgan_gp -   ↳ New best model saved (epoch 2).
+2026-10-04 12:24:20 [INFO] wgan_gp - Epoch   3/20  |  C_loss: -47116.2910  |  G_loss: +24348.9766  |  W_dist: +47126.2159
+2026-10-04 12:24:20 [INFO] wgan_gp -   ↳ New best model saved (epoch 3).
+2026-10-04 12:24:20 [INFO] wgan_gp - Epoch   4/20  |  C_loss: -94659.7203  |  G_loss: +45118.6855  |  W_dist: +94669.6525
+2026-10-04 12:24:20 [INFO] wgan_gp -   ↳ New best model saved (epoch 4).
+2026-10-04 12:24:20 [INFO] wgan_gp - Epoch   5/20  |  C_loss: -156084.8398  |  G_loss: +69546.9688  |  W_dist: +156094.7766
+2026-10-04 12:24:20 [INFO] wgan_gp -   ↳ New best model saved (epoch 5).
+2026-10-04 12:24:20 [INFO] wgan_gp - Epoch   6/20  |  C_loss: -230356.6859  |  G_loss: +97653.2383  |  W_dist: +230366.5648
+2026-10-04 12:24:20 [INFO] wgan_gp -   ↳ New best model saved (epoch 6).
+2026-10-04 12:24:20 [INFO] wgan_gp - Epoch   7/20  |  C_loss: -316056.3406  |  G_loss: +130753.9336  |  W_dist: +316066.1992
+2026-10-04 12:24:20 [INFO] wgan_gp -   ↳ New best model saved (epoch 7).
+2026-10-04 12:24:20 [INFO] wgan_gp - Epoch   8/20  |  C_loss: -414611.8844  |  G_loss: +167062.3750  |  W_dist: +414621.7750
+2026-10-04 12:24:20 [INFO] wgan_gp -   ↳ New best model saved (epoch 8).
+2026-10-04 12:24:20 [INFO] wgan_gp - Epoch   9/20  |  C_loss: -524712.7875  |  G_loss: +208191.3984  |  W_dist: +524722.5453
+2026-10-04 12:24:20 [INFO] wgan_gp -   ↳ New best model saved (epoch 9).
+2026-10-04 12:24:20 [INFO] wgan_gp - Epoch  10/20  |  C_loss: -646697.2312  |  G_loss: +254247.7734  |  W_dist: +646706.9891
+2026-10-04 12:24:20 [INFO] wgan_gp -   ↳ New best model saved (epoch 10).
+2026-10-04 12:24:20 [INFO] wgan_gp - Epoch  11/20  |  C_loss: -781089.7937  |  G_loss: +306398.2344  |  W_dist: +781099.5437
+2026-10-04 12:24:20 [INFO] wgan_gp -   ↳ New best model saved (epoch 11).
+2026-10-04 12:24:20 [INFO] wgan_gp - Epoch  12/20  |  C_loss: -927495.3812  |  G_loss: +361751.6875  |  W_dist: +927505.1781
+2026-10-04 12:24:20 [INFO] wgan_gp -   ↳ New best model saved (epoch 12).
+2026-10-04 12:24:20 [INFO] wgan_gp - Epoch  13/20  |  C_loss: -1085620.2375  |  G_loss: +417413.3125  |  W_dist: +1085683.2969
+2026-10-04 12:24:20 [INFO] wgan_gp -   ↳ New best model saved (epoch 13).
+2026-10-04 12:24:20 [INFO] wgan_gp - Epoch  14/20  |  C_loss: -1262800.4500  |  G_loss: +493955.6875  |  W_dist: +1262810.0125
+2026-10-04 12:24:20 [INFO] wgan_gp -   ↳ New best model saved (epoch 14).
+2026-10-04 12:24:20 [INFO] wgan_gp - Epoch  15/20  |  C_loss: -1454006.7500  |  G_loss: +571054.7500  |  W_dist: +1454016.6375
+2026-10-04 12:24:20 [INFO] wgan_gp -   ↳ New best model saved (epoch 15).
+2026-10-04 12:24:20 [INFO] wgan_gp - Epoch  16/20  |  C_loss: -1651183.7125  |  G_loss: +650819.2188  |  W_dist: +1651193.3250
+2026-10-04 12:24:20 [INFO] wgan_gp -   ↳ New best model saved (epoch 16).
+2026-10-04 12:24:20 [INFO] wgan_gp - Epoch  17/20  |  C_loss: -1860202.9875  |  G_loss: +730431.5938  |  W_dist: +1860214.6812
+2026-10-04 12:24:20 [INFO] wgan_gp -   ↳ New best model saved (epoch 17).
+2026-10-04 12:24:20 [INFO] wgan_gp - Epoch  18/20  |  C_loss: -2082222.9750  |  G_loss: +817581.0312  |  W_dist: +2082233.2688
+2026-10-04 12:24:20 [INFO] wgan_gp -   ↳ New best model saved (epoch 18).
+2026-10-04 12:24:20 [INFO] wgan_gp - Epoch  19/20  |  C_loss: -2315150.2000  |  G_loss: +911354.3438  |  W_dist: +2315159.9000
+2026-10-04 12:24:20 [INFO] wgan_gp -   ↳ New best model saved (epoch 19).
+2026-10-04 12:24:20 [INFO] wgan_gp - Epoch  20/20  |  C_loss: -2568082.7000  |  G_loss: +1025546.9688  |  W_dist: +2568092.4500
+2026-10-04 12:24:20 [INFO] wgan_gp -   ↳ New best model saved (epoch 20).
+2026-10-04 12:24:20 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-9\test_train_wgan_gp_nan_early_s0\models
+2026-10-04 12:24:20 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-04 12:24:21 [INFO] wgan_gp - Loss curve plot saved to results/figures/wgan_loss_curves.png
+2026-10-04 12:24:21 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 20  (critic_loss=-2568082.7000)
+2026-10-04 12:24:21 [INFO] wgan_gp - Generated 50 samples for class_id=0. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 12:24:21 [INFO] wgan_gp - Generated 200 samples for class_id=1. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 12:24:21 [INFO] wgan_gp - Generated 10 samples for class_id=0. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 12:24:21 [INFO] wgan_gp - Generated 10 samples for class_id=3. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 12:24:21 [INFO] wgan_gp - Generated 100 samples for class_id=2. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 12:24:21 [INFO] wgan_gp - Generated 1 samples for class_id=0. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 12:35:13 [INFO] wgan_gp - Generated 10 samples for class_id=1. One-hot groups validated: ['cat_feature']
+2026-10-04 12:35:13 [INFO] wgan_gp - Generated 40 samples for class_id=2. One-hot groups validated: ['cat_feature']
+2026-10-04 12:35:13 [INFO] wgan_gp - Generated 48 samples for class_id=3. One-hot groups validated: ['cat_feature']
+2026-10-04 12:35:13 [INFO] wgan_gp - Generated 10 samples for class_id=2. One-hot groups validated: []
+2026-10-04 12:35:29 [INFO] wgan_gp - Generated 10 samples for class_id=1. One-hot groups validated: ['cat_feature']
+2026-10-04 12:35:29 [INFO] wgan_gp - Generated 40 samples for class_id=2. One-hot groups validated: ['cat_feature']
+2026-10-04 12:35:29 [INFO] wgan_gp - Generated 48 samples for class_id=3. One-hot groups validated: ['cat_feature']
+2026-10-04 12:35:29 [INFO] wgan_gp - Generated 10 samples for class_id=2. One-hot groups validated: []
+2026-10-04 12:35:29 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-04 12:35:29 [INFO] wgan_gp - Config: epochs=3, batch_size=64, lr=1.0e-04, n_critic=2, lambda_gp=10.0, latent_dim=100
+2026-10-04 12:35:29 [INFO] wgan_gp - Data: 256 attack samples, 122 features, 4 classes
+2026-10-04 12:35:29 [INFO] wgan_gp - Starting WGAN-GP training for 3 epochs ...
+2026-10-04 12:35:29 [INFO] wgan_gp - Epoch   1/3  |  C_loss: +6.4044  |  G_loss: -0.1974  |  W_dist: -0.2224
+2026-10-04 12:35:29 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-04 12:35:29 [INFO] wgan_gp - Epoch   2/3  |  C_loss: +5.0985  |  G_loss: -0.1951  |  W_dist: -0.2759
+2026-10-04 12:35:29 [INFO] wgan_gp -   ↳ New best model saved (epoch 2).
+2026-10-04 12:35:29 [INFO] wgan_gp - Epoch   3/3  |  C_loss: +3.7459  |  G_loss: -0.2127  |  W_dist: -0.2556
+2026-10-04 12:35:29 [INFO] wgan_gp -   ↳ New best model saved (epoch 3).
+2026-10-04 12:35:29 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-11\test_train_wgan_gp_smoke0\models
+2026-10-04 12:35:29 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-04 12:35:30 [INFO] wgan_gp - Loss curve plot saved to results/figures/wgan_loss_curves.png
+2026-10-04 12:35:30 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 3  (critic_loss=3.7459)
+2026-10-04 12:35:30 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-04 12:35:30 [INFO] wgan_gp - Config: epochs=20, batch_size=64, lr=1.0e+00, n_critic=5, lambda_gp=10.0, latent_dim=100
+2026-10-04 12:35:30 [INFO] wgan_gp - Data: 128 attack samples, 122 features, 4 classes
+2026-10-04 12:35:30 [INFO] wgan_gp - Starting WGAN-GP training for 20 epochs ...
+2026-10-04 12:35:30 [INFO] wgan_gp - Epoch   1/20  |  C_loss: -1413.7893  |  G_loss: +558.1883  |  W_dist: +1423.7555
+2026-10-04 12:35:30 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-04 12:35:30 [INFO] wgan_gp - Epoch   2/20  |  C_loss: -14667.1450  |  G_loss: +9752.2444  |  W_dist: +14677.0710
+2026-10-04 12:35:30 [INFO] wgan_gp -   ↳ New best model saved (epoch 2).
+2026-10-04 12:35:30 [INFO] wgan_gp - Epoch   3/20  |  C_loss: -47116.2910  |  G_loss: +24348.9766  |  W_dist: +47126.2159
+2026-10-04 12:35:30 [INFO] wgan_gp -   ↳ New best model saved (epoch 3).
+2026-10-04 12:35:30 [INFO] wgan_gp - Epoch   4/20  |  C_loss: -94659.7203  |  G_loss: +45118.6855  |  W_dist: +94669.6525
+2026-10-04 12:35:30 [INFO] wgan_gp -   ↳ New best model saved (epoch 4).
+2026-10-04 12:35:30 [INFO] wgan_gp - Epoch   5/20  |  C_loss: -156084.8398  |  G_loss: +69546.9688  |  W_dist: +156094.7766
+2026-10-04 12:35:30 [INFO] wgan_gp -   ↳ New best model saved (epoch 5).
+2026-10-04 12:35:30 [INFO] wgan_gp - Epoch   6/20  |  C_loss: -230356.6859  |  G_loss: +97653.2383  |  W_dist: +230366.5648
+2026-10-04 12:35:30 [INFO] wgan_gp -   ↳ New best model saved (epoch 6).
+2026-10-04 12:35:30 [INFO] wgan_gp - Epoch   7/20  |  C_loss: -316056.3406  |  G_loss: +130753.9336  |  W_dist: +316066.1992
+2026-10-04 12:35:30 [INFO] wgan_gp -   ↳ New best model saved (epoch 7).
+2026-10-04 12:35:30 [INFO] wgan_gp - Epoch   8/20  |  C_loss: -414611.8844  |  G_loss: +167062.3750  |  W_dist: +414621.7750
+2026-10-04 12:35:30 [INFO] wgan_gp -   ↳ New best model saved (epoch 8).
+2026-10-04 12:35:30 [INFO] wgan_gp - Epoch   9/20  |  C_loss: -524712.7875  |  G_loss: +208191.3984  |  W_dist: +524722.5453
+2026-10-04 12:35:30 [INFO] wgan_gp -   ↳ New best model saved (epoch 9).
+2026-10-04 12:35:30 [INFO] wgan_gp - Epoch  10/20  |  C_loss: -646697.2312  |  G_loss: +254247.7734  |  W_dist: +646706.9891
+2026-10-04 12:35:30 [INFO] wgan_gp -   ↳ New best model saved (epoch 10).
+2026-10-04 12:35:30 [INFO] wgan_gp - Epoch  11/20  |  C_loss: -781089.7937  |  G_loss: +306398.2344  |  W_dist: +781099.5437
+2026-10-04 12:35:30 [INFO] wgan_gp -   ↳ New best model saved (epoch 11).
+2026-10-04 12:35:30 [INFO] wgan_gp - Epoch  12/20  |  C_loss: -927495.3812  |  G_loss: +361751.6875  |  W_dist: +927505.1781
+2026-10-04 12:35:30 [INFO] wgan_gp -   ↳ New best model saved (epoch 12).
+2026-10-04 12:35:30 [INFO] wgan_gp - Epoch  13/20  |  C_loss: -1085620.2375  |  G_loss: +417413.3125  |  W_dist: +1085683.2969
+2026-10-04 12:35:30 [INFO] wgan_gp -   ↳ New best model saved (epoch 13).
+2026-10-04 12:35:30 [INFO] wgan_gp - Epoch  14/20  |  C_loss: -1262800.4500  |  G_loss: +493955.6875  |  W_dist: +1262810.0125
+2026-10-04 12:35:30 [INFO] wgan_gp -   ↳ New best model saved (epoch 14).
+2026-10-04 12:35:30 [INFO] wgan_gp - Epoch  15/20  |  C_loss: -1454006.7500  |  G_loss: +571054.7500  |  W_dist: +1454016.6375
+2026-10-04 12:35:30 [INFO] wgan_gp -   ↳ New best model saved (epoch 15).
+2026-10-04 12:35:30 [INFO] wgan_gp - Epoch  16/20  |  C_loss: -1651183.7125  |  G_loss: +650819.2188  |  W_dist: +1651193.3250
+2026-10-04 12:35:30 [INFO] wgan_gp -   ↳ New best model saved (epoch 16).
+2026-10-04 12:35:31 [INFO] wgan_gp - Epoch  17/20  |  C_loss: -1860202.9875  |  G_loss: +730431.5938  |  W_dist: +1860214.6812
+2026-10-04 12:35:31 [INFO] wgan_gp -   ↳ New best model saved (epoch 17).
+2026-10-04 12:35:31 [INFO] wgan_gp - Epoch  18/20  |  C_loss: -2082222.9750  |  G_loss: +817581.0312  |  W_dist: +2082233.2688
+2026-10-04 12:35:31 [INFO] wgan_gp -   ↳ New best model saved (epoch 18).
+2026-10-04 12:35:31 [INFO] wgan_gp - Epoch  19/20  |  C_loss: -2315150.2000  |  G_loss: +911354.3438  |  W_dist: +2315159.9000
+2026-10-04 12:35:31 [INFO] wgan_gp -   ↳ New best model saved (epoch 19).
+2026-10-04 12:35:31 [INFO] wgan_gp - Epoch  20/20  |  C_loss: -2568082.7000  |  G_loss: +1025546.9688  |  W_dist: +2568092.4500
+2026-10-04 12:35:31 [INFO] wgan_gp -   ↳ New best model saved (epoch 20).
+2026-10-04 12:35:31 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-11\test_train_wgan_gp_nan_early_s0\models
+2026-10-04 12:35:31 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-04 12:35:31 [INFO] wgan_gp - Loss curve plot saved to results/figures/wgan_loss_curves.png
+2026-10-04 12:35:31 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 20  (critic_loss=-2568082.7000)
+2026-10-04 12:35:31 [INFO] wgan_gp - Generated 50 samples for class_id=0. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 12:35:31 [INFO] wgan_gp - Generated 200 samples for class_id=1. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 12:35:31 [INFO] wgan_gp - Generated 10 samples for class_id=0. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 12:35:31 [INFO] wgan_gp - Generated 10 samples for class_id=3. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 12:35:31 [INFO] wgan_gp - Generated 100 samples for class_id=2. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 12:35:31 [INFO] wgan_gp - Generated 1 samples for class_id=0. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 12:37:09 [INFO] wgan_gp - Generated 10 samples for class_id=1. One-hot groups validated: ['cat_feature']
+2026-10-04 12:37:09 [INFO] wgan_gp - Generated 40 samples for class_id=2. One-hot groups validated: ['cat_feature']
+2026-10-04 12:37:09 [INFO] wgan_gp - Generated 48 samples for class_id=3. One-hot groups validated: ['cat_feature']
+2026-10-04 12:37:09 [INFO] wgan_gp - Generated 10 samples for class_id=2. One-hot groups validated: []
+2026-10-04 12:37:09 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-04 12:37:09 [INFO] wgan_gp - Config: epochs=3, batch_size=64, lr=1.0e-04, n_critic=2, lambda_gp=10.0, latent_dim=100
+2026-10-04 12:37:09 [INFO] wgan_gp - Data: 256 attack samples, 122 features, 4 classes
+2026-10-04 12:37:09 [INFO] wgan_gp - Starting WGAN-GP training for 3 epochs ...
+2026-10-04 12:37:09 [INFO] wgan_gp - Epoch   1/3  |  C_loss: +6.4044  |  G_loss: -0.1974  |  W_dist: -0.2224
+2026-10-04 12:37:09 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-04 12:37:09 [INFO] wgan_gp - Epoch   2/3  |  C_loss: +5.0985  |  G_loss: -0.1951  |  W_dist: -0.2759
+2026-10-04 12:37:09 [INFO] wgan_gp -   ↳ New best model saved (epoch 2).
+2026-10-04 12:37:10 [INFO] wgan_gp - Epoch   3/3  |  C_loss: +3.7459  |  G_loss: -0.2127  |  W_dist: -0.2556
+2026-10-04 12:37:10 [INFO] wgan_gp -   ↳ New best model saved (epoch 3).
+2026-10-04 12:37:10 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-13\test_train_wgan_gp_smoke0\models
+2026-10-04 12:37:10 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-04 12:37:10 [INFO] wgan_gp - Loss curve plot saved to results/figures/wgan_loss_curves.png
+2026-10-04 12:37:10 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 3  (critic_loss=3.7459)
+2026-10-04 12:37:10 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-04 12:37:10 [INFO] wgan_gp - Config: epochs=20, batch_size=64, lr=1.0e+00, n_critic=5, lambda_gp=10.0, latent_dim=100
+2026-10-04 12:37:10 [INFO] wgan_gp - Data: 128 attack samples, 122 features, 4 classes
+2026-10-04 12:37:10 [INFO] wgan_gp - Starting WGAN-GP training for 20 epochs ...
+2026-10-04 12:37:10 [INFO] wgan_gp - Epoch   1/20  |  C_loss: -1413.7893  |  G_loss: +558.1883  |  W_dist: +1423.7555
+2026-10-04 12:37:10 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-04 12:37:10 [INFO] wgan_gp - Epoch   2/20  |  C_loss: -14667.1450  |  G_loss: +9752.2444  |  W_dist: +14677.0710
+2026-10-04 12:37:10 [INFO] wgan_gp -   ↳ New best model saved (epoch 2).
+2026-10-04 12:37:10 [INFO] wgan_gp - Epoch   3/20  |  C_loss: -47116.2910  |  G_loss: +24348.9766  |  W_dist: +47126.2159
+2026-10-04 12:37:10 [INFO] wgan_gp -   ↳ New best model saved (epoch 3).
+2026-10-04 12:37:10 [INFO] wgan_gp - Epoch   4/20  |  C_loss: -94659.7203  |  G_loss: +45118.6855  |  W_dist: +94669.6525
+2026-10-04 12:37:10 [INFO] wgan_gp -   ↳ New best model saved (epoch 4).
+2026-10-04 12:37:10 [INFO] wgan_gp - Epoch   5/20  |  C_loss: -156084.8398  |  G_loss: +69546.9688  |  W_dist: +156094.7766
+2026-10-04 12:37:10 [INFO] wgan_gp -   ↳ New best model saved (epoch 5).
+2026-10-04 12:37:10 [INFO] wgan_gp - Epoch   6/20  |  C_loss: -230356.6859  |  G_loss: +97653.2383  |  W_dist: +230366.5648
+2026-10-04 12:37:10 [INFO] wgan_gp -   ↳ New best model saved (epoch 6).
+2026-10-04 12:37:10 [INFO] wgan_gp - Epoch   7/20  |  C_loss: -316056.3406  |  G_loss: +130753.9336  |  W_dist: +316066.1992
+2026-10-04 12:37:10 [INFO] wgan_gp -   ↳ New best model saved (epoch 7).
+2026-10-04 12:37:10 [INFO] wgan_gp - Epoch   8/20  |  C_loss: -414611.8844  |  G_loss: +167062.3750  |  W_dist: +414621.7750
+2026-10-04 12:37:10 [INFO] wgan_gp -   ↳ New best model saved (epoch 8).
+2026-10-04 12:37:10 [INFO] wgan_gp - Epoch   9/20  |  C_loss: -524712.7875  |  G_loss: +208191.3984  |  W_dist: +524722.5453
+2026-10-04 12:37:10 [INFO] wgan_gp -   ↳ New best model saved (epoch 9).
+2026-10-04 12:37:10 [INFO] wgan_gp - Epoch  10/20  |  C_loss: -646697.2312  |  G_loss: +254247.7734  |  W_dist: +646706.9891
+2026-10-04 12:37:10 [INFO] wgan_gp -   ↳ New best model saved (epoch 10).
+2026-10-04 12:37:10 [INFO] wgan_gp - Epoch  11/20  |  C_loss: -781089.7937  |  G_loss: +306398.2344  |  W_dist: +781099.5437
+2026-10-04 12:37:10 [INFO] wgan_gp -   ↳ New best model saved (epoch 11).
+2026-10-04 12:37:10 [INFO] wgan_gp - Epoch  12/20  |  C_loss: -927495.3812  |  G_loss: +361751.6875  |  W_dist: +927505.1781
+2026-10-04 12:37:10 [INFO] wgan_gp -   ↳ New best model saved (epoch 12).
+2026-10-04 12:37:11 [INFO] wgan_gp - Epoch  13/20  |  C_loss: -1085620.2375  |  G_loss: +417413.3125  |  W_dist: +1085683.2969
+2026-10-04 12:37:11 [INFO] wgan_gp -   ↳ New best model saved (epoch 13).
+2026-10-04 12:37:11 [INFO] wgan_gp - Epoch  14/20  |  C_loss: -1262800.4500  |  G_loss: +493955.6875  |  W_dist: +1262810.0125
+2026-10-04 12:37:11 [INFO] wgan_gp -   ↳ New best model saved (epoch 14).
+2026-10-04 12:37:11 [INFO] wgan_gp - Epoch  15/20  |  C_loss: -1454006.7500  |  G_loss: +571054.7500  |  W_dist: +1454016.6375
+2026-10-04 12:37:11 [INFO] wgan_gp -   ↳ New best model saved (epoch 15).
+2026-10-04 12:37:11 [INFO] wgan_gp - Epoch  16/20  |  C_loss: -1651183.7125  |  G_loss: +650819.2188  |  W_dist: +1651193.3250
+2026-10-04 12:37:11 [INFO] wgan_gp -   ↳ New best model saved (epoch 16).
+2026-10-04 12:37:11 [INFO] wgan_gp - Epoch  17/20  |  C_loss: -1860202.9875  |  G_loss: +730431.5938  |  W_dist: +1860214.6812
+2026-10-04 12:37:11 [INFO] wgan_gp -   ↳ New best model saved (epoch 17).
+2026-10-04 12:37:11 [INFO] wgan_gp - Epoch  18/20  |  C_loss: -2082222.9750  |  G_loss: +817581.0312  |  W_dist: +2082233.2688
+2026-10-04 12:37:11 [INFO] wgan_gp -   ↳ New best model saved (epoch 18).
+2026-10-04 12:37:11 [INFO] wgan_gp - Epoch  19/20  |  C_loss: -2315150.2000  |  G_loss: +911354.3438  |  W_dist: +2315159.9000
+2026-10-04 12:37:11 [INFO] wgan_gp -   ↳ New best model saved (epoch 19).
+2026-10-04 12:37:11 [INFO] wgan_gp - Epoch  20/20  |  C_loss: -2568082.7000  |  G_loss: +1025546.9688  |  W_dist: +2568092.4500
+2026-10-04 12:37:11 [INFO] wgan_gp -   ↳ New best model saved (epoch 20).
+2026-10-04 12:37:11 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-13\test_train_wgan_gp_nan_early_s0\models
+2026-10-04 12:37:11 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-04 12:37:11 [INFO] wgan_gp - Loss curve plot saved to results/figures/wgan_loss_curves.png
+2026-10-04 12:37:11 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 20  (critic_loss=-2568082.7000)
+2026-10-04 12:37:11 [INFO] wgan_gp - Generated 50 samples for class_id=0. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 12:37:11 [INFO] wgan_gp - Generated 200 samples for class_id=1. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 12:37:11 [INFO] wgan_gp - Generated 10 samples for class_id=0. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 12:37:11 [INFO] wgan_gp - Generated 10 samples for class_id=3. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 12:37:11 [INFO] wgan_gp - Generated 100 samples for class_id=2. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 12:37:11 [INFO] wgan_gp - Generated 1 samples for class_id=0. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 12:39:29 [INFO] wgan_gp - Generated 10 samples for class_id=1. One-hot groups validated: ['cat_feature']
+2026-10-04 12:39:29 [INFO] wgan_gp - Generated 40 samples for class_id=2. One-hot groups validated: ['cat_feature']
+2026-10-04 12:39:29 [INFO] wgan_gp - Generated 48 samples for class_id=3. One-hot groups validated: ['cat_feature']
+2026-10-04 12:39:29 [INFO] wgan_gp - Generated 10 samples for class_id=2. One-hot groups validated: []
+2026-10-04 12:39:29 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-04 12:39:29 [INFO] wgan_gp - Config: epochs=3, batch_size=64, lr=1.0e-04, n_critic=2, lambda_gp=10.0, latent_dim=100
+2026-10-04 12:39:29 [INFO] wgan_gp - Data: 256 attack samples, 122 features, 4 classes
+2026-10-04 12:39:29 [INFO] wgan_gp - Starting WGAN-GP training for 3 epochs ...
+2026-10-04 12:39:29 [INFO] wgan_gp - Epoch   1/3  |  C_loss: +6.4044  |  G_loss: -0.1974  |  W_dist: -0.2224
+2026-10-04 12:39:29 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-04 12:39:29 [INFO] wgan_gp - Epoch   2/3  |  C_loss: +5.0985  |  G_loss: -0.1951  |  W_dist: -0.2759
+2026-10-04 12:39:29 [INFO] wgan_gp -   ↳ New best model saved (epoch 2).
+2026-10-04 12:39:29 [INFO] wgan_gp - Epoch   3/3  |  C_loss: +3.7459  |  G_loss: -0.2127  |  W_dist: -0.2556
+2026-10-04 12:39:29 [INFO] wgan_gp -   ↳ New best model saved (epoch 3).
+2026-10-04 12:39:29 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-15\test_train_wgan_gp_smoke0\models
+2026-10-04 12:39:29 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-04 12:39:30 [INFO] wgan_gp - Loss curve plot saved to results/figures/wgan_loss_curves.png
+2026-10-04 12:39:30 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 3  (critic_loss=3.7459)
+2026-10-04 12:39:30 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-04 12:39:30 [INFO] wgan_gp - Config: epochs=20, batch_size=64, lr=1.0e+00, n_critic=5, lambda_gp=10.0, latent_dim=100
+2026-10-04 12:39:30 [INFO] wgan_gp - Data: 128 attack samples, 122 features, 4 classes
+2026-10-04 12:39:30 [INFO] wgan_gp - Starting WGAN-GP training for 20 epochs ...
+2026-10-04 12:39:30 [INFO] wgan_gp - Epoch   1/20  |  C_loss: -1413.7893  |  G_loss: +558.1883  |  W_dist: +1423.7555
+2026-10-04 12:39:30 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-04 12:39:30 [INFO] wgan_gp - Epoch   2/20  |  C_loss: -14667.1450  |  G_loss: +9752.2444  |  W_dist: +14677.0710
+2026-10-04 12:39:30 [INFO] wgan_gp -   ↳ New best model saved (epoch 2).
+2026-10-04 12:39:30 [INFO] wgan_gp - Epoch   3/20  |  C_loss: -47116.2910  |  G_loss: +24348.9766  |  W_dist: +47126.2159
+2026-10-04 12:39:30 [INFO] wgan_gp -   ↳ New best model saved (epoch 3).
+2026-10-04 12:39:30 [INFO] wgan_gp - Epoch   4/20  |  C_loss: -94659.7203  |  G_loss: +45118.6855  |  W_dist: +94669.6525
+2026-10-04 12:39:30 [INFO] wgan_gp -   ↳ New best model saved (epoch 4).
+2026-10-04 12:39:30 [INFO] wgan_gp - Epoch   5/20  |  C_loss: -156084.8398  |  G_loss: +69546.9688  |  W_dist: +156094.7766
+2026-10-04 12:39:30 [INFO] wgan_gp -   ↳ New best model saved (epoch 5).
+2026-10-04 12:39:30 [INFO] wgan_gp - Epoch   6/20  |  C_loss: -230356.6859  |  G_loss: +97653.2383  |  W_dist: +230366.5648
+2026-10-04 12:39:30 [INFO] wgan_gp -   ↳ New best model saved (epoch 6).
+2026-10-04 12:39:30 [INFO] wgan_gp - Epoch   7/20  |  C_loss: -316056.3406  |  G_loss: +130753.9336  |  W_dist: +316066.1992
+2026-10-04 12:39:30 [INFO] wgan_gp -   ↳ New best model saved (epoch 7).
+2026-10-04 12:39:30 [INFO] wgan_gp - Epoch   8/20  |  C_loss: -414611.8844  |  G_loss: +167062.3750  |  W_dist: +414621.7750
+2026-10-04 12:39:30 [INFO] wgan_gp -   ↳ New best model saved (epoch 8).
+2026-10-04 12:39:30 [INFO] wgan_gp - Epoch   9/20  |  C_loss: -524712.7875  |  G_loss: +208191.3984  |  W_dist: +524722.5453
+2026-10-04 12:39:30 [INFO] wgan_gp -   ↳ New best model saved (epoch 9).
+2026-10-04 12:39:30 [INFO] wgan_gp - Epoch  10/20  |  C_loss: -646697.2312  |  G_loss: +254247.7734  |  W_dist: +646706.9891
+2026-10-04 12:39:30 [INFO] wgan_gp -   ↳ New best model saved (epoch 10).
+2026-10-04 12:39:30 [INFO] wgan_gp - Epoch  11/20  |  C_loss: -781089.7937  |  G_loss: +306398.2344  |  W_dist: +781099.5437
+2026-10-04 12:39:30 [INFO] wgan_gp -   ↳ New best model saved (epoch 11).
+2026-10-04 12:39:30 [INFO] wgan_gp - Epoch  12/20  |  C_loss: -927495.3812  |  G_loss: +361751.6875  |  W_dist: +927505.1781
+2026-10-04 12:39:30 [INFO] wgan_gp -   ↳ New best model saved (epoch 12).
+2026-10-04 12:39:30 [INFO] wgan_gp - Epoch  13/20  |  C_loss: -1085620.2375  |  G_loss: +417413.3125  |  W_dist: +1085683.2969
+2026-10-04 12:39:30 [INFO] wgan_gp -   ↳ New best model saved (epoch 13).
+2026-10-04 12:39:30 [INFO] wgan_gp - Epoch  14/20  |  C_loss: -1262800.4500  |  G_loss: +493955.6875  |  W_dist: +1262810.0125
+2026-10-04 12:39:30 [INFO] wgan_gp -   ↳ New best model saved (epoch 14).
+2026-10-04 12:39:30 [INFO] wgan_gp - Epoch  15/20  |  C_loss: -1454006.7500  |  G_loss: +571054.7500  |  W_dist: +1454016.6375
+2026-10-04 12:39:30 [INFO] wgan_gp -   ↳ New best model saved (epoch 15).
+2026-10-04 12:39:31 [INFO] wgan_gp - Epoch  16/20  |  C_loss: -1651183.7125  |  G_loss: +650819.2188  |  W_dist: +1651193.3250
+2026-10-04 12:39:31 [INFO] wgan_gp -   ↳ New best model saved (epoch 16).
+2026-10-04 12:39:31 [INFO] wgan_gp - Epoch  17/20  |  C_loss: -1860202.9875  |  G_loss: +730431.5938  |  W_dist: +1860214.6812
+2026-10-04 12:39:31 [INFO] wgan_gp -   ↳ New best model saved (epoch 17).
+2026-10-04 12:39:31 [INFO] wgan_gp - Epoch  18/20  |  C_loss: -2082222.9750  |  G_loss: +817581.0312  |  W_dist: +2082233.2688
+2026-10-04 12:39:31 [INFO] wgan_gp -   ↳ New best model saved (epoch 18).
+2026-10-04 12:39:31 [INFO] wgan_gp - Epoch  19/20  |  C_loss: -2315150.2000  |  G_loss: +911354.3438  |  W_dist: +2315159.9000
+2026-10-04 12:39:31 [INFO] wgan_gp -   ↳ New best model saved (epoch 19).
+2026-10-04 12:39:31 [INFO] wgan_gp - Epoch  20/20  |  C_loss: -2568082.7000  |  G_loss: +1025546.9688  |  W_dist: +2568092.4500
+2026-10-04 12:39:31 [INFO] wgan_gp -   ↳ New best model saved (epoch 20).
+2026-10-04 12:39:31 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-15\test_train_wgan_gp_nan_early_s0\models
+2026-10-04 12:39:31 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-04 12:39:31 [INFO] wgan_gp - Loss curve plot saved to results/figures/wgan_loss_curves.png
+2026-10-04 12:39:31 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 20  (critic_loss=-2568082.7000)
+2026-10-04 12:39:31 [INFO] wgan_gp - Generated 50 samples for class_id=0. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 12:39:31 [INFO] wgan_gp - Generated 200 samples for class_id=1. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 12:39:31 [INFO] wgan_gp - Generated 10 samples for class_id=0. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 12:39:31 [INFO] wgan_gp - Generated 10 samples for class_id=3. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 12:39:31 [INFO] wgan_gp - Generated 100 samples for class_id=2. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 12:39:31 [INFO] wgan_gp - Generated 1 samples for class_id=0. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 12:40:42 [INFO] wgan_gp - Generated 10 samples for class_id=2. One-hot groups validated: []
+2026-10-04 12:40:45 [INFO] wgan_gp - Generated 10 samples for class_id=2. One-hot groups validated: []
+2026-10-04 12:41:10 [INFO] wgan_gp - Generated 10 samples for class_id=2. One-hot groups validated: []
+2026-10-04 12:41:11 [INFO] wgan_gp - Generated 10 samples for class_id=2. One-hot groups validated: []
+2026-10-04 12:41:12 [INFO] wgan_gp - Generated 10 samples for class_id=1. One-hot groups validated: ['cat_feature']
+2026-10-04 12:41:12 [INFO] wgan_gp - Generated 40 samples for class_id=2. One-hot groups validated: ['cat_feature']
+2026-10-04 12:41:12 [INFO] wgan_gp - Generated 48 samples for class_id=3. One-hot groups validated: ['cat_feature']
+2026-10-04 12:41:12 [INFO] wgan_gp - Generated 10 samples for class_id=2. One-hot groups validated: []
+2026-10-04 12:41:13 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-04 12:41:13 [INFO] wgan_gp - Config: epochs=3, batch_size=64, lr=1.0e-04, n_critic=2, lambda_gp=10.0, latent_dim=100
+2026-10-04 12:41:13 [INFO] wgan_gp - Data: 256 attack samples, 122 features, 4 classes
+2026-10-04 12:41:13 [INFO] wgan_gp - Starting WGAN-GP training for 3 epochs ...
+2026-10-04 12:41:13 [INFO] wgan_gp - Epoch   1/3  |  C_loss: +6.4044  |  G_loss: -0.1974  |  W_dist: -0.2224
+2026-10-04 12:41:13 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-04 12:41:13 [INFO] wgan_gp - Epoch   2/3  |  C_loss: +5.0985  |  G_loss: -0.1951  |  W_dist: -0.2759
+2026-10-04 12:41:13 [INFO] wgan_gp -   ↳ New best model saved (epoch 2).
+2026-10-04 12:41:13 [INFO] wgan_gp - Epoch   3/3  |  C_loss: +3.7459  |  G_loss: -0.2127  |  W_dist: -0.2556
+2026-10-04 12:41:13 [INFO] wgan_gp -   ↳ New best model saved (epoch 3).
+2026-10-04 12:41:13 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-17\test_train_wgan_gp_smoke0\models
+2026-10-04 12:41:13 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-04 12:41:13 [INFO] wgan_gp - Loss curve plot saved to results/figures/wgan_loss_curves.png
+2026-10-04 12:41:13 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 3  (critic_loss=3.7459)
+2026-10-04 12:41:13 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-04 12:41:13 [INFO] wgan_gp - Config: epochs=20, batch_size=64, lr=1.0e+00, n_critic=5, lambda_gp=10.0, latent_dim=100
+2026-10-04 12:41:13 [INFO] wgan_gp - Data: 128 attack samples, 122 features, 4 classes
+2026-10-04 12:41:13 [INFO] wgan_gp - Starting WGAN-GP training for 20 epochs ...
+2026-10-04 12:41:13 [INFO] wgan_gp - Epoch   1/20  |  C_loss: -1413.7893  |  G_loss: +558.1883  |  W_dist: +1423.7555
+2026-10-04 12:41:13 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-04 12:41:13 [INFO] wgan_gp - Epoch   2/20  |  C_loss: -14667.1450  |  G_loss: +9752.2444  |  W_dist: +14677.0710
+2026-10-04 12:41:13 [INFO] wgan_gp -   ↳ New best model saved (epoch 2).
+2026-10-04 12:41:14 [INFO] wgan_gp - Epoch   3/20  |  C_loss: -47116.2910  |  G_loss: +24348.9766  |  W_dist: +47126.2159
+2026-10-04 12:41:14 [INFO] wgan_gp -   ↳ New best model saved (epoch 3).
+2026-10-04 12:41:14 [INFO] wgan_gp - Epoch   4/20  |  C_loss: -94659.7203  |  G_loss: +45118.6855  |  W_dist: +94669.6525
+2026-10-04 12:41:14 [INFO] wgan_gp -   ↳ New best model saved (epoch 4).
+2026-10-04 12:41:14 [INFO] wgan_gp - Epoch   5/20  |  C_loss: -156084.8398  |  G_loss: +69546.9688  |  W_dist: +156094.7766
+2026-10-04 12:41:14 [INFO] wgan_gp -   ↳ New best model saved (epoch 5).
+2026-10-04 12:41:14 [INFO] wgan_gp - Epoch   6/20  |  C_loss: -230356.6859  |  G_loss: +97653.2383  |  W_dist: +230366.5648
+2026-10-04 12:41:14 [INFO] wgan_gp -   ↳ New best model saved (epoch 6).
+2026-10-04 12:41:14 [INFO] wgan_gp - Epoch   7/20  |  C_loss: -316056.3406  |  G_loss: +130753.9336  |  W_dist: +316066.1992
+2026-10-04 12:41:14 [INFO] wgan_gp -   ↳ New best model saved (epoch 7).
+2026-10-04 12:41:14 [INFO] wgan_gp - Epoch   8/20  |  C_loss: -414611.8844  |  G_loss: +167062.3750  |  W_dist: +414621.7750
+2026-10-04 12:41:14 [INFO] wgan_gp -   ↳ New best model saved (epoch 8).
+2026-10-04 12:41:14 [INFO] wgan_gp - Epoch   9/20  |  C_loss: -524712.7875  |  G_loss: +208191.3984  |  W_dist: +524722.5453
+2026-10-04 12:41:14 [INFO] wgan_gp -   ↳ New best model saved (epoch 9).
+2026-10-04 12:41:14 [INFO] wgan_gp - Epoch  10/20  |  C_loss: -646697.2312  |  G_loss: +254247.7734  |  W_dist: +646706.9891
+2026-10-04 12:41:14 [INFO] wgan_gp -   ↳ New best model saved (epoch 10).
+2026-10-04 12:41:14 [INFO] wgan_gp - Epoch  11/20  |  C_loss: -781089.7937  |  G_loss: +306398.2344  |  W_dist: +781099.5437
+2026-10-04 12:41:14 [INFO] wgan_gp -   ↳ New best model saved (epoch 11).
+2026-10-04 12:41:14 [INFO] wgan_gp - Epoch  12/20  |  C_loss: -927495.3812  |  G_loss: +361751.6875  |  W_dist: +927505.1781
+2026-10-04 12:41:14 [INFO] wgan_gp -   ↳ New best model saved (epoch 12).
+2026-10-04 12:41:14 [INFO] wgan_gp - Epoch  13/20  |  C_loss: -1085620.2375  |  G_loss: +417413.3125  |  W_dist: +1085683.2969
+2026-10-04 12:41:14 [INFO] wgan_gp -   ↳ New best model saved (epoch 13).
+2026-10-04 12:41:14 [INFO] wgan_gp - Epoch  14/20  |  C_loss: -1262800.4500  |  G_loss: +493955.6875  |  W_dist: +1262810.0125
+2026-10-04 12:41:14 [INFO] wgan_gp -   ↳ New best model saved (epoch 14).
+2026-10-04 12:41:14 [INFO] wgan_gp - Epoch  15/20  |  C_loss: -1454006.7500  |  G_loss: +571054.7500  |  W_dist: +1454016.6375
+2026-10-04 12:41:14 [INFO] wgan_gp -   ↳ New best model saved (epoch 15).
+2026-10-04 12:41:14 [INFO] wgan_gp - Epoch  16/20  |  C_loss: -1651183.7125  |  G_loss: +650819.2188  |  W_dist: +1651193.3250
+2026-10-04 12:41:14 [INFO] wgan_gp -   ↳ New best model saved (epoch 16).
+2026-10-04 12:41:14 [INFO] wgan_gp - Epoch  17/20  |  C_loss: -1860202.9875  |  G_loss: +730431.5938  |  W_dist: +1860214.6812
+2026-10-04 12:41:14 [INFO] wgan_gp -   ↳ New best model saved (epoch 17).
+2026-10-04 12:41:14 [INFO] wgan_gp - Epoch  18/20  |  C_loss: -2082222.9750  |  G_loss: +817581.0312  |  W_dist: +2082233.2688
+2026-10-04 12:41:14 [INFO] wgan_gp -   ↳ New best model saved (epoch 18).
+2026-10-04 12:41:14 [INFO] wgan_gp - Epoch  19/20  |  C_loss: -2315150.2000  |  G_loss: +911354.3438  |  W_dist: +2315159.9000
+2026-10-04 12:41:14 [INFO] wgan_gp -   ↳ New best model saved (epoch 19).
+2026-10-04 12:41:14 [INFO] wgan_gp - Epoch  20/20  |  C_loss: -2568082.7000  |  G_loss: +1025546.9688  |  W_dist: +2568092.4500
+2026-10-04 12:41:14 [INFO] wgan_gp -   ↳ New best model saved (epoch 20).
+2026-10-04 12:41:14 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-17\test_train_wgan_gp_nan_early_s0\models
+2026-10-04 12:41:14 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-04 12:41:15 [INFO] wgan_gp - Loss curve plot saved to results/figures/wgan_loss_curves.png
+2026-10-04 12:41:15 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 20  (critic_loss=-2568082.7000)
+2026-10-04 12:41:15 [INFO] wgan_gp - Generated 50 samples for class_id=0. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 12:41:15 [INFO] wgan_gp - Generated 200 samples for class_id=1. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 12:41:15 [INFO] wgan_gp - Generated 10 samples for class_id=0. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 12:41:15 [INFO] wgan_gp - Generated 10 samples for class_id=3. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 12:41:15 [INFO] wgan_gp - Generated 100 samples for class_id=2. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 12:41:15 [INFO] wgan_gp - Generated 1 samples for class_id=0. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 12:47:18 [INFO] wgan_gp - Generated 10 samples for class_id=2. One-hot groups validated: []
+2026-10-04 12:47:19 [INFO] wgan_gp - Generated 10 samples for class_id=2. One-hot groups validated: []
+2026-10-04 12:47:20 [INFO] wgan_gp - Generated 10 samples for class_id=1. One-hot groups validated: ['cat_feature']
+2026-10-04 12:47:20 [INFO] wgan_gp - Generated 40 samples for class_id=2. One-hot groups validated: ['cat_feature']
+2026-10-04 12:47:20 [INFO] wgan_gp - Generated 48 samples for class_id=3. One-hot groups validated: ['cat_feature']
+2026-10-04 12:47:20 [INFO] wgan_gp - Generated 10 samples for class_id=2. One-hot groups validated: []
+2026-10-04 12:47:21 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-04 12:47:21 [INFO] wgan_gp - Config: epochs=3, batch_size=64, lr=1.0e-04, n_critic=2, lambda_gp=10.0, latent_dim=100
+2026-10-04 12:47:21 [INFO] wgan_gp - Data: 256 attack samples, 122 features, 4 classes
+2026-10-04 12:47:21 [INFO] wgan_gp - Starting WGAN-GP training for 3 epochs ...
+2026-10-04 12:47:21 [INFO] wgan_gp - Epoch   1/3  |  C_loss: +6.4044  |  G_loss: -0.1974  |  W_dist: -0.2224
+2026-10-04 12:47:21 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-04 12:47:21 [INFO] wgan_gp - Epoch   2/3  |  C_loss: +5.0985  |  G_loss: -0.1951  |  W_dist: -0.2759
+2026-10-04 12:47:21 [INFO] wgan_gp -   ↳ New best model saved (epoch 2).
+2026-10-04 12:47:21 [INFO] wgan_gp - Epoch   3/3  |  C_loss: +3.7459  |  G_loss: -0.2127  |  W_dist: -0.2556
+2026-10-04 12:47:21 [INFO] wgan_gp -   ↳ New best model saved (epoch 3).
+2026-10-04 12:47:21 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-22\test_train_wgan_gp_smoke0\models
+2026-10-04 12:47:21 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-04 12:47:22 [INFO] wgan_gp - Loss curve plot saved to results/figures/wgan_loss_curves.png
+2026-10-04 12:47:22 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 3  (critic_loss=3.7459)
+2026-10-04 12:47:22 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-04 12:47:22 [INFO] wgan_gp - Config: epochs=20, batch_size=64, lr=1.0e+00, n_critic=5, lambda_gp=10.0, latent_dim=100
+2026-10-04 12:47:22 [INFO] wgan_gp - Data: 128 attack samples, 122 features, 4 classes
+2026-10-04 12:47:22 [INFO] wgan_gp - Starting WGAN-GP training for 20 epochs ...
+2026-10-04 12:47:22 [INFO] wgan_gp - Epoch   1/20  |  C_loss: -1413.7893  |  G_loss: +558.1883  |  W_dist: +1423.7555
+2026-10-04 12:47:22 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-04 12:47:22 [INFO] wgan_gp - Epoch   2/20  |  C_loss: -14667.1450  |  G_loss: +9752.2444  |  W_dist: +14677.0710
+2026-10-04 12:47:22 [INFO] wgan_gp -   ↳ New best model saved (epoch 2).
+2026-10-04 12:47:22 [INFO] wgan_gp - Epoch   3/20  |  C_loss: -47116.2910  |  G_loss: +24348.9766  |  W_dist: +47126.2159
+2026-10-04 12:47:22 [INFO] wgan_gp -   ↳ New best model saved (epoch 3).
+2026-10-04 12:47:22 [INFO] wgan_gp - Epoch   4/20  |  C_loss: -94659.7203  |  G_loss: +45118.6855  |  W_dist: +94669.6525
+2026-10-04 12:47:22 [INFO] wgan_gp -   ↳ New best model saved (epoch 4).
+2026-10-04 12:47:22 [INFO] wgan_gp - Epoch   5/20  |  C_loss: -156084.8398  |  G_loss: +69546.9688  |  W_dist: +156094.7766
+2026-10-04 12:47:22 [INFO] wgan_gp -   ↳ New best model saved (epoch 5).
+2026-10-04 12:47:22 [INFO] wgan_gp - Epoch   6/20  |  C_loss: -230356.6859  |  G_loss: +97653.2383  |  W_dist: +230366.5648
+2026-10-04 12:47:22 [INFO] wgan_gp -   ↳ New best model saved (epoch 6).
+2026-10-04 12:47:22 [INFO] wgan_gp - Epoch   7/20  |  C_loss: -316056.3406  |  G_loss: +130753.9336  |  W_dist: +316066.1992
+2026-10-04 12:47:22 [INFO] wgan_gp -   ↳ New best model saved (epoch 7).
+2026-10-04 12:47:22 [INFO] wgan_gp - Epoch   8/20  |  C_loss: -414611.8844  |  G_loss: +167062.3750  |  W_dist: +414621.7750
+2026-10-04 12:47:22 [INFO] wgan_gp -   ↳ New best model saved (epoch 8).
+2026-10-04 12:47:22 [INFO] wgan_gp - Epoch   9/20  |  C_loss: -524712.7875  |  G_loss: +208191.3984  |  W_dist: +524722.5453
+2026-10-04 12:47:22 [INFO] wgan_gp -   ↳ New best model saved (epoch 9).
+2026-10-04 12:47:22 [INFO] wgan_gp - Epoch  10/20  |  C_loss: -646697.2312  |  G_loss: +254247.7734  |  W_dist: +646706.9891
+2026-10-04 12:47:22 [INFO] wgan_gp -   ↳ New best model saved (epoch 10).
+2026-10-04 12:47:22 [INFO] wgan_gp - Epoch  11/20  |  C_loss: -781089.7937  |  G_loss: +306398.2344  |  W_dist: +781099.5437
+2026-10-04 12:47:22 [INFO] wgan_gp -   ↳ New best model saved (epoch 11).
+2026-10-04 12:47:22 [INFO] wgan_gp - Epoch  12/20  |  C_loss: -927495.3812  |  G_loss: +361751.6875  |  W_dist: +927505.1781
+2026-10-04 12:47:22 [INFO] wgan_gp -   ↳ New best model saved (epoch 12).
+2026-10-04 12:47:22 [INFO] wgan_gp - Epoch  13/20  |  C_loss: -1085620.2375  |  G_loss: +417413.3125  |  W_dist: +1085683.2969
+2026-10-04 12:47:22 [INFO] wgan_gp -   ↳ New best model saved (epoch 13).
+2026-10-04 12:47:22 [INFO] wgan_gp - Epoch  14/20  |  C_loss: -1262800.4500  |  G_loss: +493955.6875  |  W_dist: +1262810.0125
+2026-10-04 12:47:22 [INFO] wgan_gp -   ↳ New best model saved (epoch 14).
+2026-10-04 12:47:22 [INFO] wgan_gp - Epoch  15/20  |  C_loss: -1454006.7500  |  G_loss: +571054.7500  |  W_dist: +1454016.6375
+2026-10-04 12:47:22 [INFO] wgan_gp -   ↳ New best model saved (epoch 15).
+2026-10-04 12:47:22 [INFO] wgan_gp - Epoch  16/20  |  C_loss: -1651183.7125  |  G_loss: +650819.2188  |  W_dist: +1651193.3250
+2026-10-04 12:47:22 [INFO] wgan_gp -   ↳ New best model saved (epoch 16).
+2026-10-04 12:47:23 [INFO] wgan_gp - Epoch  17/20  |  C_loss: -1860202.9875  |  G_loss: +730431.5938  |  W_dist: +1860214.6812
+2026-10-04 12:47:23 [INFO] wgan_gp -   ↳ New best model saved (epoch 17).
+2026-10-04 12:47:23 [INFO] wgan_gp - Epoch  18/20  |  C_loss: -2082222.9750  |  G_loss: +817581.0312  |  W_dist: +2082233.2688
+2026-10-04 12:47:23 [INFO] wgan_gp -   ↳ New best model saved (epoch 18).
+2026-10-04 12:47:23 [INFO] wgan_gp - Epoch  19/20  |  C_loss: -2315150.2000  |  G_loss: +911354.3438  |  W_dist: +2315159.9000
+2026-10-04 12:47:23 [INFO] wgan_gp -   ↳ New best model saved (epoch 19).
+2026-10-04 12:47:23 [INFO] wgan_gp - Epoch  20/20  |  C_loss: -2568082.7000  |  G_loss: +1025546.9688  |  W_dist: +2568092.4500
+2026-10-04 12:47:23 [INFO] wgan_gp -   ↳ New best model saved (epoch 20).
+2026-10-04 12:47:23 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-22\test_train_wgan_gp_nan_early_s0\models
+2026-10-04 12:47:23 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-04 12:47:23 [INFO] wgan_gp - Loss curve plot saved to results/figures/wgan_loss_curves.png
+2026-10-04 12:47:23 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 20  (critic_loss=-2568082.7000)
+2026-10-04 12:47:23 [INFO] wgan_gp - Generated 50 samples for class_id=0. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 12:47:23 [INFO] wgan_gp - Generated 200 samples for class_id=1. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 12:47:23 [INFO] wgan_gp - Generated 10 samples for class_id=0. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 12:47:23 [INFO] wgan_gp - Generated 10 samples for class_id=3. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 12:47:23 [INFO] wgan_gp - Generated 100 samples for class_id=2. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 12:47:23 [INFO] wgan_gp - Generated 1 samples for class_id=0. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 13:01:19 [INFO] wgan_gp - Generated 10 samples for class_id=2. One-hot groups validated: []
+2026-10-04 13:01:20 [INFO] wgan_gp - Generated 10 samples for class_id=2. One-hot groups validated: []
+2026-10-04 13:01:22 [INFO] wgan_gp - Generated 10 samples for class_id=1. One-hot groups validated: ['cat_feature']
+2026-10-04 13:01:22 [INFO] wgan_gp - Generated 40 samples for class_id=2. One-hot groups validated: ['cat_feature']
+2026-10-04 13:01:22 [INFO] wgan_gp - Generated 48 samples for class_id=3. One-hot groups validated: ['cat_feature']
+2026-10-04 13:01:22 [INFO] wgan_gp - Generated 10 samples for class_id=2. One-hot groups validated: []
+2026-10-04 13:01:23 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-04 13:01:23 [INFO] wgan_gp - Config: epochs=3, batch_size=64, lr=1.0e-04, n_critic=2, lambda_gp=10.0, latent_dim=100
+2026-10-04 13:01:23 [INFO] wgan_gp - Data: 256 attack samples, 122 features, 4 classes
+2026-10-04 13:01:23 [INFO] wgan_gp - Starting WGAN-GP training for 3 epochs ...
+2026-10-04 13:01:23 [INFO] wgan_gp - Epoch   1/3  |  C_loss: +6.4044  |  G_loss: -0.1974  |  W_dist: -0.2224
+2026-10-04 13:01:23 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-04 13:01:23 [INFO] wgan_gp - Epoch   2/3  |  C_loss: +5.0985  |  G_loss: -0.1951  |  W_dist: -0.2759
+2026-10-04 13:01:23 [INFO] wgan_gp -   ↳ New best model saved (epoch 2).
+2026-10-04 13:01:23 [INFO] wgan_gp - Epoch   3/3  |  C_loss: +3.7459  |  G_loss: -0.2127  |  W_dist: -0.2556
+2026-10-04 13:01:23 [INFO] wgan_gp -   ↳ New best model saved (epoch 3).
+2026-10-04 13:01:23 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-25\test_train_wgan_gp_smoke0\models
+2026-10-04 13:01:23 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-04 13:01:23 [INFO] wgan_gp - Loss curve plot saved to results/figures/wgan_loss_curves.png
+2026-10-04 13:01:23 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 3  (critic_loss=3.7459)
+2026-10-04 13:01:23 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-04 13:01:23 [INFO] wgan_gp - Config: epochs=20, batch_size=64, lr=1.0e+00, n_critic=5, lambda_gp=10.0, latent_dim=100
+2026-10-04 13:01:23 [INFO] wgan_gp - Data: 128 attack samples, 122 features, 4 classes
+2026-10-04 13:01:23 [INFO] wgan_gp - Starting WGAN-GP training for 20 epochs ...
+2026-10-04 13:01:23 [INFO] wgan_gp - Epoch   1/20  |  C_loss: -1413.7893  |  G_loss: +558.1883  |  W_dist: +1423.7555
+2026-10-04 13:01:23 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-04 13:01:23 [INFO] wgan_gp - Epoch   2/20  |  C_loss: -14667.1450  |  G_loss: +9752.2444  |  W_dist: +14677.0710
+2026-10-04 13:01:23 [INFO] wgan_gp -   ↳ New best model saved (epoch 2).
+2026-10-04 13:01:23 [INFO] wgan_gp - Epoch   3/20  |  C_loss: -47116.2910  |  G_loss: +24348.9766  |  W_dist: +47126.2159
+2026-10-04 13:01:23 [INFO] wgan_gp -   ↳ New best model saved (epoch 3).
+2026-10-04 13:01:23 [INFO] wgan_gp - Epoch   4/20  |  C_loss: -94659.7203  |  G_loss: +45118.6855  |  W_dist: +94669.6525
+2026-10-04 13:01:23 [INFO] wgan_gp -   ↳ New best model saved (epoch 4).
+2026-10-04 13:01:23 [INFO] wgan_gp - Epoch   5/20  |  C_loss: -156084.8398  |  G_loss: +69546.9688  |  W_dist: +156094.7766
+2026-10-04 13:01:23 [INFO] wgan_gp -   ↳ New best model saved (epoch 5).
+2026-10-04 13:01:24 [INFO] wgan_gp - Epoch   6/20  |  C_loss: -230356.6859  |  G_loss: +97653.2383  |  W_dist: +230366.5648
+2026-10-04 13:01:24 [INFO] wgan_gp -   ↳ New best model saved (epoch 6).
+2026-10-04 13:01:24 [INFO] wgan_gp - Epoch   7/20  |  C_loss: -316056.3406  |  G_loss: +130753.9336  |  W_dist: +316066.1992
+2026-10-04 13:01:24 [INFO] wgan_gp -   ↳ New best model saved (epoch 7).
+2026-10-04 13:01:24 [INFO] wgan_gp - Epoch   8/20  |  C_loss: -414611.8844  |  G_loss: +167062.3750  |  W_dist: +414621.7750
+2026-10-04 13:01:24 [INFO] wgan_gp -   ↳ New best model saved (epoch 8).
+2026-10-04 13:01:24 [INFO] wgan_gp - Epoch   9/20  |  C_loss: -524712.7875  |  G_loss: +208191.3984  |  W_dist: +524722.5453
+2026-10-04 13:01:24 [INFO] wgan_gp -   ↳ New best model saved (epoch 9).
+2026-10-04 13:01:24 [INFO] wgan_gp - Epoch  10/20  |  C_loss: -646697.2312  |  G_loss: +254247.7734  |  W_dist: +646706.9891
+2026-10-04 13:01:24 [INFO] wgan_gp -   ↳ New best model saved (epoch 10).
+2026-10-04 13:01:24 [INFO] wgan_gp - Epoch  11/20  |  C_loss: -781089.7937  |  G_loss: +306398.2344  |  W_dist: +781099.5437
+2026-10-04 13:01:24 [INFO] wgan_gp -   ↳ New best model saved (epoch 11).
+2026-10-04 13:01:24 [INFO] wgan_gp - Epoch  12/20  |  C_loss: -927495.3812  |  G_loss: +361751.6875  |  W_dist: +927505.1781
+2026-10-04 13:01:24 [INFO] wgan_gp -   ↳ New best model saved (epoch 12).
+2026-10-04 13:01:24 [INFO] wgan_gp - Epoch  13/20  |  C_loss: -1085620.2375  |  G_loss: +417413.3125  |  W_dist: +1085683.2969
+2026-10-04 13:01:24 [INFO] wgan_gp -   ↳ New best model saved (epoch 13).
+2026-10-04 13:01:24 [INFO] wgan_gp - Epoch  14/20  |  C_loss: -1262800.4500  |  G_loss: +493955.6875  |  W_dist: +1262810.0125
+2026-10-04 13:01:24 [INFO] wgan_gp -   ↳ New best model saved (epoch 14).
+2026-10-04 13:01:24 [INFO] wgan_gp - Epoch  15/20  |  C_loss: -1454006.7500  |  G_loss: +571054.7500  |  W_dist: +1454016.6375
+2026-10-04 13:01:24 [INFO] wgan_gp -   ↳ New best model saved (epoch 15).
+2026-10-04 13:01:24 [INFO] wgan_gp - Epoch  16/20  |  C_loss: -1651183.7125  |  G_loss: +650819.2188  |  W_dist: +1651193.3250
+2026-10-04 13:01:24 [INFO] wgan_gp -   ↳ New best model saved (epoch 16).
+2026-10-04 13:01:24 [INFO] wgan_gp - Epoch  17/20  |  C_loss: -1860202.9875  |  G_loss: +730431.5938  |  W_dist: +1860214.6812
+2026-10-04 13:01:24 [INFO] wgan_gp -   ↳ New best model saved (epoch 17).
+2026-10-04 13:01:24 [INFO] wgan_gp - Epoch  18/20  |  C_loss: -2082222.9750  |  G_loss: +817581.0312  |  W_dist: +2082233.2688
+2026-10-04 13:01:24 [INFO] wgan_gp -   ↳ New best model saved (epoch 18).
+2026-10-04 13:01:24 [INFO] wgan_gp - Epoch  19/20  |  C_loss: -2315150.2000  |  G_loss: +911354.3438  |  W_dist: +2315159.9000
+2026-10-04 13:01:24 [INFO] wgan_gp -   ↳ New best model saved (epoch 19).
+2026-10-04 13:01:24 [INFO] wgan_gp - Epoch  20/20  |  C_loss: -2568082.7000  |  G_loss: +1025546.9688  |  W_dist: +2568092.4500
+2026-10-04 13:01:24 [INFO] wgan_gp -   ↳ New best model saved (epoch 20).
+2026-10-04 13:01:24 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-25\test_train_wgan_gp_nan_early_s0\models
+2026-10-04 13:01:24 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-04 13:01:25 [INFO] wgan_gp - Loss curve plot saved to results/figures/wgan_loss_curves.png
+2026-10-04 13:01:25 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 20  (critic_loss=-2568082.7000)
+2026-10-04 13:01:25 [INFO] wgan_gp - Generated 50 samples for class_id=0. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 13:01:25 [INFO] wgan_gp - Generated 200 samples for class_id=1. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 13:01:25 [INFO] wgan_gp - Generated 10 samples for class_id=0. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 13:01:25 [INFO] wgan_gp - Generated 10 samples for class_id=3. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 13:01:25 [INFO] wgan_gp - Generated 100 samples for class_id=2. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 13:01:25 [INFO] wgan_gp - Generated 1 samples for class_id=0. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 13:02:45 [INFO] wgan_gp - Generated 10 samples for class_id=2. One-hot groups validated: []
+2026-10-04 13:02:45 [INFO] wgan_gp - Generated 10 samples for class_id=2. One-hot groups validated: []
+2026-10-04 13:02:47 [INFO] wgan_gp - Generated 10 samples for class_id=1. One-hot groups validated: ['cat_feature']
+2026-10-04 13:02:47 [INFO] wgan_gp - Generated 40 samples for class_id=2. One-hot groups validated: ['cat_feature']
+2026-10-04 13:02:47 [INFO] wgan_gp - Generated 48 samples for class_id=3. One-hot groups validated: ['cat_feature']
+2026-10-04 13:02:47 [INFO] wgan_gp - Generated 10 samples for class_id=2. One-hot groups validated: []
+2026-10-04 13:02:47 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-04 13:02:47 [INFO] wgan_gp - Config: epochs=3, batch_size=64, lr=1.0e-04, n_critic=2, lambda_gp=10.0, latent_dim=100
+2026-10-04 13:02:47 [INFO] wgan_gp - Data: 256 attack samples, 122 features, 4 classes
+2026-10-04 13:02:47 [INFO] wgan_gp - Starting WGAN-GP training for 3 epochs ...
+2026-10-04 13:02:47 [INFO] wgan_gp - Epoch   1/3  |  C_loss: +6.4044  |  G_loss: -0.1974  |  W_dist: -0.2224
+2026-10-04 13:02:47 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-04 13:02:48 [INFO] wgan_gp - Epoch   2/3  |  C_loss: +5.0985  |  G_loss: -0.1951  |  W_dist: -0.2759
+2026-10-04 13:02:48 [INFO] wgan_gp -   ↳ New best model saved (epoch 2).
+2026-10-04 13:02:48 [INFO] wgan_gp - Epoch   3/3  |  C_loss: +3.7459  |  G_loss: -0.2127  |  W_dist: -0.2556
+2026-10-04 13:02:48 [INFO] wgan_gp -   ↳ New best model saved (epoch 3).
+2026-10-04 13:02:48 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-26\test_train_wgan_gp_smoke0\models
+2026-10-04 13:02:48 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-04 13:02:48 [INFO] wgan_gp - Loss curve plot saved to results/figures/wgan_loss_curves.png
+2026-10-04 13:02:48 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 3  (critic_loss=3.7459)
+2026-10-04 13:02:48 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-04 13:02:48 [INFO] wgan_gp - Config: epochs=20, batch_size=64, lr=1.0e+00, n_critic=5, lambda_gp=10.0, latent_dim=100
+2026-10-04 13:02:48 [INFO] wgan_gp - Data: 128 attack samples, 122 features, 4 classes
+2026-10-04 13:02:48 [INFO] wgan_gp - Starting WGAN-GP training for 20 epochs ...
+2026-10-04 13:02:48 [INFO] wgan_gp - Epoch   1/20  |  C_loss: -1413.7893  |  G_loss: +558.1883  |  W_dist: +1423.7555
+2026-10-04 13:02:48 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-04 13:02:48 [INFO] wgan_gp - Epoch   2/20  |  C_loss: -14667.1450  |  G_loss: +9752.2444  |  W_dist: +14677.0710
+2026-10-04 13:02:48 [INFO] wgan_gp -   ↳ New best model saved (epoch 2).
+2026-10-04 13:02:48 [INFO] wgan_gp - Epoch   3/20  |  C_loss: -47116.2910  |  G_loss: +24348.9766  |  W_dist: +47126.2159
+2026-10-04 13:02:48 [INFO] wgan_gp -   ↳ New best model saved (epoch 3).
+2026-10-04 13:02:48 [INFO] wgan_gp - Epoch   4/20  |  C_loss: -94659.7203  |  G_loss: +45118.6855  |  W_dist: +94669.6525
+2026-10-04 13:02:48 [INFO] wgan_gp -   ↳ New best model saved (epoch 4).
+2026-10-04 13:02:48 [INFO] wgan_gp - Epoch   5/20  |  C_loss: -156084.8398  |  G_loss: +69546.9688  |  W_dist: +156094.7766
+2026-10-04 13:02:48 [INFO] wgan_gp -   ↳ New best model saved (epoch 5).
+2026-10-04 13:02:48 [INFO] wgan_gp - Epoch   6/20  |  C_loss: -230356.6859  |  G_loss: +97653.2383  |  W_dist: +230366.5648
+2026-10-04 13:02:48 [INFO] wgan_gp -   ↳ New best model saved (epoch 6).
+2026-10-04 13:02:48 [INFO] wgan_gp - Epoch   7/20  |  C_loss: -316056.3406  |  G_loss: +130753.9336  |  W_dist: +316066.1992
+2026-10-04 13:02:48 [INFO] wgan_gp -   ↳ New best model saved (epoch 7).
+2026-10-04 13:02:48 [INFO] wgan_gp - Epoch   8/20  |  C_loss: -414611.8844  |  G_loss: +167062.3750  |  W_dist: +414621.7750
+2026-10-04 13:02:48 [INFO] wgan_gp -   ↳ New best model saved (epoch 8).
+2026-10-04 13:02:48 [INFO] wgan_gp - Epoch   9/20  |  C_loss: -524712.7875  |  G_loss: +208191.3984  |  W_dist: +524722.5453
+2026-10-04 13:02:48 [INFO] wgan_gp -   ↳ New best model saved (epoch 9).
+2026-10-04 13:02:48 [INFO] wgan_gp - Epoch  10/20  |  C_loss: -646697.2312  |  G_loss: +254247.7734  |  W_dist: +646706.9891
+2026-10-04 13:02:48 [INFO] wgan_gp -   ↳ New best model saved (epoch 10).
+2026-10-04 13:02:48 [INFO] wgan_gp - Epoch  11/20  |  C_loss: -781089.7937  |  G_loss: +306398.2344  |  W_dist: +781099.5437
+2026-10-04 13:02:48 [INFO] wgan_gp -   ↳ New best model saved (epoch 11).
+2026-10-04 13:02:49 [INFO] wgan_gp - Epoch  12/20  |  C_loss: -927495.3812  |  G_loss: +361751.6875  |  W_dist: +927505.1781
+2026-10-04 13:02:49 [INFO] wgan_gp -   ↳ New best model saved (epoch 12).
+2026-10-04 13:02:49 [INFO] wgan_gp - Epoch  13/20  |  C_loss: -1085620.2375  |  G_loss: +417413.3125  |  W_dist: +1085683.2969
+2026-10-04 13:02:49 [INFO] wgan_gp -   ↳ New best model saved (epoch 13).
+2026-10-04 13:02:49 [INFO] wgan_gp - Epoch  14/20  |  C_loss: -1262800.4500  |  G_loss: +493955.6875  |  W_dist: +1262810.0125
+2026-10-04 13:02:49 [INFO] wgan_gp -   ↳ New best model saved (epoch 14).
+2026-10-04 13:02:49 [INFO] wgan_gp - Epoch  15/20  |  C_loss: -1454006.7500  |  G_loss: +571054.7500  |  W_dist: +1454016.6375
+2026-10-04 13:02:49 [INFO] wgan_gp -   ↳ New best model saved (epoch 15).
+2026-10-04 13:02:49 [INFO] wgan_gp - Epoch  16/20  |  C_loss: -1651183.7125  |  G_loss: +650819.2188  |  W_dist: +1651193.3250
+2026-10-04 13:02:49 [INFO] wgan_gp -   ↳ New best model saved (epoch 16).
+2026-10-04 13:02:49 [INFO] wgan_gp - Epoch  17/20  |  C_loss: -1860202.9875  |  G_loss: +730431.5938  |  W_dist: +1860214.6812
+2026-10-04 13:02:49 [INFO] wgan_gp -   ↳ New best model saved (epoch 17).
+2026-10-04 13:02:49 [INFO] wgan_gp - Epoch  18/20  |  C_loss: -2082222.9750  |  G_loss: +817581.0312  |  W_dist: +2082233.2688
+2026-10-04 13:02:49 [INFO] wgan_gp -   ↳ New best model saved (epoch 18).
+2026-10-04 13:02:49 [INFO] wgan_gp - Epoch  19/20  |  C_loss: -2315150.2000  |  G_loss: +911354.3438  |  W_dist: +2315159.9000
+2026-10-04 13:02:49 [INFO] wgan_gp -   ↳ New best model saved (epoch 19).
+2026-10-04 13:02:49 [INFO] wgan_gp - Epoch  20/20  |  C_loss: -2568082.7000  |  G_loss: +1025546.9688  |  W_dist: +2568092.4500
+2026-10-04 13:02:49 [INFO] wgan_gp -   ↳ New best model saved (epoch 20).
+2026-10-04 13:02:49 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-26\test_train_wgan_gp_nan_early_s0\models
+2026-10-04 13:02:49 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-04 13:02:49 [INFO] wgan_gp - Loss curve plot saved to results/figures/wgan_loss_curves.png
+2026-10-04 13:02:49 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 20  (critic_loss=-2568082.7000)
+2026-10-04 13:02:49 [INFO] wgan_gp - Generated 50 samples for class_id=0. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 13:02:49 [INFO] wgan_gp - Generated 200 samples for class_id=1. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 13:02:49 [INFO] wgan_gp - Generated 10 samples for class_id=0. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 13:02:49 [INFO] wgan_gp - Generated 10 samples for class_id=3. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 13:02:49 [INFO] wgan_gp - Generated 100 samples for class_id=2. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 13:02:49 [INFO] wgan_gp - Generated 1 samples for class_id=0. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 13:06:40 [INFO] wgan_gp - Generated 10 samples for class_id=2. One-hot groups validated: []
+2026-10-04 13:06:42 [INFO] wgan_gp - Generated 10 samples for class_id=2. One-hot groups validated: []
+2026-10-04 13:07:11 [INFO] wgan_gp - Generated 10 samples for class_id=2. One-hot groups validated: []
+2026-10-04 13:07:11 [INFO] wgan_gp - Generated 10 samples for class_id=2. One-hot groups validated: []
+2026-10-04 13:07:13 [INFO] wgan_gp - Generated 10 samples for class_id=1. One-hot groups validated: ['cat_feature']
+2026-10-04 13:07:13 [INFO] wgan_gp - Generated 40 samples for class_id=2. One-hot groups validated: ['cat_feature']
+2026-10-04 13:07:13 [INFO] wgan_gp - Generated 48 samples for class_id=3. One-hot groups validated: ['cat_feature']
+2026-10-04 13:07:13 [INFO] wgan_gp - Generated 10 samples for class_id=2. One-hot groups validated: []
+2026-10-04 13:07:14 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-04 13:07:14 [INFO] wgan_gp - Config: epochs=3, batch_size=64, lr=1.0e-04, n_critic=2, lambda_gp=10.0, latent_dim=100
+2026-10-04 13:07:14 [INFO] wgan_gp - Data: 256 attack samples, 122 features, 4 classes
+2026-10-04 13:07:14 [INFO] wgan_gp - Starting WGAN-GP training for 3 epochs ...
+2026-10-04 13:07:14 [INFO] wgan_gp - Epoch   1/3  |  C_loss: +6.4044  |  G_loss: -0.1974  |  W_dist: -0.2224
+2026-10-04 13:07:14 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-04 13:07:14 [INFO] wgan_gp - Epoch   2/3  |  C_loss: +5.0985  |  G_loss: -0.1951  |  W_dist: -0.2759
+2026-10-04 13:07:14 [INFO] wgan_gp -   ↳ New best model saved (epoch 2).
+2026-10-04 13:07:14 [INFO] wgan_gp - Epoch   3/3  |  C_loss: +3.7459  |  G_loss: -0.2127  |  W_dist: -0.2556
+2026-10-04 13:07:14 [INFO] wgan_gp -   ↳ New best model saved (epoch 3).
+2026-10-04 13:07:14 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-29\test_train_wgan_gp_smoke0\models
+2026-10-04 13:07:14 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-04 13:07:14 [INFO] wgan_gp - Loss curve plot saved to results/figures/wgan_loss_curves.png
+2026-10-04 13:07:14 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 3  (critic_loss=3.7459)
+2026-10-04 13:07:14 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-04 13:07:14 [INFO] wgan_gp - Config: epochs=20, batch_size=64, lr=1.0e+00, n_critic=5, lambda_gp=10.0, latent_dim=100
+2026-10-04 13:07:14 [INFO] wgan_gp - Data: 128 attack samples, 122 features, 4 classes
+2026-10-04 13:07:14 [INFO] wgan_gp - Starting WGAN-GP training for 20 epochs ...
+2026-10-04 13:07:14 [INFO] wgan_gp - Epoch   1/20  |  C_loss: -1413.7893  |  G_loss: +558.1883  |  W_dist: +1423.7555
+2026-10-04 13:07:14 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-04 13:07:15 [INFO] wgan_gp - Epoch   2/20  |  C_loss: -14667.1450  |  G_loss: +9752.2444  |  W_dist: +14677.0710
+2026-10-04 13:07:15 [INFO] wgan_gp -   ↳ New best model saved (epoch 2).
+2026-10-04 13:07:15 [INFO] wgan_gp - Epoch   3/20  |  C_loss: -47116.2910  |  G_loss: +24348.9766  |  W_dist: +47126.2159
+2026-10-04 13:07:15 [INFO] wgan_gp -   ↳ New best model saved (epoch 3).
+2026-10-04 13:07:15 [INFO] wgan_gp - Epoch   4/20  |  C_loss: -94659.7203  |  G_loss: +45118.6855  |  W_dist: +94669.6525
+2026-10-04 13:07:15 [INFO] wgan_gp -   ↳ New best model saved (epoch 4).
+2026-10-04 13:07:15 [INFO] wgan_gp - Epoch   5/20  |  C_loss: -156084.8398  |  G_loss: +69546.9688  |  W_dist: +156094.7766
+2026-10-04 13:07:15 [INFO] wgan_gp -   ↳ New best model saved (epoch 5).
+2026-10-04 13:07:15 [INFO] wgan_gp - Epoch   6/20  |  C_loss: -230356.6859  |  G_loss: +97653.2383  |  W_dist: +230366.5648
+2026-10-04 13:07:15 [INFO] wgan_gp -   ↳ New best model saved (epoch 6).
+2026-10-04 13:07:15 [INFO] wgan_gp - Epoch   7/20  |  C_loss: -316056.3406  |  G_loss: +130753.9336  |  W_dist: +316066.1992
+2026-10-04 13:07:15 [INFO] wgan_gp -   ↳ New best model saved (epoch 7).
+2026-10-04 13:07:15 [INFO] wgan_gp - Epoch   8/20  |  C_loss: -414611.8844  |  G_loss: +167062.3750  |  W_dist: +414621.7750
+2026-10-04 13:07:15 [INFO] wgan_gp -   ↳ New best model saved (epoch 8).
+2026-10-04 13:07:15 [INFO] wgan_gp - Epoch   9/20  |  C_loss: -524712.7875  |  G_loss: +208191.3984  |  W_dist: +524722.5453
+2026-10-04 13:07:15 [INFO] wgan_gp -   ↳ New best model saved (epoch 9).
+2026-10-04 13:07:15 [INFO] wgan_gp - Epoch  10/20  |  C_loss: -646697.2312  |  G_loss: +254247.7734  |  W_dist: +646706.9891
+2026-10-04 13:07:15 [INFO] wgan_gp -   ↳ New best model saved (epoch 10).
+2026-10-04 13:07:15 [INFO] wgan_gp - Epoch  11/20  |  C_loss: -781089.7937  |  G_loss: +306398.2344  |  W_dist: +781099.5437
+2026-10-04 13:07:15 [INFO] wgan_gp -   ↳ New best model saved (epoch 11).
+2026-10-04 13:07:15 [INFO] wgan_gp - Epoch  12/20  |  C_loss: -927495.3812  |  G_loss: +361751.6875  |  W_dist: +927505.1781
+2026-10-04 13:07:15 [INFO] wgan_gp -   ↳ New best model saved (epoch 12).
+2026-10-04 13:07:15 [INFO] wgan_gp - Epoch  13/20  |  C_loss: -1085620.2375  |  G_loss: +417413.3125  |  W_dist: +1085683.2969
+2026-10-04 13:07:15 [INFO] wgan_gp -   ↳ New best model saved (epoch 13).
+2026-10-04 13:07:15 [INFO] wgan_gp - Epoch  14/20  |  C_loss: -1262800.4500  |  G_loss: +493955.6875  |  W_dist: +1262810.0125
+2026-10-04 13:07:15 [INFO] wgan_gp -   ↳ New best model saved (epoch 14).
+2026-10-04 13:07:15 [INFO] wgan_gp - Epoch  15/20  |  C_loss: -1454006.7500  |  G_loss: +571054.7500  |  W_dist: +1454016.6375
+2026-10-04 13:07:15 [INFO] wgan_gp -   ↳ New best model saved (epoch 15).
+2026-10-04 13:07:15 [INFO] wgan_gp - Epoch  16/20  |  C_loss: -1651183.7125  |  G_loss: +650819.2188  |  W_dist: +1651193.3250
+2026-10-04 13:07:15 [INFO] wgan_gp -   ↳ New best model saved (epoch 16).
+2026-10-04 13:07:15 [INFO] wgan_gp - Epoch  17/20  |  C_loss: -1860202.9875  |  G_loss: +730431.5938  |  W_dist: +1860214.6812
+2026-10-04 13:07:15 [INFO] wgan_gp -   ↳ New best model saved (epoch 17).
+2026-10-04 13:07:15 [INFO] wgan_gp - Epoch  18/20  |  C_loss: -2082222.9750  |  G_loss: +817581.0312  |  W_dist: +2082233.2688
+2026-10-04 13:07:15 [INFO] wgan_gp -   ↳ New best model saved (epoch 18).
+2026-10-04 13:07:15 [INFO] wgan_gp - Epoch  19/20  |  C_loss: -2315150.2000  |  G_loss: +911354.3438  |  W_dist: +2315159.9000
+2026-10-04 13:07:15 [INFO] wgan_gp -   ↳ New best model saved (epoch 19).
+2026-10-04 13:07:15 [INFO] wgan_gp - Epoch  20/20  |  C_loss: -2568082.7000  |  G_loss: +1025546.9688  |  W_dist: +2568092.4500
+2026-10-04 13:07:15 [INFO] wgan_gp -   ↳ New best model saved (epoch 20).
+2026-10-04 13:07:15 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-29\test_train_wgan_gp_nan_early_s0\models
+2026-10-04 13:07:15 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-04 13:07:16 [INFO] wgan_gp - Loss curve plot saved to results/figures/wgan_loss_curves.png
+2026-10-04 13:07:16 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 20  (critic_loss=-2568082.7000)
+2026-10-04 13:07:16 [INFO] wgan_gp - Generated 50 samples for class_id=0. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 13:07:16 [INFO] wgan_gp - Generated 200 samples for class_id=1. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 13:07:16 [INFO] wgan_gp - Generated 10 samples for class_id=0. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 13:07:16 [INFO] wgan_gp - Generated 10 samples for class_id=3. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 13:07:16 [INFO] wgan_gp - Generated 100 samples for class_id=2. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 13:07:16 [INFO] wgan_gp - Generated 1 samples for class_id=0. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 13:13:47 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-04 13:13:47 [INFO] wgan_gp - Config: epochs=2, batch_size=16, lr=2.0e-04, n_critic=2, lambda_gp=10.0, latent_dim=16
+2026-10-04 13:13:47 [INFO] wgan_gp - Data: 29 attack samples, 8 features, 3 classes
+2026-10-04 13:13:48 [INFO] wgan_gp - Starting WGAN-GP training for 2 epochs ...
+2026-10-04 13:13:48 [INFO] wgan_gp - Epoch   1/2  |  C_loss: +1.3447  |  G_loss: +0.1308  |  W_dist: +0.3753
+2026-10-04 13:13:48 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-04 13:13:48 [INFO] wgan_gp - Epoch   2/2  |  C_loss: +2.4521  |  G_loss: -0.0403  |  W_dist: +0.2721
+2026-10-04 13:13:48 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-31\test_run_fidelity_end_to_end0\models
+2026-10-04 13:13:48 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-04 13:13:48 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 1  (critic_loss=1.3447)
+2026-10-04 13:13:55 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-04 13:13:55 [INFO] wgan_gp - Config: epochs=2, batch_size=16, lr=2.0e-04, n_critic=2, lambda_gp=10.0, latent_dim=16
+2026-10-04 13:13:55 [INFO] wgan_gp - Data: 60 attack samples, 8 features, 4 classes
+2026-10-04 13:13:55 [INFO] wgan_gp - Starting WGAN-GP training for 2 epochs ...
+2026-10-04 13:13:55 [INFO] wgan_gp - Epoch   1/2  |  C_loss: +10.5985  |  G_loss: +0.1948  |  W_dist: -0.2248
+2026-10-04 13:13:55 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-04 13:13:55 [INFO] wgan_gp - Epoch   2/2  |  C_loss: +8.5541  |  G_loss: +0.3146  |  W_dist: -0.1143
+2026-10-04 13:13:55 [INFO] wgan_gp -   ↳ New best model saved (epoch 2).
+2026-10-04 13:13:55 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-31\test_compare_flat_vs_attack_on0\models
+2026-10-04 13:13:55 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-04 13:13:55 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 2  (critic_loss=8.5541)
+2026-10-04 13:16:31 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-04 13:16:31 [INFO] wgan_gp - Config: epochs=2, batch_size=16, lr=2.0e-04, n_critic=2, lambda_gp=10.0, latent_dim=16
+2026-10-04 13:16:31 [INFO] wgan_gp - Data: 29 attack samples, 8 features, 3 classes
+2026-10-04 13:16:32 [INFO] wgan_gp - Starting WGAN-GP training for 2 epochs ...
+2026-10-04 13:16:32 [INFO] wgan_gp - Epoch   1/2  |  C_loss: +1.7964  |  G_loss: +0.1028  |  W_dist: +0.4151
+2026-10-04 13:16:32 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-04 13:16:32 [INFO] wgan_gp - Epoch   2/2  |  C_loss: +2.9910  |  G_loss: +0.0877  |  W_dist: +0.3999
+2026-10-04 13:16:32 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-32\test_run_fidelity_end_to_end0\models
+2026-10-04 13:16:32 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-04 13:16:32 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 1  (critic_loss=1.7964)
+2026-10-04 13:16:34 [INFO] wgan_gp - Generated 30 samples for class_id=2. One-hot groups validated: []
+2026-10-04 13:16:39 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-04 13:16:39 [INFO] wgan_gp - Config: epochs=2, batch_size=16, lr=2.0e-04, n_critic=2, lambda_gp=10.0, latent_dim=16
+2026-10-04 13:16:39 [INFO] wgan_gp - Data: 60 attack samples, 8 features, 4 classes
+2026-10-04 13:16:39 [INFO] wgan_gp - Starting WGAN-GP training for 2 epochs ...
+2026-10-04 13:16:39 [INFO] wgan_gp - Epoch   1/2  |  C_loss: +10.5985  |  G_loss: +0.1948  |  W_dist: -0.2248
+2026-10-04 13:16:39 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-04 13:16:39 [INFO] wgan_gp - Epoch   2/2  |  C_loss: +8.5541  |  G_loss: +0.3146  |  W_dist: -0.1143
+2026-10-04 13:16:39 [INFO] wgan_gp -   ↳ New best model saved (epoch 2).
+2026-10-04 13:16:39 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-32\test_compare_flat_vs_attack_on0\models
+2026-10-04 13:16:39 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-04 13:16:39 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 2  (critic_loss=8.5541)
+2026-10-04 13:16:39 [INFO] wgan_gp - Generated 100 samples for class_id=0. One-hot groups validated: []
+2026-10-04 13:16:39 [INFO] wgan_gp - Generated 100 samples for class_id=2. One-hot groups validated: []
+2026-10-04 13:16:39 [INFO] wgan_gp - Generated 100 samples for class_id=3. One-hot groups validated: []
+2026-10-04 13:17:41 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-04 13:17:41 [INFO] wgan_gp - Config: epochs=2, batch_size=16, lr=2.0e-04, n_critic=2, lambda_gp=10.0, latent_dim=16
+2026-10-04 13:17:41 [INFO] wgan_gp - Data: 29 attack samples, 8 features, 3 classes
+2026-10-04 13:17:42 [INFO] wgan_gp - Starting WGAN-GP training for 2 epochs ...
+2026-10-04 13:17:42 [INFO] wgan_gp - Epoch   1/2  |  C_loss: +4.2567  |  G_loss: +1.0627  |  W_dist: +0.1007
+2026-10-04 13:17:42 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-04 13:17:42 [INFO] wgan_gp - Epoch   2/2  |  C_loss: +4.1844  |  G_loss: +1.0629  |  W_dist: +0.1356
+2026-10-04 13:17:42 [INFO] wgan_gp -   ↳ New best model saved (epoch 2).
+2026-10-04 13:17:42 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-33\test_run_fidelity_end_to_end0\models
+2026-10-04 13:17:42 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-04 13:17:42 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 2  (critic_loss=4.1844)
+2026-10-04 13:17:43 [INFO] wgan_gp - Generated 30 samples for class_id=2. One-hot groups validated: []
+2026-10-04 13:17:48 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-04 13:17:48 [INFO] wgan_gp - Config: epochs=2, batch_size=16, lr=2.0e-04, n_critic=2, lambda_gp=10.0, latent_dim=16
+2026-10-04 13:17:48 [INFO] wgan_gp - Data: 60 attack samples, 8 features, 4 classes
+2026-10-04 13:17:48 [INFO] wgan_gp - Starting WGAN-GP training for 2 epochs ...
+2026-10-04 13:17:48 [INFO] wgan_gp - Epoch   1/2  |  C_loss: +10.5985  |  G_loss: +0.1948  |  W_dist: -0.2248
+2026-10-04 13:17:48 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-04 13:17:48 [INFO] wgan_gp - Epoch   2/2  |  C_loss: +8.5541  |  G_loss: +0.3146  |  W_dist: -0.1143
+2026-10-04 13:17:48 [INFO] wgan_gp -   ↳ New best model saved (epoch 2).
+2026-10-04 13:17:48 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-33\test_compare_flat_vs_attack_on0\models
+2026-10-04 13:17:48 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-04 13:17:48 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 2  (critic_loss=8.5541)
+2026-10-04 13:17:48 [INFO] wgan_gp - Generated 100 samples for class_id=0. One-hot groups validated: []
+2026-10-04 13:17:48 [INFO] wgan_gp - Generated 100 samples for class_id=2. One-hot groups validated: []
+2026-10-04 13:17:48 [INFO] wgan_gp - Generated 100 samples for class_id=3. One-hot groups validated: []
+2026-10-04 13:20:37 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-04 13:20:37 [INFO] wgan_gp - Config: epochs=2, batch_size=16, lr=2.0e-04, n_critic=2, lambda_gp=10.0, latent_dim=16
+2026-10-04 13:20:37 [INFO] wgan_gp - Data: 29 attack samples, 8 features, 3 classes
+2026-10-04 13:20:38 [INFO] wgan_gp - Starting WGAN-GP training for 2 epochs ...
+2026-10-04 13:20:38 [INFO] wgan_gp - Epoch   1/2  |  C_loss: +5.1577  |  G_loss: +0.3592  |  W_dist: -0.1789
+2026-10-04 13:20:38 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-04 13:20:38 [INFO] wgan_gp - Epoch   2/2  |  C_loss: +5.5931  |  G_loss: +0.3308  |  W_dist: +0.1070
+2026-10-04 13:20:38 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-34\test_run_fidelity_end_to_end0\models
+2026-10-04 13:20:38 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-04 13:20:38 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 1  (critic_loss=5.1577)
+2026-10-04 13:20:40 [INFO] wgan_gp - Generated 30 samples for class_id=2. One-hot groups validated: []
+2026-10-04 13:20:45 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-04 13:20:45 [INFO] wgan_gp - Config: epochs=2, batch_size=16, lr=2.0e-04, n_critic=2, lambda_gp=10.0, latent_dim=16
+2026-10-04 13:20:45 [INFO] wgan_gp - Data: 60 attack samples, 8 features, 4 classes
+2026-10-04 13:20:45 [INFO] wgan_gp - Starting WGAN-GP training for 2 epochs ...
+2026-10-04 13:20:45 [INFO] wgan_gp - Epoch   1/2  |  C_loss: +10.5985  |  G_loss: +0.1948  |  W_dist: -0.2248
+2026-10-04 13:20:45 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-04 13:20:45 [INFO] wgan_gp - Epoch   2/2  |  C_loss: +8.5541  |  G_loss: +0.3146  |  W_dist: -0.1143
+2026-10-04 13:20:45 [INFO] wgan_gp -   ↳ New best model saved (epoch 2).
+2026-10-04 13:20:45 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-34\test_compare_flat_vs_attack_on0\models
+2026-10-04 13:20:45 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-04 13:20:45 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 2  (critic_loss=8.5541)
+2026-10-04 13:20:45 [INFO] wgan_gp - Generated 100 samples for class_id=0. One-hot groups validated: []
+2026-10-04 13:20:45 [INFO] wgan_gp - Generated 100 samples for class_id=2. One-hot groups validated: []
+2026-10-04 13:20:45 [INFO] wgan_gp - Generated 100 samples for class_id=3. One-hot groups validated: []
+2026-10-04 13:20:46 [INFO] wgan_gp - Generated 3 samples for class_id=3. One-hot groups validated: []
+2026-10-04 13:20:48 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-04 13:20:48 [INFO] wgan_gp - Config: epochs=2, batch_size=16, lr=2.0e-04, n_critic=2, lambda_gp=10.0, latent_dim=16
+2026-10-04 13:20:48 [INFO] wgan_gp - Data: 29 attack samples, 8 features, 3 classes
+2026-10-04 13:20:48 [INFO] wgan_gp - Starting WGAN-GP training for 2 epochs ...
+2026-10-04 13:20:48 [INFO] wgan_gp - Epoch   1/2  |  C_loss: +1.5957  |  G_loss: +0.1471  |  W_dist: -0.0259
+2026-10-04 13:20:48 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-04 13:20:48 [INFO] wgan_gp - Epoch   2/2  |  C_loss: +1.5541  |  G_loss: +0.0368  |  W_dist: -0.0246
+2026-10-04 13:20:48 [INFO] wgan_gp -   ↳ New best model saved (epoch 2).
+2026-10-04 13:20:48 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-34\test_compare_flat_vs_attack_on0\models
+2026-10-04 13:20:48 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-04 13:20:48 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 2  (critic_loss=1.5541)
+2026-10-04 13:20:48 [INFO] wgan_gp - Generated 100 samples for class_id=0. One-hot groups validated: []
+2026-10-04 13:20:48 [INFO] wgan_gp - Generated 100 samples for class_id=1. One-hot groups validated: []
+2026-10-04 13:20:48 [INFO] wgan_gp - Generated 100 samples for class_id=2. One-hot groups validated: []
+2026-10-04 13:20:49 [INFO] wgan_gp - Generated 3 samples for class_id=2. One-hot groups validated: []
+2026-10-04 13:22:37 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-04 13:22:37 [INFO] wgan_gp - Config: epochs=2, batch_size=16, lr=2.0e-04, n_critic=2, lambda_gp=10.0, latent_dim=16
+2026-10-04 13:22:37 [INFO] wgan_gp - Data: 29 attack samples, 8 features, 3 classes
+2026-10-04 13:22:38 [INFO] wgan_gp - Starting WGAN-GP training for 2 epochs ...
+2026-10-04 13:22:38 [INFO] wgan_gp - Epoch   1/2  |  C_loss: +3.4481  |  G_loss: -0.0157  |  W_dist: -0.0889
+2026-10-04 13:22:38 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-04 13:22:38 [INFO] wgan_gp - Epoch   2/2  |  C_loss: +6.5806  |  G_loss: -0.3221  |  W_dist: -0.2193
+2026-10-04 13:22:38 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-35\test_run_fidelity_end_to_end0\models
+2026-10-04 13:22:38 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-04 13:22:38 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 1  (critic_loss=3.4481)
+2026-10-04 13:22:39 [INFO] wgan_gp - Generated 30 samples for class_id=2. One-hot groups validated: []
+2026-10-04 13:22:44 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-04 13:22:44 [INFO] wgan_gp - Config: epochs=2, batch_size=16, lr=2.0e-04, n_critic=2, lambda_gp=10.0, latent_dim=16
+2026-10-04 13:22:44 [INFO] wgan_gp - Data: 60 attack samples, 8 features, 4 classes
+2026-10-04 13:22:44 [INFO] wgan_gp - Starting WGAN-GP training for 2 epochs ...
+2026-10-04 13:22:44 [INFO] wgan_gp - Epoch   1/2  |  C_loss: +10.5985  |  G_loss: +0.1948  |  W_dist: -0.2248
+2026-10-04 13:22:44 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-04 13:22:44 [INFO] wgan_gp - Epoch   2/2  |  C_loss: +8.5541  |  G_loss: +0.3146  |  W_dist: -0.1143
+2026-10-04 13:22:44 [INFO] wgan_gp -   ↳ New best model saved (epoch 2).
+2026-10-04 13:22:44 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-35\test_compare_flat_vs_attack_on0\models
+2026-10-04 13:22:44 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-04 13:22:44 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 2  (critic_loss=8.5541)
+2026-10-04 13:22:44 [INFO] wgan_gp - Generated 100 samples for class_id=0. One-hot groups validated: []
+2026-10-04 13:22:44 [INFO] wgan_gp - Generated 100 samples for class_id=2. One-hot groups validated: []
+2026-10-04 13:22:44 [INFO] wgan_gp - Generated 100 samples for class_id=3. One-hot groups validated: []
+2026-10-04 13:22:46 [INFO] wgan_gp - Generated 3 samples for class_id=3. One-hot groups validated: []
+2026-10-04 13:22:47 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-04 13:22:47 [INFO] wgan_gp - Config: epochs=2, batch_size=16, lr=2.0e-04, n_critic=2, lambda_gp=10.0, latent_dim=16
+2026-10-04 13:22:47 [INFO] wgan_gp - Data: 29 attack samples, 8 features, 3 classes
+2026-10-04 13:22:47 [INFO] wgan_gp - Starting WGAN-GP training for 2 epochs ...
+2026-10-04 13:22:47 [INFO] wgan_gp - Epoch   1/2  |  C_loss: +1.5957  |  G_loss: +0.1471  |  W_dist: -0.0259
+2026-10-04 13:22:47 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-04 13:22:47 [INFO] wgan_gp - Epoch   2/2  |  C_loss: +1.5541  |  G_loss: +0.0368  |  W_dist: -0.0246
+2026-10-04 13:22:47 [INFO] wgan_gp -   ↳ New best model saved (epoch 2).
+2026-10-04 13:22:47 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-35\test_compare_flat_vs_attack_on0\models
+2026-10-04 13:22:47 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-04 13:22:47 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 2  (critic_loss=1.5541)
+2026-10-04 13:22:47 [INFO] wgan_gp - Generated 100 samples for class_id=0. One-hot groups validated: []
+2026-10-04 13:22:47 [INFO] wgan_gp - Generated 100 samples for class_id=1. One-hot groups validated: []
+2026-10-04 13:22:47 [INFO] wgan_gp - Generated 100 samples for class_id=2. One-hot groups validated: []
+2026-10-04 13:22:48 [INFO] wgan_gp - Generated 3 samples for class_id=2. One-hot groups validated: []
+2026-10-04 13:23:38 [INFO] wgan_gp - Generated 10 samples for class_id=2. One-hot groups validated: []
+2026-10-04 13:23:38 [INFO] wgan_gp - Generated 10 samples for class_id=2. One-hot groups validated: []
+2026-10-04 13:23:39 [INFO] wgan_gp - Generated 10 samples for class_id=1. One-hot groups validated: ['cat_feature']
+2026-10-04 13:23:39 [INFO] wgan_gp - Generated 40 samples for class_id=2. One-hot groups validated: ['cat_feature']
+2026-10-04 13:23:39 [INFO] wgan_gp - Generated 48 samples for class_id=3. One-hot groups validated: ['cat_feature']
+2026-10-04 13:23:39 [INFO] wgan_gp - Generated 10 samples for class_id=2. One-hot groups validated: []
+2026-10-04 13:23:40 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-04 13:23:40 [INFO] wgan_gp - Config: epochs=2, batch_size=16, lr=2.0e-04, n_critic=2, lambda_gp=10.0, latent_dim=16
+2026-10-04 13:23:40 [INFO] wgan_gp - Data: 29 attack samples, 8 features, 3 classes
+2026-10-04 13:23:40 [INFO] wgan_gp - Starting WGAN-GP training for 2 epochs ...
+2026-10-04 13:23:40 [INFO] wgan_gp - Epoch   1/2  |  C_loss: +4.5536  |  G_loss: -0.8137  |  W_dist: +0.0123
+2026-10-04 13:23:40 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-04 13:23:40 [INFO] wgan_gp - Epoch   2/2  |  C_loss: +6.4285  |  G_loss: -0.8099  |  W_dist: -0.1315
+2026-10-04 13:23:40 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-36\test_run_fidelity_end_to_end0\models
+2026-10-04 13:23:40 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-04 13:23:40 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 1  (critic_loss=4.5536)
+2026-10-04 13:23:40 [INFO] wgan_gp - Generated 30 samples for class_id=2. One-hot groups validated: []
+2026-10-04 13:23:44 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-04 13:23:44 [INFO] wgan_gp - Config: epochs=2, batch_size=16, lr=2.0e-04, n_critic=2, lambda_gp=10.0, latent_dim=16
+2026-10-04 13:23:44 [INFO] wgan_gp - Data: 60 attack samples, 8 features, 4 classes
+2026-10-04 13:23:44 [INFO] wgan_gp - Starting WGAN-GP training for 2 epochs ...
+2026-10-04 13:23:44 [INFO] wgan_gp - Epoch   1/2  |  C_loss: +10.5985  |  G_loss: +0.1948  |  W_dist: -0.2248
+2026-10-04 13:23:44 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-04 13:23:44 [INFO] wgan_gp - Epoch   2/2  |  C_loss: +8.5541  |  G_loss: +0.3146  |  W_dist: -0.1143
+2026-10-04 13:23:44 [INFO] wgan_gp -   ↳ New best model saved (epoch 2).
+2026-10-04 13:23:44 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-36\test_compare_flat_vs_attack_on0\models
+2026-10-04 13:23:44 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-04 13:23:44 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 2  (critic_loss=8.5541)
+2026-10-04 13:23:44 [INFO] wgan_gp - Generated 100 samples for class_id=0. One-hot groups validated: []
+2026-10-04 13:23:44 [INFO] wgan_gp - Generated 100 samples for class_id=2. One-hot groups validated: []
+2026-10-04 13:23:44 [INFO] wgan_gp - Generated 100 samples for class_id=3. One-hot groups validated: []
+2026-10-04 13:23:45 [INFO] wgan_gp - Generated 3 samples for class_id=3. One-hot groups validated: []
+2026-10-04 13:23:45 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-04 13:23:45 [INFO] wgan_gp - Config: epochs=2, batch_size=16, lr=2.0e-04, n_critic=2, lambda_gp=10.0, latent_dim=16
+2026-10-04 13:23:45 [INFO] wgan_gp - Data: 29 attack samples, 8 features, 3 classes
+2026-10-04 13:23:45 [INFO] wgan_gp - Starting WGAN-GP training for 2 epochs ...
+2026-10-04 13:23:45 [INFO] wgan_gp - Epoch   1/2  |  C_loss: +1.5957  |  G_loss: +0.1471  |  W_dist: -0.0259
+2026-10-04 13:23:45 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-04 13:23:45 [INFO] wgan_gp - Epoch   2/2  |  C_loss: +1.5541  |  G_loss: +0.0368  |  W_dist: -0.0246
+2026-10-04 13:23:45 [INFO] wgan_gp -   ↳ New best model saved (epoch 2).
+2026-10-04 13:23:45 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-36\test_compare_flat_vs_attack_on0\models
+2026-10-04 13:23:45 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-04 13:23:45 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 2  (critic_loss=1.5541)
+2026-10-04 13:23:45 [INFO] wgan_gp - Generated 100 samples for class_id=0. One-hot groups validated: []
+2026-10-04 13:23:45 [INFO] wgan_gp - Generated 100 samples for class_id=1. One-hot groups validated: []
+2026-10-04 13:23:45 [INFO] wgan_gp - Generated 100 samples for class_id=2. One-hot groups validated: []
+2026-10-04 13:23:45 [INFO] wgan_gp - Generated 3 samples for class_id=2. One-hot groups validated: []
+2026-10-04 13:23:46 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-04 13:23:46 [INFO] wgan_gp - Config: epochs=3, batch_size=64, lr=1.0e-04, n_critic=2, lambda_gp=10.0, latent_dim=100
+2026-10-04 13:23:46 [INFO] wgan_gp - Data: 256 attack samples, 122 features, 4 classes
+2026-10-04 13:23:46 [INFO] wgan_gp - Starting WGAN-GP training for 3 epochs ...
+2026-10-04 13:23:46 [INFO] wgan_gp - Epoch   1/3  |  C_loss: +6.4044  |  G_loss: -0.1974  |  W_dist: -0.2224
+2026-10-04 13:23:46 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-04 13:23:46 [INFO] wgan_gp - Epoch   2/3  |  C_loss: +5.0985  |  G_loss: -0.1951  |  W_dist: -0.2759
+2026-10-04 13:23:46 [INFO] wgan_gp -   ↳ New best model saved (epoch 2).
+2026-10-04 13:23:46 [INFO] wgan_gp - Epoch   3/3  |  C_loss: +3.7459  |  G_loss: -0.2127  |  W_dist: -0.2556
+2026-10-04 13:23:46 [INFO] wgan_gp -   ↳ New best model saved (epoch 3).
+2026-10-04 13:23:46 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-36\test_train_wgan_gp_smoke0\models
+2026-10-04 13:23:46 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-04 13:23:46 [INFO] wgan_gp - Loss curve plot saved to results/figures/wgan_loss_curves.png
+2026-10-04 13:23:46 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 3  (critic_loss=3.7459)
+2026-10-04 13:23:46 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-04 13:23:46 [INFO] wgan_gp - Config: epochs=20, batch_size=64, lr=1.0e+00, n_critic=5, lambda_gp=10.0, latent_dim=100
+2026-10-04 13:23:46 [INFO] wgan_gp - Data: 128 attack samples, 122 features, 4 classes
+2026-10-04 13:23:46 [INFO] wgan_gp - Starting WGAN-GP training for 20 epochs ...
+2026-10-04 13:23:46 [INFO] wgan_gp - Epoch   1/20  |  C_loss: -1413.7893  |  G_loss: +558.1883  |  W_dist: +1423.7555
+2026-10-04 13:23:46 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-04 13:23:46 [INFO] wgan_gp - Epoch   2/20  |  C_loss: -14667.1450  |  G_loss: +9752.2444  |  W_dist: +14677.0710
+2026-10-04 13:23:46 [INFO] wgan_gp -   ↳ New best model saved (epoch 2).
+2026-10-04 13:23:47 [INFO] wgan_gp - Epoch   3/20  |  C_loss: -47116.2910  |  G_loss: +24348.9766  |  W_dist: +47126.2159
+2026-10-04 13:23:47 [INFO] wgan_gp -   ↳ New best model saved (epoch 3).
+2026-10-04 13:23:47 [INFO] wgan_gp - Epoch   4/20  |  C_loss: -94659.7203  |  G_loss: +45118.6855  |  W_dist: +94669.6525
+2026-10-04 13:23:47 [INFO] wgan_gp -   ↳ New best model saved (epoch 4).
+2026-10-04 13:23:47 [INFO] wgan_gp - Epoch   5/20  |  C_loss: -156084.8398  |  G_loss: +69546.9688  |  W_dist: +156094.7766
+2026-10-04 13:23:47 [INFO] wgan_gp -   ↳ New best model saved (epoch 5).
+2026-10-04 13:23:47 [INFO] wgan_gp - Epoch   6/20  |  C_loss: -230356.6859  |  G_loss: +97653.2383  |  W_dist: +230366.5648
+2026-10-04 13:23:47 [INFO] wgan_gp -   ↳ New best model saved (epoch 6).
+2026-10-04 13:23:47 [INFO] wgan_gp - Epoch   7/20  |  C_loss: -316056.3406  |  G_loss: +130753.9336  |  W_dist: +316066.1992
+2026-10-04 13:23:47 [INFO] wgan_gp -   ↳ New best model saved (epoch 7).
+2026-10-04 13:23:47 [INFO] wgan_gp - Epoch   8/20  |  C_loss: -414611.8844  |  G_loss: +167062.3750  |  W_dist: +414621.7750
+2026-10-04 13:23:47 [INFO] wgan_gp -   ↳ New best model saved (epoch 8).
+2026-10-04 13:23:47 [INFO] wgan_gp - Epoch   9/20  |  C_loss: -524712.7875  |  G_loss: +208191.3984  |  W_dist: +524722.5453
+2026-10-04 13:23:47 [INFO] wgan_gp -   ↳ New best model saved (epoch 9).
+2026-10-04 13:23:47 [INFO] wgan_gp - Epoch  10/20  |  C_loss: -646697.2312  |  G_loss: +254247.7734  |  W_dist: +646706.9891
+2026-10-04 13:23:47 [INFO] wgan_gp -   ↳ New best model saved (epoch 10).
+2026-10-04 13:23:47 [INFO] wgan_gp - Epoch  11/20  |  C_loss: -781089.7937  |  G_loss: +306398.2344  |  W_dist: +781099.5437
+2026-10-04 13:23:47 [INFO] wgan_gp -   ↳ New best model saved (epoch 11).
+2026-10-04 13:23:47 [INFO] wgan_gp - Epoch  12/20  |  C_loss: -927495.3812  |  G_loss: +361751.6875  |  W_dist: +927505.1781
+2026-10-04 13:23:47 [INFO] wgan_gp -   ↳ New best model saved (epoch 12).
+2026-10-04 13:23:47 [INFO] wgan_gp - Epoch  13/20  |  C_loss: -1085620.2375  |  G_loss: +417413.3125  |  W_dist: +1085683.2969
+2026-10-04 13:23:47 [INFO] wgan_gp -   ↳ New best model saved (epoch 13).
+2026-10-04 13:23:47 [INFO] wgan_gp - Epoch  14/20  |  C_loss: -1262800.4500  |  G_loss: +493955.6875  |  W_dist: +1262810.0125
+2026-10-04 13:23:47 [INFO] wgan_gp -   ↳ New best model saved (epoch 14).
+2026-10-04 13:23:47 [INFO] wgan_gp - Epoch  15/20  |  C_loss: -1454006.7500  |  G_loss: +571054.7500  |  W_dist: +1454016.6375
+2026-10-04 13:23:47 [INFO] wgan_gp -   ↳ New best model saved (epoch 15).
+2026-10-04 13:23:47 [INFO] wgan_gp - Epoch  16/20  |  C_loss: -1651183.7125  |  G_loss: +650819.2188  |  W_dist: +1651193.3250
+2026-10-04 13:23:47 [INFO] wgan_gp -   ↳ New best model saved (epoch 16).
+2026-10-04 13:23:47 [INFO] wgan_gp - Epoch  17/20  |  C_loss: -1860202.9875  |  G_loss: +730431.5938  |  W_dist: +1860214.6812
+2026-10-04 13:23:47 [INFO] wgan_gp -   ↳ New best model saved (epoch 17).
+2026-10-04 13:23:47 [INFO] wgan_gp - Epoch  18/20  |  C_loss: -2082222.9750  |  G_loss: +817581.0312  |  W_dist: +2082233.2688
+2026-10-04 13:23:47 [INFO] wgan_gp -   ↳ New best model saved (epoch 18).
+2026-10-04 13:23:47 [INFO] wgan_gp - Epoch  19/20  |  C_loss: -2315150.2000  |  G_loss: +911354.3438  |  W_dist: +2315159.9000
+2026-10-04 13:23:47 [INFO] wgan_gp -   ↳ New best model saved (epoch 19).
+2026-10-04 13:23:47 [INFO] wgan_gp - Epoch  20/20  |  C_loss: -2568082.7000  |  G_loss: +1025546.9688  |  W_dist: +2568092.4500
+2026-10-04 13:23:47 [INFO] wgan_gp -   ↳ New best model saved (epoch 20).
+2026-10-04 13:23:47 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-36\test_train_wgan_gp_nan_early_s0\models
+2026-10-04 13:23:47 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-04 13:23:48 [INFO] wgan_gp - Loss curve plot saved to results/figures/wgan_loss_curves.png
+2026-10-04 13:23:48 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 20  (critic_loss=-2568082.7000)
+2026-10-04 13:23:48 [INFO] wgan_gp - Generated 50 samples for class_id=0. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 13:23:48 [INFO] wgan_gp - Generated 200 samples for class_id=1. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 13:23:48 [INFO] wgan_gp - Generated 10 samples for class_id=0. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 13:23:48 [INFO] wgan_gp - Generated 10 samples for class_id=3. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 13:23:48 [INFO] wgan_gp - Generated 100 samples for class_id=2. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 13:23:48 [INFO] wgan_gp - Generated 1 samples for class_id=0. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 13:27:12 [INFO] wgan_gp - Generated 10 samples for class_id=2. One-hot groups validated: []
+2026-10-04 13:27:12 [INFO] wgan_gp - Generated 10 samples for class_id=2. One-hot groups validated: []
+2026-10-04 13:27:14 [INFO] wgan_gp - Generated 10 samples for class_id=1. One-hot groups validated: ['cat_feature']
+2026-10-04 13:27:14 [INFO] wgan_gp - Generated 40 samples for class_id=2. One-hot groups validated: ['cat_feature']
+2026-10-04 13:27:14 [INFO] wgan_gp - Generated 48 samples for class_id=3. One-hot groups validated: ['cat_feature']
+2026-10-04 13:27:14 [INFO] wgan_gp - Generated 10 samples for class_id=2. One-hot groups validated: []
+2026-10-04 13:27:14 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-04 13:27:14 [INFO] wgan_gp - Config: epochs=2, batch_size=16, lr=2.0e-04, n_critic=2, lambda_gp=10.0, latent_dim=16
+2026-10-04 13:27:14 [INFO] wgan_gp - Data: 29 attack samples, 8 features, 3 classes
+2026-10-04 13:27:14 [INFO] wgan_gp - Starting WGAN-GP training for 2 epochs ...
+2026-10-04 13:27:14 [INFO] wgan_gp - Epoch   1/2  |  C_loss: +4.5536  |  G_loss: -0.8137  |  W_dist: +0.0123
+2026-10-04 13:27:14 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-04 13:27:14 [INFO] wgan_gp - Epoch   2/2  |  C_loss: +6.4285  |  G_loss: -0.8099  |  W_dist: -0.1315
+2026-10-04 13:27:14 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-38\test_run_fidelity_end_to_end0\models
+2026-10-04 13:27:14 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-04 13:27:14 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 1  (critic_loss=4.5536)
+2026-10-04 13:27:14 [INFO] wgan_gp - Generated 30 samples for class_id=2. One-hot groups validated: []
+2026-10-04 13:27:18 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-04 13:27:18 [INFO] wgan_gp - Config: epochs=2, batch_size=16, lr=2.0e-04, n_critic=2, lambda_gp=10.0, latent_dim=16
+2026-10-04 13:27:18 [INFO] wgan_gp - Data: 60 attack samples, 8 features, 4 classes
+2026-10-04 13:27:18 [INFO] wgan_gp - Starting WGAN-GP training for 2 epochs ...
+2026-10-04 13:27:18 [INFO] wgan_gp - Epoch   1/2  |  C_loss: +10.5985  |  G_loss: +0.1948  |  W_dist: -0.2248
+2026-10-04 13:27:18 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-04 13:27:18 [INFO] wgan_gp - Epoch   2/2  |  C_loss: +8.5541  |  G_loss: +0.3146  |  W_dist: -0.1143
+2026-10-04 13:27:18 [INFO] wgan_gp -   ↳ New best model saved (epoch 2).
+2026-10-04 13:27:18 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-38\test_compare_flat_vs_attack_on0\models
+2026-10-04 13:27:18 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-04 13:27:18 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 2  (critic_loss=8.5541)
+2026-10-04 13:27:18 [INFO] wgan_gp - Generated 100 samples for class_id=0. One-hot groups validated: []
+2026-10-04 13:27:18 [INFO] wgan_gp - Generated 100 samples for class_id=2. One-hot groups validated: []
+2026-10-04 13:27:18 [INFO] wgan_gp - Generated 100 samples for class_id=3. One-hot groups validated: []
+2026-10-04 13:27:18 [INFO] wgan_gp - Generated 3 samples for class_id=3. One-hot groups validated: []
+2026-10-04 13:27:19 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-04 13:27:19 [INFO] wgan_gp - Config: epochs=2, batch_size=16, lr=2.0e-04, n_critic=2, lambda_gp=10.0, latent_dim=16
+2026-10-04 13:27:19 [INFO] wgan_gp - Data: 29 attack samples, 8 features, 3 classes
+2026-10-04 13:27:19 [INFO] wgan_gp - Starting WGAN-GP training for 2 epochs ...
+2026-10-04 13:27:19 [INFO] wgan_gp - Epoch   1/2  |  C_loss: +1.5957  |  G_loss: +0.1471  |  W_dist: -0.0259
+2026-10-04 13:27:19 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-04 13:27:19 [INFO] wgan_gp - Epoch   2/2  |  C_loss: +1.5541  |  G_loss: +0.0368  |  W_dist: -0.0246
+2026-10-04 13:27:19 [INFO] wgan_gp -   ↳ New best model saved (epoch 2).
+2026-10-04 13:27:19 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-38\test_compare_flat_vs_attack_on0\models
+2026-10-04 13:27:19 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-04 13:27:19 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 2  (critic_loss=1.5541)
+2026-10-04 13:27:19 [INFO] wgan_gp - Generated 100 samples for class_id=0. One-hot groups validated: []
+2026-10-04 13:27:19 [INFO] wgan_gp - Generated 100 samples for class_id=1. One-hot groups validated: []
+2026-10-04 13:27:19 [INFO] wgan_gp - Generated 100 samples for class_id=2. One-hot groups validated: []
+2026-10-04 13:27:19 [INFO] wgan_gp - Generated 3 samples for class_id=2. One-hot groups validated: []
+2026-10-04 13:27:20 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-04 13:27:20 [INFO] wgan_gp - Config: epochs=3, batch_size=64, lr=1.0e-04, n_critic=2, lambda_gp=10.0, latent_dim=100
+2026-10-04 13:27:20 [INFO] wgan_gp - Data: 256 attack samples, 122 features, 4 classes
+2026-10-04 13:27:20 [INFO] wgan_gp - Starting WGAN-GP training for 3 epochs ...
+2026-10-04 13:27:20 [INFO] wgan_gp - Epoch   1/3  |  C_loss: +6.4044  |  G_loss: -0.1974  |  W_dist: -0.2224
+2026-10-04 13:27:20 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-04 13:27:20 [INFO] wgan_gp - Epoch   2/3  |  C_loss: +5.0985  |  G_loss: -0.1951  |  W_dist: -0.2759
+2026-10-04 13:27:20 [INFO] wgan_gp -   ↳ New best model saved (epoch 2).
+2026-10-04 13:27:20 [INFO] wgan_gp - Epoch   3/3  |  C_loss: +3.7459  |  G_loss: -0.2127  |  W_dist: -0.2556
+2026-10-04 13:27:20 [INFO] wgan_gp -   ↳ New best model saved (epoch 3).
+2026-10-04 13:27:20 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-38\test_train_wgan_gp_smoke0\models
+2026-10-04 13:27:20 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-04 13:27:20 [INFO] wgan_gp - Loss curve plot saved to results/figures/wgan_loss_curves.png
+2026-10-04 13:27:20 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 3  (critic_loss=3.7459)
+2026-10-04 13:27:20 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-04 13:27:20 [INFO] wgan_gp - Config: epochs=20, batch_size=64, lr=1.0e+00, n_critic=5, lambda_gp=10.0, latent_dim=100
+2026-10-04 13:27:20 [INFO] wgan_gp - Data: 128 attack samples, 122 features, 4 classes
+2026-10-04 13:27:20 [INFO] wgan_gp - Starting WGAN-GP training for 20 epochs ...
+2026-10-04 13:27:20 [INFO] wgan_gp - Epoch   1/20  |  C_loss: -1413.7893  |  G_loss: +558.1883  |  W_dist: +1423.7555
+2026-10-04 13:27:20 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-04 13:27:20 [INFO] wgan_gp - Epoch   2/20  |  C_loss: -14667.1450  |  G_loss: +9752.2444  |  W_dist: +14677.0710
+2026-10-04 13:27:20 [INFO] wgan_gp -   ↳ New best model saved (epoch 2).
+2026-10-04 13:27:20 [INFO] wgan_gp - Epoch   3/20  |  C_loss: -47116.2910  |  G_loss: +24348.9766  |  W_dist: +47126.2159
+2026-10-04 13:27:20 [INFO] wgan_gp -   ↳ New best model saved (epoch 3).
+2026-10-04 13:27:20 [INFO] wgan_gp - Epoch   4/20  |  C_loss: -94659.7203  |  G_loss: +45118.6855  |  W_dist: +94669.6525
+2026-10-04 13:27:20 [INFO] wgan_gp -   ↳ New best model saved (epoch 4).
+2026-10-04 13:27:20 [INFO] wgan_gp - Epoch   5/20  |  C_loss: -156084.8398  |  G_loss: +69546.9688  |  W_dist: +156094.7766
+2026-10-04 13:27:20 [INFO] wgan_gp -   ↳ New best model saved (epoch 5).
+2026-10-04 13:27:20 [INFO] wgan_gp - Epoch   6/20  |  C_loss: -230356.6859  |  G_loss: +97653.2383  |  W_dist: +230366.5648
+2026-10-04 13:27:20 [INFO] wgan_gp -   ↳ New best model saved (epoch 6).
+2026-10-04 13:27:20 [INFO] wgan_gp - Epoch   7/20  |  C_loss: -316056.3406  |  G_loss: +130753.9336  |  W_dist: +316066.1992
+2026-10-04 13:27:20 [INFO] wgan_gp -   ↳ New best model saved (epoch 7).
+2026-10-04 13:27:20 [INFO] wgan_gp - Epoch   8/20  |  C_loss: -414611.8844  |  G_loss: +167062.3750  |  W_dist: +414621.7750
+2026-10-04 13:27:20 [INFO] wgan_gp -   ↳ New best model saved (epoch 8).
+2026-10-04 13:27:21 [INFO] wgan_gp - Epoch   9/20  |  C_loss: -524712.7875  |  G_loss: +208191.3984  |  W_dist: +524722.5453
+2026-10-04 13:27:21 [INFO] wgan_gp -   ↳ New best model saved (epoch 9).
+2026-10-04 13:27:21 [INFO] wgan_gp - Epoch  10/20  |  C_loss: -646697.2312  |  G_loss: +254247.7734  |  W_dist: +646706.9891
+2026-10-04 13:27:21 [INFO] wgan_gp -   ↳ New best model saved (epoch 10).
+2026-10-04 13:27:21 [INFO] wgan_gp - Epoch  11/20  |  C_loss: -781089.7937  |  G_loss: +306398.2344  |  W_dist: +781099.5437
+2026-10-04 13:27:21 [INFO] wgan_gp -   ↳ New best model saved (epoch 11).
+2026-10-04 13:27:21 [INFO] wgan_gp - Epoch  12/20  |  C_loss: -927495.3812  |  G_loss: +361751.6875  |  W_dist: +927505.1781
+2026-10-04 13:27:21 [INFO] wgan_gp -   ↳ New best model saved (epoch 12).
+2026-10-04 13:27:21 [INFO] wgan_gp - Epoch  13/20  |  C_loss: -1085620.2375  |  G_loss: +417413.3125  |  W_dist: +1085683.2969
+2026-10-04 13:27:21 [INFO] wgan_gp -   ↳ New best model saved (epoch 13).
+2026-10-04 13:27:21 [INFO] wgan_gp - Epoch  14/20  |  C_loss: -1262800.4500  |  G_loss: +493955.6875  |  W_dist: +1262810.0125
+2026-10-04 13:27:21 [INFO] wgan_gp -   ↳ New best model saved (epoch 14).
+2026-10-04 13:27:21 [INFO] wgan_gp - Epoch  15/20  |  C_loss: -1454006.7500  |  G_loss: +571054.7500  |  W_dist: +1454016.6375
+2026-10-04 13:27:21 [INFO] wgan_gp -   ↳ New best model saved (epoch 15).
+2026-10-04 13:27:21 [INFO] wgan_gp - Epoch  16/20  |  C_loss: -1651183.7125  |  G_loss: +650819.2188  |  W_dist: +1651193.3250
+2026-10-04 13:27:21 [INFO] wgan_gp -   ↳ New best model saved (epoch 16).
+2026-10-04 13:27:21 [INFO] wgan_gp - Epoch  17/20  |  C_loss: -1860202.9875  |  G_loss: +730431.5938  |  W_dist: +1860214.6812
+2026-10-04 13:27:21 [INFO] wgan_gp -   ↳ New best model saved (epoch 17).
+2026-10-04 13:27:21 [INFO] wgan_gp - Epoch  18/20  |  C_loss: -2082222.9750  |  G_loss: +817581.0312  |  W_dist: +2082233.2688
+2026-10-04 13:27:21 [INFO] wgan_gp -   ↳ New best model saved (epoch 18).
+2026-10-04 13:27:21 [INFO] wgan_gp - Epoch  19/20  |  C_loss: -2315150.2000  |  G_loss: +911354.3438  |  W_dist: +2315159.9000
+2026-10-04 13:27:21 [INFO] wgan_gp -   ↳ New best model saved (epoch 19).
+2026-10-04 13:27:21 [INFO] wgan_gp - Epoch  20/20  |  C_loss: -2568082.7000  |  G_loss: +1025546.9688  |  W_dist: +2568092.4500
+2026-10-04 13:27:21 [INFO] wgan_gp -   ↳ New best model saved (epoch 20).
+2026-10-04 13:27:21 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-38\test_train_wgan_gp_nan_early_s0\models
+2026-10-04 13:27:21 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-04 13:27:21 [INFO] wgan_gp - Loss curve plot saved to results/figures/wgan_loss_curves.png
+2026-10-04 13:27:21 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 20  (critic_loss=-2568082.7000)
+2026-10-04 13:27:21 [INFO] wgan_gp - Generated 50 samples for class_id=0. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 13:27:21 [INFO] wgan_gp - Generated 200 samples for class_id=1. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 13:27:21 [INFO] wgan_gp - Generated 10 samples for class_id=0. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 13:27:21 [INFO] wgan_gp - Generated 10 samples for class_id=3. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 13:27:21 [INFO] wgan_gp - Generated 100 samples for class_id=2. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 13:27:21 [INFO] wgan_gp - Generated 1 samples for class_id=0. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 13:31:42 [INFO] wgan_gp - Training WGAN-GP on device: cuda
+2026-10-04 13:31:42 [INFO] wgan_gp - Config: epochs=50, batch_size=128, lr=1.0e-04, n_critic=5, lambda_gp=10.0, latent_dim=100
+2026-10-04 13:31:42 [INFO] wgan_gp - Data: 46904 attack samples, 122 features, 4 classes
+2026-10-04 13:33:28 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-04 13:33:28 [INFO] wgan_gp - Config: epochs=50, batch_size=128, lr=1.0e-04, n_critic=5, lambda_gp=10.0, latent_dim=100
+2026-10-04 13:33:28 [INFO] wgan_gp - Data: 46904 attack samples, 122 features, 4 classes
+2026-10-04 13:33:28 [INFO] wgan_gp - Starting WGAN-GP training for 50 epochs ...
+2026-10-04 13:33:43 [INFO] wgan_gp - Epoch   1/50  |  C_loss: -3.6390  |  G_loss: -3.9424  |  W_dist: +4.0777
+2026-10-04 13:33:43 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-04 13:33:58 [INFO] wgan_gp - Epoch   2/50  |  C_loss: -2.3234  |  G_loss: -7.3158  |  W_dist: +2.5381
+2026-10-04 13:34:13 [INFO] wgan_gp - Epoch   3/50  |  C_loss: -1.8365  |  G_loss: -8.3449  |  W_dist: +2.0035
+2026-10-04 13:34:28 [INFO] wgan_gp - Epoch   4/50  |  C_loss: -1.4895  |  G_loss: -8.8769  |  W_dist: +1.6276
+2026-10-04 13:34:43 [INFO] wgan_gp - Epoch   5/50  |  C_loss: -1.2614  |  G_loss: -9.2536  |  W_dist: +1.3806
+2026-10-04 13:34:58 [INFO] wgan_gp - Epoch   6/50  |  C_loss: -1.1288  |  G_loss: -9.5726  |  W_dist: +1.2408
+2026-10-04 13:35:13 [INFO] wgan_gp - Epoch   7/50  |  C_loss: -1.0598  |  G_loss: -9.8121  |  W_dist: +1.1670
+2026-10-04 13:35:28 [INFO] wgan_gp - Epoch   8/50  |  C_loss: -1.0126  |  G_loss: -10.0028  |  W_dist: +1.1168
+2026-10-04 13:35:43 [INFO] wgan_gp - Epoch   9/50  |  C_loss: -0.9792  |  G_loss: -10.2082  |  W_dist: +1.0813
+2026-10-04 13:35:58 [INFO] wgan_gp - Epoch  10/50  |  C_loss: -0.9503  |  G_loss: -10.2945  |  W_dist: +1.0505
+2026-10-04 13:36:14 [INFO] wgan_gp - Epoch  11/50  |  C_loss: -0.9220  |  G_loss: -10.2604  |  W_dist: +1.0202
+2026-10-04 13:36:29 [INFO] wgan_gp - Epoch  12/50  |  C_loss: -0.8973  |  G_loss: -10.3036  |  W_dist: +0.9942
+2026-10-04 13:36:44 [INFO] wgan_gp - Epoch  13/50  |  C_loss: -0.8798  |  G_loss: -10.3090  |  W_dist: +0.9753
+2026-10-04 13:37:00 [INFO] wgan_gp - Epoch  14/50  |  C_loss: -0.8642  |  G_loss: -10.3636  |  W_dist: +0.9587
+2026-10-04 13:37:15 [INFO] wgan_gp - Epoch  15/50  |  C_loss: -0.8510  |  G_loss: -10.3818  |  W_dist: +0.9438
+2026-10-04 13:37:32 [INFO] wgan_gp - Epoch  16/50  |  C_loss: -0.8401  |  G_loss: -10.4138  |  W_dist: +0.9310
+2026-10-04 13:37:50 [INFO] wgan_gp - Epoch  17/50  |  C_loss: -0.8273  |  G_loss: -10.4216  |  W_dist: +0.9164
+2026-10-04 13:38:06 [INFO] wgan_gp - Epoch  18/50  |  C_loss: -0.8194  |  G_loss: -10.4231  |  W_dist: +0.9078
+2026-10-04 13:38:26 [INFO] wgan_gp - Epoch  19/50  |  C_loss: -0.8117  |  G_loss: -10.4483  |  W_dist: +0.8987
+2026-10-04 13:38:43 [INFO] wgan_gp - Epoch  20/50  |  C_loss: -0.8046  |  G_loss: -10.4051  |  W_dist: +0.8905
+2026-10-04 13:39:00 [INFO] wgan_gp - Epoch  21/50  |  C_loss: -0.7979  |  G_loss: -10.4764  |  W_dist: +0.8830
+2026-10-04 13:39:17 [INFO] wgan_gp - Epoch  22/50  |  C_loss: -0.7928  |  G_loss: -10.5679  |  W_dist: +0.8772
+2026-10-04 13:39:33 [INFO] wgan_gp - Epoch  23/50  |  C_loss: -0.7855  |  G_loss: -10.5955  |  W_dist: +0.8690
+2026-10-04 13:39:49 [INFO] wgan_gp - Epoch  24/50  |  C_loss: -0.7809  |  G_loss: -10.5673  |  W_dist: +0.8634
+2026-10-04 13:40:04 [INFO] wgan_gp - Epoch  25/50  |  C_loss: -0.7755  |  G_loss: -10.6248  |  W_dist: +0.8581
+2026-10-04 13:40:20 [INFO] wgan_gp - Epoch  26/50  |  C_loss: -0.7696  |  G_loss: -10.6637  |  W_dist: +0.8511
+2026-10-04 13:40:35 [INFO] wgan_gp - Epoch  27/50  |  C_loss: -0.7681  |  G_loss: -10.6559  |  W_dist: +0.8497
+2026-10-04 13:40:51 [INFO] wgan_gp - Epoch  28/50  |  C_loss: -0.7634  |  G_loss: -10.6718  |  W_dist: +0.8443
+2026-10-04 13:41:07 [INFO] wgan_gp - Epoch  29/50  |  C_loss: -0.7614  |  G_loss: -10.6695  |  W_dist: +0.8423
+2026-10-04 13:41:23 [INFO] wgan_gp - Epoch  30/50  |  C_loss: -0.7564  |  G_loss: -10.7124  |  W_dist: +0.8366
+2026-10-04 13:41:38 [INFO] wgan_gp - Epoch  31/50  |  C_loss: -0.7539  |  G_loss: -10.7123  |  W_dist: +0.8340
+2026-10-04 13:41:54 [INFO] wgan_gp - Epoch  32/50  |  C_loss: -0.7495  |  G_loss: -10.7422  |  W_dist: +0.8292
+2026-10-04 13:42:09 [INFO] wgan_gp - Epoch  33/50  |  C_loss: -0.7464  |  G_loss: -10.7676  |  W_dist: +0.8256
+2026-10-04 13:42:25 [INFO] wgan_gp - Epoch  34/50  |  C_loss: -0.7424  |  G_loss: -10.7831  |  W_dist: +0.8212
+2026-10-04 13:42:41 [INFO] wgan_gp - Epoch  35/50  |  C_loss: -0.7394  |  G_loss: -10.7752  |  W_dist: +0.8176
+2026-10-04 13:42:56 [INFO] wgan_gp - Epoch  36/50  |  C_loss: -0.7352  |  G_loss: -10.8333  |  W_dist: +0.8128
+2026-10-04 13:43:12 [INFO] wgan_gp - Epoch  37/50  |  C_loss: -0.7339  |  G_loss: -10.8404  |  W_dist: +0.8110
+2026-10-04 13:43:28 [INFO] wgan_gp - Epoch  38/50  |  C_loss: -0.7294  |  G_loss: -10.8458  |  W_dist: +0.8064
+2026-10-04 13:43:43 [INFO] wgan_gp - Epoch  39/50  |  C_loss: -0.7295  |  G_loss: -10.8713  |  W_dist: +0.8060
+2026-10-04 13:43:59 [INFO] wgan_gp - Epoch  40/50  |  C_loss: -0.7275  |  G_loss: -10.8630  |  W_dist: +0.8037
+2026-10-04 13:44:15 [INFO] wgan_gp - Epoch  41/50  |  C_loss: -0.7222  |  G_loss: -10.8840  |  W_dist: +0.7983
+2026-10-04 13:44:31 [INFO] wgan_gp - Epoch  42/50  |  C_loss: -0.7195  |  G_loss: -10.9365  |  W_dist: +0.7953
+2026-10-04 13:44:47 [INFO] wgan_gp - Epoch  43/50  |  C_loss: -0.7171  |  G_loss: -10.9224  |  W_dist: +0.7922
+2026-10-04 13:45:03 [INFO] wgan_gp - Epoch  44/50  |  C_loss: -0.7167  |  G_loss: -10.9116  |  W_dist: +0.7918
+2026-10-04 13:45:18 [INFO] wgan_gp - Epoch  45/50  |  C_loss: -0.7140  |  G_loss: -10.9316  |  W_dist: +0.7884
+2026-10-04 13:45:34 [INFO] wgan_gp - Epoch  46/50  |  C_loss: -0.7128  |  G_loss: -10.9586  |  W_dist: +0.7874
+2026-10-04 13:45:49 [INFO] wgan_gp - Epoch  47/50  |  C_loss: -0.7094  |  G_loss: -10.9841  |  W_dist: +0.7839
+2026-10-04 13:46:05 [INFO] wgan_gp - Epoch  48/50  |  C_loss: -0.7090  |  G_loss: -10.9996  |  W_dist: +0.7829
+2026-10-04 13:46:20 [INFO] wgan_gp - Epoch  49/50  |  C_loss: -0.7070  |  G_loss: -11.0145  |  W_dist: +0.7805
+2026-10-04 13:46:36 [INFO] wgan_gp - Epoch  50/50  |  C_loss: -0.7046  |  G_loss: -11.0227  |  W_dist: +0.7784
+2026-10-04 13:46:36 [INFO] wgan_gp - Last-epoch weights saved to results\models
+2026-10-04 13:46:36 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-04 13:46:37 [INFO] wgan_gp - Loss curve plot saved to results/figures/wgan_loss_curves.png
+2026-10-04 13:46:37 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 1  (critic_loss=-3.6390)
+2026-10-04 13:46:37 [INFO] wgan_gp - Generated 9046 samples for class_id=1. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 13:46:37 [INFO] wgan_gp - Generated 17575 samples for class_id=2. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-04 13:46:37 [INFO] wgan_gp - Generated 18329 samples for class_id=3. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-29 15:06:31 [INFO] wgan_gp - Generated 9046 samples for class_id=1. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-29 15:06:31 [INFO] wgan_gp - Generated 17575 samples for class_id=2. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-29 15:06:32 [INFO] wgan_gp - Generated 18329 samples for class_id=3. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-29 15:18:23 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-29 15:18:23 [INFO] wgan_gp - Config: epochs=1, batch_size=128, lr=1.0e-04, n_critic=5, lambda_gp=10.0, latent_dim=100
+2026-10-29 15:18:23 [INFO] wgan_gp - Data: 2000 attack samples, 122 features, 5 classes
+2026-10-29 15:18:25 [INFO] wgan_gp - Starting WGAN-GP training for 1 epochs ...
+2026-10-29 15:18:26 [INFO] wgan_gp - Epoch   1/1  |  C_loss: -1.6875  |  G_loss: +0.5306  |  W_dist: +3.7911
+2026-10-29 15:18:26 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-29 15:18:26 [INFO] wgan_gp - Last-epoch weights saved to results\models
+2026-10-29 15:18:26 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-29 15:18:26 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 1  (critic_loss=-1.6875)
+2026-10-29 15:19:18 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-29 15:19:18 [INFO] wgan_gp - Config: epochs=1, batch_size=256, lr=1.0e-04, n_critic=5, lambda_gp=10.0, latent_dim=100
+2026-10-29 15:19:18 [INFO] wgan_gp - Data: 46904 attack samples, 122 features, 4 classes
+2026-10-29 15:19:20 [INFO] wgan_gp - Starting WGAN-GP training for 1 epochs ...
+2026-10-29 15:19:40 [INFO] wgan_gp - Epoch   1/1  |  C_loss: -3.9877  |  G_loss: -2.9763  |  W_dist: +4.6603
+2026-10-29 15:19:40 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-29 15:19:40 [INFO] wgan_gp - Last-epoch weights saved to results\models
+2026-10-29 15:19:40 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-29 15:19:40 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 1  (critic_loss=-3.9877)
+2026-10-29 15:20:20 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-29 15:20:20 [INFO] wgan_gp - Config: epochs=15, batch_size=256, lr=1.0e-04, n_critic=5, lambda_gp=10.0, latent_dim=100
+2026-10-29 15:20:20 [INFO] wgan_gp - Data: 100778 attack samples, 122 features, 5 classes
+2026-10-29 15:20:20 [INFO] wgan_gp - Starting WGAN-GP training for 15 epochs ...
+2026-10-29 15:23:35 [INFO] wgan_gp - Epoch   1/15  |  C_loss: -3.4940  |  G_loss: -4.7951  |  W_dist: +3.8907
+2026-10-29 15:23:35 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-29 15:24:12 [INFO] wgan_gp - Epoch   2/15  |  C_loss: -2.0712  |  G_loss: -9.0655  |  W_dist: +2.2491
+2026-10-29 15:26:23 [INFO] wgan_gp - Epoch   3/15  |  C_loss: -1.5370  |  G_loss: -9.7452  |  W_dist: +1.6753
+2026-10-29 15:29:12 [INFO] wgan_gp - Epoch   4/15  |  C_loss: -1.2001  |  G_loss: -9.9988  |  W_dist: +1.3154
+2026-10-29 15:32:02 [INFO] wgan_gp - Epoch   5/15  |  C_loss: -1.0320  |  G_loss: -10.2679  |  W_dist: +1.1354
+2026-10-29 15:34:17 [INFO] wgan_gp - Epoch   6/15  |  C_loss: -0.9368  |  G_loss: -10.4936  |  W_dist: +1.0330
+2026-10-29 15:34:52 [INFO] wgan_gp - Epoch   7/15  |  C_loss: -0.8783  |  G_loss: -10.5615  |  W_dist: +0.9705
+2026-10-29 15:35:28 [INFO] wgan_gp - Epoch   8/15  |  C_loss: -0.8392  |  G_loss: -10.5525  |  W_dist: +0.9278
+2026-10-29 15:36:04 [INFO] wgan_gp - Epoch   9/15  |  C_loss: -0.8149  |  G_loss: -10.5855  |  W_dist: +0.9007
+2026-10-29 15:36:41 [INFO] wgan_gp - Epoch  10/15  |  C_loss: -0.7969  |  G_loss: -10.5870  |  W_dist: +0.8799
+2026-10-29 15:37:19 [INFO] wgan_gp - Epoch  11/15  |  C_loss: -0.7785  |  G_loss: -10.6037  |  W_dist: +0.8600
+2026-10-29 15:37:56 [INFO] wgan_gp - Epoch  12/15  |  C_loss: -0.7603  |  G_loss: -10.6690  |  W_dist: +0.8398
+2026-10-29 15:38:32 [INFO] wgan_gp - Epoch  13/15  |  C_loss: -0.7481  |  G_loss: -10.6909  |  W_dist: +0.8263
+2026-10-29 15:39:07 [INFO] wgan_gp - Epoch  14/15  |  C_loss: -0.7378  |  G_loss: -10.7110  |  W_dist: +0.8143
+2026-10-29 15:39:42 [INFO] wgan_gp - Epoch  15/15  |  C_loss: -0.7250  |  G_loss: -10.8223  |  W_dist: +0.8004
+2026-10-29 15:39:42 [INFO] wgan_gp - Last-epoch weights saved to results\models
+2026-10-29 15:39:42 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-29 15:39:42 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 1  (critic_loss=-3.4940)
+2026-10-29 15:39:42 [INFO] wgan_gp - Generated 100 samples for class_id=0. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-29 15:39:42 [INFO] wgan_gp - Generated 100 samples for class_id=2. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-29 15:39:42 [INFO] wgan_gp - Generated 100 samples for class_id=3. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-29 15:39:42 [INFO] wgan_gp - Generated 100 samples for class_id=4. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-29 15:40:07 [INFO] wgan_gp - Generated 9046 samples for class_id=2. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-29 15:40:07 [INFO] wgan_gp - Generated 17575 samples for class_id=3. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-29 15:40:08 [INFO] wgan_gp - Generated 18329 samples for class_id=4. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-29 15:40:25 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-29 15:40:25 [INFO] wgan_gp - Config: epochs=15, batch_size=256, lr=1.0e-04, n_critic=5, lambda_gp=10.0, latent_dim=100
+2026-10-29 15:40:25 [INFO] wgan_gp - Data: 46904 attack samples, 122 features, 4 classes
+2026-10-29 15:40:25 [INFO] wgan_gp - Starting WGAN-GP training for 15 epochs ...
+2026-10-29 15:40:43 [INFO] wgan_gp - Epoch   1/15  |  C_loss: -4.1079  |  G_loss: -3.4317  |  W_dist: +4.7019
+2026-10-29 15:40:43 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-29 15:41:00 [INFO] wgan_gp - Epoch   2/15  |  C_loss: -2.7458  |  G_loss: -7.3026  |  W_dist: +3.0059
+2026-10-29 15:41:19 [INFO] wgan_gp - Epoch   3/15  |  C_loss: -2.2575  |  G_loss: -8.8022  |  W_dist: +2.4664
+2026-10-29 15:41:37 [INFO] wgan_gp - Epoch   4/15  |  C_loss: -1.9399  |  G_loss: -9.4688  |  W_dist: +2.1175
+2026-10-29 15:41:54 [INFO] wgan_gp - Epoch   5/15  |  C_loss: -1.6789  |  G_loss: -9.8281  |  W_dist: +1.8339
+2026-10-29 15:42:10 [INFO] wgan_gp - Epoch   6/15  |  C_loss: -1.4640  |  G_loss: -10.1251  |  W_dist: +1.6019
+2026-10-29 15:42:26 [INFO] wgan_gp - Epoch   7/15  |  C_loss: -1.2996  |  G_loss: -10.3325  |  W_dist: +1.4246
+2026-10-29 15:42:42 [INFO] wgan_gp - Epoch   8/15  |  C_loss: -1.1921  |  G_loss: -10.5540  |  W_dist: +1.3101
+2026-10-29 15:42:58 [INFO] wgan_gp - Epoch   9/15  |  C_loss: -1.1202  |  G_loss: -10.7501  |  W_dist: +1.2338
+2026-10-29 15:43:14 [INFO] wgan_gp - Epoch  10/15  |  C_loss: -1.0761  |  G_loss: -10.8272  |  W_dist: +1.1863
+2026-10-29 15:43:30 [INFO] wgan_gp - Epoch  11/15  |  C_loss: -1.0444  |  G_loss: -10.9254  |  W_dist: +1.1523
+2026-10-29 15:43:46 [INFO] wgan_gp - Epoch  12/15  |  C_loss: -1.0182  |  G_loss: -10.9924  |  W_dist: +1.1248
+2026-10-29 15:44:04 [INFO] wgan_gp - Epoch  13/15  |  C_loss: -0.9917  |  G_loss: -11.0166  |  W_dist: +1.0955
+2026-10-29 15:44:21 [INFO] wgan_gp - Epoch  14/15  |  C_loss: -0.9708  |  G_loss: -11.1386  |  W_dist: +1.0737
+2026-10-29 15:44:39 [INFO] wgan_gp - Epoch  15/15  |  C_loss: -0.9563  |  G_loss: -11.1212  |  W_dist: +1.0578
+2026-10-29 15:44:39 [INFO] wgan_gp - Last-epoch weights saved to results\models
+2026-10-29 15:44:39 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-29 15:44:39 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 1  (critic_loss=-4.1079)
+2026-10-29 15:44:39 [INFO] wgan_gp - Generated 100 samples for class_id=0. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-29 15:44:39 [INFO] wgan_gp - Generated 100 samples for class_id=1. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-29 15:44:39 [INFO] wgan_gp - Generated 100 samples for class_id=2. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-29 15:44:39 [INFO] wgan_gp - Generated 100 samples for class_id=3. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-29 15:44:50 [INFO] wgan_gp - Generated 9046 samples for class_id=1. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-29 15:44:50 [INFO] wgan_gp - Generated 17575 samples for class_id=2. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-29 15:44:50 [INFO] wgan_gp - Generated 18329 samples for class_id=3. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-29 20:45:37 [INFO] wgan_gp - Generated 9046 samples for class_id=1. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-29 20:45:37 [INFO] wgan_gp - Generated 17575 samples for class_id=2. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-29 20:45:37 [INFO] wgan_gp - Generated 18329 samples for class_id=3. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-29 20:48:10 [INFO] wgan_gp - Generated 200 samples for class_id=0. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-29 20:48:10 [INFO] wgan_gp - Generated 200 samples for class_id=1. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-29 20:48:10 [INFO] wgan_gp - Generated 200 samples for class_id=2. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-29 20:48:10 [INFO] wgan_gp - Generated 200 samples for class_id=3. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-29 22:04:18 [INFO] wgan_gp - Generated 10 samples for class_id=2. One-hot groups validated: []
+2026-10-29 22:04:19 [INFO] wgan_gp - Generated 10 samples for class_id=2. One-hot groups validated: []
+2026-10-29 22:04:20 [INFO] wgan_gp - Generated 10 samples for class_id=1. One-hot groups validated: ['cat_feature']
+2026-10-29 22:04:20 [INFO] wgan_gp - Generated 40 samples for class_id=2. One-hot groups validated: ['cat_feature']
+2026-10-29 22:04:20 [INFO] wgan_gp - Generated 48 samples for class_id=3. One-hot groups validated: ['cat_feature']
+2026-10-29 22:04:20 [INFO] wgan_gp - Generated 10 samples for class_id=2. One-hot groups validated: []
+2026-10-29 22:04:21 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-29 22:04:21 [INFO] wgan_gp - Config: epochs=2, batch_size=16, lr=2.0e-04, n_critic=2, lambda_gp=10.0, latent_dim=16
+2026-10-29 22:04:21 [INFO] wgan_gp - Data: 29 attack samples, 8 features, 3 classes
+2026-10-29 22:04:21 [INFO] wgan_gp - Starting WGAN-GP training for 2 epochs ...
+2026-10-29 22:04:21 [INFO] wgan_gp - Epoch   1/2  |  C_loss: +4.5536  |  G_loss: -0.8137  |  W_dist: +0.0123
+2026-10-29 22:04:21 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-29 22:04:21 [INFO] wgan_gp - Epoch   2/2  |  C_loss: +6.4285  |  G_loss: -0.8099  |  W_dist: -0.1315
+2026-10-29 22:04:21 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-39\test_run_fidelity_end_to_end0\models
+2026-10-29 22:04:21 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-29 22:04:21 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 1  (critic_loss=4.5536)
+2026-10-29 22:04:21 [INFO] wgan_gp - Generated 30 samples for class_id=2. One-hot groups validated: []
+2026-10-29 22:04:24 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-29 22:04:24 [INFO] wgan_gp - Config: epochs=2, batch_size=16, lr=2.0e-04, n_critic=2, lambda_gp=10.0, latent_dim=16
+2026-10-29 22:04:24 [INFO] wgan_gp - Data: 60 attack samples, 8 features, 4 classes
+2026-10-29 22:04:24 [INFO] wgan_gp - Starting WGAN-GP training for 2 epochs ...
+2026-10-29 22:04:24 [INFO] wgan_gp - Epoch   1/2  |  C_loss: +10.5985  |  G_loss: +0.1948  |  W_dist: -0.2248
+2026-10-29 22:04:24 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-29 22:04:24 [INFO] wgan_gp - Epoch   2/2  |  C_loss: +8.5541  |  G_loss: +0.3146  |  W_dist: -0.1143
+2026-10-29 22:04:24 [INFO] wgan_gp -   ↳ New best model saved (epoch 2).
+2026-10-29 22:04:24 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-39\test_compare_flat_vs_attack_on0\models
+2026-10-29 22:04:24 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-29 22:04:24 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 2  (critic_loss=8.5541)
+2026-10-29 22:04:24 [INFO] wgan_gp - Generated 100 samples for class_id=0. One-hot groups validated: []
+2026-10-29 22:04:24 [INFO] wgan_gp - Generated 100 samples for class_id=2. One-hot groups validated: []
+2026-10-29 22:04:24 [INFO] wgan_gp - Generated 100 samples for class_id=3. One-hot groups validated: []
+2026-10-29 22:04:25 [INFO] wgan_gp - Generated 3 samples for class_id=3. One-hot groups validated: []
+2026-10-29 22:04:25 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-29 22:04:25 [INFO] wgan_gp - Config: epochs=2, batch_size=16, lr=2.0e-04, n_critic=2, lambda_gp=10.0, latent_dim=16
+2026-10-29 22:04:25 [INFO] wgan_gp - Data: 29 attack samples, 8 features, 3 classes
+2026-10-29 22:04:25 [INFO] wgan_gp - Starting WGAN-GP training for 2 epochs ...
+2026-10-29 22:04:25 [INFO] wgan_gp - Epoch   1/2  |  C_loss: +1.5957  |  G_loss: +0.1471  |  W_dist: -0.0259
+2026-10-29 22:04:25 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-29 22:04:25 [INFO] wgan_gp - Epoch   2/2  |  C_loss: +1.5541  |  G_loss: +0.0368  |  W_dist: -0.0246
+2026-10-29 22:04:25 [INFO] wgan_gp -   ↳ New best model saved (epoch 2).
+2026-10-29 22:04:25 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-39\test_compare_flat_vs_attack_on0\models
+2026-10-29 22:04:25 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-29 22:04:25 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 2  (critic_loss=1.5541)
+2026-10-29 22:04:25 [INFO] wgan_gp - Generated 100 samples for class_id=0. One-hot groups validated: []
+2026-10-29 22:04:25 [INFO] wgan_gp - Generated 100 samples for class_id=1. One-hot groups validated: []
+2026-10-29 22:04:25 [INFO] wgan_gp - Generated 100 samples for class_id=2. One-hot groups validated: []
+2026-10-29 22:04:25 [INFO] wgan_gp - Generated 3 samples for class_id=2. One-hot groups validated: []
+2026-10-29 22:04:26 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-29 22:04:26 [INFO] wgan_gp - Config: epochs=3, batch_size=64, lr=1.0e-04, n_critic=2, lambda_gp=10.0, latent_dim=100
+2026-10-29 22:04:26 [INFO] wgan_gp - Data: 256 attack samples, 122 features, 4 classes
+2026-10-29 22:04:26 [INFO] wgan_gp - Starting WGAN-GP training for 3 epochs ...
+2026-10-29 22:04:26 [INFO] wgan_gp - Epoch   1/3  |  C_loss: +6.4044  |  G_loss: -0.1974  |  W_dist: -0.2224
+2026-10-29 22:04:26 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-29 22:04:26 [INFO] wgan_gp - Epoch   2/3  |  C_loss: +5.0985  |  G_loss: -0.1951  |  W_dist: -0.2759
+2026-10-29 22:04:26 [INFO] wgan_gp -   ↳ New best model saved (epoch 2).
+2026-10-29 22:04:26 [INFO] wgan_gp - Epoch   3/3  |  C_loss: +3.7459  |  G_loss: -0.2127  |  W_dist: -0.2556
+2026-10-29 22:04:26 [INFO] wgan_gp -   ↳ New best model saved (epoch 3).
+2026-10-29 22:04:26 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-39\test_train_wgan_gp_smoke0\models
+2026-10-29 22:04:26 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-29 22:04:27 [INFO] wgan_gp - Loss curve plot saved to results/figures/wgan_loss_curves.png
+2026-10-29 22:04:27 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 3  (critic_loss=3.7459)
+2026-10-29 22:04:27 [INFO] wgan_gp - Training WGAN-GP on device: cpu
+2026-10-29 22:04:27 [INFO] wgan_gp - Config: epochs=20, batch_size=64, lr=1.0e+00, n_critic=5, lambda_gp=10.0, latent_dim=100
+2026-10-29 22:04:27 [INFO] wgan_gp - Data: 128 attack samples, 122 features, 4 classes
+2026-10-29 22:04:27 [INFO] wgan_gp - Starting WGAN-GP training for 20 epochs ...
+2026-10-29 22:04:27 [INFO] wgan_gp - Epoch   1/20  |  C_loss: -1413.7893  |  G_loss: +558.1883  |  W_dist: +1423.7555
+2026-10-29 22:04:27 [INFO] wgan_gp -   ↳ New best model saved (epoch 1).
+2026-10-29 22:04:27 [INFO] wgan_gp - Epoch   2/20  |  C_loss: -14667.1450  |  G_loss: +9752.2444  |  W_dist: +14677.0710
+2026-10-29 22:04:27 [INFO] wgan_gp -   ↳ New best model saved (epoch 2).
+2026-10-29 22:04:27 [INFO] wgan_gp - Epoch   3/20  |  C_loss: -47116.2910  |  G_loss: +24348.9766  |  W_dist: +47126.2159
+2026-10-29 22:04:27 [INFO] wgan_gp -   ↳ New best model saved (epoch 3).
+2026-10-29 22:04:27 [INFO] wgan_gp - Epoch   4/20  |  C_loss: -94659.7203  |  G_loss: +45118.6855  |  W_dist: +94669.6525
+2026-10-29 22:04:27 [INFO] wgan_gp -   ↳ New best model saved (epoch 4).
+2026-10-29 22:04:27 [INFO] wgan_gp - Epoch   5/20  |  C_loss: -156084.8398  |  G_loss: +69546.9688  |  W_dist: +156094.7766
+2026-10-29 22:04:27 [INFO] wgan_gp -   ↳ New best model saved (epoch 5).
+2026-10-29 22:04:27 [INFO] wgan_gp - Epoch   6/20  |  C_loss: -230356.6859  |  G_loss: +97653.2383  |  W_dist: +230366.5648
+2026-10-29 22:04:27 [INFO] wgan_gp -   ↳ New best model saved (epoch 6).
+2026-10-29 22:04:27 [INFO] wgan_gp - Epoch   7/20  |  C_loss: -316056.3406  |  G_loss: +130753.9336  |  W_dist: +316066.1992
+2026-10-29 22:04:27 [INFO] wgan_gp -   ↳ New best model saved (epoch 7).
+2026-10-29 22:04:27 [INFO] wgan_gp - Epoch   8/20  |  C_loss: -414611.8844  |  G_loss: +167062.3750  |  W_dist: +414621.7750
+2026-10-29 22:04:27 [INFO] wgan_gp -   ↳ New best model saved (epoch 8).
+2026-10-29 22:04:27 [INFO] wgan_gp - Epoch   9/20  |  C_loss: -524712.7875  |  G_loss: +208191.3984  |  W_dist: +524722.5453
+2026-10-29 22:04:27 [INFO] wgan_gp -   ↳ New best model saved (epoch 9).
+2026-10-29 22:04:27 [INFO] wgan_gp - Epoch  10/20  |  C_loss: -646697.2312  |  G_loss: +254247.7734  |  W_dist: +646706.9891
+2026-10-29 22:04:27 [INFO] wgan_gp -   ↳ New best model saved (epoch 10).
+2026-10-29 22:04:27 [INFO] wgan_gp - Epoch  11/20  |  C_loss: -781089.7937  |  G_loss: +306398.2344  |  W_dist: +781099.5437
+2026-10-29 22:04:27 [INFO] wgan_gp -   ↳ New best model saved (epoch 11).
+2026-10-29 22:04:27 [INFO] wgan_gp - Epoch  12/20  |  C_loss: -927495.3812  |  G_loss: +361751.6875  |  W_dist: +927505.1781
+2026-10-29 22:04:27 [INFO] wgan_gp -   ↳ New best model saved (epoch 12).
+2026-10-29 22:04:27 [INFO] wgan_gp - Epoch  13/20  |  C_loss: -1085620.2375  |  G_loss: +417413.3125  |  W_dist: +1085683.2969
+2026-10-29 22:04:27 [INFO] wgan_gp -   ↳ New best model saved (epoch 13).
+2026-10-29 22:04:27 [INFO] wgan_gp - Epoch  14/20  |  C_loss: -1262800.4500  |  G_loss: +493955.6875  |  W_dist: +1262810.0125
+2026-10-29 22:04:27 [INFO] wgan_gp -   ↳ New best model saved (epoch 14).
+2026-10-29 22:04:27 [INFO] wgan_gp - Epoch  15/20  |  C_loss: -1454006.7500  |  G_loss: +571054.7500  |  W_dist: +1454016.6375
+2026-10-29 22:04:27 [INFO] wgan_gp -   ↳ New best model saved (epoch 15).
+2026-10-29 22:04:27 [INFO] wgan_gp - Epoch  16/20  |  C_loss: -1651183.7125  |  G_loss: +650819.2188  |  W_dist: +1651193.3250
+2026-10-29 22:04:27 [INFO] wgan_gp -   ↳ New best model saved (epoch 16).
+2026-10-29 22:04:27 [INFO] wgan_gp - Epoch  17/20  |  C_loss: -1860202.9875  |  G_loss: +730431.5938  |  W_dist: +1860214.6812
+2026-10-29 22:04:27 [INFO] wgan_gp -   ↳ New best model saved (epoch 17).
+2026-10-29 22:04:27 [INFO] wgan_gp - Epoch  18/20  |  C_loss: -2082222.9750  |  G_loss: +817581.0312  |  W_dist: +2082233.2688
+2026-10-29 22:04:27 [INFO] wgan_gp -   ↳ New best model saved (epoch 18).
+2026-10-29 22:04:27 [INFO] wgan_gp - Epoch  19/20  |  C_loss: -2315150.2000  |  G_loss: +911354.3438  |  W_dist: +2315159.9000
+2026-10-29 22:04:27 [INFO] wgan_gp -   ↳ New best model saved (epoch 19).
+2026-10-29 22:04:27 [INFO] wgan_gp - Epoch  20/20  |  C_loss: -2568082.7000  |  G_loss: +1025546.9688  |  W_dist: +2568092.4500
+2026-10-29 22:04:27 [INFO] wgan_gp -   ↳ New best model saved (epoch 20).
+2026-10-29 22:04:27 [INFO] wgan_gp - Last-epoch weights saved to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-39\test_train_wgan_gp_nan_early_s0\models
+2026-10-29 22:04:27 [INFO] wgan_gp - Loss history saved to results/tables/wgan_loss_history.csv
+2026-10-29 22:04:28 [INFO] wgan_gp - Loss curve plot saved to results/figures/wgan_loss_curves.png
+2026-10-29 22:04:28 [INFO] wgan_gp - WGAN-GP training complete.  Best epoch: 20  (critic_loss=-2568082.7000)
+2026-10-29 22:04:28 [INFO] wgan_gp - Generated 50 samples for class_id=0. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-29 22:04:28 [INFO] wgan_gp - Generated 200 samples for class_id=1. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-29 22:04:28 [INFO] wgan_gp - Generated 10 samples for class_id=0. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-29 22:04:28 [INFO] wgan_gp - Generated 10 samples for class_id=3. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-29 22:04:28 [INFO] wgan_gp - Generated 100 samples for class_id=2. One-hot groups validated: ['protocol_type', 'service', 'flag']
+2026-10-29 22:04:28 [INFO] wgan_gp - Generated 1 samples for class_id=0. One-hot groups validated: ['protocol_type', 'service', 'flag']

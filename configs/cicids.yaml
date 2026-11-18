@@ -1,0 +1,70 @@
+dataset:
+  name: "CIC-IDS2017"
+  folder: "dataset folder/archive (2)/MachineLearningCVE"
+  sample_fraction: 0.1
+  test_size: 0.3
+  target_column: "Label"
+  min_class_samples: 100
+  rare_class_name: "Other_Rare"
+
+experiment:
+  seeds: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+  default_seed: 42
+  validation_size: 0.2
+
+output_dirs:
+  tables: "results/tables"
+  figures: "results/figures"
+  models: "results/models"
+  logs: "results/logs"
+
+gan:
+  latent_dim: 100
+  gen_hidden_layers: [256, 512]
+  critic_hidden_layers: [512, 256]
+  batch_size: 128
+  lr: 0.0001
+  betas: [0.5, 0.9]
+  n_critic: 5
+  lambda_gp: 10.0
+  epochs: 50
+
+ensemble:
+  n_estimators: 100
+  voting: "soft"
+
+pipeline:
+  stage1_threshold: 0.5
+  target_recall: 0.98
+
+resampling:
+  target_ratio: 0.5
+
+normal_class: "BENIGN"
+
+classes:
+  - "BENIGN"
+  - "DoS Hulk"
+  - "DDoS"
+  - "PortScan"
+  - "DoS GoldenEye"
+  - "FTP-Patator"
+  - "DoS slowloris"
+  - "DoS Slowhttptest"
+  - "SSH-Patator"
+  - "Bot"
+  - "Web Attack - Brute Force"
+  - "Other_Rare"
+
+attack_classes:
+  - "DoS Hulk"
+  - "DDoS"
+  - "PortScan"
+  - "DoS GoldenEye"
+  - "FTP-Patator"
+  - "DoS slowloris"
+  - "DoS Slowhttptest"
+  - "SSH-Patator"
+  - "Bot"
+  - "Web Attack - Brute Force"
+  - "Other_Rare"

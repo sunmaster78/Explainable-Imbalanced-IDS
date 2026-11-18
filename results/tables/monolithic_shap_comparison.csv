@@ -1,0 +1,5 @@
+attack_class,monolithic_spearman,monolithic_top10_jaccard
+DoS,0.9227,0.3333
+Probe,0.9348,0.3333
+R2L,0.9271,0.4286
+U2R,0.9136,0.5385

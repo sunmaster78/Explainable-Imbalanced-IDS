@@ -1,0 +1,44 @@
+# Python & Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+brmenv/
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Testing & Cache
+.pytest_cache/
+.coverage
+htmlcov/
+.agents/
+
+# Datasets (Strictly excluded)
+data/
+dataset folder/
+dataset/
+datasets/
+*.parquet
+*.pcap
+*.pcap_ISCX.csv
+*.arff
+
+# Heavy model binaries (>10MB)
+old notebooks/**/*.joblib
+models/
+*.h5
+*.ckpt
+
+# IDE & OS files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

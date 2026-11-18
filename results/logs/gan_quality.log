@@ -1,0 +1,426 @@
+2026-10-04 12:36:42 [INFO] gan_quality - Evaluating TSTR: 60 synthetic train samples, 40 real test samples across classes [np.int64(0), np.int64(1)]
+2026-10-04 12:36:42 [INFO] gan_quality - TSTR Macro-F1: 0.5726
+2026-10-04 12:36:42 [INFO] gan_quality -   Class '0' Recall: 0.6500, F1: 0.6047
+2026-10-04 12:36:42 [INFO] gan_quality -   Class '1' Recall: 0.5000, F1: 0.5405
+2026-10-04 12:36:42 [INFO] gan_quality - NN Distance: Syn-to-Real mean=2.5654, min=1.522711, memorized (<0.001)=0.00% | Real-to-Real mean=2.5077, min=1.537476
+2026-10-04 12:36:42 [INFO] gan_quality - NN Distance [U2R]: Syn-to-Real mean=0.0000, min=0.000000, memorized (<0.001)=100.00% | Real-to-Real mean=2.8284, min=2.828427
+2026-10-04 12:36:42 [WARNING] gan_quality - Potential memorization detected [U2R]! 100.00% of synthetic samples are within 0.001 Euclidean distance of training data.
+2026-10-04 12:36:42 [INFO] gan_quality - KS Test: Mean KS statistic = 0.0516, 0/5 features (0.0%) have p < 0.01.
+2026-10-04 12:36:42 [INFO] gan_quality - KS Test: Mean KS statistic = 1.0000, 3/3 features (100.0%) have p < 0.05.
+2026-10-04 12:36:42 [INFO] gan_quality - Saved PCA plot for 'Probe' to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-12\test_pca_plot_generation0\figures\test_pca_probe.png
+2026-10-04 12:36:42 [INFO] gan_quality - Starting comprehensive GAN quality evaluation for classes: ['DoS', 'Probe', 'U2R']
+2026-10-04 12:36:42 [INFO] gan_quality - Evaluating TSTR: 75 synthetic train samples, 60 real test samples across classes [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 12:36:42 [INFO] gan_quality - TSTR Macro-F1: 0.2922
+2026-10-04 12:36:42 [INFO] gan_quality -   Class 'DoS' Recall: 0.4000, F1: 0.3636
+2026-10-04 12:36:42 [INFO] gan_quality -   Class 'Probe' Recall: 0.1500, F1: 0.1714
+2026-10-04 12:36:42 [INFO] gan_quality -   Class 'U2R' Recall: 0.3500, F1: 0.3415
+2026-10-04 12:36:42 [INFO] gan_quality - NN Distance [DoS]: Syn-to-Real mean=2.5712, min=1.804552, memorized (<0.001)=0.00% | Real-to-Real mean=2.7840, min=2.221581
+2026-10-04 12:36:42 [INFO] gan_quality - KS Test: Mean KS statistic = 0.2353, 0/10 features (0.0%) have p < 0.05.
+2026-10-04 12:36:42 [INFO] gan_quality - Saved PCA plot for 'DoS' to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-12\test_full_pipeline0\figures\pca_dos.png
+2026-10-04 12:36:42 [INFO] gan_quality - NN Distance [Probe]: Syn-to-Real mean=2.5617, min=1.877062, memorized (<0.001)=0.00% | Real-to-Real mean=2.5440, min=1.664532
+2026-10-04 12:36:42 [INFO] gan_quality - KS Test: Mean KS statistic = 0.2073, 0/10 features (0.0%) have p < 0.05.
+2026-10-04 12:36:42 [INFO] gan_quality - Saved PCA plot for 'Probe' to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-12\test_full_pipeline0\figures\pca_probe.png
+2026-10-04 12:36:42 [INFO] gan_quality - NN Distance [U2R]: Syn-to-Real mean=2.7868, min=1.827471, memorized (<0.001)=0.00% | Real-to-Real mean=2.6962, min=1.921706
+2026-10-04 12:36:42 [INFO] gan_quality - KS Test: Mean KS statistic = 0.2273, 1/10 features (10.0%) have p < 0.05.
+2026-10-04 12:36:42 [INFO] gan_quality - Saved PCA plot for 'U2R' to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-12\test_full_pipeline0\figures\pca_u2r.png
+2026-10-04 12:36:42 [INFO] gan_quality - Saved GAN quality summary table to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-12\test_full_pipeline0\tables\gan_quality_test.csv
+2026-10-04 12:36:42 [INFO] gan_quality - === U2R Memorization Audit ===
+Synthetic U2R samples: 25
+Minimum distance to real U2R: 1.827471
+Memorized percentage (<1e-3): 0.00%
+Conclusion: PASSED (No exact memorization detected)
+2026-10-04 12:37:07 [INFO] gan_quality - Evaluating TSTR: 60 synthetic train samples, 40 real test samples across classes [np.int64(0), np.int64(1)]
+2026-10-04 12:37:07 [INFO] gan_quality - TSTR Macro-F1: 0.5726
+2026-10-04 12:37:07 [INFO] gan_quality -   Class '0' Recall: 0.6500, F1: 0.6047
+2026-10-04 12:37:07 [INFO] gan_quality -   Class '1' Recall: 0.5000, F1: 0.5405
+2026-10-04 12:37:07 [INFO] gan_quality - NN Distance: Syn-to-Real mean=2.5654, min=1.522711, memorized (<0.001)=0.00% | Real-to-Real mean=2.5077, min=1.537476
+2026-10-04 12:37:07 [INFO] gan_quality - NN Distance [U2R]: Syn-to-Real mean=0.0000, min=0.000000, memorized (<0.001)=100.00% | Real-to-Real mean=2.8284, min=2.828427
+2026-10-04 12:37:07 [WARNING] gan_quality - Potential memorization detected [U2R]! 100.00% of synthetic samples are within 0.001 Euclidean distance of training data.
+2026-10-04 12:37:07 [INFO] gan_quality - KS Test: Mean KS statistic = 0.0516, 0/5 features (0.0%) have p < 0.01.
+2026-10-04 12:37:07 [INFO] gan_quality - KS Test: Mean KS statistic = 1.0000, 3/3 features (100.0%) have p < 0.05.
+2026-10-04 12:37:07 [INFO] gan_quality - Saved PCA plot for 'Probe' to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-13\test_pca_plot_generation0\figures\test_pca_probe.png
+2026-10-04 12:37:07 [INFO] gan_quality - Starting comprehensive GAN quality evaluation for classes: ['DoS', 'Probe', 'U2R']
+2026-10-04 12:37:07 [INFO] gan_quality - Evaluating TSTR: 75 synthetic train samples, 60 real test samples across classes [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 12:37:07 [INFO] gan_quality - TSTR Macro-F1: 0.2922
+2026-10-04 12:37:07 [INFO] gan_quality -   Class 'DoS' Recall: 0.4000, F1: 0.3636
+2026-10-04 12:37:07 [INFO] gan_quality -   Class 'Probe' Recall: 0.1500, F1: 0.1714
+2026-10-04 12:37:07 [INFO] gan_quality -   Class 'U2R' Recall: 0.3500, F1: 0.3415
+2026-10-04 12:37:07 [INFO] gan_quality - NN Distance [DoS]: Syn-to-Real mean=2.5712, min=1.804552, memorized (<0.001)=0.00% | Real-to-Real mean=2.7840, min=2.221581
+2026-10-04 12:37:07 [INFO] gan_quality - KS Test: Mean KS statistic = 0.2353, 0/10 features (0.0%) have p < 0.05.
+2026-10-04 12:37:07 [INFO] gan_quality - Saved PCA plot for 'DoS' to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-13\test_full_pipeline0\figures\pca_dos.png
+2026-10-04 12:37:07 [INFO] gan_quality - NN Distance [Probe]: Syn-to-Real mean=2.5617, min=1.877062, memorized (<0.001)=0.00% | Real-to-Real mean=2.5440, min=1.664532
+2026-10-04 12:37:07 [INFO] gan_quality - KS Test: Mean KS statistic = 0.2073, 0/10 features (0.0%) have p < 0.05.
+2026-10-04 12:37:08 [INFO] gan_quality - Saved PCA plot for 'Probe' to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-13\test_full_pipeline0\figures\pca_probe.png
+2026-10-04 12:37:08 [INFO] gan_quality - NN Distance [U2R]: Syn-to-Real mean=2.7868, min=1.827471, memorized (<0.001)=0.00% | Real-to-Real mean=2.6962, min=1.921706
+2026-10-04 12:37:08 [INFO] gan_quality - KS Test: Mean KS statistic = 0.2273, 1/10 features (10.0%) have p < 0.05.
+2026-10-04 12:37:08 [INFO] gan_quality - Saved PCA plot for 'U2R' to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-13\test_full_pipeline0\figures\pca_u2r.png
+2026-10-04 12:37:08 [INFO] gan_quality - Saved GAN quality summary table to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-13\test_full_pipeline0\tables\gan_quality_test.csv
+2026-10-04 12:37:08 [INFO] gan_quality - === U2R Memorization Audit ===
+Synthetic U2R samples: 25
+Minimum distance to real U2R: 1.827471
+Memorized percentage (<1e-3): 0.00%
+Conclusion: PASSED (No exact memorization detected)
+2026-10-04 12:39:27 [INFO] gan_quality - Evaluating TSTR: 60 synthetic train samples, 40 real test samples across classes [np.int64(0), np.int64(1)]
+2026-10-04 12:39:27 [INFO] gan_quality - TSTR Macro-F1: 0.5726
+2026-10-04 12:39:27 [INFO] gan_quality -   Class '0' Recall: 0.6500, F1: 0.6047
+2026-10-04 12:39:27 [INFO] gan_quality -   Class '1' Recall: 0.5000, F1: 0.5405
+2026-10-04 12:39:27 [INFO] gan_quality - NN Distance: Syn-to-Real mean=2.5654, min=1.522711, memorized (<0.001)=0.00% | Real-to-Real mean=2.5077, min=1.537476
+2026-10-04 12:39:27 [INFO] gan_quality - NN Distance [U2R]: Syn-to-Real mean=0.0000, min=0.000000, memorized (<0.001)=100.00% | Real-to-Real mean=2.8284, min=2.828427
+2026-10-04 12:39:27 [WARNING] gan_quality - Potential memorization detected [U2R]! 100.00% of synthetic samples are within 0.001 Euclidean distance of training data.
+2026-10-04 12:39:27 [INFO] gan_quality - KS Test: Mean KS statistic = 0.0516, 0/5 features (0.0%) have p < 0.01.
+2026-10-04 12:39:27 [INFO] gan_quality - KS Test: Mean KS statistic = 1.0000, 3/3 features (100.0%) have p < 0.05.
+2026-10-04 12:39:27 [INFO] gan_quality - Saved PCA plot for 'Probe' to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-15\test_pca_plot_generation0\figures\test_pca_probe.png
+2026-10-04 12:39:27 [INFO] gan_quality - Starting comprehensive GAN quality evaluation for classes: ['DoS', 'Probe', 'U2R']
+2026-10-04 12:39:27 [INFO] gan_quality - Evaluating TSTR: 75 synthetic train samples, 60 real test samples across classes [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 12:39:27 [INFO] gan_quality - TSTR Macro-F1: 0.2922
+2026-10-04 12:39:27 [INFO] gan_quality -   Class 'DoS' Recall: 0.4000, F1: 0.3636
+2026-10-04 12:39:27 [INFO] gan_quality -   Class 'Probe' Recall: 0.1500, F1: 0.1714
+2026-10-04 12:39:27 [INFO] gan_quality -   Class 'U2R' Recall: 0.3500, F1: 0.3415
+2026-10-04 12:39:27 [INFO] gan_quality - NN Distance [DoS]: Syn-to-Real mean=2.5712, min=1.804552, memorized (<0.001)=0.00% | Real-to-Real mean=2.7840, min=2.221581
+2026-10-04 12:39:27 [INFO] gan_quality - KS Test: Mean KS statistic = 0.2353, 0/10 features (0.0%) have p < 0.05.
+2026-10-04 12:39:27 [INFO] gan_quality - Saved PCA plot for 'DoS' to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-15\test_full_pipeline0\figures\pca_dos.png
+2026-10-04 12:39:27 [INFO] gan_quality - NN Distance [Probe]: Syn-to-Real mean=2.5617, min=1.877062, memorized (<0.001)=0.00% | Real-to-Real mean=2.5440, min=1.664532
+2026-10-04 12:39:27 [INFO] gan_quality - KS Test: Mean KS statistic = 0.2073, 0/10 features (0.0%) have p < 0.05.
+2026-10-04 12:39:27 [INFO] gan_quality - Saved PCA plot for 'Probe' to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-15\test_full_pipeline0\figures\pca_probe.png
+2026-10-04 12:39:27 [INFO] gan_quality - NN Distance [U2R]: Syn-to-Real mean=2.7868, min=1.827471, memorized (<0.001)=0.00% | Real-to-Real mean=2.6962, min=1.921706
+2026-10-04 12:39:27 [INFO] gan_quality - KS Test: Mean KS statistic = 0.2273, 1/10 features (10.0%) have p < 0.05.
+2026-10-04 12:39:27 [INFO] gan_quality - Saved PCA plot for 'U2R' to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-15\test_full_pipeline0\figures\pca_u2r.png
+2026-10-04 12:39:27 [INFO] gan_quality - Saved GAN quality summary table to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-15\test_full_pipeline0\tables\gan_quality_test.csv
+2026-10-04 12:39:28 [INFO] gan_quality - === U2R Memorization Audit ===
+Synthetic U2R samples: 25
+Minimum distance to real U2R: 1.827471
+Memorized percentage (<1e-3): 0.00%
+Conclusion: PASSED (No exact memorization detected)
+2026-10-04 12:41:09 [INFO] gan_quality - Evaluating TSTR: 60 synthetic train samples, 40 real test samples across classes [np.int64(0), np.int64(1)]
+2026-10-04 12:41:09 [INFO] gan_quality - TSTR Macro-F1: 0.5726
+2026-10-04 12:41:09 [INFO] gan_quality -   Class '0' Recall: 0.6500, F1: 0.6047
+2026-10-04 12:41:09 [INFO] gan_quality -   Class '1' Recall: 0.5000, F1: 0.5405
+2026-10-04 12:41:09 [INFO] gan_quality - NN Distance: Syn-to-Real mean=2.5654, min=1.522711, memorized (<0.001)=0.00% | Real-to-Real mean=2.5077, min=1.537476
+2026-10-04 12:41:09 [INFO] gan_quality - NN Distance [U2R]: Syn-to-Real mean=0.0000, min=0.000000, memorized (<0.001)=100.00% | Real-to-Real mean=2.8284, min=2.828427
+2026-10-04 12:41:09 [WARNING] gan_quality - Potential memorization detected [U2R]! 100.00% of synthetic samples are within 0.001 Euclidean distance of training data.
+2026-10-04 12:41:09 [INFO] gan_quality - KS Test: Mean KS statistic = 0.0516, 0/5 features (0.0%) have p < 0.01.
+2026-10-04 12:41:09 [INFO] gan_quality - KS Test: Mean KS statistic = 1.0000, 3/3 features (100.0%) have p < 0.05.
+2026-10-04 12:41:09 [INFO] gan_quality - Saved PCA plot for 'Probe' to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-17\test_pca_plot_generation0\figures\test_pca_probe.png
+2026-10-04 12:41:09 [INFO] gan_quality - Starting comprehensive GAN quality evaluation for classes: ['DoS', 'Probe', 'U2R']
+2026-10-04 12:41:09 [INFO] gan_quality - Evaluating TSTR: 75 synthetic train samples, 60 real test samples across classes [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 12:41:09 [INFO] gan_quality - TSTR Macro-F1: 0.2922
+2026-10-04 12:41:09 [INFO] gan_quality -   Class 'DoS' Recall: 0.4000, F1: 0.3636
+2026-10-04 12:41:09 [INFO] gan_quality -   Class 'Probe' Recall: 0.1500, F1: 0.1714
+2026-10-04 12:41:09 [INFO] gan_quality -   Class 'U2R' Recall: 0.3500, F1: 0.3415
+2026-10-04 12:41:09 [INFO] gan_quality - NN Distance [DoS]: Syn-to-Real mean=2.5712, min=1.804552, memorized (<0.001)=0.00% | Real-to-Real mean=2.7840, min=2.221581
+2026-10-04 12:41:09 [INFO] gan_quality - KS Test: Mean KS statistic = 0.2353, 0/10 features (0.0%) have p < 0.05.
+2026-10-04 12:41:10 [INFO] gan_quality - Saved PCA plot for 'DoS' to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-17\test_full_pipeline0\figures\pca_dos.png
+2026-10-04 12:41:10 [INFO] gan_quality - NN Distance [Probe]: Syn-to-Real mean=2.5617, min=1.877062, memorized (<0.001)=0.00% | Real-to-Real mean=2.5440, min=1.664532
+2026-10-04 12:41:10 [INFO] gan_quality - KS Test: Mean KS statistic = 0.2073, 0/10 features (0.0%) have p < 0.05.
+2026-10-04 12:41:10 [INFO] gan_quality - Saved PCA plot for 'Probe' to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-17\test_full_pipeline0\figures\pca_probe.png
+2026-10-04 12:41:10 [INFO] gan_quality - NN Distance [U2R]: Syn-to-Real mean=2.7868, min=1.827471, memorized (<0.001)=0.00% | Real-to-Real mean=2.6962, min=1.921706
+2026-10-04 12:41:10 [INFO] gan_quality - KS Test: Mean KS statistic = 0.2273, 1/10 features (10.0%) have p < 0.05.
+2026-10-04 12:41:10 [INFO] gan_quality - Saved PCA plot for 'U2R' to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-17\test_full_pipeline0\figures\pca_u2r.png
+2026-10-04 12:41:10 [INFO] gan_quality - Saved GAN quality summary table to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-17\test_full_pipeline0\tables\gan_quality_test.csv
+2026-10-04 12:41:10 [INFO] gan_quality - === U2R Memorization Audit ===
+Synthetic U2R samples: 25
+Minimum distance to real U2R: 1.827471
+Memorized percentage (<1e-3): 0.00%
+Conclusion: PASSED (No exact memorization detected)
+2026-10-04 12:47:17 [INFO] gan_quality - Evaluating TSTR: 60 synthetic train samples, 40 real test samples across classes [np.int64(0), np.int64(1)]
+2026-10-04 12:47:17 [INFO] gan_quality - TSTR Macro-F1: 0.5726
+2026-10-04 12:47:17 [INFO] gan_quality -   Class '0' Recall: 0.6500, F1: 0.6047
+2026-10-04 12:47:17 [INFO] gan_quality -   Class '1' Recall: 0.5000, F1: 0.5405
+2026-10-04 12:47:17 [INFO] gan_quality - NN Distance: Syn-to-Real mean=2.5654, min=1.522711, memorized (<0.001)=0.00% | Real-to-Real mean=2.5077, min=1.537476
+2026-10-04 12:47:17 [INFO] gan_quality - NN Distance [U2R]: Syn-to-Real mean=0.0000, min=0.000000, memorized (<0.001)=100.00% | Real-to-Real mean=2.8284, min=2.828427
+2026-10-04 12:47:17 [WARNING] gan_quality - Potential memorization detected [U2R]! 100.00% of synthetic samples are within 0.001 Euclidean distance of training data.
+2026-10-04 12:47:17 [INFO] gan_quality - KS Test: Mean KS statistic = 0.0516, 0/5 features (0.0%) have p < 0.01.
+2026-10-04 12:47:17 [INFO] gan_quality - KS Test: Mean KS statistic = 1.0000, 3/3 features (100.0%) have p < 0.05.
+2026-10-04 12:47:17 [INFO] gan_quality - Saved PCA plot for 'Probe' to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-22\test_pca_plot_generation0\figures\test_pca_probe.png
+2026-10-04 12:47:17 [INFO] gan_quality - Starting comprehensive GAN quality evaluation for classes: ['DoS', 'Probe', 'U2R']
+2026-10-04 12:47:17 [INFO] gan_quality - Evaluating TSTR: 75 synthetic train samples, 60 real test samples across classes [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 12:47:17 [INFO] gan_quality - TSTR Macro-F1: 0.2922
+2026-10-04 12:47:17 [INFO] gan_quality -   Class 'DoS' Recall: 0.4000, F1: 0.3636
+2026-10-04 12:47:17 [INFO] gan_quality -   Class 'Probe' Recall: 0.1500, F1: 0.1714
+2026-10-04 12:47:17 [INFO] gan_quality -   Class 'U2R' Recall: 0.3500, F1: 0.3415
+2026-10-04 12:47:17 [INFO] gan_quality - NN Distance [DoS]: Syn-to-Real mean=2.5712, min=1.804552, memorized (<0.001)=0.00% | Real-to-Real mean=2.7840, min=2.221581
+2026-10-04 12:47:17 [INFO] gan_quality - KS Test: Mean KS statistic = 0.2353, 0/10 features (0.0%) have p < 0.05.
+2026-10-04 12:47:17 [INFO] gan_quality - Saved PCA plot for 'DoS' to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-22\test_full_pipeline0\figures\pca_dos.png
+2026-10-04 12:47:17 [INFO] gan_quality - NN Distance [Probe]: Syn-to-Real mean=2.5617, min=1.877062, memorized (<0.001)=0.00% | Real-to-Real mean=2.5440, min=1.664532
+2026-10-04 12:47:17 [INFO] gan_quality - KS Test: Mean KS statistic = 0.2073, 0/10 features (0.0%) have p < 0.05.
+2026-10-04 12:47:17 [INFO] gan_quality - Saved PCA plot for 'Probe' to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-22\test_full_pipeline0\figures\pca_probe.png
+2026-10-04 12:47:17 [INFO] gan_quality - NN Distance [U2R]: Syn-to-Real mean=2.7868, min=1.827471, memorized (<0.001)=0.00% | Real-to-Real mean=2.6962, min=1.921706
+2026-10-04 12:47:17 [INFO] gan_quality - KS Test: Mean KS statistic = 0.2273, 1/10 features (10.0%) have p < 0.05.
+2026-10-04 12:47:18 [INFO] gan_quality - Saved PCA plot for 'U2R' to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-22\test_full_pipeline0\figures\pca_u2r.png
+2026-10-04 12:47:18 [INFO] gan_quality - Saved GAN quality summary table to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-22\test_full_pipeline0\tables\gan_quality_test.csv
+2026-10-04 12:47:18 [INFO] gan_quality - === U2R Memorization Audit ===
+Synthetic U2R samples: 25
+Minimum distance to real U2R: 1.827471
+Memorized percentage (<1e-3): 0.00%
+Conclusion: PASSED (No exact memorization detected)
+2026-10-04 13:01:18 [INFO] gan_quality - Evaluating TSTR: 60 synthetic train samples, 40 real test samples across classes [np.int64(0), np.int64(1)]
+2026-10-04 13:01:18 [INFO] gan_quality - TSTR Macro-F1: 0.5726
+2026-10-04 13:01:18 [INFO] gan_quality -   Class '0' Recall: 0.6500, F1: 0.6047
+2026-10-04 13:01:18 [INFO] gan_quality -   Class '1' Recall: 0.5000, F1: 0.5405
+2026-10-04 13:01:18 [INFO] gan_quality - NN Distance: Syn-to-Real mean=2.5654, min=1.522711, memorized (<0.001)=0.00% | Real-to-Real mean=2.5077, min=1.537476
+2026-10-04 13:01:18 [INFO] gan_quality - NN Distance [U2R]: Syn-to-Real mean=0.0000, min=0.000000, memorized (<0.001)=100.00% | Real-to-Real mean=2.8284, min=2.828427
+2026-10-04 13:01:18 [WARNING] gan_quality - Potential memorization detected [U2R]! 100.00% of synthetic samples are within 0.001 Euclidean distance of training data.
+2026-10-04 13:01:18 [INFO] gan_quality - KS Test: Mean KS statistic = 0.0516, 0/5 features (0.0%) have p < 0.01.
+2026-10-04 13:01:18 [INFO] gan_quality - KS Test: Mean KS statistic = 1.0000, 3/3 features (100.0%) have p < 0.05.
+2026-10-04 13:01:18 [INFO] gan_quality - Saved PCA plot for 'Probe' to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-25\test_pca_plot_generation0\figures\test_pca_probe.png
+2026-10-04 13:01:18 [INFO] gan_quality - Starting comprehensive GAN quality evaluation for classes: ['DoS', 'Probe', 'U2R']
+2026-10-04 13:01:18 [INFO] gan_quality - Evaluating TSTR: 75 synthetic train samples, 60 real test samples across classes [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 13:01:18 [INFO] gan_quality - TSTR Macro-F1: 0.2922
+2026-10-04 13:01:18 [INFO] gan_quality -   Class 'DoS' Recall: 0.4000, F1: 0.3636
+2026-10-04 13:01:18 [INFO] gan_quality -   Class 'Probe' Recall: 0.1500, F1: 0.1714
+2026-10-04 13:01:18 [INFO] gan_quality -   Class 'U2R' Recall: 0.3500, F1: 0.3415
+2026-10-04 13:01:18 [INFO] gan_quality - NN Distance [DoS]: Syn-to-Real mean=2.5712, min=1.804552, memorized (<0.001)=0.00% | Real-to-Real mean=2.7840, min=2.221581
+2026-10-04 13:01:18 [INFO] gan_quality - KS Test: Mean KS statistic = 0.2353, 0/10 features (0.0%) have p < 0.05.
+2026-10-04 13:01:18 [INFO] gan_quality - Saved PCA plot for 'DoS' to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-25\test_full_pipeline0\figures\pca_dos.png
+2026-10-04 13:01:18 [INFO] gan_quality - NN Distance [Probe]: Syn-to-Real mean=2.5617, min=1.877062, memorized (<0.001)=0.00% | Real-to-Real mean=2.5440, min=1.664532
+2026-10-04 13:01:18 [INFO] gan_quality - KS Test: Mean KS statistic = 0.2073, 0/10 features (0.0%) have p < 0.05.
+2026-10-04 13:01:19 [INFO] gan_quality - Saved PCA plot for 'Probe' to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-25\test_full_pipeline0\figures\pca_probe.png
+2026-10-04 13:01:19 [INFO] gan_quality - NN Distance [U2R]: Syn-to-Real mean=2.7868, min=1.827471, memorized (<0.001)=0.00% | Real-to-Real mean=2.6962, min=1.921706
+2026-10-04 13:01:19 [INFO] gan_quality - KS Test: Mean KS statistic = 0.2273, 1/10 features (10.0%) have p < 0.05.
+2026-10-04 13:01:19 [INFO] gan_quality - Saved PCA plot for 'U2R' to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-25\test_full_pipeline0\figures\pca_u2r.png
+2026-10-04 13:01:19 [INFO] gan_quality - Saved GAN quality summary table to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-25\test_full_pipeline0\tables\gan_quality_test.csv
+2026-10-04 13:01:19 [INFO] gan_quality - === U2R Memorization Audit ===
+Synthetic U2R samples: 25
+Minimum distance to real U2R: 1.827471
+Memorized percentage (<1e-3): 0.00%
+Conclusion: PASSED (No exact memorization detected)
+2026-10-04 13:02:43 [INFO] gan_quality - Evaluating TSTR: 60 synthetic train samples, 40 real test samples across classes [np.int64(0), np.int64(1)]
+2026-10-04 13:02:43 [INFO] gan_quality - TSTR Macro-F1: 0.5726
+2026-10-04 13:02:43 [INFO] gan_quality -   Class '0' Recall: 0.6500, F1: 0.6047
+2026-10-04 13:02:43 [INFO] gan_quality -   Class '1' Recall: 0.5000, F1: 0.5405
+2026-10-04 13:02:43 [INFO] gan_quality - NN Distance: Syn-to-Real mean=2.5654, min=1.522711, memorized (<0.001)=0.00% | Real-to-Real mean=2.5077, min=1.537476
+2026-10-04 13:02:43 [INFO] gan_quality - NN Distance [U2R]: Syn-to-Real mean=0.0000, min=0.000000, memorized (<0.001)=100.00% | Real-to-Real mean=2.8284, min=2.828427
+2026-10-04 13:02:43 [WARNING] gan_quality - Potential memorization detected [U2R]! 100.00% of synthetic samples are within 0.001 Euclidean distance of training data.
+2026-10-04 13:02:43 [INFO] gan_quality - KS Test: Mean KS statistic = 0.0516, 0/5 features (0.0%) have p < 0.01.
+2026-10-04 13:02:43 [INFO] gan_quality - KS Test: Mean KS statistic = 1.0000, 3/3 features (100.0%) have p < 0.05.
+2026-10-04 13:02:44 [INFO] gan_quality - Saved PCA plot for 'Probe' to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-26\test_pca_plot_generation0\figures\test_pca_probe.png
+2026-10-04 13:02:44 [INFO] gan_quality - Starting comprehensive GAN quality evaluation for classes: ['DoS', 'Probe', 'U2R']
+2026-10-04 13:02:44 [INFO] gan_quality - Evaluating TSTR: 75 synthetic train samples, 60 real test samples across classes [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 13:02:44 [INFO] gan_quality - TSTR Macro-F1: 0.2922
+2026-10-04 13:02:44 [INFO] gan_quality -   Class 'DoS' Recall: 0.4000, F1: 0.3636
+2026-10-04 13:02:44 [INFO] gan_quality -   Class 'Probe' Recall: 0.1500, F1: 0.1714
+2026-10-04 13:02:44 [INFO] gan_quality -   Class 'U2R' Recall: 0.3500, F1: 0.3415
+2026-10-04 13:02:44 [INFO] gan_quality - NN Distance [DoS]: Syn-to-Real mean=2.5712, min=1.804552, memorized (<0.001)=0.00% | Real-to-Real mean=2.7840, min=2.221581
+2026-10-04 13:02:44 [INFO] gan_quality - KS Test: Mean KS statistic = 0.2353, 0/10 features (0.0%) have p < 0.05.
+2026-10-04 13:02:44 [INFO] gan_quality - Saved PCA plot for 'DoS' to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-26\test_full_pipeline0\figures\pca_dos.png
+2026-10-04 13:02:44 [INFO] gan_quality - NN Distance [Probe]: Syn-to-Real mean=2.5617, min=1.877062, memorized (<0.001)=0.00% | Real-to-Real mean=2.5440, min=1.664532
+2026-10-04 13:02:44 [INFO] gan_quality - KS Test: Mean KS statistic = 0.2073, 0/10 features (0.0%) have p < 0.05.
+2026-10-04 13:02:44 [INFO] gan_quality - Saved PCA plot for 'Probe' to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-26\test_full_pipeline0\figures\pca_probe.png
+2026-10-04 13:02:44 [INFO] gan_quality - NN Distance [U2R]: Syn-to-Real mean=2.7868, min=1.827471, memorized (<0.001)=0.00% | Real-to-Real mean=2.6962, min=1.921706
+2026-10-04 13:02:44 [INFO] gan_quality - KS Test: Mean KS statistic = 0.2273, 1/10 features (10.0%) have p < 0.05.
+2026-10-04 13:02:44 [INFO] gan_quality - Saved PCA plot for 'U2R' to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-26\test_full_pipeline0\figures\pca_u2r.png
+2026-10-04 13:02:44 [INFO] gan_quality - Saved GAN quality summary table to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-26\test_full_pipeline0\tables\gan_quality_test.csv
+2026-10-04 13:02:44 [INFO] gan_quality - === U2R Memorization Audit ===
+Synthetic U2R samples: 25
+Minimum distance to real U2R: 1.827471
+Memorized percentage (<1e-3): 0.00%
+Conclusion: PASSED (No exact memorization detected)
+2026-10-04 13:07:09 [INFO] gan_quality - Evaluating TSTR: 60 synthetic train samples, 40 real test samples across classes [np.int64(0), np.int64(1)]
+2026-10-04 13:07:09 [INFO] gan_quality - TSTR Macro-F1: 0.5726
+2026-10-04 13:07:09 [INFO] gan_quality -   Class '0' Recall: 0.6500, F1: 0.6047
+2026-10-04 13:07:09 [INFO] gan_quality -   Class '1' Recall: 0.5000, F1: 0.5405
+2026-10-04 13:07:09 [INFO] gan_quality - NN Distance: Syn-to-Real mean=2.5654, min=1.522711, memorized (<0.001)=0.00% | Real-to-Real mean=2.5077, min=1.537476
+2026-10-04 13:07:09 [INFO] gan_quality - NN Distance [U2R]: Syn-to-Real mean=0.0000, min=0.000000, memorized (<0.001)=100.00% | Real-to-Real mean=2.8284, min=2.828427
+2026-10-04 13:07:09 [WARNING] gan_quality - Potential memorization detected [U2R]! 100.00% of synthetic samples are within 0.001 Euclidean distance of training data.
+2026-10-04 13:07:09 [INFO] gan_quality - KS Test: Mean KS statistic = 0.0516, 0/5 features (0.0%) have p < 0.01.
+2026-10-04 13:07:09 [INFO] gan_quality - KS Test: Mean KS statistic = 1.0000, 3/3 features (100.0%) have p < 0.05.
+2026-10-04 13:07:10 [INFO] gan_quality - Saved PCA plot for 'Probe' to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-29\test_pca_plot_generation0\figures\test_pca_probe.png
+2026-10-04 13:07:10 [INFO] gan_quality - Starting comprehensive GAN quality evaluation for classes: ['DoS', 'Probe', 'U2R']
+2026-10-04 13:07:10 [INFO] gan_quality - Evaluating TSTR: 75 synthetic train samples, 60 real test samples across classes [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 13:07:10 [INFO] gan_quality - TSTR Macro-F1: 0.2922
+2026-10-04 13:07:10 [INFO] gan_quality -   Class 'DoS' Recall: 0.4000, F1: 0.3636
+2026-10-04 13:07:10 [INFO] gan_quality -   Class 'Probe' Recall: 0.1500, F1: 0.1714
+2026-10-04 13:07:10 [INFO] gan_quality -   Class 'U2R' Recall: 0.3500, F1: 0.3415
+2026-10-04 13:07:10 [INFO] gan_quality - NN Distance [DoS]: Syn-to-Real mean=2.5712, min=1.804552, memorized (<0.001)=0.00% | Real-to-Real mean=2.7840, min=2.221581
+2026-10-04 13:07:10 [INFO] gan_quality - KS Test: Mean KS statistic = 0.2353, 0/10 features (0.0%) have p < 0.05.
+2026-10-04 13:07:10 [INFO] gan_quality - Saved PCA plot for 'DoS' to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-29\test_full_pipeline0\figures\pca_dos.png
+2026-10-04 13:07:10 [INFO] gan_quality - NN Distance [Probe]: Syn-to-Real mean=2.5617, min=1.877062, memorized (<0.001)=0.00% | Real-to-Real mean=2.5440, min=1.664532
+2026-10-04 13:07:10 [INFO] gan_quality - KS Test: Mean KS statistic = 0.2073, 0/10 features (0.0%) have p < 0.05.
+2026-10-04 13:07:10 [INFO] gan_quality - Saved PCA plot for 'Probe' to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-29\test_full_pipeline0\figures\pca_probe.png
+2026-10-04 13:07:10 [INFO] gan_quality - NN Distance [U2R]: Syn-to-Real mean=2.7868, min=1.827471, memorized (<0.001)=0.00% | Real-to-Real mean=2.6962, min=1.921706
+2026-10-04 13:07:10 [INFO] gan_quality - KS Test: Mean KS statistic = 0.2273, 1/10 features (10.0%) have p < 0.05.
+2026-10-04 13:07:10 [INFO] gan_quality - Saved PCA plot for 'U2R' to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-29\test_full_pipeline0\figures\pca_u2r.png
+2026-10-04 13:07:10 [INFO] gan_quality - Saved GAN quality summary table to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-29\test_full_pipeline0\tables\gan_quality_test.csv
+2026-10-04 13:07:10 [INFO] gan_quality - === U2R Memorization Audit ===
+Synthetic U2R samples: 25
+Minimum distance to real U2R: 1.827471
+Memorized percentage (<1e-3): 0.00%
+Conclusion: PASSED (No exact memorization detected)
+2026-10-04 13:16:39 [INFO] gan_quality - Evaluating TSTR: 300 synthetic train samples, 14 real test samples across classes [np.str_('DoS'), np.str_('Probe'), np.str_('R2L')]
+2026-10-04 13:16:39 [INFO] gan_quality - TSTR Macro-F1: 0.4889
+2026-10-04 13:16:39 [INFO] gan_quality -   Class 'DoS' Recall: 0.7273, F1: 0.8000
+2026-10-04 13:16:39 [INFO] gan_quality -   Class 'Probe' Recall: 0.5000, F1: 0.6667
+2026-10-04 13:16:39 [INFO] gan_quality -   Class 'R2L' Recall: 0.0000, F1: 0.0000
+2026-10-04 13:17:48 [INFO] gan_quality - Evaluating TSTR: 300 synthetic train samples, 14 real test samples across classes [np.str_('DoS'), np.str_('Probe'), np.str_('R2L')]
+2026-10-04 13:17:49 [INFO] gan_quality - TSTR Macro-F1: 0.4889
+2026-10-04 13:17:49 [INFO] gan_quality -   Class 'DoS' Recall: 0.7273, F1: 0.8000
+2026-10-04 13:17:49 [INFO] gan_quality -   Class 'Probe' Recall: 0.5000, F1: 0.6667
+2026-10-04 13:17:49 [INFO] gan_quality -   Class 'R2L' Recall: 0.0000, F1: 0.0000
+2026-10-04 13:17:49 [INFO] gan_quality - NN Distance: Syn-to-Real mean=1.5567, min=0.755955, memorized (<0.001)=0.00% | Real-to-Real mean=1.9913, min=1.077801
+2026-10-04 13:20:45 [INFO] gan_quality - Evaluating TSTR: 300 synthetic train samples, 14 real test samples across classes [np.str_('DoS'), np.str_('Probe'), np.str_('R2L')]
+2026-10-04 13:20:45 [INFO] gan_quality - TSTR Macro-F1: 0.4889
+2026-10-04 13:20:45 [INFO] gan_quality -   Class 'DoS' Recall: 0.7273, F1: 0.8000
+2026-10-04 13:20:45 [INFO] gan_quality -   Class 'Probe' Recall: 0.5000, F1: 0.6667
+2026-10-04 13:20:45 [INFO] gan_quality -   Class 'R2L' Recall: 0.0000, F1: 0.0000
+2026-10-04 13:20:45 [INFO] gan_quality - NN Distance: Syn-to-Real mean=1.5567, min=0.755955, memorized (<0.001)=0.00% | Real-to-Real mean=1.9913, min=1.077801
+2026-10-04 13:20:48 [INFO] gan_quality - Evaluating TSTR: 300 synthetic train samples, 14 real test samples across classes [np.str_('DoS'), np.str_('Probe'), np.str_('R2L')]
+2026-10-04 13:20:48 [INFO] gan_quality - TSTR Macro-F1: 0.2667
+2026-10-04 13:20:48 [INFO] gan_quality -   Class 'DoS' Recall: 0.2727, F1: 0.4000
+2026-10-04 13:20:48 [INFO] gan_quality -   Class 'Probe' Recall: 0.0000, F1: 0.0000
+2026-10-04 13:20:48 [INFO] gan_quality -   Class 'R2L' Recall: 1.0000, F1: 0.4000
+2026-10-04 13:20:48 [INFO] gan_quality - NN Distance: Syn-to-Real mean=1.3748, min=0.485166, memorized (<0.001)=0.00% | Real-to-Real mean=2.0475, min=1.077801
+2026-10-04 13:22:44 [INFO] gan_quality - Evaluating TSTR: 300 synthetic train samples, 14 real test samples across classes [np.str_('DoS'), np.str_('Probe'), np.str_('R2L')]
+2026-10-04 13:22:45 [INFO] gan_quality - TSTR Macro-F1: 0.4889
+2026-10-04 13:22:45 [INFO] gan_quality -   Class 'DoS' Recall: 0.7273, F1: 0.8000
+2026-10-04 13:22:45 [INFO] gan_quality -   Class 'Probe' Recall: 0.5000, F1: 0.6667
+2026-10-04 13:22:45 [INFO] gan_quality -   Class 'R2L' Recall: 0.0000, F1: 0.0000
+2026-10-04 13:22:45 [INFO] gan_quality - NN Distance: Syn-to-Real mean=1.5567, min=0.755955, memorized (<0.001)=0.00% | Real-to-Real mean=1.9913, min=1.077801
+2026-10-04 13:22:47 [INFO] gan_quality - Evaluating TSTR: 300 synthetic train samples, 14 real test samples across classes [np.str_('DoS'), np.str_('Probe'), np.str_('R2L')]
+2026-10-04 13:22:47 [INFO] gan_quality - TSTR Macro-F1: 0.2667
+2026-10-04 13:22:47 [INFO] gan_quality -   Class 'DoS' Recall: 0.2727, F1: 0.4000
+2026-10-04 13:22:47 [INFO] gan_quality -   Class 'Probe' Recall: 0.0000, F1: 0.0000
+2026-10-04 13:22:47 [INFO] gan_quality -   Class 'R2L' Recall: 1.0000, F1: 0.4000
+2026-10-04 13:22:47 [INFO] gan_quality - NN Distance: Syn-to-Real mean=1.3748, min=0.485166, memorized (<0.001)=0.00% | Real-to-Real mean=2.0475, min=1.077801
+2026-10-04 13:23:36 [INFO] gan_quality - Evaluating TSTR: 60 synthetic train samples, 40 real test samples across classes [np.int64(0), np.int64(1)]
+2026-10-04 13:23:36 [INFO] gan_quality - TSTR Macro-F1: 0.5726
+2026-10-04 13:23:36 [INFO] gan_quality -   Class '0' Recall: 0.6500, F1: 0.6047
+2026-10-04 13:23:36 [INFO] gan_quality -   Class '1' Recall: 0.5000, F1: 0.5405
+2026-10-04 13:23:36 [INFO] gan_quality - NN Distance: Syn-to-Real mean=2.5654, min=1.522711, memorized (<0.001)=0.00% | Real-to-Real mean=2.5077, min=1.537476
+2026-10-04 13:23:36 [INFO] gan_quality - NN Distance [U2R]: Syn-to-Real mean=0.0000, min=0.000000, memorized (<0.001)=100.00% | Real-to-Real mean=2.8284, min=2.828427
+2026-10-04 13:23:36 [WARNING] gan_quality - Potential memorization detected [U2R]! 100.00% of synthetic samples are within 0.001 Euclidean distance of training data.
+2026-10-04 13:23:36 [INFO] gan_quality - KS Test: Mean KS statistic = 0.0516, 0/5 features (0.0%) have p < 0.01.
+2026-10-04 13:23:36 [INFO] gan_quality - KS Test: Mean KS statistic = 1.0000, 3/3 features (100.0%) have p < 0.05.
+2026-10-04 13:23:36 [INFO] gan_quality - Saved PCA plot for 'Probe' to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-36\test_pca_plot_generation0\figures\test_pca_probe.png
+2026-10-04 13:23:36 [INFO] gan_quality - Starting comprehensive GAN quality evaluation for classes: ['DoS', 'Probe', 'U2R']
+2026-10-04 13:23:36 [INFO] gan_quality - Evaluating TSTR: 75 synthetic train samples, 60 real test samples across classes [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 13:23:37 [INFO] gan_quality - TSTR Macro-F1: 0.2922
+2026-10-04 13:23:37 [INFO] gan_quality -   Class 'DoS' Recall: 0.4000, F1: 0.3636
+2026-10-04 13:23:37 [INFO] gan_quality -   Class 'Probe' Recall: 0.1500, F1: 0.1714
+2026-10-04 13:23:37 [INFO] gan_quality -   Class 'U2R' Recall: 0.3500, F1: 0.3415
+2026-10-04 13:23:37 [INFO] gan_quality - NN Distance [DoS]: Syn-to-Real mean=2.5712, min=1.804552, memorized (<0.001)=0.00% | Real-to-Real mean=2.7840, min=2.221581
+2026-10-04 13:23:37 [INFO] gan_quality - KS Test: Mean KS statistic = 0.2353, 0/10 features (0.0%) have p < 0.05.
+2026-10-04 13:23:37 [INFO] gan_quality - Saved PCA plot for 'DoS' to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-36\test_full_pipeline0\figures\pca_dos.png
+2026-10-04 13:23:37 [INFO] gan_quality - NN Distance [Probe]: Syn-to-Real mean=2.5617, min=1.877062, memorized (<0.001)=0.00% | Real-to-Real mean=2.5440, min=1.664532
+2026-10-04 13:23:37 [INFO] gan_quality - KS Test: Mean KS statistic = 0.2073, 0/10 features (0.0%) have p < 0.05.
+2026-10-04 13:23:37 [INFO] gan_quality - Saved PCA plot for 'Probe' to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-36\test_full_pipeline0\figures\pca_probe.png
+2026-10-04 13:23:37 [INFO] gan_quality - NN Distance [U2R]: Syn-to-Real mean=2.7868, min=1.827471, memorized (<0.001)=0.00% | Real-to-Real mean=2.6962, min=1.921706
+2026-10-04 13:23:37 [INFO] gan_quality - KS Test: Mean KS statistic = 0.2273, 1/10 features (10.0%) have p < 0.05.
+2026-10-04 13:23:37 [INFO] gan_quality - Saved PCA plot for 'U2R' to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-36\test_full_pipeline0\figures\pca_u2r.png
+2026-10-04 13:23:37 [INFO] gan_quality - Saved GAN quality summary table to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-36\test_full_pipeline0\tables\gan_quality_test.csv
+2026-10-04 13:23:37 [INFO] gan_quality - === U2R Memorization Audit ===
+Synthetic U2R samples: 25
+Minimum distance to real U2R: 1.827471
+Memorized percentage (<1e-3): 0.00%
+Conclusion: PASSED (No exact memorization detected)
+2026-10-04 13:23:44 [INFO] gan_quality - Evaluating TSTR: 300 synthetic train samples, 14 real test samples across classes [np.str_('DoS'), np.str_('Probe'), np.str_('R2L')]
+2026-10-04 13:23:44 [INFO] gan_quality - TSTR Macro-F1: 0.4889
+2026-10-04 13:23:44 [INFO] gan_quality -   Class 'DoS' Recall: 0.7273, F1: 0.8000
+2026-10-04 13:23:44 [INFO] gan_quality -   Class 'Probe' Recall: 0.5000, F1: 0.6667
+2026-10-04 13:23:44 [INFO] gan_quality -   Class 'R2L' Recall: 0.0000, F1: 0.0000
+2026-10-04 13:23:44 [INFO] gan_quality - NN Distance: Syn-to-Real mean=1.5567, min=0.755955, memorized (<0.001)=0.00% | Real-to-Real mean=1.9913, min=1.077801
+2026-10-04 13:23:45 [INFO] gan_quality - Evaluating TSTR: 300 synthetic train samples, 14 real test samples across classes [np.str_('DoS'), np.str_('Probe'), np.str_('R2L')]
+2026-10-04 13:23:45 [INFO] gan_quality - TSTR Macro-F1: 0.2667
+2026-10-04 13:23:45 [INFO] gan_quality -   Class 'DoS' Recall: 0.2727, F1: 0.4000
+2026-10-04 13:23:45 [INFO] gan_quality -   Class 'Probe' Recall: 0.0000, F1: 0.0000
+2026-10-04 13:23:45 [INFO] gan_quality -   Class 'R2L' Recall: 1.0000, F1: 0.4000
+2026-10-04 13:23:45 [INFO] gan_quality - NN Distance: Syn-to-Real mean=1.3748, min=0.485166, memorized (<0.001)=0.00% | Real-to-Real mean=2.0475, min=1.077801
+2026-10-04 13:27:07 [INFO] gan_quality - Evaluating TSTR: 60 synthetic train samples, 40 real test samples across classes [np.int64(0), np.int64(1)]
+2026-10-04 13:27:07 [INFO] gan_quality - TSTR Macro-F1: 0.5726
+2026-10-04 13:27:07 [INFO] gan_quality -   Class '0' Recall: 0.6500, F1: 0.6047
+2026-10-04 13:27:07 [INFO] gan_quality -   Class '1' Recall: 0.5000, F1: 0.5405
+2026-10-04 13:27:07 [INFO] gan_quality - NN Distance: Syn-to-Real mean=2.5654, min=1.522711, memorized (<0.001)=0.00% | Real-to-Real mean=2.5077, min=1.537476
+2026-10-04 13:27:07 [INFO] gan_quality - NN Distance [U2R]: Syn-to-Real mean=0.0000, min=0.000000, memorized (<0.001)=100.00% | Real-to-Real mean=2.8284, min=2.828427
+2026-10-04 13:27:07 [WARNING] gan_quality - Potential memorization detected [U2R]! 100.00% of synthetic samples are within 0.001 Euclidean distance of training data.
+2026-10-04 13:27:07 [INFO] gan_quality - KS Test: Mean KS statistic = 0.0516, 0/5 features (0.0%) have p < 0.01.
+2026-10-04 13:27:07 [INFO] gan_quality - KS Test: Mean KS statistic = 1.0000, 3/3 features (100.0%) have p < 0.05.
+2026-10-04 13:27:07 [INFO] gan_quality - Saved PCA plot for 'Probe' to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-38\test_pca_plot_generation0\figures\test_pca_probe.png
+2026-10-04 13:27:07 [INFO] gan_quality - Starting comprehensive GAN quality evaluation for classes: ['DoS', 'Probe', 'U2R']
+2026-10-04 13:27:07 [INFO] gan_quality - Evaluating TSTR: 75 synthetic train samples, 60 real test samples across classes [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-04 13:27:08 [INFO] gan_quality - TSTR Macro-F1: 0.2922
+2026-10-04 13:27:08 [INFO] gan_quality -   Class 'DoS' Recall: 0.4000, F1: 0.3636
+2026-10-04 13:27:08 [INFO] gan_quality -   Class 'Probe' Recall: 0.1500, F1: 0.1714
+2026-10-04 13:27:08 [INFO] gan_quality -   Class 'U2R' Recall: 0.3500, F1: 0.3415
+2026-10-04 13:27:08 [INFO] gan_quality - NN Distance [DoS]: Syn-to-Real mean=2.5712, min=1.804552, memorized (<0.001)=0.00% | Real-to-Real mean=2.7840, min=2.221581
+2026-10-04 13:27:08 [INFO] gan_quality - KS Test: Mean KS statistic = 0.2353, 0/10 features (0.0%) have p < 0.05.
+2026-10-04 13:27:08 [INFO] gan_quality - Saved PCA plot for 'DoS' to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-38\test_full_pipeline0\figures\pca_dos.png
+2026-10-04 13:27:08 [INFO] gan_quality - NN Distance [Probe]: Syn-to-Real mean=2.5617, min=1.877062, memorized (<0.001)=0.00% | Real-to-Real mean=2.5440, min=1.664532
+2026-10-04 13:27:08 [INFO] gan_quality - KS Test: Mean KS statistic = 0.2073, 0/10 features (0.0%) have p < 0.05.
+2026-10-04 13:27:08 [INFO] gan_quality - Saved PCA plot for 'Probe' to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-38\test_full_pipeline0\figures\pca_probe.png
+2026-10-04 13:27:08 [INFO] gan_quality - NN Distance [U2R]: Syn-to-Real mean=2.7868, min=1.827471, memorized (<0.001)=0.00% | Real-to-Real mean=2.6962, min=1.921706
+2026-10-04 13:27:08 [INFO] gan_quality - KS Test: Mean KS statistic = 0.2273, 1/10 features (10.0%) have p < 0.05.
+2026-10-04 13:27:08 [INFO] gan_quality - Saved PCA plot for 'U2R' to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-38\test_full_pipeline0\figures\pca_u2r.png
+2026-10-04 13:27:08 [INFO] gan_quality - Saved GAN quality summary table to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-38\test_full_pipeline0\tables\gan_quality_test.csv
+2026-10-04 13:27:08 [INFO] gan_quality - === U2R Memorization Audit ===
+Synthetic U2R samples: 25
+Minimum distance to real U2R: 1.827471
+Memorized percentage (<1e-3): 0.00%
+Conclusion: PASSED (No exact memorization detected)
+2026-10-04 13:27:18 [INFO] gan_quality - Evaluating TSTR: 300 synthetic train samples, 14 real test samples across classes [np.str_('DoS'), np.str_('Probe'), np.str_('R2L')]
+2026-10-04 13:27:18 [INFO] gan_quality - TSTR Macro-F1: 0.4889
+2026-10-04 13:27:18 [INFO] gan_quality -   Class 'DoS' Recall: 0.7273, F1: 0.8000
+2026-10-04 13:27:18 [INFO] gan_quality -   Class 'Probe' Recall: 0.5000, F1: 0.6667
+2026-10-04 13:27:18 [INFO] gan_quality -   Class 'R2L' Recall: 0.0000, F1: 0.0000
+2026-10-04 13:27:18 [INFO] gan_quality - NN Distance: Syn-to-Real mean=1.5567, min=0.755955, memorized (<0.001)=0.00% | Real-to-Real mean=1.9913, min=1.077801
+2026-10-04 13:27:19 [INFO] gan_quality - Evaluating TSTR: 300 synthetic train samples, 14 real test samples across classes [np.str_('DoS'), np.str_('Probe'), np.str_('R2L')]
+2026-10-04 13:27:19 [INFO] gan_quality - TSTR Macro-F1: 0.2667
+2026-10-04 13:27:19 [INFO] gan_quality -   Class 'DoS' Recall: 0.2727, F1: 0.4000
+2026-10-04 13:27:19 [INFO] gan_quality -   Class 'Probe' Recall: 0.0000, F1: 0.0000
+2026-10-04 13:27:19 [INFO] gan_quality -   Class 'R2L' Recall: 1.0000, F1: 0.4000
+2026-10-04 13:27:19 [INFO] gan_quality - NN Distance: Syn-to-Real mean=1.3748, min=0.485166, memorized (<0.001)=0.00% | Real-to-Real mean=2.0475, min=1.077801
+2026-10-29 15:39:42 [INFO] gan_quality - Evaluating TSTR: 400 synthetic train samples, 12833 real test samples across classes ['DoS', 'Probe', 'R2L', 'U2R']
+2026-10-29 15:39:43 [INFO] gan_quality - TSTR Macro-F1: 0.5577
+2026-10-29 15:39:43 [INFO] gan_quality -   Class 'DoS' Recall: 0.7031, F1: 0.7893
+2026-10-29 15:39:43 [INFO] gan_quality -   Class 'Probe' Recall: 0.6444, F1: 0.7378
+2026-10-29 15:39:43 [INFO] gan_quality -   Class 'R2L' Recall: 0.6506, F1: 0.7025
+2026-10-29 15:39:43 [INFO] gan_quality -   Class 'U2R' Recall: 0.0299, F1: 0.0014
+2026-10-29 15:39:59 [INFO] gan_quality - NN Distance: Syn-to-Real mean=0.8277, min=0.023830, memorized (<0.001)=0.00% | Real-to-Real mean=0.0522, min=0.000000
+2026-10-29 15:44:39 [INFO] gan_quality - Evaluating TSTR: 400 synthetic train samples, 12833 real test samples across classes ['DoS', 'Probe', 'R2L', 'U2R']
+2026-10-29 15:44:39 [INFO] gan_quality - TSTR Macro-F1: 0.5110
+2026-10-29 15:44:39 [INFO] gan_quality -   Class 'DoS' Recall: 0.5362, F1: 0.6860
+2026-10-29 15:44:39 [INFO] gan_quality -   Class 'Probe' Recall: 0.8055, F1: 0.6812
+2026-10-29 15:44:39 [INFO] gan_quality -   Class 'R2L' Recall: 0.8510, F1: 0.6571
+2026-10-29 15:44:39 [INFO] gan_quality -   Class 'U2R' Recall: 0.1194, F1: 0.0198
+2026-10-29 15:44:42 [INFO] gan_quality - NN Distance: Syn-to-Real mean=1.1363, min=0.021958, memorized (<0.001)=0.00% | Real-to-Real mean=0.0459, min=0.000000
+2026-10-29 22:04:13 [INFO] gan_quality - Evaluating TSTR: 60 synthetic train samples, 40 real test samples across classes [np.int64(0), np.int64(1)]
+2026-10-29 22:04:13 [INFO] gan_quality - TSTR Macro-F1: 0.5726
+2026-10-29 22:04:13 [INFO] gan_quality -   Class '0' Recall: 0.6500, F1: 0.6047
+2026-10-29 22:04:13 [INFO] gan_quality -   Class '1' Recall: 0.5000, F1: 0.5405
+2026-10-29 22:04:13 [INFO] gan_quality - NN Distance: Syn-to-Real mean=2.5654, min=1.522711, memorized (<0.001)=0.00% | Real-to-Real mean=2.5077, min=1.537476
+2026-10-29 22:04:13 [INFO] gan_quality - NN Distance [U2R]: Syn-to-Real mean=0.0000, min=0.000000, memorized (<0.001)=100.00% | Real-to-Real mean=2.8284, min=2.828427
+2026-10-29 22:04:13 [WARNING] gan_quality - Potential memorization detected [U2R]! 100.00% of synthetic samples are within 0.001 Euclidean distance of training data.
+2026-10-29 22:04:13 [INFO] gan_quality - KS Test: Mean KS statistic = 0.0516, 0/5 features (0.0%) have p < 0.01.
+2026-10-29 22:04:13 [INFO] gan_quality - KS Test: Mean KS statistic = 1.0000, 3/3 features (100.0%) have p < 0.05.
+2026-10-29 22:04:14 [INFO] gan_quality - Saved PCA plot for 'Probe' to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-39\test_pca_plot_generation0\figures\test_pca_probe.png
+2026-10-29 22:04:14 [INFO] gan_quality - Starting comprehensive GAN quality evaluation for classes: ['DoS', 'Probe', 'U2R']
+2026-10-29 22:04:14 [INFO] gan_quality - Evaluating TSTR: 75 synthetic train samples, 60 real test samples across classes [np.str_('DoS'), np.str_('Probe'), np.str_('U2R')]
+2026-10-29 22:04:14 [INFO] gan_quality - TSTR Macro-F1: 0.2922
+2026-10-29 22:04:14 [INFO] gan_quality -   Class 'DoS' Recall: 0.4000, F1: 0.3636
+2026-10-29 22:04:14 [INFO] gan_quality -   Class 'Probe' Recall: 0.1500, F1: 0.1714
+2026-10-29 22:04:14 [INFO] gan_quality -   Class 'U2R' Recall: 0.3500, F1: 0.3415
+2026-10-29 22:04:14 [INFO] gan_quality - NN Distance [DoS]: Syn-to-Real mean=2.5712, min=1.804552, memorized (<0.001)=0.00% | Real-to-Real mean=2.7840, min=2.221581
+2026-10-29 22:04:14 [INFO] gan_quality - KS Test: Mean KS statistic = 0.2353, 0/10 features (0.0%) have p < 0.05.
+2026-10-29 22:04:14 [INFO] gan_quality - Saved PCA plot for 'DoS' to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-39\test_full_pipeline0\figures\pca_dos.png
+2026-10-29 22:04:14 [INFO] gan_quality - NN Distance [Probe]: Syn-to-Real mean=2.5617, min=1.877062, memorized (<0.001)=0.00% | Real-to-Real mean=2.5440, min=1.664532
+2026-10-29 22:04:14 [INFO] gan_quality - KS Test: Mean KS statistic = 0.2073, 0/10 features (0.0%) have p < 0.05.
+2026-10-29 22:04:14 [INFO] gan_quality - Saved PCA plot for 'Probe' to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-39\test_full_pipeline0\figures\pca_probe.png
+2026-10-29 22:04:14 [INFO] gan_quality - NN Distance [U2R]: Syn-to-Real mean=2.7868, min=1.827471, memorized (<0.001)=0.00% | Real-to-Real mean=2.6962, min=1.921706
+2026-10-29 22:04:14 [INFO] gan_quality - KS Test: Mean KS statistic = 0.2273, 1/10 features (10.0%) have p < 0.05.
+2026-10-29 22:04:14 [INFO] gan_quality - Saved PCA plot for 'U2R' to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-39\test_full_pipeline0\figures\pca_u2r.png
+2026-10-29 22:04:14 [INFO] gan_quality - Saved GAN quality summary table to C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-39\test_full_pipeline0\tables\gan_quality_test.csv
+2026-10-29 22:04:14 [INFO] gan_quality - === U2R Memorization Audit ===
+Synthetic U2R samples: 25
+Minimum distance to real U2R: 1.827471
+Memorized percentage (<1e-3): 0.00%
+Conclusion: PASSED (No exact memorization detected)
+2026-10-29 22:04:24 [INFO] gan_quality - Evaluating TSTR: 300 synthetic train samples, 14 real test samples across classes [np.str_('DoS'), np.str_('Probe'), np.str_('R2L')]
+2026-10-29 22:04:25 [INFO] gan_quality - TSTR Macro-F1: 0.4889
+2026-10-29 22:04:25 [INFO] gan_quality -   Class 'DoS' Recall: 0.7273, F1: 0.8000
+2026-10-29 22:04:25 [INFO] gan_quality -   Class 'Probe' Recall: 0.5000, F1: 0.6667
+2026-10-29 22:04:25 [INFO] gan_quality -   Class 'R2L' Recall: 0.0000, F1: 0.0000
+2026-10-29 22:04:25 [INFO] gan_quality - NN Distance: Syn-to-Real mean=1.5567, min=0.755955, memorized (<0.001)=0.00% | Real-to-Real mean=1.9913, min=1.077801
+2026-10-29 22:04:25 [INFO] gan_quality - Evaluating TSTR: 300 synthetic train samples, 14 real test samples across classes [np.str_('DoS'), np.str_('Probe'), np.str_('R2L')]
+2026-10-29 22:04:25 [INFO] gan_quality - TSTR Macro-F1: 0.2667
+2026-10-29 22:04:25 [INFO] gan_quality -   Class 'DoS' Recall: 0.2727, F1: 0.4000
+2026-10-29 22:04:25 [INFO] gan_quality -   Class 'Probe' Recall: 0.0000, F1: 0.0000
+2026-10-29 22:04:25 [INFO] gan_quality -   Class 'R2L' Recall: 1.0000, F1: 0.4000
+2026-10-29 22:04:25 [INFO] gan_quality - NN Distance: Syn-to-Real mean=1.3748, min=0.485166, memorized (<0.001)=0.00% | Real-to-Real mean=2.0475, min=1.077801

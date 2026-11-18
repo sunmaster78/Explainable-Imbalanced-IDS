@@ -1,0 +1,83 @@
+2026-10-04 13:13:48 [INFO] shap_fidelity - ============================================================
+2026-10-04 13:13:48 [INFO] shap_fidelity - Executing Novelty Claim 1: SHAP Explanation Fidelity Audit
+2026-10-04 13:13:48 [INFO] shap_fidelity - ============================================================
+2026-10-04 13:13:48 [INFO] shap_fidelity - Training non-circular reference Stage 2 ensemble on 29 REAL attack rows across 3 classes: [np.str_('DoS'), np.str_('Probe'), np.str_('R2L')]
+2026-10-04 13:13:50 [INFO] shap_fidelity - Reference Stage 2 ensemble fitted successfully.
+2026-10-04 13:13:50 [INFO] shap_fidelity - Identified minority attack classes to evaluate: ['R2L'] (target count=7)
+2026-10-04 13:16:32 [INFO] shap_fidelity - ============================================================
+2026-10-04 13:16:32 [INFO] shap_fidelity - Executing Novelty Claim 1: SHAP Explanation Fidelity Audit
+2026-10-04 13:16:32 [INFO] shap_fidelity - ============================================================
+2026-10-04 13:16:32 [INFO] shap_fidelity - Training non-circular reference Stage 2 ensemble on 29 REAL attack rows across 3 classes: [np.str_('DoS'), np.str_('Probe'), np.str_('R2L')]
+2026-10-04 13:16:34 [INFO] shap_fidelity - Reference Stage 2 ensemble fitted successfully.
+2026-10-04 13:16:34 [INFO] shap_fidelity - Identified minority attack classes to evaluate: ['R2L'] (target count=7)
+2026-10-04 13:16:34 [INFO] shap_fidelity -   [R2L] WGAN-GP -> Spearman=0.9762 (95% CI: (0.7488, 0.9946)) | Jaccard=1.0000 | Cosine=0.9409
+2026-10-04 13:16:34 [INFO] shap_fidelity -   [R2L] SMOTE   -> Spearman=1.0000 (95% CI: (0.3708, 0.9601)) | Jaccard=1.0000 | Cosine=1.0000
+2026-10-04 13:16:34 [INFO] shap_fidelity -   [R2L] ROS     -> Spearman=1.0000 (95% CI: (0.3708, 0.9601)) | Jaccard=1.0000 | Cosine=1.0000
+2026-10-04 13:16:34 [INFO] shap_fidelity - Fidelity bar chart saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-32\test_run_fidelity_end_to_end0\figures\shap_fidelity_r2l.png
+2026-10-04 13:16:34 [INFO] shap_fidelity - SHAP fidelity evaluation complete. Table saved to 'results/tables/shap_fidelity.csv'.
+2026-10-04 13:17:42 [INFO] shap_fidelity - ============================================================
+2026-10-04 13:17:42 [INFO] shap_fidelity - Executing Novelty Claim 1: SHAP Explanation Fidelity Audit
+2026-10-04 13:17:42 [INFO] shap_fidelity - ============================================================
+2026-10-04 13:17:42 [INFO] shap_fidelity - Training non-circular reference Stage 2 ensemble on 29 REAL attack rows across 3 classes: [np.str_('DoS'), np.str_('Probe'), np.str_('R2L')]
+2026-10-04 13:17:43 [INFO] shap_fidelity - Reference Stage 2 ensemble fitted successfully.
+2026-10-04 13:17:43 [INFO] shap_fidelity - Identified minority attack classes to evaluate: ['R2L'] (target count=7)
+2026-10-04 13:17:43 [INFO] shap_fidelity -   [R2L] WGAN-GP -> Spearman=0.9762 (95% CI: (0.7119, 0.947)) | Jaccard=1.0000 | Cosine=0.9816
+2026-10-04 13:17:43 [INFO] shap_fidelity -   [R2L] SMOTE   -> Spearman=1.0000 (95% CI: (0.3708, 0.9601)) | Jaccard=1.0000 | Cosine=1.0000
+2026-10-04 13:17:43 [INFO] shap_fidelity -   [R2L] ROS     -> Spearman=1.0000 (95% CI: (0.3708, 0.9601)) | Jaccard=1.0000 | Cosine=1.0000
+2026-10-04 13:17:43 [INFO] shap_fidelity - Fidelity bar chart saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-33\test_run_fidelity_end_to_end0\figures\shap_fidelity_r2l.png
+2026-10-04 13:17:43 [INFO] shap_fidelity - SHAP fidelity evaluation complete. Table saved to 'results/tables/shap_fidelity.csv'.
+2026-10-04 13:20:38 [INFO] shap_fidelity - ============================================================
+2026-10-04 13:20:38 [INFO] shap_fidelity - Executing Novelty Claim 1: SHAP Explanation Fidelity Audit
+2026-10-04 13:20:38 [INFO] shap_fidelity - ============================================================
+2026-10-04 13:20:38 [INFO] shap_fidelity - Training non-circular reference Stage 2 ensemble on 29 REAL attack rows across 3 classes: [np.str_('DoS'), np.str_('Probe'), np.str_('R2L')]
+2026-10-04 13:20:40 [INFO] shap_fidelity - Reference Stage 2 ensemble fitted successfully.
+2026-10-04 13:20:40 [INFO] shap_fidelity - Identified minority attack classes to evaluate: ['R2L'] (target count=7)
+2026-10-04 13:20:40 [INFO] shap_fidelity -   [R2L] WGAN-GP -> Spearman=0.9762 (95% CI: (0.7119, 0.9655)) | Jaccard=1.0000 | Cosine=0.9976
+2026-10-04 13:20:40 [INFO] shap_fidelity -   [R2L] SMOTE   -> Spearman=1.0000 (95% CI: (0.3708, 0.9601)) | Jaccard=1.0000 | Cosine=1.0000
+2026-10-04 13:20:40 [INFO] shap_fidelity -   [R2L] ROS     -> Spearman=1.0000 (95% CI: (0.3708, 0.9601)) | Jaccard=1.0000 | Cosine=1.0000
+2026-10-04 13:20:40 [INFO] shap_fidelity - Fidelity bar chart saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-34\test_run_fidelity_end_to_end0\figures\shap_fidelity_r2l.png
+2026-10-04 13:20:40 [INFO] shap_fidelity - SHAP fidelity evaluation complete. Table saved to 'results/tables/shap_fidelity.csv'.
+2026-10-04 13:22:38 [INFO] shap_fidelity - ============================================================
+2026-10-04 13:22:38 [INFO] shap_fidelity - Executing Novelty Claim 1: SHAP Explanation Fidelity Audit
+2026-10-04 13:22:38 [INFO] shap_fidelity - ============================================================
+2026-10-04 13:22:38 [INFO] shap_fidelity - Training non-circular reference Stage 2 ensemble on 29 REAL attack rows across 3 classes: [np.str_('DoS'), np.str_('Probe'), np.str_('R2L')]
+2026-10-04 13:22:39 [INFO] shap_fidelity - Reference Stage 2 ensemble fitted successfully.
+2026-10-04 13:22:39 [INFO] shap_fidelity - Identified minority attack classes to evaluate: ['R2L'] (target count=7)
+2026-10-04 13:22:39 [INFO] shap_fidelity -   [R2L] WGAN-GP -> Spearman=0.8810 (95% CI: (0.5583, 0.9048)) | Jaccard=1.0000 | Cosine=0.9805
+2026-10-04 13:22:39 [INFO] shap_fidelity -   [R2L] SMOTE   -> Spearman=1.0000 (95% CI: (0.3708, 0.9601)) | Jaccard=1.0000 | Cosine=1.0000
+2026-10-04 13:22:39 [INFO] shap_fidelity -   [R2L] ROS     -> Spearman=1.0000 (95% CI: (0.3708, 0.9601)) | Jaccard=1.0000 | Cosine=1.0000
+2026-10-04 13:22:39 [INFO] shap_fidelity - Fidelity bar chart saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-35\test_run_fidelity_end_to_end0\figures\shap_fidelity_r2l.png
+2026-10-04 13:22:39 [INFO] shap_fidelity - SHAP fidelity evaluation complete. Table saved to 'results/tables/shap_fidelity.csv'.
+2026-10-04 13:23:40 [INFO] shap_fidelity - ============================================================
+2026-10-04 13:23:40 [INFO] shap_fidelity - Executing Novelty Claim 1: SHAP Explanation Fidelity Audit
+2026-10-04 13:23:40 [INFO] shap_fidelity - ============================================================
+2026-10-04 13:23:40 [INFO] shap_fidelity - Training non-circular reference Stage 2 ensemble on 29 REAL attack rows across 3 classes: [np.str_('DoS'), np.str_('Probe'), np.str_('R2L')]
+2026-10-04 13:23:40 [INFO] shap_fidelity - Reference Stage 2 ensemble fitted successfully.
+2026-10-04 13:23:40 [INFO] shap_fidelity - Identified minority attack classes to evaluate: ['R2L'] (target count=7)
+2026-10-04 13:23:40 [INFO] shap_fidelity -   [R2L] WGAN-GP -> Spearman=0.8095 (95% CI: (0.4369, 0.8517)) | Jaccard=1.0000 | Cosine=0.9884
+2026-10-04 13:23:40 [INFO] shap_fidelity -   [R2L] SMOTE   -> Spearman=1.0000 (95% CI: (0.3708, 0.9601)) | Jaccard=1.0000 | Cosine=1.0000
+2026-10-04 13:23:40 [INFO] shap_fidelity -   [R2L] ROS     -> Spearman=1.0000 (95% CI: (0.3708, 0.9601)) | Jaccard=1.0000 | Cosine=1.0000
+2026-10-04 13:23:41 [INFO] shap_fidelity - Fidelity bar chart saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-36\test_run_fidelity_end_to_end0\figures\shap_fidelity_r2l.png
+2026-10-04 13:23:41 [INFO] shap_fidelity - SHAP fidelity evaluation complete. Table saved to 'results/tables/shap_fidelity.csv'.
+2026-10-04 13:27:14 [INFO] shap_fidelity - ============================================================
+2026-10-04 13:27:14 [INFO] shap_fidelity - Executing Novelty Claim 1: SHAP Explanation Fidelity Audit
+2026-10-04 13:27:14 [INFO] shap_fidelity - ============================================================
+2026-10-04 13:27:14 [INFO] shap_fidelity - Training non-circular reference Stage 2 ensemble on 29 REAL attack rows across 3 classes: [np.str_('DoS'), np.str_('Probe'), np.str_('R2L')]
+2026-10-04 13:27:14 [INFO] shap_fidelity - Reference Stage 2 ensemble fitted successfully.
+2026-10-04 13:27:14 [INFO] shap_fidelity - Identified minority attack classes to evaluate: ['R2L'] (target count=7)
+2026-10-04 13:27:14 [INFO] shap_fidelity -   [R2L] WGAN-GP -> Spearman=0.8095 (95% CI: (0.4369, 0.8517)) | Jaccard=1.0000 | Cosine=0.9884
+2026-10-04 13:27:14 [INFO] shap_fidelity -   [R2L] SMOTE   -> Spearman=1.0000 (95% CI: (0.3708, 0.9601)) | Jaccard=1.0000 | Cosine=1.0000
+2026-10-04 13:27:14 [INFO] shap_fidelity -   [R2L] ROS     -> Spearman=1.0000 (95% CI: (0.3708, 0.9601)) | Jaccard=1.0000 | Cosine=1.0000
+2026-10-04 13:27:15 [INFO] shap_fidelity - Fidelity bar chart saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-38\test_run_fidelity_end_to_end0\figures\shap_fidelity_r2l.png
+2026-10-04 13:27:15 [INFO] shap_fidelity - SHAP fidelity evaluation complete. Table saved to 'results/tables/shap_fidelity.csv'.
+2026-10-29 22:04:21 [INFO] shap_fidelity - ============================================================
+2026-10-29 22:04:21 [INFO] shap_fidelity - Executing Novelty Claim 1: SHAP Explanation Fidelity Audit
+2026-10-29 22:04:21 [INFO] shap_fidelity - ============================================================
+2026-10-29 22:04:21 [INFO] shap_fidelity - Training non-circular reference Stage 2 ensemble on 29 REAL attack rows across 3 classes: [np.str_('DoS'), np.str_('Probe'), np.str_('R2L')]
+2026-10-29 22:04:21 [INFO] shap_fidelity - Reference Stage 2 ensemble fitted successfully.
+2026-10-29 22:04:21 [INFO] shap_fidelity - Identified minority attack classes to evaluate: ['R2L'] (target count=7)
+2026-10-29 22:04:21 [INFO] shap_fidelity -   [R2L] WGAN-GP -> Spearman=0.8095 (95% CI: (0.4369, 0.8517)) | Jaccard=1.0000 | Cosine=0.9884
+2026-10-29 22:04:21 [INFO] shap_fidelity -   [R2L] SMOTE   -> Spearman=1.0000 (95% CI: (0.3708, 0.9601)) | Jaccard=1.0000 | Cosine=1.0000
+2026-10-29 22:04:21 [INFO] shap_fidelity -   [R2L] ROS     -> Spearman=1.0000 (95% CI: (0.3708, 0.9601)) | Jaccard=1.0000 | Cosine=1.0000
+2026-10-29 22:04:21 [INFO] shap_fidelity - Fidelity bar chart saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-39\test_run_fidelity_end_to_end0\figures\shap_fidelity_r2l.png
+2026-10-29 22:04:21 [INFO] shap_fidelity - SHAP fidelity evaluation complete. Table saved to 'results/tables/shap_fidelity.csv'.

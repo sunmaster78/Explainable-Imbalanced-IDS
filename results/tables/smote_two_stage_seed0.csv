@@ -1,0 +1,5 @@
+class,count_before,target_count,synthetic_generated,count_after
+DoS,36741,36741,0,36741
+Probe,9325,18371,9046,18371
+R2L,796,18371,17575,18371
+U2R,42,18371,18329,18371

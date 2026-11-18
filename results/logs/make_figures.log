@@ -1,0 +1,36 @@
+2026-10-04 13:25:33 [INFO] make_figures - ============================================================
+2026-10-04 13:25:33 [INFO] make_figures - Regenerating Publication Figures (Phase 9)
+2026-10-04 13:25:33 [INFO] make_figures - Tables Source: results\tables
+2026-10-04 13:25:33 [INFO] make_figures - Figures Target: results\figures
+2026-10-04 13:25:33 [INFO] make_figures - ============================================================
+2026-10-04 13:25:35 [INFO] make_figures - Saved publication framework architecture diagram to: results\figures\framework_architecture.png
+2026-10-04 13:25:35 [WARNING] make_figures - Class count table not found at: results\tables\gan_oversample_class_counts.csv
+2026-10-04 13:25:35 [WARNING] make_figures - WGAN loss history not found at: results\tables\wgan_loss_history.csv
+2026-10-04 13:25:35 [INFO] make_figures - Saved per-class recall benchmark to: results\figures\fig3_per_class_recall_benchmark.png
+2026-10-04 13:25:35 [WARNING] make_figures - SHAP fidelity file not found at: results\tables\shap_fidelity.csv
+2026-10-04 13:25:35 [WARNING] make_figures - Feature roles table not found at: results\tables\stagewise_feature_roles.csv
+2026-10-04 13:25:35 [WARNING] make_figures - Flat vs Attack-Only file not found at: results\tables\flat_vs_attack_only.csv
+2026-10-04 13:25:35 [INFO] make_figures - All paper figures regenerated successfully!
+2026-10-04 13:26:10 [INFO] make_figures - Saved publication framework architecture diagram to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-37\test_make_all_figures_dual_for0\figures\framework_architecture.png
+2026-10-04 13:26:10 [INFO] make_figures - Saved class distribution comparison to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-37\test_make_all_figures_dual_for0\figures\fig1_class_distribution_comparison.png
+2026-10-04 13:26:10 [INFO] make_figures - Saved WGAN loss curves to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-37\test_make_all_figures_dual_for0\figures\fig2_wgan_loss_curves.png
+2026-10-04 13:26:10 [INFO] make_figures - Saved per-class recall benchmark to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-37\test_make_all_figures_dual_for0\figures\fig3_per_class_recall_benchmark.png
+2026-10-04 13:26:11 [INFO] make_figures - Saved SHAP fidelity summary to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-37\test_make_all_figures_dual_for0\figures\fig4_shap_fidelity_summary.png
+2026-10-04 13:26:11 [INFO] make_figures - Saved stage-wise feature roles to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-37\test_make_all_figures_dual_for0\figures\fig5_stagewise_feature_roles.png
+2026-10-04 13:26:11 [INFO] make_figures - Saved flat vs attack-only comparison to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-37\test_make_all_figures_dual_for0\figures\fig6_flat_vs_attack_only.png
+2026-10-04 13:27:09 [INFO] make_figures - Saved publication framework architecture diagram to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-38\test_make_all_figures_dual_for0\figures\framework_architecture.png
+2026-10-04 13:27:09 [INFO] make_figures - Saved class distribution comparison to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-38\test_make_all_figures_dual_for0\figures\fig1_class_distribution_comparison.png
+2026-10-04 13:27:09 [INFO] make_figures - Saved WGAN loss curves to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-38\test_make_all_figures_dual_for0\figures\fig2_wgan_loss_curves.png
+2026-10-04 13:27:10 [INFO] make_figures - Saved per-class recall benchmark to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-38\test_make_all_figures_dual_for0\figures\fig3_per_class_recall_benchmark.png
+2026-10-04 13:27:10 [INFO] make_figures - Saved SHAP fidelity summary to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-38\test_make_all_figures_dual_for0\figures\fig4_shap_fidelity_summary.png
+2026-10-04 13:27:11 [INFO] make_figures - Saved stage-wise feature roles to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-38\test_make_all_figures_dual_for0\figures\fig5_stagewise_feature_roles.png
+2026-10-04 13:27:11 [INFO] make_figures - Saved flat vs attack-only comparison to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-38\test_make_all_figures_dual_for0\figures\fig6_flat_vs_attack_only.png
+2026-10-29 15:17:41 [INFO] make_figures - Saved stage-wise feature roles to: results\figures\fig5_stagewise_feature_roles.png
+2026-10-29 15:45:09 [INFO] make_figures - Saved flat vs attack-only comparison to: results\figures\fig6_flat_vs_attack_only.png
+2026-10-29 22:04:15 [INFO] make_figures - Saved publication framework architecture diagram to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-39\test_make_all_figures_dual_for0\figures\framework_architecture.png
+2026-10-29 22:04:16 [INFO] make_figures - Saved class distribution comparison to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-39\test_make_all_figures_dual_for0\figures\fig1_class_distribution_comparison.png
+2026-10-29 22:04:16 [INFO] make_figures - Saved WGAN loss curves to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-39\test_make_all_figures_dual_for0\figures\fig2_wgan_loss_curves.png
+2026-10-29 22:04:16 [INFO] make_figures - Saved per-class recall benchmark to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-39\test_make_all_figures_dual_for0\figures\fig3_per_class_recall_benchmark.png
+2026-10-29 22:04:17 [INFO] make_figures - Saved SHAP fidelity summary to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-39\test_make_all_figures_dual_for0\figures\fig4_shap_fidelity_summary.png
+2026-10-29 22:04:17 [INFO] make_figures - Saved stage-wise feature roles to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-39\test_make_all_figures_dual_for0\figures\fig5_stagewise_feature_roles.png
+2026-10-29 22:04:18 [INFO] make_figures - Saved flat vs attack-only comparison to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-39\test_make_all_figures_dual_for0\figures\fig6_flat_vs_attack_only.png

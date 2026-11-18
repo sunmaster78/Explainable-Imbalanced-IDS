@@ -1,0 +1,5 @@
+class,real_intra_class_var,synthetic_intra_class_var,diversity_coverage_ratio
+DoS,0.0653,0.0471,0.7206
+Probe,0.1025,0.0549,0.5353
+R2L,0.0427,0.0556,1.303
+U2R,0.0429,0.0538,1.2544

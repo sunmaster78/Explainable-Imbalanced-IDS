@@ -1,0 +1,3 @@
+condition,class_imbalance_ratio,critic_loss_stability_std,tstr_macro_f1,nn_memorization_rate_pct,two_stage_macro_f1,minority_recall,gan_train_time_sec
+Flat GAN (All Classes),1282.71,0.0095,0.5577,0.0,0.4544,0.1852,1162.49
+Attack-Only (Proposed),874.79,0.0145,0.511,0.0,0.4549,0.1852,253.22

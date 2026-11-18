@@ -1,0 +1,100 @@
+2026-10-04 13:11:09 [INFO] shap_stagewise - ============================================================
+2026-10-04 13:11:09 [INFO] shap_stagewise - Executing Novelty Claim 2: Stage-Wise SHAP Deconvolution
+2026-10-04 13:11:09 [INFO] shap_stagewise - ============================================================
+2026-10-04 13:11:09 [INFO] shap_stagewise - Generating Stage 1 SHAP explanation (Normal vs Attack)...
+2026-10-04 13:11:09 [INFO] shap_stagewise - Stage 1 beeswarm plot saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-30\test_run_stagewise_and_local_e0\figures\shap_stage1_beeswarm.png
+2026-10-04 13:13:52 [INFO] shap_stagewise - ============================================================
+2026-10-04 13:13:52 [INFO] shap_stagewise - Executing Novelty Claim 2: Stage-Wise SHAP Deconvolution
+2026-10-04 13:13:52 [INFO] shap_stagewise - ============================================================
+2026-10-04 13:13:52 [INFO] shap_stagewise - Generating Stage 1 SHAP explanation (Normal vs Attack)...
+2026-10-04 13:13:52 [INFO] shap_stagewise - Stage 1 beeswarm plot saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-31\test_run_stagewise_and_local_e0\figures\shap_stage1_beeswarm.png
+2026-10-04 13:13:53 [INFO] shap_stagewise - Saved 'stagewise_top_features' and 'stagewise_feature_roles' tables.
+2026-10-04 13:13:53 [INFO] shap_stagewise - Saved 'stage_importance_overlap' table.
+2026-10-04 13:13:54 [INFO] shap_stagewise - Sample [test_sample_0] -> True=R2L | Pred=DoS | P(Att)=0.4515 | S1 Plot=local_waterfall_test_sample_0_stage1.png | S2 Plot=local_waterfall_test_sample_0_stage2.png
+2026-10-04 13:13:54 [INFO] shap_stagewise - Sample [r2l_detected] -> True=R2L | Pred=DoS | P(Att)=0.4515 | S1 Plot=local_waterfall_r2l_detected_stage1.png | S2 Plot=local_waterfall_r2l_detected_stage2.png
+2026-10-04 13:13:55 [INFO] shap_stagewise - Sample [stage1_miss_fn] -> True=DoS | Pred=Normal | P(Att)=0.2625 | S1 Plot=local_waterfall_stage1_miss_fn_stage1.png | S2 Plot=None
+2026-10-04 13:13:55 [INFO] shap_stagewise - Saved 'local_explanations_top5' table.
+2026-10-04 13:16:36 [INFO] shap_stagewise - ============================================================
+2026-10-04 13:16:36 [INFO] shap_stagewise - Executing Novelty Claim 2: Stage-Wise SHAP Deconvolution
+2026-10-04 13:16:36 [INFO] shap_stagewise - ============================================================
+2026-10-04 13:16:36 [INFO] shap_stagewise - Generating Stage 1 SHAP explanation (Normal vs Attack)...
+2026-10-04 13:16:37 [INFO] shap_stagewise - Stage 1 beeswarm plot saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-32\test_run_stagewise_and_local_e0\figures\shap_stage1_beeswarm.png
+2026-10-04 13:16:37 [INFO] shap_stagewise - Saved 'stagewise_top_features' and 'stagewise_feature_roles' tables.
+2026-10-04 13:16:37 [INFO] shap_stagewise - Saved 'stage_importance_overlap' table.
+2026-10-04 13:16:38 [INFO] shap_stagewise - Sample [test_sample_0] -> True=R2L | Pred=DoS | P(Att)=0.4515 | S1 Plot=local_waterfall_test_sample_0_stage1.png | S2 Plot=local_waterfall_test_sample_0_stage2.png
+2026-10-04 13:16:39 [INFO] shap_stagewise - Sample [r2l_detected] -> True=R2L | Pred=DoS | P(Att)=0.4515 | S1 Plot=local_waterfall_r2l_detected_stage1.png | S2 Plot=local_waterfall_r2l_detected_stage2.png
+2026-10-04 13:16:39 [INFO] shap_stagewise - Sample [stage1_miss_fn] -> True=DoS | Pred=Normal | P(Att)=0.2625 | S1 Plot=local_waterfall_stage1_miss_fn_stage1.png | S2 Plot=None
+2026-10-04 13:16:39 [INFO] shap_stagewise - Saved 'local_explanations_top5' table.
+2026-10-04 13:17:46 [INFO] shap_stagewise - ============================================================
+2026-10-04 13:17:46 [INFO] shap_stagewise - Executing Novelty Claim 2: Stage-Wise SHAP Deconvolution
+2026-10-04 13:17:46 [INFO] shap_stagewise - ============================================================
+2026-10-04 13:17:46 [INFO] shap_stagewise - Generating Stage 1 SHAP explanation (Normal vs Attack)...
+2026-10-04 13:17:46 [INFO] shap_stagewise - Stage 1 beeswarm plot saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-33\test_run_stagewise_and_local_e0\figures\shap_stage1_beeswarm.png
+2026-10-04 13:17:47 [INFO] shap_stagewise - Saved 'stagewise_top_features' and 'stagewise_feature_roles' tables.
+2026-10-04 13:17:47 [INFO] shap_stagewise - Saved 'stage_importance_overlap' table.
+2026-10-04 13:17:47 [INFO] shap_stagewise - Sample [test_sample_0] -> True=R2L | Pred=DoS | P(Att)=0.4515 | S1 Plot=local_waterfall_test_sample_0_stage1.png | S2 Plot=local_waterfall_test_sample_0_stage2.png
+2026-10-04 13:17:48 [INFO] shap_stagewise - Sample [r2l_detected] -> True=R2L | Pred=DoS | P(Att)=0.4515 | S1 Plot=local_waterfall_r2l_detected_stage1.png | S2 Plot=local_waterfall_r2l_detected_stage2.png
+2026-10-04 13:17:48 [INFO] shap_stagewise - Sample [stage1_miss_fn] -> True=DoS | Pred=Normal | P(Att)=0.2625 | S1 Plot=local_waterfall_stage1_miss_fn_stage1.png | S2 Plot=None
+2026-10-04 13:17:48 [INFO] shap_stagewise - Saved 'local_explanations_top5' table.
+2026-10-04 13:20:42 [INFO] shap_stagewise - ============================================================
+2026-10-04 13:20:42 [INFO] shap_stagewise - Executing Novelty Claim 2: Stage-Wise SHAP Deconvolution
+2026-10-04 13:20:42 [INFO] shap_stagewise - ============================================================
+2026-10-04 13:20:42 [INFO] shap_stagewise - Generating Stage 1 SHAP explanation (Normal vs Attack)...
+2026-10-04 13:20:43 [INFO] shap_stagewise - Stage 1 beeswarm plot saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-34\test_run_stagewise_and_local_e0\figures\shap_stage1_beeswarm.png
+2026-10-04 13:20:43 [INFO] shap_stagewise - Saved 'stagewise_top_features' and 'stagewise_feature_roles' tables.
+2026-10-04 13:20:43 [INFO] shap_stagewise - Saved 'stage_importance_overlap' table.
+2026-10-04 13:20:44 [INFO] shap_stagewise - Sample [test_sample_0] -> True=R2L | Pred=DoS | P(Att)=0.4515 | S1 Plot=local_waterfall_test_sample_0_stage1.png | S2 Plot=local_waterfall_test_sample_0_stage2.png
+2026-10-04 13:20:45 [INFO] shap_stagewise - Sample [r2l_detected] -> True=R2L | Pred=DoS | P(Att)=0.4515 | S1 Plot=local_waterfall_r2l_detected_stage1.png | S2 Plot=local_waterfall_r2l_detected_stage2.png
+2026-10-04 13:20:45 [INFO] shap_stagewise - Sample [stage1_miss_fn] -> True=DoS | Pred=Normal | P(Att)=0.2625 | S1 Plot=local_waterfall_stage1_miss_fn_stage1.png | S2 Plot=None
+2026-10-04 13:20:45 [INFO] shap_stagewise - Saved 'local_explanations_top5' table.
+2026-10-04 13:22:42 [INFO] shap_stagewise - ============================================================
+2026-10-04 13:22:42 [INFO] shap_stagewise - Executing Novelty Claim 2: Stage-Wise SHAP Deconvolution
+2026-10-04 13:22:42 [INFO] shap_stagewise - ============================================================
+2026-10-04 13:22:42 [INFO] shap_stagewise - Generating Stage 1 SHAP explanation (Normal vs Attack)...
+2026-10-04 13:22:42 [INFO] shap_stagewise - Stage 1 beeswarm plot saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-35\test_run_stagewise_and_local_e0\figures\shap_stage1_beeswarm.png
+2026-10-04 13:22:43 [INFO] shap_stagewise - Saved 'stagewise_top_features' and 'stagewise_feature_roles' tables.
+2026-10-04 13:22:43 [INFO] shap_stagewise - Saved 'stage_importance_overlap' table.
+2026-10-04 13:22:43 [INFO] shap_stagewise - Sample [test_sample_0] -> True=R2L | Pred=DoS | P(Att)=0.4515 | S1 Plot=local_waterfall_test_sample_0_stage1.png | S2 Plot=local_waterfall_test_sample_0_stage2.png
+2026-10-04 13:22:44 [INFO] shap_stagewise - Sample [r2l_detected] -> True=R2L | Pred=DoS | P(Att)=0.4515 | S1 Plot=local_waterfall_r2l_detected_stage1.png | S2 Plot=local_waterfall_r2l_detected_stage2.png
+2026-10-04 13:22:44 [INFO] shap_stagewise - Sample [stage1_miss_fn] -> True=DoS | Pred=Normal | P(Att)=0.2625 | S1 Plot=local_waterfall_stage1_miss_fn_stage1.png | S2 Plot=None
+2026-10-04 13:22:44 [INFO] shap_stagewise - Saved 'local_explanations_top5' table.
+2026-10-04 13:23:41 [INFO] shap_stagewise - ============================================================
+2026-10-04 13:23:41 [INFO] shap_stagewise - Executing Novelty Claim 2: Stage-Wise SHAP Deconvolution
+2026-10-04 13:23:41 [INFO] shap_stagewise - ============================================================
+2026-10-04 13:23:41 [INFO] shap_stagewise - Generating Stage 1 SHAP explanation (Normal vs Attack)...
+2026-10-04 13:23:41 [INFO] shap_stagewise - Stage 1 beeswarm plot saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-36\test_run_stagewise_and_local_e0\figures\shap_stage1_beeswarm.png
+2026-10-04 13:23:42 [INFO] shap_stagewise - Saved 'stagewise_top_features' and 'stagewise_feature_roles' tables.
+2026-10-04 13:23:42 [INFO] shap_stagewise - Saved 'stage_importance_overlap' table.
+2026-10-04 13:23:43 [INFO] shap_stagewise - Sample [test_sample_0] -> True=R2L | Pred=DoS | P(Att)=0.4515 | S1 Plot=local_waterfall_test_sample_0_stage1.png | S2 Plot=local_waterfall_test_sample_0_stage2.png
+2026-10-04 13:23:44 [INFO] shap_stagewise - Sample [r2l_detected] -> True=R2L | Pred=DoS | P(Att)=0.4515 | S1 Plot=local_waterfall_r2l_detected_stage1.png | S2 Plot=local_waterfall_r2l_detected_stage2.png
+2026-10-04 13:23:44 [INFO] shap_stagewise - Sample [stage1_miss_fn] -> True=DoS | Pred=Normal | P(Att)=0.2625 | S1 Plot=local_waterfall_stage1_miss_fn_stage1.png | S2 Plot=None
+2026-10-04 13:23:44 [INFO] shap_stagewise - Saved 'local_explanations_top5' table.
+2026-10-04 13:27:15 [INFO] shap_stagewise - ============================================================
+2026-10-04 13:27:15 [INFO] shap_stagewise - Executing Novelty Claim 2: Stage-Wise SHAP Deconvolution
+2026-10-04 13:27:15 [INFO] shap_stagewise - ============================================================
+2026-10-04 13:27:15 [INFO] shap_stagewise - Generating Stage 1 SHAP explanation (Normal vs Attack)...
+2026-10-04 13:27:15 [INFO] shap_stagewise - Stage 1 beeswarm plot saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-38\test_run_stagewise_and_local_e0\figures\shap_stage1_beeswarm.png
+2026-10-04 13:27:16 [INFO] shap_stagewise - Saved 'stagewise_top_features' and 'stagewise_feature_roles' tables.
+2026-10-04 13:27:16 [INFO] shap_stagewise - Saved 'stage_importance_overlap' table.
+2026-10-04 13:27:17 [INFO] shap_stagewise - Sample [test_sample_0] -> True=R2L | Pred=DoS | P(Att)=0.4515 | S1 Plot=local_waterfall_test_sample_0_stage1.png | S2 Plot=local_waterfall_test_sample_0_stage2.png
+2026-10-04 13:27:18 [INFO] shap_stagewise - Sample [r2l_detected] -> True=R2L | Pred=DoS | P(Att)=0.4515 | S1 Plot=local_waterfall_r2l_detected_stage1.png | S2 Plot=local_waterfall_r2l_detected_stage2.png
+2026-10-04 13:27:18 [INFO] shap_stagewise - Sample [stage1_miss_fn] -> True=DoS | Pred=Normal | P(Att)=0.2625 | S1 Plot=local_waterfall_stage1_miss_fn_stage1.png | S2 Plot=None
+2026-10-04 13:27:18 [INFO] shap_stagewise - Saved 'local_explanations_top5' table.
+2026-10-29 15:06:50 [INFO] shap_stagewise - ============================================================
+2026-10-29 15:06:50 [INFO] shap_stagewise - Executing Novelty Claim 2: Stage-Wise SHAP Deconvolution
+2026-10-29 15:06:50 [INFO] shap_stagewise - ============================================================
+2026-10-29 15:06:50 [INFO] shap_stagewise - Generating Stage 1 SHAP explanation (Normal vs Attack)...
+2026-10-29 15:06:57 [INFO] shap_stagewise - Stage 1 beeswarm plot saved to: results\figures\shap_stage1_beeswarm.png
+2026-10-29 15:17:30 [INFO] shap_stagewise - Saved 'stagewise_top_features' and 'stagewise_feature_roles' tables.
+2026-10-29 15:17:30 [INFO] shap_stagewise - Saved 'stage_importance_overlap' table.
+2026-10-29 22:04:22 [INFO] shap_stagewise - ============================================================
+2026-10-29 22:04:22 [INFO] shap_stagewise - Executing Novelty Claim 2: Stage-Wise SHAP Deconvolution
+2026-10-29 22:04:22 [INFO] shap_stagewise - ============================================================
+2026-10-29 22:04:22 [INFO] shap_stagewise - Generating Stage 1 SHAP explanation (Normal vs Attack)...
+2026-10-29 22:04:22 [INFO] shap_stagewise - Stage 1 beeswarm plot saved to: C:\Users\Surya\AppData\Local\Temp\pytest-of-Surya\pytest-39\test_run_stagewise_and_local_e0\figures\shap_stage1_beeswarm.png
+2026-10-29 22:04:23 [INFO] shap_stagewise - Saved 'stagewise_top_features' and 'stagewise_feature_roles' tables.
+2026-10-29 22:04:23 [INFO] shap_stagewise - Saved 'stage_importance_overlap' table.
+2026-10-29 22:04:23 [INFO] shap_stagewise - Sample [test_sample_0] -> True=R2L | Pred=DoS | P(Att)=0.4515 | S1 Plot=local_waterfall_test_sample_0_stage1.png | S2 Plot=local_waterfall_test_sample_0_stage2.png
+2026-10-29 22:04:24 [INFO] shap_stagewise - Sample [r2l_detected] -> True=R2L | Pred=DoS | P(Att)=0.4515 | S1 Plot=local_waterfall_r2l_detected_stage1.png | S2 Plot=local_waterfall_r2l_detected_stage2.png
+2026-10-29 22:04:24 [INFO] shap_stagewise - Sample [stage1_miss_fn] -> True=DoS | Pred=Normal | P(Att)=0.2625 | S1 Plot=local_waterfall_stage1_miss_fn_stage1.png | S2 Plot=None
+2026-10-29 22:04:24 [INFO] shap_stagewise - Saved 'local_explanations_top5' table.

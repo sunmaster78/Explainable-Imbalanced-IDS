@@ -1,0 +1,63 @@
+dataset:
+  name: "UNSW-NB15"
+  raw_train_path: "dataset folder/archive (1)/UNSW_NB15_training-set.parquet"
+  raw_test_path: "dataset folder/archive (1)/UNSW_NB15_testing-set.parquet"
+  categorical_features: ["proto", "service", "state"]
+  target_column: "attack_cat"
+  binary_column: "label"
+
+experiment:
+  seeds: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+  default_seed: 42
+  validation_size: 0.2
+
+output_dirs:
+  tables: "results/tables"
+  figures: "results/figures"
+  models: "results/models"
+  logs: "results/logs"
+
+gan:
+  latent_dim: 100
+  gen_hidden_layers: [256, 512]
+  critic_hidden_layers: [512, 256]
+  batch_size: 128
+  lr: 0.0001
+  betas: [0.5, 0.9]
+  n_critic: 5
+  lambda_gp: 10.0
+  epochs: 50
+
+ensemble:
+  n_estimators: 100
+  voting: "soft"
+
+pipeline:
+  stage1_threshold: 0.5
+  target_recall: 0.98
+
+classes:
+  - "Normal"
+  - "Generic"
+  - "Exploits"
+  - "Fuzzers"
+  - "DoS"
+  - "Reconnaissance"
+  - "Analysis"
+  - "Backdoor"
+  - "Shellcode"
+  - "Worms"
+
+attack_classes:
+  - "Generic"
+  - "Exploits"
+  - "Fuzzers"
+  - "DoS"
+  - "Reconnaissance"
+  - "Analysis"
+  - "Backdoor"
+  - "Shellcode"
+  - "Worms"
+
+resampling:
+  target_ratio: 0.5

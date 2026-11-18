@@ -1,0 +1,217 @@
+2026-10-04 12:42:08 [INFO] baselines - --- Running Single-Stage Baseline [NONE] (seed=42) ---
+2026-10-04 12:42:10 [INFO] baselines - Single-Stage [NONE] completed: Train time=1.41s, Infer time=0.0435s
+2026-10-04 12:42:10 [INFO] baselines - --- Running Single-Stage Baseline [ROS] (seed=42) ---
+2026-10-04 12:42:11 [INFO] baselines - Single-Stage [ROS] completed: Train time=0.99s, Infer time=0.0204s
+2026-10-04 12:42:11 [INFO] baselines - --- Running Single-Stage Baseline [SMOTE] (seed=42) ---
+2026-10-04 12:42:12 [INFO] baselines - Single-Stage [SMOTE] completed: Train time=1.03s, Infer time=0.0216s
+2026-10-04 12:42:12 [INFO] baselines - --- Running Single-Stage Baseline [INVALID_METHOD] (seed=42) ---
+2026-10-04 12:42:12 [INFO] baselines - --- Running Two-Stage Pipeline [NONE] (seed=42) ---
+2026-10-04 12:42:14 [INFO] baselines - Two-Stage [NONE] completed: Threshold=0.4400, Train time=2.29s, Infer time=0.0413s
+2026-10-04 12:42:14 [INFO] baselines - --- Running Two-Stage Pipeline [ROS] (seed=42) ---
+2026-10-04 12:42:16 [INFO] baselines - Two-Stage [ROS] completed: Threshold=0.4400, Train time=1.37s, Infer time=0.0395s
+2026-10-04 12:42:16 [INFO] baselines - --- Running Two-Stage Pipeline [SMOTE] (seed=42) ---
+2026-10-04 12:42:16 [INFO] baselines - Two-Stage [SMOTE] completed: Threshold=0.4400, Train time=0.48s, Infer time=0.0418s
+2026-10-04 12:45:15 [INFO] baselines - --- Running Single-Stage Baseline [NONE] (seed=42) ---
+2026-10-04 12:45:16 [INFO] baselines - Single-Stage [NONE] completed: Train time=1.35s, Infer time=0.0439s
+2026-10-04 12:45:16 [INFO] baselines - --- Running Two-Stage Pipeline [ROS] (seed=42) ---
+2026-10-04 12:45:19 [INFO] baselines - Two-Stage [ROS] completed: Threshold=0.4900, Train time=2.37s, Infer time=0.0393s
+2026-10-04 12:45:39 [INFO] baselines - --- Running Single-Stage Baseline [NONE] (seed=0) ---
+2026-10-04 12:45:52 [INFO] baselines - Single-Stage [NONE] completed: Train time=12.16s, Infer time=0.1993s
+2026-10-04 12:47:07 [INFO] baselines - --- Running Single-Stage Baseline [NONE] (seed=42) ---
+2026-10-04 12:47:08 [INFO] baselines - Single-Stage [NONE] completed: Train time=1.47s, Infer time=0.0449s
+2026-10-04 12:47:08 [INFO] baselines - --- Running Single-Stage Baseline [ROS] (seed=42) ---
+2026-10-04 12:47:10 [INFO] baselines - Single-Stage [ROS] completed: Train time=1.00s, Infer time=0.1928s
+2026-10-04 12:47:10 [INFO] baselines - --- Running Single-Stage Baseline [SMOTE] (seed=42) ---
+2026-10-04 12:47:11 [INFO] baselines - Single-Stage [SMOTE] completed: Train time=1.02s, Infer time=0.0228s
+2026-10-04 12:47:11 [INFO] baselines - --- Running Single-Stage Baseline [INVALID_METHOD] (seed=42) ---
+2026-10-04 12:47:11 [INFO] baselines - --- Running Two-Stage Pipeline [NONE] (seed=42) ---
+2026-10-04 12:47:13 [INFO] baselines - Two-Stage [NONE] completed: Threshold=0.4400, Train time=2.41s, Infer time=0.0399s
+2026-10-04 12:47:13 [INFO] baselines - --- Running Two-Stage Pipeline [ROS] (seed=42) ---
+2026-10-04 12:47:14 [INFO] baselines - Two-Stage [ROS] completed: Threshold=0.4400, Train time=1.31s, Infer time=0.0382s
+2026-10-04 12:47:15 [INFO] baselines - --- Running Two-Stage Pipeline [SMOTE] (seed=42) ---
+2026-10-04 12:47:15 [INFO] baselines - Two-Stage [SMOTE] completed: Threshold=0.4400, Train time=0.49s, Infer time=0.0401s
+2026-10-04 12:47:20 [INFO] baselines - --- Running Single-Stage Baseline [NONE] (seed=42) ---
+2026-10-04 12:47:20 [INFO] baselines - Single-Stage [NONE] completed: Train time=0.03s, Infer time=0.0223s
+2026-10-04 12:47:20 [INFO] baselines - --- Running Two-Stage Pipeline [ROS] (seed=42) ---
+2026-10-04 12:47:21 [INFO] baselines - Two-Stage [ROS] completed: Threshold=0.4900, Train time=0.37s, Infer time=0.0394s
+2026-10-04 12:53:08 [INFO] baselines - --- Running Single-Stage Baseline [NONE] (seed=0) ---
+2026-10-04 12:53:35 [INFO] baselines - Single-Stage [NONE] completed: Train time=26.67s, Infer time=0.7146s
+2026-10-04 12:55:10 [INFO] baselines - --- Running Single-Stage Baseline [NONE] (seed=0) ---
+2026-10-04 12:55:59 [INFO] baselines - Single-Stage [NONE] completed: Train time=48.30s, Infer time=0.9046s
+2026-10-04 12:59:55 [INFO] baselines - --- Running Single-Stage Baseline [NONE] (seed=0) ---
+2026-10-04 13:00:31 [INFO] baselines - Single-Stage [NONE] completed: Train time=34.97s, Infer time=0.6979s
+2026-10-04 13:01:08 [INFO] baselines - --- Running Single-Stage Baseline [NONE] (seed=42) ---
+2026-10-04 13:01:10 [INFO] baselines - Single-Stage [NONE] completed: Train time=1.49s, Infer time=0.0437s
+2026-10-04 13:01:10 [INFO] baselines - --- Running Single-Stage Baseline [ROS] (seed=42) ---
+2026-10-04 13:01:11 [INFO] baselines - Single-Stage [ROS] completed: Train time=1.03s, Infer time=0.0198s
+2026-10-04 13:01:11 [INFO] baselines - --- Running Single-Stage Baseline [SMOTE] (seed=42) ---
+2026-10-04 13:01:12 [INFO] baselines - Single-Stage [SMOTE] completed: Train time=1.06s, Infer time=0.0224s
+2026-10-04 13:01:12 [INFO] baselines - --- Running Single-Stage Baseline [INVALID_METHOD] (seed=42) ---
+2026-10-04 13:01:12 [INFO] baselines - --- Running Two-Stage Pipeline [NONE] (seed=42) ---
+2026-10-04 13:01:14 [INFO] baselines - Two-Stage [NONE] completed: Threshold=0.4400, Train time=2.49s, Infer time=0.0400s
+2026-10-04 13:01:14 [INFO] baselines - --- Running Two-Stage Pipeline [ROS] (seed=42) ---
+2026-10-04 13:01:16 [INFO] baselines - Two-Stage [ROS] completed: Threshold=0.4400, Train time=1.28s, Infer time=0.0385s
+2026-10-04 13:01:16 [INFO] baselines - --- Running Two-Stage Pipeline [SMOTE] (seed=42) ---
+2026-10-04 13:01:16 [INFO] baselines - Two-Stage [SMOTE] completed: Threshold=0.4400, Train time=0.46s, Infer time=0.0401s
+2026-10-04 13:01:22 [INFO] baselines - --- Running Single-Stage Baseline [NONE] (seed=42) ---
+2026-10-04 13:01:22 [INFO] baselines - Single-Stage [NONE] completed: Train time=0.03s, Infer time=0.0214s
+2026-10-04 13:01:22 [INFO] baselines - --- Running Two-Stage Pipeline [ROS] (seed=42) ---
+2026-10-04 13:01:22 [INFO] baselines - Two-Stage [ROS] completed: Threshold=0.4900, Train time=0.36s, Infer time=0.0376s
+2026-10-04 13:02:34 [INFO] baselines - --- Running Single-Stage Baseline [NONE] (seed=42) ---
+2026-10-04 13:02:35 [INFO] baselines - Single-Stage [NONE] completed: Train time=1.44s, Infer time=0.0445s
+2026-10-04 13:02:35 [INFO] baselines - --- Running Single-Stage Baseline [ROS] (seed=42) ---
+2026-10-04 13:02:36 [INFO] baselines - Single-Stage [ROS] completed: Train time=0.99s, Infer time=0.0205s
+2026-10-04 13:02:36 [INFO] baselines - --- Running Single-Stage Baseline [SMOTE] (seed=42) ---
+2026-10-04 13:02:37 [INFO] baselines - Single-Stage [SMOTE] completed: Train time=1.06s, Infer time=0.0225s
+2026-10-04 13:02:38 [INFO] baselines - --- Running Single-Stage Baseline [INVALID_METHOD] (seed=42) ---
+2026-10-04 13:02:38 [INFO] baselines - --- Running Two-Stage Pipeline [NONE] (seed=42) ---
+2026-10-04 13:02:40 [INFO] baselines - Two-Stage [NONE] completed: Threshold=0.4400, Train time=2.36s, Infer time=0.0385s
+2026-10-04 13:02:40 [INFO] baselines - --- Running Two-Stage Pipeline [ROS] (seed=42) ---
+2026-10-04 13:02:41 [INFO] baselines - Two-Stage [ROS] completed: Threshold=0.4400, Train time=1.23s, Infer time=0.0380s
+2026-10-04 13:02:41 [INFO] baselines - --- Running Two-Stage Pipeline [SMOTE] (seed=42) ---
+2026-10-04 13:02:42 [INFO] baselines - Two-Stage [SMOTE] completed: Threshold=0.4400, Train time=0.43s, Infer time=0.0408s
+2026-10-04 13:02:47 [INFO] baselines - --- Running Single-Stage Baseline [NONE] (seed=42) ---
+2026-10-04 13:02:47 [INFO] baselines - Single-Stage [NONE] completed: Train time=0.03s, Infer time=0.0219s
+2026-10-04 13:02:47 [INFO] baselines - --- Running Two-Stage Pipeline [ROS] (seed=42) ---
+2026-10-04 13:02:47 [INFO] baselines - Two-Stage [ROS] completed: Threshold=0.4900, Train time=0.35s, Infer time=0.0380s
+2026-10-04 13:04:50 [INFO] baselines - --- Running Single-Stage Baseline [NONE] (seed=42) ---
+2026-10-04 13:04:52 [INFO] baselines - Single-Stage [NONE] completed: Train time=1.44s, Infer time=0.0448s
+2026-10-04 13:04:52 [INFO] baselines - --- Running Two-Stage Pipeline [ROS] (seed=42) ---
+2026-10-04 13:04:54 [INFO] baselines - Two-Stage [ROS] completed: Threshold=0.4900, Train time=2.47s, Infer time=0.0397s
+2026-10-04 13:07:00 [INFO] baselines - --- Running Single-Stage Baseline [NONE] (seed=42) ---
+2026-10-04 13:07:01 [INFO] baselines - Single-Stage [NONE] completed: Train time=1.41s, Infer time=0.0454s
+2026-10-04 13:07:01 [INFO] baselines - --- Running Single-Stage Baseline [ROS] (seed=42) ---
+2026-10-04 13:07:02 [INFO] baselines - Single-Stage [ROS] completed: Train time=1.11s, Infer time=0.0206s
+2026-10-04 13:07:02 [INFO] baselines - --- Running Single-Stage Baseline [SMOTE] (seed=42) ---
+2026-10-04 13:07:03 [INFO] baselines - Single-Stage [SMOTE] completed: Train time=1.08s, Infer time=0.0233s
+2026-10-04 13:07:03 [INFO] baselines - --- Running Single-Stage Baseline [INVALID_METHOD] (seed=42) ---
+2026-10-04 13:07:03 [INFO] baselines - --- Running Two-Stage Pipeline [NONE] (seed=42) ---
+2026-10-04 13:07:06 [INFO] baselines - Two-Stage [NONE] completed: Threshold=0.4400, Train time=2.57s, Infer time=0.0400s
+2026-10-04 13:07:06 [INFO] baselines - --- Running Two-Stage Pipeline [ROS] (seed=42) ---
+2026-10-04 13:07:07 [INFO] baselines - Two-Stage [ROS] completed: Threshold=0.4400, Train time=1.28s, Infer time=0.0392s
+2026-10-04 13:07:07 [INFO] baselines - --- Running Two-Stage Pipeline [SMOTE] (seed=42) ---
+2026-10-04 13:07:08 [INFO] baselines - Two-Stage [SMOTE] completed: Threshold=0.4400, Train time=0.46s, Infer time=0.0431s
+2026-10-04 13:07:13 [INFO] baselines - --- Running Single-Stage Baseline [NONE] (seed=42) ---
+2026-10-04 13:07:13 [INFO] baselines - Single-Stage [NONE] completed: Train time=0.03s, Infer time=0.0216s
+2026-10-04 13:07:13 [INFO] baselines - --- Running Two-Stage Pipeline [ROS] (seed=42) ---
+2026-10-04 13:07:13 [INFO] baselines - Two-Stage [ROS] completed: Threshold=0.4900, Train time=0.36s, Infer time=0.0374s
+2026-10-04 13:11:10 [INFO] baselines - ============================================================
+2026-10-04 13:11:10 [INFO] baselines - Executing Novelty Claim 3: Flat GAN vs Attack-Only GAN Audit
+2026-10-04 13:11:10 [INFO] baselines - ============================================================
+2026-10-04 13:11:10 [INFO] baselines - --- [1/2] Training Condition (a): Flat WGAN-GP (All Classes) ---
+2026-10-04 13:13:55 [INFO] baselines - ============================================================
+2026-10-04 13:13:55 [INFO] baselines - Executing Novelty Claim 3: Flat GAN vs Attack-Only GAN Audit
+2026-10-04 13:13:55 [INFO] baselines - ============================================================
+2026-10-04 13:13:55 [INFO] baselines - --- [1/2] Training Condition (a): Flat WGAN-GP (All Classes) ---
+2026-10-04 13:16:39 [INFO] baselines - ============================================================
+2026-10-04 13:16:39 [INFO] baselines - Executing Novelty Claim 3: Flat GAN vs Attack-Only GAN Audit
+2026-10-04 13:16:39 [INFO] baselines - ============================================================
+2026-10-04 13:16:39 [INFO] baselines - --- [1/2] Training Condition (a): Flat WGAN-GP (All Classes) ---
+2026-10-04 13:17:48 [INFO] baselines - ============================================================
+2026-10-04 13:17:48 [INFO] baselines - Executing Novelty Claim 3: Flat GAN vs Attack-Only GAN Audit
+2026-10-04 13:17:48 [INFO] baselines - ============================================================
+2026-10-04 13:17:48 [INFO] baselines - --- [1/2] Training Condition (a): Flat WGAN-GP (All Classes) ---
+2026-10-04 13:20:45 [INFO] baselines - ============================================================
+2026-10-04 13:20:45 [INFO] baselines - Executing Novelty Claim 3: Flat GAN vs Attack-Only GAN Audit
+2026-10-04 13:20:45 [INFO] baselines - ============================================================
+2026-10-04 13:20:45 [INFO] baselines - --- [1/2] Training Condition (a): Flat WGAN-GP (All Classes) ---
+2026-10-04 13:20:48 [INFO] baselines - --- [2/2] Training Condition (b): Attack-Only WGAN-GP (Proposed) ---
+2026-10-04 13:20:49 [INFO] baselines - Claim 3 audit complete! Table saved to: results/tables/flat_vs_attack_only.csv
+2026-10-04 13:22:44 [INFO] baselines - ============================================================
+2026-10-04 13:22:44 [INFO] baselines - Executing Novelty Claim 3: Flat GAN vs Attack-Only GAN Audit
+2026-10-04 13:22:44 [INFO] baselines - ============================================================
+2026-10-04 13:22:44 [INFO] baselines - --- [1/2] Training Condition (a): Flat WGAN-GP (All Classes) ---
+2026-10-04 13:22:47 [INFO] baselines - --- [2/2] Training Condition (b): Attack-Only WGAN-GP (Proposed) ---
+2026-10-04 13:22:49 [INFO] baselines - Claim 3 audit complete! Table saved to: results/tables/flat_vs_attack_only.csv
+2026-10-04 13:23:27 [INFO] baselines - --- Running Single-Stage Baseline [NONE] (seed=42) ---
+2026-10-04 13:23:28 [INFO] baselines - Single-Stage [NONE] completed: Train time=1.42s, Infer time=0.0445s
+2026-10-04 13:23:28 [INFO] baselines - --- Running Single-Stage Baseline [ROS] (seed=42) ---
+2026-10-04 13:23:29 [INFO] baselines - Single-Stage [ROS] completed: Train time=1.07s, Infer time=0.0210s
+2026-10-04 13:23:29 [INFO] baselines - --- Running Single-Stage Baseline [SMOTE] (seed=42) ---
+2026-10-04 13:23:30 [INFO] baselines - Single-Stage [SMOTE] completed: Train time=0.98s, Infer time=0.0229s
+2026-10-04 13:23:30 [INFO] baselines - --- Running Single-Stage Baseline [INVALID_METHOD] (seed=42) ---
+2026-10-04 13:23:30 [INFO] baselines - --- Running Two-Stage Pipeline [NONE] (seed=42) ---
+2026-10-04 13:23:33 [INFO] baselines - Two-Stage [NONE] completed: Threshold=0.4400, Train time=2.33s, Infer time=0.0395s
+2026-10-04 13:23:33 [INFO] baselines - --- Running Two-Stage Pipeline [ROS] (seed=42) ---
+2026-10-04 13:23:34 [INFO] baselines - Two-Stage [ROS] completed: Threshold=0.4400, Train time=1.27s, Infer time=0.0391s
+2026-10-04 13:23:34 [INFO] baselines - --- Running Two-Stage Pipeline [SMOTE] (seed=42) ---
+2026-10-04 13:23:35 [INFO] baselines - Two-Stage [SMOTE] completed: Threshold=0.4400, Train time=0.43s, Infer time=0.0404s
+2026-10-04 13:23:40 [INFO] baselines - --- Running Single-Stage Baseline [NONE] (seed=42) ---
+2026-10-04 13:23:40 [INFO] baselines - Single-Stage [NONE] completed: Train time=0.03s, Infer time=0.0213s
+2026-10-04 13:23:40 [INFO] baselines - --- Running Two-Stage Pipeline [ROS] (seed=42) ---
+2026-10-04 13:23:40 [INFO] baselines - Two-Stage [ROS] completed: Threshold=0.4900, Train time=0.40s, Infer time=0.0379s
+2026-10-04 13:23:44 [INFO] baselines - ============================================================
+2026-10-04 13:23:44 [INFO] baselines - Executing Novelty Claim 3: Flat GAN vs Attack-Only GAN Audit
+2026-10-04 13:23:44 [INFO] baselines - ============================================================
+2026-10-04 13:23:44 [INFO] baselines - --- [1/2] Training Condition (a): Flat WGAN-GP (All Classes) ---
+2026-10-04 13:23:45 [INFO] baselines - --- [2/2] Training Condition (b): Attack-Only WGAN-GP (Proposed) ---
+2026-10-04 13:23:45 [INFO] baselines - Claim 3 audit complete! Table saved to: results/tables/flat_vs_attack_only.csv
+2026-10-04 13:26:57 [INFO] baselines - --- Running Single-Stage Baseline [NONE] (seed=42) ---
+2026-10-04 13:26:59 [INFO] baselines - Single-Stage [NONE] completed: Train time=1.58s, Infer time=0.0444s
+2026-10-04 13:26:59 [INFO] baselines - --- Running Single-Stage Baseline [ROS] (seed=42) ---
+2026-10-04 13:27:00 [INFO] baselines - Single-Stage [ROS] completed: Train time=1.10s, Infer time=0.0213s
+2026-10-04 13:27:00 [INFO] baselines - --- Running Single-Stage Baseline [SMOTE] (seed=42) ---
+2026-10-04 13:27:01 [INFO] baselines - Single-Stage [SMOTE] completed: Train time=1.09s, Infer time=0.0234s
+2026-10-04 13:27:01 [INFO] baselines - --- Running Single-Stage Baseline [INVALID_METHOD] (seed=42) ---
+2026-10-04 13:27:01 [INFO] baselines - --- Running Two-Stage Pipeline [NONE] (seed=42) ---
+2026-10-04 13:27:04 [INFO] baselines - Two-Stage [NONE] completed: Threshold=0.4400, Train time=2.40s, Infer time=0.0396s
+2026-10-04 13:27:04 [INFO] baselines - --- Running Two-Stage Pipeline [ROS] (seed=42) ---
+2026-10-04 13:27:05 [INFO] baselines - Two-Stage [ROS] completed: Threshold=0.4400, Train time=1.29s, Infer time=0.0380s
+2026-10-04 13:27:05 [INFO] baselines - --- Running Two-Stage Pipeline [SMOTE] (seed=42) ---
+2026-10-04 13:27:06 [INFO] baselines - Two-Stage [SMOTE] completed: Threshold=0.4400, Train time=0.43s, Infer time=0.0407s
+2026-10-04 13:27:14 [INFO] baselines - --- Running Single-Stage Baseline [NONE] (seed=42) ---
+2026-10-04 13:27:14 [INFO] baselines - Single-Stage [NONE] completed: Train time=0.03s, Infer time=0.0211s
+2026-10-04 13:27:14 [INFO] baselines - --- Running Two-Stage Pipeline [ROS] (seed=42) ---
+2026-10-04 13:27:14 [INFO] baselines - Two-Stage [ROS] completed: Threshold=0.4900, Train time=0.36s, Infer time=0.0371s
+2026-10-04 13:27:18 [INFO] baselines - ============================================================
+2026-10-04 13:27:18 [INFO] baselines - Executing Novelty Claim 3: Flat GAN vs Attack-Only GAN Audit
+2026-10-04 13:27:18 [INFO] baselines - ============================================================
+2026-10-04 13:27:18 [INFO] baselines - --- [1/2] Training Condition (a): Flat WGAN-GP (All Classes) ---
+2026-10-04 13:27:19 [INFO] baselines - --- [2/2] Training Condition (b): Attack-Only WGAN-GP (Proposed) ---
+2026-10-04 13:27:19 [INFO] baselines - Claim 3 audit complete! Table saved to: results/tables/flat_vs_attack_only.csv
+2026-10-04 13:28:46 [INFO] baselines - --- Running Single-Stage Baseline [ROS] (seed=0) ---
+2026-10-04 13:29:05 [INFO] baselines - Single-Stage [ROS] completed: Train time=18.56s, Infer time=0.1853s
+2026-10-04 13:29:05 [INFO] baselines - --- Running Single-Stage Baseline [SMOTE] (seed=0) ---
+2026-10-04 13:29:28 [INFO] baselines - Single-Stage [SMOTE] completed: Train time=22.79s, Infer time=0.2023s
+2026-10-04 13:29:29 [INFO] baselines - --- Running Two-Stage Pipeline [ROS] (seed=0) ---
+2026-10-04 13:29:43 [INFO] baselines - Two-Stage [ROS] completed: Threshold=0.9500, Train time=13.60s, Infer time=0.1606s
+2026-10-04 13:29:43 [INFO] baselines - --- Running Two-Stage Pipeline [SMOTE] (seed=0) ---
+2026-10-04 13:29:57 [INFO] baselines - Two-Stage [SMOTE] completed: Threshold=0.9500, Train time=13.58s, Infer time=0.1697s
+2026-10-04 13:31:37 [INFO] baselines - --- Running Two-Stage Pipeline [WGAN] (seed=0) ---
+2026-10-04 13:31:42 [INFO] baselines - Training Stage-Aware Conditional WGAN-GP on attack-only data...
+2026-10-04 13:33:23 [INFO] baselines - --- Running Two-Stage Pipeline [WGAN] (seed=0) ---
+2026-10-04 13:33:28 [INFO] baselines - Training Stage-Aware Conditional WGAN-GP on attack-only data...
+2026-10-04 13:46:50 [INFO] baselines - Two-Stage [WGAN] completed: Threshold=0.9500, Train time=806.44s, Infer time=0.1605s
+2026-10-29 15:20:19 [INFO] baselines - ============================================================
+2026-10-29 15:20:19 [INFO] baselines - Executing Novelty Claim 3: Flat GAN vs Attack-Only GAN Audit
+2026-10-29 15:20:19 [INFO] baselines - ============================================================
+2026-10-29 15:20:19 [INFO] baselines - --- [1/2] Training Condition (a): Flat WGAN-GP (All Classes) ---
+2026-10-29 15:40:25 [INFO] baselines - --- [2/2] Training Condition (b): Attack-Only WGAN-GP (Proposed) ---
+2026-10-29 15:45:08 [INFO] baselines - Claim 3 audit complete! Table saved to: results/tables/flat_vs_attack_only.csv
+2026-10-29 20:46:38 [INFO] baselines - --- Running Single-Stage Baseline [NONE] (seed=0) ---
+2026-10-29 20:46:49 [INFO] baselines - Single-Stage [NONE] completed: Train time=11.60s, Infer time=0.1735s
+2026-10-29 20:47:33 [INFO] baselines - --- Running Single-Stage Baseline [NONE] (seed=0) ---
+2026-10-29 20:47:45 [INFO] baselines - Single-Stage [NONE] completed: Train time=11.50s, Infer time=0.2040s
+2026-10-29 22:04:04 [INFO] baselines - --- Running Single-Stage Baseline [NONE] (seed=42) ---
+2026-10-29 22:04:06 [INFO] baselines - Single-Stage [NONE] completed: Train time=1.39s, Infer time=0.0460s
+2026-10-29 22:04:06 [INFO] baselines - --- Running Single-Stage Baseline [ROS] (seed=42) ---
+2026-10-29 22:04:07 [INFO] baselines - Single-Stage [ROS] completed: Train time=1.00s, Infer time=0.0209s
+2026-10-29 22:04:07 [INFO] baselines - --- Running Single-Stage Baseline [SMOTE] (seed=42) ---
+2026-10-29 22:04:08 [INFO] baselines - Single-Stage [SMOTE] completed: Train time=0.96s, Infer time=0.0232s
+2026-10-29 22:04:08 [INFO] baselines - --- Running Single-Stage Baseline [INVALID_METHOD] (seed=42) ---
+2026-10-29 22:04:08 [INFO] baselines - --- Running Two-Stage Pipeline [NONE] (seed=42) ---
+2026-10-29 22:04:10 [INFO] baselines - Two-Stage [NONE] completed: Threshold=0.4400, Train time=2.26s, Infer time=0.0411s
+2026-10-29 22:04:10 [INFO] baselines - --- Running Two-Stage Pipeline [ROS] (seed=42) ---
+2026-10-29 22:04:11 [INFO] baselines - Two-Stage [ROS] completed: Threshold=0.4400, Train time=1.23s, Infer time=0.0383s
+2026-10-29 22:04:11 [INFO] baselines - --- Running Two-Stage Pipeline [SMOTE] (seed=42) ---
+2026-10-29 22:04:12 [INFO] baselines - Two-Stage [SMOTE] completed: Threshold=0.4400, Train time=0.41s, Infer time=0.0409s
+2026-10-29 22:04:20 [INFO] baselines - --- Running Single-Stage Baseline [NONE] (seed=42) ---
+2026-10-29 22:04:20 [INFO] baselines - Single-Stage [NONE] completed: Train time=0.03s, Infer time=0.0222s
+2026-10-29 22:04:20 [INFO] baselines - --- Running Two-Stage Pipeline [ROS] (seed=42) ---
+2026-10-29 22:04:21 [INFO] baselines - Two-Stage [ROS] completed: Threshold=0.4900, Train time=0.35s, Infer time=0.0384s
+2026-10-29 22:04:24 [INFO] baselines - ============================================================
+2026-10-29 22:04:24 [INFO] baselines - Executing Novelty Claim 3: Flat GAN vs Attack-Only GAN Audit
+2026-10-29 22:04:24 [INFO] baselines - ============================================================
+2026-10-29 22:04:24 [INFO] baselines - --- [1/2] Training Condition (a): Flat WGAN-GP (All Classes) ---
+2026-10-29 22:04:25 [INFO] baselines - --- [2/2] Training Condition (b): Attack-Only WGAN-GP (Proposed) ---
+2026-10-29 22:04:25 [INFO] baselines - Claim 3 audit complete! Table saved to: results/tables/flat_vs_attack_only.csv
